@@ -1,0 +1,216 @@
+{
+  "repository": "https://gitee.com/greyd097/yzrt",
+  "requestedURL": "https://gitee.com/greyd097/yzrt/tree/master/",
+  "repositoryTitle": "原子软糖At - 视频代码分享",
+  "authorAccount": "GreyD097",
+  "branchAtCapture": "master",
+  "commit": "2cae7d6a61d6a019a5c40bda05dc6a065ae7e246",
+  "capturedAtUTC": "2026-10-19T09:52:12.746483+00:00",
+  "captureMethod": "Read-only shallow Git clone without checkout, then git cat-file blob; no upstream scripts executed",
+  "accessEvidence": [
+    "Gitee tree and source views successfully read through IAB after web tool could not fetch them",
+    "git ls-remote through allowed network access confirmed HEAD and refs/heads/master",
+    "Git tree and blob object IDs verified locally"
+  ],
+  "targetDirectory": "纯CSS液态玻璃",
+  "targetHasJavaScript": false,
+  "targetHasAdditionalLicenseFile": false,
+  "targetFileCount": 2,
+  "giteeLicenseBadge": "GPL-2.0",
+  "licenseEvidence": {
+    "file": "LICENSE",
+    "documentHeading": "GNU GENERAL PUBLIC LICENSE, Version 2, June 1991",
+    "programSpecificV2OnlyOrLaterGrantFound": false,
+    "note": "The full standard GPL v2 text includes an or-later example in its How to Apply appendix. No separate program-specific version grant or author copyright header was found in the target HTML/CSS. Do not treat the appendix example alone as a project-specific GPL-2.0-or-later declaration."
+  },
+  "files": [
+    {
+      "path": "纯CSS液态玻璃/index.html",
+      "bytes": 1894,
+      "sha256": "0698cf432ec03565be148cd6530d7188d9a6ba192eb3dd471fbbb23978560e7e",
+      "gitBlobSha1": "fd48a2fdb438eaa8e98b3ff291f74e6bad544523",
+      "snapshotCommit": "2cae7d6a61d6a019a5c40bda05dc6a065ae7e246",
+      "observedLastChangeCommitOnGiteeUI": "2afaed0b401dbc39cdf24cce9420d7620c1fdd59",
+      "sourcePermalink": "https://gitee.com/greyd097/yzrt/blob/2cae7d6a61d6a019a5c40bda05dc6a065ae7e246/纯CSS液态玻璃/index.html",
+      "normalization": "none; original Git blob bytes preserved"
+    },
+    {
+      "path": "纯CSS液态玻璃/css/styles.css",
+      "bytes": 3800,
+      "sha256": "5d3b1ee76fd1732df5755085cf46482844610dc99114891429d884c131360cfb",
+      "gitBlobSha1": "b462215df3de68b88ef400ee56d0fea103148382",
+      "snapshotCommit": "2cae7d6a61d6a019a5c40bda05dc6a065ae7e246",
+      "observedLastChangeCommitOnGiteeUI": "2afaed0b401dbc39cdf24cce9420d7620c1fdd59",
+      "sourcePermalink": "https://gitee.com/greyd097/yzrt/blob/2cae7d6a61d6a019a5c40bda05dc6a065ae7e246/纯CSS液态玻璃/css/styles.css",
+      "normalization": "none; original Git blob bytes preserved"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 18431,
+      "sha256": "189b1af95d661151e054cea10c91b3d754e4de4d3fecfb074c1fb29476f7167b",
+      "gitBlobSha1": "89e08fb002e48e22363b7b3789a5470ffe71fea1",
+      "snapshotCommit": "2cae7d6a61d6a019a5c40bda05dc6a065ae7e246",
+      "observedLastChangeCommitOnGiteeUI": "aeeabbad209776357f83225e025c1d182764253e",
+      "sourcePermalink": "https://gitee.com/greyd097/yzrt/blob/2cae7d6a61d6a019a5c40bda05dc6a065ae7e246/LICENSE",
+      "normalization": "none; original Git blob bytes preserved"
+    }
+  ],
+  "repositoryTree": [
+    {
+      "path": "B站搜索栏/css/styles.css",
+      "mode": "100644",
+      "type": "blob",
+      "gitBlobSha1": "6e5ec95de2ee3bca13603d18158283917249f543"
+    },
+    {
+      "path": "B站搜索栏/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "gitBlobSha1": "d67b35c5c55a5bf9e9c6f2583189ba199ad56dad"
+    },
+    {
+      "path": "CSS水滴/css/styles.css",
+      "mode": "100644",
+      "type": "blob",
+      "gitBlobSha1": "3636fd95e95e517ef6241366b1ee66ee452d7006"
+    },
+    {
+      "path": "CSS水滴/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "gitBlobSha1": "3eb8dd228b85169ccfd4fc2df7cfb99c8856d564"
+    },
+    {
+      "path": "Gemini UI/css/styles.css",
+      "mode": "100644",
+      "type": "blob",
+      "gitBlobSha1": "a17737d236ed1a053f2d43c581b5163e5cbfd611"
+    },
+    {
+      "path": "Gemini UI/imgs/icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "gitBlobSha1": "38f56259ad100a9efc912a8e255edef63d127f53"
+    },
+    {
+      "path": "Gemini UI/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "gitBlobSha1": "6c46cc59d2b11a71ab64d5c6536f6e7849ec43a1"
+    },
+    {
+      "path": "Go Pro升级按钮/css/styles.css",
+      "mode": "100644",
+      "type": "blob",
+      "gitBlobSha1": "e57e171c721afb7b2b276c7ad476d892a59c5594"
+    },
+    {
+      "path": "Go Pro升级按钮/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "gitBlobSha1": "b266fa7e02c6713d7e7ac97854e047a11ef63993"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "gitBlobSha1": "89e08fb002e48e22363b7b3789a5470ffe71fea1"
+    },
+    {
+      "path": "launch start/css/styles.css",
+      "mode": "100644",
+      "type": "blob",
+      "gitBlobSha1": "8623d8d9b60bbaeb2c59d94416b684f9fa9e4ead"
+    },
+    {
+      "path": "launch start/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "gitBlobSha1": "2d17730ff84ebc1c0480f0940a4915ce57652204"
+    },
+    {
+      "path": "声音控制旋钮/css/styles.css",
+      "mode": "100644",
+      "type": "blob",
+      "gitBlobSha1": "f93e2b7aa24cd73b2c3b0cbb9756174efaabca4e"
+    },
+    {
+      "path": "声音控制旋钮/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "gitBlobSha1": "4e69a50f55e9f27740a0ca3f58d67d8220a679d2"
+    },
+    {
+      "path": "导航栏对比/css/styles.css",
+      "mode": "100644",
+      "type": "blob",
+      "gitBlobSha1": "f250ca87fd4388c44a9fb9f87fe0e2710d5940de"
+    },
+    {
+      "path": "导航栏对比/imgs/箭头.svg",
+      "mode": "100644",
+      "type": "blob",
+      "gitBlobSha1": "ccd37b91686f1c4ce2592e6bf610f03f6e01d394"
+    },
+    {
+      "path": "导航栏对比/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "gitBlobSha1": "fb13f8f5e7174131219417b1351b0b6c5cd24eca"
+    },
+    {
+      "path": "导航栏对比/临时/css/styles.css",
+      "mode": "100644",
+      "type": "blob",
+      "gitBlobSha1": "0669417deecf900c591bda248076243734826162"
+    },
+    {
+      "path": "导航栏对比/临时/imgs/箭头.svg",
+      "mode": "100644",
+      "type": "blob",
+      "gitBlobSha1": "ccd37b91686f1c4ce2592e6bf610f03f6e01d394"
+    },
+    {
+      "path": "导航栏对比/临时/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "gitBlobSha1": "a5dc24c464b2a8d66040adf821cf50a3d250d084"
+    },
+    {
+      "path": "拟态按钮(仅演示)/css/styles.css",
+      "mode": "100644",
+      "type": "blob",
+      "gitBlobSha1": "14f40c1cf1e157855e755e6e5b32c1debc8b294c"
+    },
+    {
+      "path": "拟态按钮(仅演示)/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "gitBlobSha1": "a103182af693ad2bde4adbc4d60b92f7df4d7b86"
+    },
+    {
+      "path": "真实拟态旋钮/css/styles.css",
+      "mode": "100644",
+      "type": "blob",
+      "gitBlobSha1": "b20a104a4b97eea925675fc899ff71ea44a30d3a"
+    },
+    {
+      "path": "真实拟态旋钮/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "gitBlobSha1": "591d726ee988e8210b2f70c48c446a2a3ebd8fd4"
+    },
+    {
+      "path": "纯CSS液态玻璃/css/styles.css",
+      "mode": "100644",
+      "type": "blob",
+      "gitBlobSha1": "b462215df3de68b88ef400ee56d0fea103148382"
+    },
+    {
+      "path": "纯CSS液态玻璃/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "gitBlobSha1": "fd48a2fdb438eaa8e98b3ff291f74e6bad544523"
+    }
+  ]
+}

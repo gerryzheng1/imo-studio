@@ -1,0 +1,325 @@
+{
+  "source": "C:\\1\\Zheng\\GPT\\IMO\\IMO文件包生成器_Liquid_Glass_v3.2.0\\IMO文件包生成器\\内置空模板.zip",
+  "sha256": "b4494dd3cf2707c19376035d13f96f5e204620998a55dac88ed84f9d2171cdc4",
+  "entries": [
+    {
+      "name": "内置空模板/1.Arrival Crew List.xlsx",
+      "bytes": 34257,
+      "sha256": "9f3283e793101e73c24b3d30ce75852721b2bdfad74fd90ad5824a67cd04f5c1",
+      "sheets": [
+        {
+          "name": "Arr.Crew list",
+          "sheetId": "1",
+          "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId1"
+        }
+      ],
+      "xmlFiles": 16,
+      "dimension": "B1:P40",
+      "merges": [
+        "M32:N32",
+        "M33:N33",
+        "J32:L32",
+        "J33:L33",
+        "G27:H27",
+        "B31:O31",
+        "G25:H25",
+        "G26:H26",
+        "G28:H28",
+        "G29:H29",
+        "G30:H30",
+        "G10:H10",
+        "G11:H11",
+        "G13:H13",
+        "G14:H14",
+        "G24:H24",
+        "G21:H21",
+        "G22:H22",
+        "G23:H23",
+        "G19:H19",
+        "G20:H20",
+        "G16:H16",
+        "G12:H12",
+        "G18:H18",
+        "G17:H17",
+        "G15:H15",
+        "B2:D2",
+        "E5:I5",
+        "J5:O5",
+        "B5:D5",
+        "E2:L3",
+        "B6:D6",
+        "B7:D7",
+        "J7:K9",
+        "L7:M9",
+        "E6:I6",
+        "J6:O6",
+        "N7:O9",
+        "E8:I8",
+        "G9:I9",
+        "E7:I7",
+        "B8:D8"
+      ],
+      "cells": {
+        "B2": "(Name of Shipping Line, Agent etc)",
+        "E2": "    CREW   LIST",
+        "O3": "Page",
+        "F4": "Arrival",
+        "H4": "   Departure",
+        "B5": "1.  Name of Ship\n                   ",
+        "E5": "2. Port of arrival",
+        "J5": "3. Date of arrival",
+        "B7": "4. Nationality of ship      ",
+        "E7": "5.  Port arrival from",
+        "J7": "12. Nature and No.of identity \ndocument and valid date \n(Seafarer's Book)\n(DD/MM/YYYY)",
+        "L7": "13. Nature and No.of identity \ndocument and valid date\n(Passport)\n(DD/MM/YYYY)",
+        "N7": "14. Sign On\nDate / Place\n(DD/MM/YYYY)",
+        "B9": "6.\nNo.",
+        "C9": "7. Family name,\ngive names.",
+        "D9": "8. Rank or \n   rating",
+        "E9": "9.  \nSex",
+        "F9": "10.\nNationality",
+        "G9": "11.  Birth\n Date /   Place\n(DD/MM/YYYY)",
+        "B31": "13. Date and Signature by master, authorized agent or officer",
+        "J32": "MASTER:",
+        "M32": "0",
+        "J33": "Data：",
+        "M33": "0"
+      },
+      "matchesExisting": false
+    },
+    {
+      "name": "内置空模板/10.Vaccination list.xlsx",
+      "bytes": 32783,
+      "sha256": "a5b58eb49b04c3a9cdec67d9fdd43ed406839e5c3c97beb4e79b9bde2a739331",
+      "sheets": [
+        {
+          "name": "Vaccination",
+          "sheetId": "1",
+          "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId1"
+        }
+      ],
+      "xmlFiles": 16,
+      "matchesExisting": true
+    },
+    {
+      "name": "内置空模板/2.Departure Crew List.xlsx",
+      "bytes": 34273,
+      "sha256": "cc4a420396f44a140caaa63616be76967e8d2044ce2b1980b2ddf6951bc8073a",
+      "sheets": [
+        {
+          "name": "Arr.Crew list",
+          "sheetId": "1",
+          "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId1"
+        }
+      ],
+      "xmlFiles": 16,
+      "dimension": "B1:P40",
+      "merges": [
+        "M32:N32",
+        "M33:N33",
+        "J32:L32",
+        "J33:L33",
+        "G27:H27",
+        "B31:O31",
+        "G25:H25",
+        "G26:H26",
+        "G28:H28",
+        "G29:H29",
+        "G30:H30",
+        "G10:H10",
+        "G11:H11",
+        "G13:H13",
+        "G14:H14",
+        "G24:H24",
+        "G21:H21",
+        "G22:H22",
+        "G23:H23",
+        "G19:H19",
+        "G20:H20",
+        "G16:H16",
+        "G12:H12",
+        "G18:H18",
+        "G17:H17",
+        "G15:H15",
+        "B2:D2",
+        "E5:I5",
+        "J5:O5",
+        "B5:D5",
+        "E2:L3",
+        "B6:D6",
+        "B7:D7",
+        "J7:K9",
+        "L7:M9",
+        "E6:I6",
+        "J6:O6",
+        "N7:O9",
+        "E8:I8",
+        "G9:I9",
+        "E7:I7",
+        "B8:D8"
+      ],
+      "cells": {
+        "B2": "(Name of Shipping Line, Agent etc)",
+        "E2": "    CREW   LIST",
+        "O3": "Page",
+        "F4": "Arrival",
+        "H4": "   Departure",
+        "B5": "1.  Name of Ship\n                   ",
+        "E5": "2. Port of departure",
+        "J5": "3. Date of departure",
+        "B7": "4. Nationality of ship      ",
+        "E7": "5.  Port departure to",
+        "J7": "12. Nature and No.of identity \ndocument and valid date \n(Seafarer's Book)\n(DD/MM/YYYY)",
+        "L7": "13. Nature and No.of identity \ndocument and valid date\n(Passport)\n(DD/MM/YYYY)",
+        "N7": "14. Sign On\nDate / Place\n(DD/MM/YYYY)",
+        "B9": "6.\nNo.",
+        "C9": "7. Family name,\ngive names.",
+        "D9": "8. Rank or \n   rating",
+        "E9": "9.  \nSex",
+        "F9": "10.\nNationality",
+        "G9": "11.  Birth\n Date /   Place\n(DD/MM/YYYY)",
+        "B31": "13. Date and Signature by master, authorized agent or officer",
+        "J32": "MASTER:",
+        "M32": "0",
+        "J33": "Data：",
+        "M33": "0"
+      },
+      "matchesExisting": false
+    },
+    {
+      "name": "内置空模板/3.Crew Effects.xlsx",
+      "bytes": 34802,
+      "sha256": "8c77d4feca094246edc156517b18d51eef3ba5ae841e3cd6eea66b499a3785d9",
+      "sheets": [
+        {
+          "name": "Crew effects",
+          "sheetId": "1",
+          "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId1"
+        }
+      ],
+      "xmlFiles": 15,
+      "matchesExisting": false
+    },
+    {
+      "name": "内置空模板/4.Last Port of call list.xlsx",
+      "bytes": 36353,
+      "sha256": "d70497b9ac566cd180a7a6bab4931909079c7a1f8c7a1c67a4e8b35bc4d866d6",
+      "sheets": [
+        {
+          "name": "PORTS OF CALL ",
+          "sheetId": "2",
+          "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId1"
+        }
+      ],
+      "xmlFiles": 16,
+      "matchesExisting": false
+    },
+    {
+      "name": "内置空模板/5.Stores List.xlsx",
+      "bytes": 37618,
+      "sha256": "03c49feb31fab648eebe8ea5f4d043fc9a1e8d6e68ab7d9b14885c9ef4a6f1b1",
+      "sheets": [
+        {
+          "name": "Store list",
+          "sheetId": "1",
+          "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId1"
+        }
+      ],
+      "xmlFiles": 16,
+      "matchesExisting": false
+    },
+    {
+      "name": "内置空模板/6.Maritime Declaration of Health  .xlsx",
+      "bytes": 18800,
+      "sha256": "69e3157b36d54e53661773e5f35c254185999e5971e8a81f60a5e30ec14427f2",
+      "sheets": [
+        {
+          "name": "Health",
+          "sheetId": "1",
+          "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId1"
+        },
+        {
+          "name": "healthback",
+          "sheetId": "2",
+          "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId2"
+        }
+      ],
+      "xmlFiles": 19,
+      "matchesExisting": true
+    },
+    {
+      "name": "内置空模板/7.Passenger list.xlsx",
+      "bytes": 33030,
+      "sha256": "3c19b834a060e51dc36bc21e480cdc76eddb462e01be167367cb12f99a48176e",
+      "sheets": [
+        {
+          "name": "Crewlist (passport)",
+          "sheetId": "1",
+          "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId1"
+        }
+      ],
+      "xmlFiles": 15,
+      "matchesExisting": true
+    },
+    {
+      "name": "内置空模板/8. Narcotics list -Oct-2026.xlsx",
+      "bytes": 29774,
+      "sha256": "5da347cb2e8bcb2131179dc909aca8d9a08816f1e89afd53faac3771b4b13e4c",
+      "sheets": [
+        {
+          "name": "Narcotics List",
+          "sheetId": "1",
+          "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId1"
+        }
+      ],
+      "xmlFiles": 16,
+      "matchesExisting": true
+    },
+    {
+      "name": "内置空模板/9.Nil list.xlsx",
+      "bytes": 36523,
+      "sha256": "490f5852858363152ae7998d6fed7223a0b4147276c127dfa9bc720524b9adb8",
+      "sheets": [
+        {
+          "name": "NIL LIST",
+          "sheetId": "1",
+          "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId1"
+        }
+      ],
+      "xmlFiles": 16,
+      "dimension": "B1:M40",
+      "merges": [
+        "H37:J37",
+        "B5:F5",
+        "J7:K7",
+        "J9:K9",
+        "B35:D35",
+        "F35:K35",
+        "F36:K36",
+        "H11:K12",
+        "B16:K18"
+      ],
+      "cells": {
+        "B7": "NAME OF SHIP:",
+        "H7": "CALL  SIGN:    ",
+        "B9": "PORT OF REGISTRY:  ",
+        "H9": "IMO  NUMBER:",
+        "B11": "NATIONALITY:              ",
+        "B16": "N I L    L I S T",
+        "E22": "STOWAWAY/S",
+        "E23": "FIREARMS AND AMMUNITION      ",
+        "E24": "EXPLOSIVES",
+        "E25": "TOXIC WASTE",
+        "E26": "RADIO ACTIVE SUBSTANCE/S",
+        "E27": "ANIMALS",
+        "E28": "FLOATING CARGO",
+        "E29": "PASSENGERS",
+        "E30": "DANGEROUS GOODS",
+        "E31": "PARCEL",
+        "G32": "SIGNED :",
+        "F36": "MASTER"
+      },
+      "matchesExisting": false
+    }
+  ]
+}

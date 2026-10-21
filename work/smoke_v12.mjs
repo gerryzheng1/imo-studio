@@ -1,0 +1,6 @@
+import {chromium} from 'playwright';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {pathToFileURL} from 'node:url';
+const browser=await chromium.launch({channel:'chrome',headless:true});
+try{for(const file of ['IMO_Generator.html','IMO文件包生成器/打开生成器.html']){const ctx=await browser.newContext({viewport:{width:1500,height:1080}});await ctx.setOffline(true);const page=await ctx.newPage();page.on('pageerror',e=>console.log('PAGEERROR',e.message));page.on('console',m=>{if(m.type()==='error')console.log('CONSOLE',m.text())});await page.goto(pathToFileURL(path.resolve('outputs',file)).href);await page.evaluate(()=>IMOApp.ready);console.log(file,await page.evaluate(()=>({templates:templates.size,origin:defaultOrigin,map:CONFIG.templates.flatMap(c=>mappingErrors(c,chosenTemplate(c.id)?.book))})));await page.locator('[data-action=inspectTemplate][data-id="3"]').click();await page.waitForSelector('.sheet-grid');console.log('visual cells',await page.locator('.sheet-cell').count());await page.screenshot({path:path.resolve('work','v12-visual.png')});await page.locator('[data-action=closeModal]').click();for(const v of ['voyage','ports','stores','mapping']){await page.locator(`[data-action=navigate][data-view=${v}]`).click();console.log(v,await page.locator('h1').innerText())}await ctx.close()}}finally{await browser.close()}

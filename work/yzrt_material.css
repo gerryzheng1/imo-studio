@@ -1,0 +1,18 @@
+/*
+ * Glass material adapted from 原子软糖 At, yzrt / 纯CSS液态玻璃/css/styles.css.
+ * Source: https://gitee.com/greyd097/yzrt/tree/master/纯CSS液态玻璃
+ * Directory commit: 2afaed0b401dbc39cdf24cce9420d7620c1fdd59.
+ * Upstream declares GPL-2.0. Original source and full license accompany this build.
+ * Changes: scoped component selectors, responsive sizing, readable data backing,
+ * preference modes, no global contrast/selection/transition rules or fixed z-index.
+ */
+:root{--yzrt-edge:inset 2px -2px 1px -1px #ffffffe6,inset -2px 2px 1px -1px #ffffffe6,inset 6px -6px 1px -6px #ffffff8c,inset -6px 6px 1px -6px #ffffff8c,inset 0 0 2px #18364c99;--yzrt-depth:0 9px 22px #183e5a29;--yzrt-fill:#ffffff18;--yzrt-blur:3px;--yzrt-glint:.45;--yzrt-inner:#ffffff40}
+:root[data-theme=dark]{--yzrt-edge:inset 2px -2px 1px -1px #e5f6ff9c,inset -2px 2px 1px -1px #e5f6ff8c,inset 6px -6px 1px -6px #d9efff57,inset -6px 6px 1px -6px #d9efff57,inset 0 0 2px #000b22d9;--yzrt-depth:0 9px 24px #000b293b;--yzrt-fill:#accbff13;--yzrt-glint:.3;--yzrt-inner:#cbe6ff30}
+.portbar,.liquid-dock,.sidebar.liquid-library,.welcome-port-lens{background:var(--yzrt-fill);box-shadow:var(--yzrt-edge),var(--yzrt-depth);backdrop-filter:blur(var(--yzrt-blur)) saturate(1.35);-webkit-backdrop-filter:blur(var(--yzrt-blur)) saturate(1.35)}
+.portbar::before,.liquid-dock::before,.sidebar.liquid-library::before,.welcome-port-lens::before{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;z-index:0;background:linear-gradient(45deg,#ffffffcc,transparent 25%,transparent 75%,#ffffffcc);filter:blur(3px);opacity:var(--yzrt-glint);box-shadow:none}
+.portbar::after,.liquid-dock::after,.sidebar.liquid-library::after,.welcome-port-lens::after{content:"";position:absolute;inset:7px;border:1px solid var(--yzrt-inner);border-radius:inherit;pointer-events:none;z-index:-1;background:radial-gradient(ellipse at var(--glass-x,25%) var(--glass-y,0%),#ffffff4a,transparent 64%);filter:blur(1px);box-shadow:0 7px 8px -5px #0b294f47;opacity:1;mix-blend-mode:normal}
+.portbar>*,.liquid-dock>*,.welcome-port-lens>*,.sidebar.liquid-library>*{position:relative;z-index:1}
+.sidebar.liquid-library{background:color-mix(in srgb,var(--paper),transparent 17%);--yzrt-blur:12px}.welcome-port-lens{--yzrt-blur:4px}.liquid-dock{--yzrt-blur:4px}
+.port-stop.active,.dock-item.active,.dock-item[aria-expanded=true],#nav .nav.active{box-shadow:var(--yzrt-edge),0 3px 8px #22445c1f;background:#ffffff5e}
+html[data-theme=dark] .portbar,html[data-theme=dark] .liquid-dock,html[data-theme=dark] .sidebar.liquid-library,html[data-theme=dark] .welcome-port-lens{background:var(--yzrt-fill)}
+html[data-theme=dark] .sidebar.liquid-library{background:#203a51ce}html[data-theme=dark] .port-stop.active,html[data-theme=dark] .dock-item.active,html[data-theme=dark] .dock-item[aria-expanded=true],html[data-theme=dark] #nav .nav.active{box-shadow:var(--yzrt-edge),0 4px 9px #00162d33;background:#bfdcff26}

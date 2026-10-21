@@ -1,0 +1,63 @@
+{
+  "sourceSha256": "b4494dd3cf2707c19376035d13f96f5e204620998a55dac88ed84f9d2171cdc4",
+  "templateCount": 10,
+  "bytePreserved": true,
+  "crewMappingOffset": {
+    "rows": 1,
+    "columns": 1
+  },
+  "legacyConfigs": "legacy-template-config.json",
+  "backup": "work\\template-backups\\v3.2.0",
+  "files": [
+    {
+      "id": 1,
+      "name": "1.Arrival Crew List.xlsx",
+      "sha256": "9f3283e793101e73c24b3d30ce75852721b2bdfad74fd90ad5824a67cd04f5c1"
+    },
+    {
+      "id": 2,
+      "name": "2.Departure Crew List.xlsx",
+      "sha256": "cc4a420396f44a140caaa63616be76967e8d2044ce2b1980b2ddf6951bc8073a"
+    },
+    {
+      "id": 3,
+      "name": "3.Crew Effects.xlsx",
+      "sha256": "8c77d4feca094246edc156517b18d51eef3ba5ae841e3cd6eea66b499a3785d9"
+    },
+    {
+      "id": 4,
+      "name": "4.Last Port of call list.xlsx",
+      "sha256": "d70497b9ac566cd180a7a6bab4931909079c7a1f8c7a1c67a4e8b35bc4d866d6"
+    },
+    {
+      "id": 5,
+      "name": "5.Stores List.xlsx",
+      "sha256": "03c49feb31fab648eebe8ea5f4d043fc9a1e8d6e68ab7d9b14885c9ef4a6f1b1"
+    },
+    {
+      "id": 6,
+      "name": "6.Maritime Declaration of Health  .xlsx",
+      "sha256": "69e3157b36d54e53661773e5f35c254185999e5971e8a81f60a5e30ec14427f2"
+    },
+    {
+      "id": 7,
+      "name": "7.Passenger list.xlsx",
+      "sha256": "3c19b834a060e51dc36bc21e480cdc76eddb462e01be167367cb12f99a48176e"
+    },
+    {
+      "id": 8,
+      "name": "8. Narcotics list -Oct-2026.xlsx",
+      "sha256": "5da347cb2e8bcb2131179dc909aca8d9a08816f1e89afd53faac3771b4b13e4c"
+    },
+    {
+      "id": 9,
+      "name": "9.Nil list.xlsx",
+      "sha256": "490f5852858363152ae7998d6fed7223a0b4147276c127dfa9bc720524b9adb8"
+    },
+    {
+      "id": 10,
+      "name": "10.Vaccination list.xlsx",
+      "sha256": "a5b58eb49b04c3a9cdec67d9fdd43ed406839e5c3c97beb4e79b9bde2a739331"
+    }
+  ]
+}

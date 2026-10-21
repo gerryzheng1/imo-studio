@@ -1,0 +1,3211 @@
+{
+  "kind": "IMO-LEGACY-TEMPLATE-MAPPINGS",
+  "configs": [
+    {
+      "version": "1.0.0",
+      "templateSet": "IMO-2026-10 supplied templates",
+      "templates": [
+        {
+          "id": 1,
+          "title": "进港船员名单",
+          "filename": "1.Arrival Crew List.xlsx",
+          "identify": [
+            {
+              "sheet": "Arr.Crew list",
+              "cell": "D4",
+              "contains": "Port of arrival"
+            }
+          ],
+          "sheets": [
+            {
+              "name": "Arr.Crew list",
+              "fields": [
+                {
+                  "cell": "A5",
+                  "key": "ship.name"
+                },
+                {
+                  "cell": "A7",
+                  "key": "ship.flag"
+                },
+                {
+                  "cell": "D5",
+                  "key": "voyage.arrivalPort"
+                },
+                {
+                  "cell": "I5",
+                  "key": "voyage.arrivalDate",
+                  "type": "date"
+                },
+                {
+                  "cell": "D7",
+                  "key": "voyage.lastPort"
+                },
+                {
+                  "cell": "D3",
+                  "key": "$arrivalMark"
+                },
+                {
+                  "cell": "F3",
+                  "key": "$departureMark"
+                },
+                {
+                  "cell": "L31",
+                  "key": "$master",
+                  "type": "masterFormula"
+                },
+                {
+                  "cell": "L32",
+                  "key": "$signatureDate",
+                  "type": "signatureFormula",
+                  "dateRef": "I5"
+                }
+              ],
+              "table": {
+                "source": "arrival",
+                "rows": [
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23,
+                  24,
+                  25,
+                  26,
+                  27,
+                  28,
+                  29
+                ],
+                "columns": {
+                  "seq": "A",
+                  "name": "B",
+                  "rank": "C",
+                  "sex": "D",
+                  "nationality": "E",
+                  "birthDate": "F",
+                  "birthPlace": "H",
+                  "seamanBook": "I",
+                  "seamanExpiry": "J",
+                  "passport": "K",
+                  "passportExpiry": "L",
+                  "signOnDate": "M",
+                  "signOnPlace": "N"
+                },
+                "clear": [
+                  "A9:N29"
+                ],
+                "nilCell": null
+              },
+              "page": "N3",
+              "expectedMerges": [
+                "A5:C5",
+                "A6:C6",
+                "I6:J8",
+                "K6:L8",
+                "D5:H5",
+                "I5:N5",
+                "M6:N8",
+                "D7:H7",
+                "F8:H8",
+                "D6:H6",
+                "A7:C7",
+                "A1:C1",
+                "D4:H4",
+                "I4:N4",
+                "D1:J1",
+                "A4:C4",
+                "F9:G9",
+                "F10:G10",
+                "F12:G12",
+                "F13:G13",
+                "F23:G23",
+                "F20:G20",
+                "F21:G21",
+                "F22:G22",
+                "F18:G18",
+                "F19:G19",
+                "F15:G15",
+                "F11:G11",
+                "F17:G17",
+                "F16:G16",
+                "F14:G14",
+                "F24:G24",
+                "F25:G25",
+                "F27:G27",
+                "F28:G28",
+                "F29:G29",
+                "L31:M31",
+                "L32:M32",
+                "I31:K31",
+                "I32:K32",
+                "F26:G26",
+                "A30:N30"
+              ],
+              "expectedDimension": "A1:O39",
+              "expectedLabels": {
+                "A1": "(Name of Shipping Line, Agent etc)",
+                "D1": "    CREW   LIST",
+                "N2": "Page",
+                "E3": "Arrival",
+                "G3": "   Departure",
+                "A4": "1.  Name of Ship\n                   ",
+                "D4": "2. Port of arrival",
+                "I4": "3. Date of arrival",
+                "A6": "4. Nationality of ship      ",
+                "D6": "5.  Port arrival from",
+                "I6": "12. Nature and No.of identity \ndocument and valid date \n(Seafarer's Book)\n(DD/MM/YYYY)",
+                "K6": "13. Nature and No.of identity \ndocument and valid date\n(Passport)\n(DD/MM/YYYY)",
+                "M6": "14. Sign On\nDate / Place\n(DD/MM/YYYY)",
+                "A8": "6.No.",
+                "B8": "7. Family name,\n     give names.",
+                "C8": "8. Rank or \n   rating",
+                "D8": "9.  \nSex",
+                "E8": "10.  \nNationality",
+                "F8": "11.  Birth\n Date /   Place\n(DD/MM/YYYY)",
+                "A30": "13. Date and Signature by master, authorized agent or officer",
+                "I31": "MASTER:",
+                "I32": "Data："
+              }
+            },
+            {
+              "name": "Sheet1",
+              "fields": [],
+              "clear": [
+                "A1:M2"
+              ],
+              "note": "原附表两条历史人员记录全部清空，保留工作表与版式。",
+              "expectedMerges": [
+                "E1:F1",
+                "E2:F2"
+              ],
+              "expectedDimension": "A1:M2",
+              "expectedLabels": {}
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "离港船员名单",
+          "filename": "2.Departure Crew List.xlsx",
+          "identify": [
+            {
+              "sheet": "Arr.Crew list",
+              "cell": "D4",
+              "contains": "Port of departure"
+            }
+          ],
+          "sheets": [
+            {
+              "name": "Arr.Crew list",
+              "fields": [
+                {
+                  "cell": "A5",
+                  "key": "ship.name"
+                },
+                {
+                  "cell": "A7",
+                  "key": "ship.flag"
+                },
+                {
+                  "cell": "D5",
+                  "key": "voyage.departurePort"
+                },
+                {
+                  "cell": "I5",
+                  "key": "voyage.departureDate",
+                  "type": "date"
+                },
+                {
+                  "cell": "D7",
+                  "key": "voyage.nextPort"
+                },
+                {
+                  "cell": "D3",
+                  "key": "$arrivalMark"
+                },
+                {
+                  "cell": "F3",
+                  "key": "$departureMark"
+                },
+                {
+                  "cell": "L31",
+                  "key": "$master",
+                  "type": "masterFormula"
+                },
+                {
+                  "cell": "L32",
+                  "key": "$signatureDate",
+                  "type": "signatureFormula",
+                  "dateRef": "I5"
+                }
+              ],
+              "table": {
+                "source": "departure",
+                "rows": [
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23,
+                  24,
+                  25,
+                  26,
+                  27,
+                  28,
+                  29
+                ],
+                "columns": {
+                  "seq": "A",
+                  "name": "B",
+                  "rank": "C",
+                  "sex": "D",
+                  "nationality": "E",
+                  "birthDate": "F",
+                  "birthPlace": "H",
+                  "seamanBook": "I",
+                  "seamanExpiry": "J",
+                  "passport": "K",
+                  "passportExpiry": "L",
+                  "signOnDate": "M",
+                  "signOnPlace": "N"
+                },
+                "clear": [
+                  "A9:N29"
+                ],
+                "nilCell": null
+              },
+              "page": "N3",
+              "expectedMerges": [
+                "L31:M31",
+                "L32:M32",
+                "I31:K31",
+                "I32:K32",
+                "F26:G26",
+                "F24:G24",
+                "F25:G25",
+                "F27:G27",
+                "F28:G28",
+                "F29:G29",
+                "A30:N30",
+                "F9:G9",
+                "F10:G10",
+                "F12:G12",
+                "F13:G13",
+                "F23:G23",
+                "F20:G20",
+                "F21:G21",
+                "F22:G22",
+                "F18:G18",
+                "F19:G19",
+                "F15:G15",
+                "F11:G11",
+                "F17:G17",
+                "F16:G16",
+                "F14:G14",
+                "A1:C1",
+                "D4:H4",
+                "I4:N4",
+                "D1:J1",
+                "A4:C4",
+                "A5:C5",
+                "A6:C6",
+                "I6:J8",
+                "K6:L8",
+                "D5:H5",
+                "I5:N5",
+                "M6:N8",
+                "D7:H7",
+                "F8:H8",
+                "D6:H6",
+                "A7:C7"
+              ],
+              "expectedDimension": "A1:O39",
+              "expectedLabels": {
+                "A1": "(Name of Shipping Line, Agent etc)",
+                "D1": "    CREW   LIST",
+                "N2": "Page",
+                "E3": "Arrival",
+                "G3": "   Departure",
+                "A4": "1.  Name of Ship\n                   ",
+                "D4": "2. Port of departure\n            ",
+                "I4": "3. Date of departure",
+                "A6": "4. Nationality of ship      ",
+                "D6": "5.  Port departure to",
+                "I6": "12. Nature and No.of identity \ndocument and valid date \n(Seafarer's Book)\n(DD/MM/YYYY)",
+                "K6": "13. Nature and No.of identity \ndocument and valid date\n(Passport)\n(DD/MM/YYYY)",
+                "M6": "14. Sign On\nDate / Place\n(DD/MM/YYYY)",
+                "A8": "6.No.",
+                "B8": "7. Family name,\n     give names.",
+                "C8": "8. Rank or \n   rating",
+                "D8": "9.  \nSex",
+                "E8": "10.  \nNationality",
+                "F8": "11.  Birth\n Date /   Place\n(DD/MM/YYYY)",
+                "A30": "13. Date and Signature by master, authorized agent or officer",
+                "I31": "MASTER:",
+                "I32": "Data："
+              }
+            },
+            {
+              "name": "Sheet1",
+              "fields": [],
+              "clear": [
+                "A1:M2"
+              ],
+              "note": "原附表两条历史人员记录全部清空，保留工作表与版式。",
+              "expectedMerges": [
+                "E1:F1",
+                "E2:F2"
+              ],
+              "expectedDimension": "A1:M2",
+              "expectedLabels": {}
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "船员个人物品",
+          "filename": "3.Crew Effects.xlsx",
+          "identify": [
+            {
+              "sheet": "Crew effects",
+              "cell": "B3",
+              "contains": "CREW EFFECT"
+            }
+          ],
+          "sheets": [
+            {
+              "name": "Crew effects",
+              "fields": [
+                {
+                  "cell": "B6",
+                  "key": "ship.name",
+                  "prefix": "1.Name of Ship\n"
+                },
+                {
+                  "cell": "B7",
+                  "key": "ship.flag",
+                  "prefix": "2.Nationality of Ship\n"
+                },
+                {
+                  "cell": "I7",
+                  "key": "effectsDeclaration"
+                },
+                {
+                  "cell": "I32",
+                  "key": "ship.master",
+                  "prefix": "Master: "
+                },
+                {
+                  "cell": "B32",
+                  "key": "$signatureDate",
+                  "prefix": "Date: "
+                }
+              ],
+              "table": {
+                "source": "effects",
+                "rows": [
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23,
+                  24,
+                  25,
+                  26,
+                  27,
+                  28,
+                  29
+                ],
+                "columns": {
+                  "seq": "B",
+                  "name": "C",
+                  "rank": "D",
+                  "cigs": "E",
+                  "beer": "F",
+                  "wine": "G",
+                  "spirit": "H",
+                  "articles": "I",
+                  "signature": "J"
+                },
+                "clear": [
+                  "B9:J29"
+                ],
+                "nilCell": null
+              },
+              "page": "J7",
+              "expectedMerges": [
+                "B3:J4",
+                "B5:E5",
+                "B6:H6",
+                "B7:H7",
+                "B30:J30"
+              ],
+              "expectedDimension": "A1:Q35",
+              "expectedLabels": {
+                "B3": "CREW EFFECT DECLARATION",
+                "I6": "3.Effects which are dutiable or subject to prohibitions or restrictions                          ",
+                "J6": "4. Page No.                  ",
+                "B8": "5.\nNo.   ",
+                "C8": "6. Family name,  given names",
+                "D8": "7.Rank or rating",
+                "E8": "cigarettes / stk",
+                "F8": "Beer /L",
+                "G8": "Wine/ L",
+                "H8": "Spirit / L",
+                "I8": "Other articles",
+                "J8": "8.Signature",
+                "B30": "9. Date and signature by master, authorized agent or officer"
+              }
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "历史挂靠港",
+          "filename": "4.Last Port of call list.xlsx",
+          "identify": [
+            {
+              "sheet": "PORTS OF CALL ",
+              "cell": "B4",
+              "contains": "Ports of Call"
+            }
+          ],
+          "sheets": [
+            {
+              "name": "PORTS OF CALL ",
+              "fields": [
+                {
+                  "cell": "B7",
+                  "key": "ship.name"
+                },
+                {
+                  "cell": "B9",
+                  "key": "ship.flag"
+                },
+                {
+                  "cell": "E7",
+                  "key": "$port"
+                },
+                {
+                  "cell": "H7",
+                  "key": "$date",
+                  "type": "date"
+                },
+                {
+                  "cell": "E9",
+                  "key": "$from"
+                },
+                {
+                  "cell": "F22",
+                  "key": "ship.master",
+                  "prefix": "CAPT: "
+                },
+                {
+                  "cell": "F23",
+                  "key": "ship.name",
+                  "prefix": "Master of "
+                },
+                {
+                  "cell": "B23",
+                  "key": "$signatureDate",
+                  "prefix": "Date: "
+                },
+                {
+                  "cell": "E6",
+                  "key": "$portLabel"
+                },
+                {
+                  "cell": "H6",
+                  "key": "$dateLabel"
+                },
+                {
+                  "cell": "E8",
+                  "key": "$fromLabel"
+                }
+              ],
+              "table": {
+                "source": "ports",
+                "rows": [
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20
+                ],
+                "columns": {
+                  "seq": "B",
+                  "port": "C",
+                  "country": "D",
+                  "security": "E",
+                  "remarks": "F",
+                  "arrivalDate": "G",
+                  "departureDate": "H"
+                },
+                "clear": [
+                  "B11:H20"
+                ],
+                "nilCell": "C11"
+              },
+              "page": "H5",
+              "expectedMerges": [
+                "F22:H22",
+                "F23:H23",
+                "B4:H4",
+                "D5:F5",
+                "E6:G6",
+                "B7:D7",
+                "E9:G9",
+                "E7:G7",
+                "E8:G8",
+                "B9:D9"
+              ],
+              "expectedDimension": "B1:K25",
+              "expectedLabels": {
+                "B4": "Ports of Call ",
+                "D5": "           (Voyage Memo)",
+                "B6": " 1. Name of ship.",
+                "B8": " 4. Nationality of ship.",
+                "B10": "6. No.",
+                "C10": "7. Ports",
+                "D10": "8. Country",
+                "E10": "9. Security\n Level",
+                "F10": "10.\nPort remarks",
+                "G10": "11.\nDate of Arrival\n(dd/mm/yyyy)",
+                "H10": "12.\nDate of Departure\n(dd/mm/yyyy)",
+                "B21": "12. Date and Signature by master, authorized agent for officer."
+              }
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "船舶物料",
+          "filename": "5.Stores List.xlsx",
+          "identify": [
+            {
+              "sheet": "Store list",
+              "cell": "C3",
+              "contains": "SHIP'S STORES"
+            }
+          ],
+          "sheets": [
+            {
+              "name": "Store list",
+              "fields": [
+                {
+                  "cell": "B6",
+                  "key": "ship.name"
+                },
+                {
+                  "cell": "B8",
+                  "key": "ship.flag"
+                },
+                {
+                  "cell": "F6",
+                  "key": "$port"
+                },
+                {
+                  "cell": "J6",
+                  "key": "$date",
+                  "type": "date"
+                },
+                {
+                  "cell": "F8",
+                  "key": "$from"
+                },
+                {
+                  "cell": "F4",
+                  "key": "$arrivalMark"
+                },
+                {
+                  "cell": "H4",
+                  "key": "$departureMark"
+                },
+                {
+                  "cell": "B10",
+                  "key": "$aboardCount",
+                  "type": "number"
+                },
+                {
+                  "cell": "C10",
+                  "key": "voyage.stay"
+                },
+                {
+                  "cell": "F10",
+                  "key": "$storage"
+                },
+                {
+                  "cell": "G46",
+                  "key": "ship.master",
+                  "prefix": "CAPT."
+                },
+                {
+                  "cell": "G48",
+                  "key": "$signatureDate",
+                  "prefix": "Date: "
+                },
+                {
+                  "cell": "F5",
+                  "key": "$portLabel"
+                },
+                {
+                  "cell": "J5",
+                  "key": "$dateLabel"
+                },
+                {
+                  "cell": "F7",
+                  "key": "$fromLabel"
+                }
+              ],
+              "table": {
+                "source": "stores",
+                "rows": [
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23,
+                  24,
+                  25,
+                  26,
+                  27,
+                  28,
+                  29,
+                  30,
+                  31,
+                  32,
+                  33,
+                  34,
+                  35,
+                  36,
+                  37,
+                  38,
+                  39,
+                  40,
+                  41,
+                  42,
+                  43
+                ],
+                "columns": {
+                  "name": "B",
+                  "quantity": "D",
+                  "unit": "E"
+                },
+                "clear": [
+                  "B12:K43"
+                ],
+                "nilCell": "B12",
+                "headerStyleCell": "B12"
+              },
+              "page": "K4",
+              "expectedMerges": [
+                "C9:E9",
+                "G46:K46",
+                "C3:I3",
+                "B6:E6",
+                "F6:I6",
+                "J6:K6",
+                "B8:E8",
+                "F8:K8",
+                "I49:K49",
+                "C10:E10",
+                "F10:K10",
+                "G47:K47",
+                "G48:K48"
+              ],
+              "expectedDimension": "B1:K49",
+              "expectedLabels": {
+                "C3": "SHIP'S STORES DECLARATION",
+                "K3": "Page no.",
+                "G4": "Arrival",
+                "I4": "Departure",
+                "B5": "1. Name of ship",
+                "B7": "4. Nationality of ship",
+                "B9": "6. Number of persons on board",
+                "C9": "7. Period of stay",
+                "F9": "8. Place of storage",
+                "B11": "9. Name of article",
+                "D11": "10. Quantity",
+                "F11": "11. For official use",
+                "G47": "MASTER"
+              }
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "健康申报与病例附表",
+          "filename": "6.Maritime Declaration of Health  .xlsx",
+          "identify": [
+            {
+              "sheet": "Health",
+              "cell": "A1",
+              "contains": "Maritime Declaration of Health"
+            }
+          ],
+          "sheets": [
+            {
+              "name": "Health",
+              "fields": [
+                {
+                  "cell": "C5",
+                  "key": "voyage.arrivalPort"
+                },
+                {
+                  "cell": "J5",
+                  "key": "voyage.arrivalDate",
+                  "type": "date"
+                },
+                {
+                  "cell": "C6",
+                  "key": "ship.name"
+                },
+                {
+                  "cell": "G6",
+                  "key": "voyage.lastPort"
+                },
+                {
+                  "cell": "J6",
+                  "key": "voyage.nextPort"
+                },
+                {
+                  "cell": "C7",
+                  "key": "ship.flag"
+                },
+                {
+                  "cell": "H7",
+                  "key": "ship.master"
+                },
+                {
+                  "cell": "D8",
+                  "key": "ship.netTonnage",
+                  "type": "number"
+                },
+                {
+                  "cell": "D10",
+                  "key": "health.certType"
+                },
+                {
+                  "cell": "J10",
+                  "key": "health.certDate",
+                  "type": "date"
+                },
+                {
+                  "cell": "D12",
+                  "key": "health.certPlace"
+                },
+                {
+                  "cell": "D14",
+                  "key": "$passengerCount"
+                },
+                {
+                  "cell": "I14",
+                  "key": "$crewCountLabel"
+                },
+                {
+                  "cell": "G49",
+                  "key": "ship.master",
+                  "prefix": "CAPT. "
+                },
+                {
+                  "cell": "G51",
+                  "key": "health.surgeon"
+                },
+                {
+                  "cell": "B53",
+                  "key": "$signatureDate",
+                  "type": "signatureFormula",
+                  "dateRef": "J5"
+                },
+                {
+                  "cell": "A36",
+                  "key": "health.measures",
+                  "prefix": "    and date: "
+                },
+                {
+                  "cell": "A37",
+                  "key": "health.stowawayPlace",
+                  "prefix": "8. Have any stowaways been found onboard? If yes, where did they join the ship? "
+                },
+                {
+                  "cell": "I24",
+                  "key": "health.q1"
+                },
+                {
+                  "cell": "I26",
+                  "key": "health.q2"
+                },
+                {
+                  "cell": "I28",
+                  "key": "health.q3"
+                },
+                {
+                  "cell": "I30",
+                  "key": "health.q4"
+                },
+                {
+                  "cell": "I32",
+                  "key": "health.q5"
+                },
+                {
+                  "cell": "I34",
+                  "key": "health.q6"
+                },
+                {
+                  "cell": "I36",
+                  "key": "health.q7"
+                },
+                {
+                  "cell": "I37",
+                  "key": "health.q8"
+                },
+                {
+                  "cell": "I38",
+                  "key": "health.q9"
+                }
+              ],
+              "expectedMerges": [
+                "A1:J1",
+                "A2:J2",
+                "A3:J3",
+                "C5:E5",
+                "C6:E6",
+                "G6:H6",
+                "I30:J30",
+                "I28:J28",
+                "C7:E7",
+                "H7:J7",
+                "D8:E8",
+                "D12:J12",
+                "D14:F14",
+                "I14:J14",
+                "D15:F15",
+                "A22:H22",
+                "I22:J22",
+                "I24:J24",
+                "I26:J26",
+                "I32:J32",
+                "I34:J34",
+                "A35:H35",
+                "I36:J36",
+                "A37:H37",
+                "I37:J37",
+                "B53:D53",
+                "A38:H38",
+                "I38:J38",
+                "G49:I49",
+                "G50:I50",
+                "G51:I51"
+              ],
+              "expectedDimension": "A1:O55",
+              "expectedLabels": {
+                "A1": "Maritime Declaration of Health",
+                "A2": "(INTERNATIONAL FORM)",
+                "A3": "     (To be rendered by the Master of ships arriving from ports outside the territory)",
+                "A5": "Arrival port",
+                "I5": "   Date:",
+                "A6": " Name of Ship",
+                "F6": "  From:",
+                "I6": "       To:",
+                "A7": " Nationality",
+                "F7": "    Master's Name:",
+                "A8": " Net Registered Tonnage",
+                "A10": " Deratting or  :  ",
+                "C10": "Certificate:",
+                "I10": "       Date:",
+                "A11": " Deratting ",
+                "A12": " Exemption   :",
+                "C12": "Issued at:",
+                "A14": " No. of",
+                "B14": "Passengers :",
+                "H14": "No. of crew:",
+                "A17": " List of ports of call from commencement of voyage with dates of departures:",
+                "E19": "\"SEE ATTACHED PORT OF CALL LIST\"",
+                "A22": "Health Questions",
+                "I22": "Answer Yes or No",
+                "A23": "1.  Has any person died onboard during the voyage otherwise than as a result ",
+                "A24": "     of accident? If yes state particulars in attached schedule.",
+                "A25": "2.  Is there onboard or has there been during the international voyage any case ",
+                "A26": "     of dicease which you suspect to be an infectious nature? If yes, state ",
+                "A27": "3.  Has any person died on board during the voyage * otherwise than as a result",
+                "A28": "     of accident?  Give particulars in schedule.",
+                "A29": "4.  Is there any person ill onboard now? If yes state particulars in attached ",
+                "A30": "     schedule.",
+                "A31": "5.  Was a medical practitioner consulted? If yes state particulars of medical ",
+                "A32": "     treatment or advice provided in attached schedule.",
+                "A33": "6.  Are you aware of any other condition on board which may lead to infection",
+                "A34": "     or the spread of disease. If yes, state in attached schedule.",
+                "A35": "7. Has any sanitary measure been applied on board? If yes, specify type, place ",
+                "A38": "9. Is there a sick animal or pet onboard?",
+                "A40": "Note:  In the absence of a surgeon, the master should regard the following symptoms as ground for suspecting the existence of disease ",
+                "A41": "      of an infectious nature: fever accompanied by prostration or persisting for several days, or attended with glandular swelling; or ",
+                "A42": "      any  acute skin rash or eruption with or without fever: severe diarrhoea with symptoms of collapse; jaundice accompanied by fever.",
+                "B44": "I hereby declare that the particulars and answers to the questions given in this Declaration of Health",
+                "A45": "     (including the schedule) are true and correct to the best of my knowledge and belief.",
+                "F49": "Signed:",
+                "G50": "Master",
+                "E51": "     Countersigned:",
+                "G52": "     Ship's Surgeon       P.T.O.",
+                "A53": "Date:",
+                "B55": "* If more than four weeks have elapsed since the voyage began, it will suffice to give particulars for the last four weeks."
+              }
+            },
+            {
+              "name": "healthback",
+              "fields": [],
+              "titlePage": "A9",
+              "table": {
+                "source": "cases",
+                "rows": [
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23,
+                  24,
+                  25,
+                  26,
+                  27,
+                  28
+                ],
+                "columns": {
+                  "name": "A",
+                  "rank": "B",
+                  "age": "C",
+                  "sex": "D",
+                  "nationality": "E",
+                  "embarkPort": "F",
+                  "embarkDate": "G",
+                  "illness": "H",
+                  "onsetDate": "I",
+                  "result": "J",
+                  "disposal": "K"
+                },
+                "clear": [
+                  "A14:K28"
+                ],
+                "nilCell": "A14"
+              },
+              "expectedMerges": [
+                "A12:A13",
+                "C12:C13",
+                "D12:D13",
+                "E12:E13",
+                "A4:K4",
+                "A5:K5",
+                "A6:K6",
+                "A9:K9",
+                "A10:K10"
+              ],
+              "expectedDimension": "A1:K30",
+              "expectedLabels": {
+                "K1": "(Form Med. 20.)",
+                "K2": "International Sanitary Convention, 1994",
+                "A4": "MARITIME DECLARATION OF HEALTH",
+                "A5": "(International Form)",
+                "A6": "(To be rendered by the master of ship's arriving from port outside the Territory)",
+                "A10": "Particulars of every case of illness or death occuring on board",
+                "A12": "NAME",
+                "B12": "Class or",
+                "C12": "Age",
+                "D12": "Sex",
+                "E12": "Nationality",
+                "F12": "Port of",
+                "G12": "Date of",
+                "H12": "Nature of",
+                "I12": "Date of",
+                "J12": "Results",
+                "K12": "Disposal",
+                "B13": "Rating",
+                "F13": "Embarkation",
+                "G13": "Embarkation",
+                "H13": "Illness",
+                "I13": "its Onset",
+                "J13": "of Illness",
+                "K13": "of Case . .",
+                "A29": "- State whether recovered, still ill, died.",
+                "A30": "- - State, whether still on board, landed at (Give Name of Port) buried at sea."
+              }
+            }
+          ],
+          "drawingRules": [
+            {
+              "path": "xl/drawings/drawing1.xml",
+              "source": "cases",
+              "nilAnchorIds": [
+                "2049"
+              ],
+              "note": "病例附表的斜体 NIL 字样，只有明确无病例时保留。"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "旅客名单",
+          "filename": "7.Passenger list.xlsx",
+          "identify": [
+            {
+              "sheet": "Crewlist (passport)",
+              "cell": "B3",
+              "contains": "PASSENGER LIST"
+            }
+          ],
+          "sheets": [
+            {
+              "name": "Crewlist (passport)",
+              "fields": [
+                {
+                  "cell": "B6",
+                  "key": "ship.company"
+                },
+                {
+                  "cell": "B8",
+                  "key": "ship.name"
+                },
+                {
+                  "cell": "B10",
+                  "key": "ship.flag"
+                },
+                {
+                  "cell": "C10",
+                  "key": "$blank"
+                },
+                {
+                  "cell": "G8",
+                  "key": "$port"
+                },
+                {
+                  "cell": "J8",
+                  "key": "$date",
+                  "type": "date"
+                },
+                {
+                  "cell": "G10",
+                  "key": "$from"
+                },
+                {
+                  "cell": "F6",
+                  "key": "$arrivalMark"
+                },
+                {
+                  "cell": "I6",
+                  "key": "$departureMark"
+                },
+                {
+                  "cell": "G34",
+                  "key": "ship.master",
+                  "prefix": "Capt."
+                },
+                {
+                  "cell": "G36",
+                  "key": "$signatureDate",
+                  "prefix": "Date: "
+                },
+                {
+                  "cell": "G7",
+                  "key": "$portLabel"
+                },
+                {
+                  "cell": "J7",
+                  "key": "$dateLabel"
+                },
+                {
+                  "cell": "G9",
+                  "key": "$fromLabel"
+                }
+              ],
+              "table": {
+                "source": "passengers",
+                "rows": [
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23,
+                  24,
+                  25,
+                  26,
+                  27,
+                  28,
+                  29,
+                  30,
+                  31
+                ],
+                "columns": {
+                  "seq": "B",
+                  "name": "C",
+                  "rank": "D",
+                  "nationality": "E",
+                  "birthDate": "G",
+                  "birthPlace": "H",
+                  "passport": "J",
+                  "passportExpiry": "K"
+                },
+                "clear": [
+                  "B12:K31"
+                ],
+                "nilCell": "C12"
+              },
+              "page": "K6",
+              "expectedMerges": [
+                "G35:J35",
+                "B8:F8",
+                "B10:F10",
+                "B3:K3",
+                "B6:E6",
+                "H30:I30",
+                "H29:I29",
+                "H31:I31",
+                "E29:F29",
+                "E31:F31",
+                "E30:F30",
+                "B32:K32",
+                "H27:I27",
+                "H28:I28",
+                "E25:F25",
+                "E26:F26",
+                "E28:F28",
+                "H25:I25",
+                "E16:F16",
+                "G34:J34",
+                "G36:J36",
+                "G9:I9",
+                "G11:I11",
+                "H15:I15",
+                "H16:I16",
+                "H17:I17",
+                "H19:I19",
+                "H26:I26",
+                "G10:I10",
+                "E33:F33",
+                "G33:I33",
+                "E27:F27",
+                "E22:F22",
+                "E23:F23",
+                "H22:I22",
+                "H23:I23",
+                "E17:F17",
+                "E18:F18",
+                "E24:F24",
+                "H24:I24",
+                "H18:I18",
+                "H21:I21",
+                "E19:F19",
+                "H20:I20",
+                "E20:F20",
+                "E21:F21",
+                "G8:I8",
+                "B2:K2",
+                "J8:K8",
+                "E15:F15"
+              ],
+              "expectedDimension": "B1:U39",
+              "expectedLabels": {
+                "B3": "PASSENGER LIST",
+                "B5": "(Name of Shipping Line, Agent, etc)",
+                "K5": "Page No.",
+                "G6": "  Arrival                        ",
+                "J6": "Departure",
+                "B7": "1. Name of ship",
+                "B9": "4. Nationality of ship",
+                "J9": "6.Nature and no of",
+                "K9": "7. Date of expiry",
+                "J10": "identity document",
+                "K10": "(Passport)",
+                "B11": "8. No.  ",
+                "C11": "9. Family name, given names",
+                "D11": "10.Rank/rating",
+                "E11": "11.Nationality",
+                "G11": "12.Date of birth / Place of birth",
+                "J11": "(Passport)",
+                "K11": "YMD",
+                "B32": "12. Date and signature of Master, authorized agent or officer",
+                "G35": "MASTER"
+              }
+            }
+          ],
+          "drawingRules": [
+            {
+              "path": "xl/drawings/drawing1.xml",
+              "source": "passengers",
+              "nilAnchorIds": [
+                "3",
+                "4",
+                "7"
+              ],
+              "note": "旅客表 NIL 字样与两条斜线，有旅客时移除；公司标识与公约说明保留。"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "药品名单",
+          "filename": "8. Narcotics list -Oct-2026.xlsx",
+          "identify": [
+            {
+              "sheet": "Narcotics List",
+              "cell": "B4",
+              "contains": "Narcotics List"
+            }
+          ],
+          "sheets": [
+            {
+              "name": "Narcotics List",
+              "fields": [
+                {
+                  "cell": "B3",
+                  "key": "ship.name",
+                  "prefix": "   MV. "
+                },
+                {
+                  "cell": "D20",
+                  "key": "ship.master",
+                  "prefix": "Master:"
+                },
+                {
+                  "cell": "D21",
+                  "key": "$signatureDate",
+                  "prefix": "Date: "
+                }
+              ],
+              "table": {
+                "source": "medicines",
+                "rows": [
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17
+                ],
+                "columns": {
+                  "seq": "B",
+                  "name": "C",
+                  "quantity": "D",
+                  "expiry": "E",
+                  "mark": "F"
+                },
+                "clear": [
+                  "B6:F17"
+                ],
+                "nilCell": "C6"
+              },
+              "titlePage": "B4",
+              "expectedMerges": [
+                "B2:F2",
+                "B3:F3",
+                "B4:F4",
+                "C18:F18",
+                "D20:F20"
+              ],
+              "expectedDimension": "B1:G21",
+              "expectedLabels": {
+                "B5": "No.",
+                "C5": "Name",
+                "D5": "Quantity",
+                "E5": "Expired date",
+                "F5": "Mark / NIS #",
+                "C18": "Remark: All Narcotics are safely kept by Master."
+              }
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "title": "NIL 各项申报",
+          "filename": "9.Nil list.xlsx",
+          "identify": [
+            {
+              "sheet": "NIL LIST",
+              "cell": "B16",
+              "contains": "N I L"
+            }
+          ],
+          "sheets": [
+            {
+              "name": "NIL LIST",
+              "fields": [
+                {
+                  "cell": "E7",
+                  "key": "ship.name"
+                },
+                {
+                  "cell": "J7",
+                  "key": "ship.callSign"
+                },
+                {
+                  "cell": "E9",
+                  "key": "ship.registry"
+                },
+                {
+                  "cell": "J9",
+                  "key": "ship.imo"
+                },
+                {
+                  "cell": "E11",
+                  "key": "ship.flag"
+                },
+                {
+                  "cell": "F35",
+                  "key": "ship.master",
+                  "prefix": "CAPT."
+                },
+                {
+                  "cell": "H37",
+                  "key": "$signatureDate",
+                  "prefix": "Date: "
+                }
+              ],
+              "expectedMerges": [
+                "H37:J37",
+                "B5:F5",
+                "J7:K7",
+                "J9:K9",
+                "B35:D35",
+                "F35:K35",
+                "F36:K36",
+                "H11:K12",
+                "B16:K18"
+              ],
+              "expectedDimension": "B2:M40",
+              "expectedLabels": {
+                "B7": "NAME OF SHIP:",
+                "H7": "CALL  SIGN:    ",
+                "B9": "PORT OF REGISTRY:  ",
+                "H9": "IMO  NUMBER:",
+                "B11": "NATIONALITY:              ",
+                "B16": "N I L    L I S T",
+                "E22": "STOWAWAY/S",
+                "E23": "FIREARMS AND AMMUNITION      ",
+                "E24": "EXPLOSIVES",
+                "E25": "TOXIC WASTE",
+                "E26": "RADIO ACTIVE SUBSTANCE/S",
+                "E27": "ANIMALS",
+                "E28": "FLOATING CARGO",
+                "E29": "PASSENGERS",
+                "E30": "DANGEROUS GOODS",
+                "E31": "PARCEL",
+                "G32": "SIGNED :",
+                "F36": "MASTER"
+              },
+              "table": {
+                "source": "nilItems",
+                "rows": [
+                  22,
+                  23,
+                  24,
+                  25,
+                  26,
+                  27,
+                  28,
+                  29,
+                  30,
+                  31
+                ],
+                "columns": {
+                  "name": "E",
+                  "value": "K"
+                },
+                "clear": [
+                  "E22:K31"
+                ]
+              },
+              "titlePage": "B16"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "title": "船员疫苗有效日期",
+          "filename": "10.Vaccination list.xlsx",
+          "identify": [
+            {
+              "sheet": "Vaccination",
+              "cell": "B3",
+              "contains": "VACCINATION LIST"
+            }
+          ],
+          "sheets": [
+            {
+              "name": "Vaccination",
+              "fields": [
+                {
+                  "cell": "B6",
+                  "key": "ship.company"
+                },
+                {
+                  "cell": "B8",
+                  "key": "ship.name",
+                  "prefix": "MV  "
+                },
+                {
+                  "cell": "B10",
+                  "key": "ship.imo"
+                },
+                {
+                  "cell": "E34",
+                  "key": "ship.master",
+                  "prefix": "CAPT."
+                },
+                {
+                  "cell": "E36",
+                  "key": "$signatureDate",
+                  "prefix": "Date: "
+                }
+              ],
+              "table": {
+                "source": "vaccines",
+                "rows": [
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23,
+                  24,
+                  25,
+                  26,
+                  27,
+                  28,
+                  29,
+                  30,
+                  31,
+                  32
+                ],
+                "columns": {
+                  "seq": "B",
+                  "name": "C",
+                  "rank": "D",
+                  "nationality": "E",
+                  "cholera": "F",
+                  "yellowFever": "G"
+                },
+                "clear": [
+                  "B12:G32"
+                ],
+                "nilCell": null
+              },
+              "page": "G6",
+              "expectedMerges": [
+                "B3:G3",
+                "E34:G34",
+                "E35:G35",
+                "E36:F36",
+                "I19:J19",
+                "B10:E10",
+                "F9:F10",
+                "N20:O20",
+                "L28:M28",
+                "I20:J20",
+                "L20:M20",
+                "N19:O19",
+                "B9:E9",
+                "N28:O28",
+                "L19:M19",
+                "B4:G4",
+                "F7:F8",
+                "G7:G8",
+                "G9:G10",
+                "B7:E7",
+                "B5:F5",
+                "B6:E6",
+                "B8:E8"
+              ],
+              "expectedDimension": "B1:Q40",
+              "expectedLabels": {
+                "B3": "VACCINATION LIST",
+                "B5": "(Name of Shipping Line, Agent, etc)",
+                "G5": "Page No.",
+                "B7": "1.Name of ship",
+                "F7": "Cholera",
+                "G7": "Yellow fever",
+                "B9": "2.IMO No.",
+                "F9": "Vaccination",
+                "G9": "Vaccination",
+                "B11": "5. No.  ",
+                "C11": "6.Family name, given names",
+                "D11": "7.Rank/rating",
+                "E11": "8.Nationality",
+                "F11": "Valid Date\n(dd/mm/yyyy)",
+                "G11": "Valid Date\n(dd/mm/yyyy)",
+                "E35": "MASTER"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "templateSet": "IMO-2026-10 supplied templates",
+      "templates": [
+        {
+          "id": 1,
+          "title": "进港船员名单",
+          "filename": "1.Arrival Crew List.xlsx",
+          "identify": [
+            {
+              "sheet": "Arr.Crew list",
+              "cell": "D4",
+              "contains": "Port of arrival"
+            }
+          ],
+          "sheets": [
+            {
+              "name": "Arr.Crew list",
+              "fields": [
+                {
+                  "cell": "A5",
+                  "key": "ship.name"
+                },
+                {
+                  "cell": "A7",
+                  "key": "ship.flag"
+                },
+                {
+                  "cell": "D5",
+                  "key": "voyage.arrivalPort"
+                },
+                {
+                  "cell": "I5",
+                  "key": "voyage.arrivalDate",
+                  "type": "date"
+                },
+                {
+                  "cell": "D7",
+                  "key": "voyage.lastPort"
+                },
+                {
+                  "cell": "D3",
+                  "key": "$arrivalMark"
+                },
+                {
+                  "cell": "F3",
+                  "key": "$departureMark"
+                },
+                {
+                  "cell": "L31",
+                  "key": "$master",
+                  "type": "masterFormula"
+                },
+                {
+                  "cell": "L32",
+                  "key": "$signatureDate",
+                  "type": "signatureFormula",
+                  "dateRef": "I5"
+                }
+              ],
+              "table": {
+                "source": "arrival",
+                "rows": [
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23,
+                  24,
+                  25,
+                  26,
+                  27,
+                  28,
+                  29
+                ],
+                "columns": {
+                  "seq": "A",
+                  "name": "B",
+                  "rank": "C",
+                  "sex": "D",
+                  "nationality": "E",
+                  "birthDate": "F",
+                  "birthPlace": "H",
+                  "seamanBook": "I",
+                  "seamanExpiry": "J",
+                  "passport": "K",
+                  "passportExpiry": "L",
+                  "signOnDate": "M",
+                  "signOnPlace": "N"
+                },
+                "clear": [
+                  "A9:N29"
+                ],
+                "nilCell": null
+              },
+              "page": "N3",
+              "expectedMerges": [
+                "L31:M31",
+                "L32:M32",
+                "I31:K31",
+                "I32:K32",
+                "F26:G26",
+                "A30:N30",
+                "F24:G24",
+                "F25:G25",
+                "F27:G27",
+                "F28:G28",
+                "F29:G29",
+                "F9:G9",
+                "F10:G10",
+                "F12:G12",
+                "F13:G13",
+                "F23:G23",
+                "F20:G20",
+                "F21:G21",
+                "F22:G22",
+                "F18:G18",
+                "F19:G19",
+                "F15:G15",
+                "F11:G11",
+                "F17:G17",
+                "F16:G16",
+                "F14:G14",
+                "A1:C1",
+                "D4:H4",
+                "I4:N4",
+                "D1:J1",
+                "A4:C4",
+                "A5:C5",
+                "A6:C6",
+                "I6:J8",
+                "K6:L8",
+                "D5:H5",
+                "I5:N5",
+                "M6:N8",
+                "D7:H7",
+                "F8:H8",
+                "D6:H6",
+                "A7:C7"
+              ],
+              "expectedDimension": "A1:O39",
+              "expectedLabels": {
+                "A1": "(Name of Shipping Line, Agent etc)",
+                "D1": "    CREW   LIST",
+                "N2": "Page",
+                "E3": "Arrival",
+                "G3": "   Departure",
+                "A4": "1.  Name of Ship\n                   ",
+                "D4": "2. Port of arrival",
+                "I4": "3. Date of arrival",
+                "A6": "4. Nationality of ship      ",
+                "D6": "5.  Port arrival from",
+                "I6": "12. Nature and No.of identity \ndocument and valid date \n(Seafarer's Book)\n(DD/MM/YYYY)",
+                "K6": "13. Nature and No.of identity \ndocument and valid date\n(Passport)\n(DD/MM/YYYY)",
+                "M6": "14. Sign On\nDate / Place\n(DD/MM/YYYY)",
+                "A8": "6.\nNo.",
+                "B8": "7. Family name,\ngive names.",
+                "C8": "8. Rank or \n   rating",
+                "D8": "9.  \nSex",
+                "E8": "10.\nNationality",
+                "F8": "11.  Birth\n Date /   Place\n(DD/MM/YYYY)",
+                "A30": "13. Date and Signature by master, authorized agent or officer",
+                "I31": "MASTER:",
+                "I32": "Data："
+              }
+            },
+            {
+              "name": "Sheet1",
+              "fields": [],
+              "clear": [
+                "A1:M2"
+              ],
+              "note": "原附表两条历史人员记录全部清空，保留工作表与版式。",
+              "expectedMerges": [
+                "E1:F1",
+                "E2:F2"
+              ],
+              "expectedDimension": "A1:M2",
+              "expectedLabels": {}
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "离港船员名单",
+          "filename": "2.Departure Crew List.xlsx",
+          "identify": [
+            {
+              "sheet": "Arr.Crew list",
+              "cell": "D4",
+              "contains": "Port of departure"
+            }
+          ],
+          "sheets": [
+            {
+              "name": "Arr.Crew list",
+              "fields": [
+                {
+                  "cell": "A5",
+                  "key": "ship.name"
+                },
+                {
+                  "cell": "A7",
+                  "key": "ship.flag"
+                },
+                {
+                  "cell": "D5",
+                  "key": "voyage.departurePort"
+                },
+                {
+                  "cell": "I5",
+                  "key": "voyage.departureDate",
+                  "type": "date"
+                },
+                {
+                  "cell": "D7",
+                  "key": "voyage.nextPort"
+                },
+                {
+                  "cell": "D3",
+                  "key": "$arrivalMark"
+                },
+                {
+                  "cell": "F3",
+                  "key": "$departureMark"
+                },
+                {
+                  "cell": "L31",
+                  "key": "$master",
+                  "type": "masterFormula"
+                },
+                {
+                  "cell": "L32",
+                  "key": "$signatureDate",
+                  "type": "signatureFormula",
+                  "dateRef": "I5"
+                }
+              ],
+              "table": {
+                "source": "departure",
+                "rows": [
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23,
+                  24,
+                  25,
+                  26,
+                  27,
+                  28,
+                  29
+                ],
+                "columns": {
+                  "seq": "A",
+                  "name": "B",
+                  "rank": "C",
+                  "sex": "D",
+                  "nationality": "E",
+                  "birthDate": "F",
+                  "birthPlace": "H",
+                  "seamanBook": "I",
+                  "seamanExpiry": "J",
+                  "passport": "K",
+                  "passportExpiry": "L",
+                  "signOnDate": "M",
+                  "signOnPlace": "N"
+                },
+                "clear": [
+                  "A9:N29"
+                ],
+                "nilCell": null
+              },
+              "page": "N3",
+              "expectedMerges": [
+                "A5:C5",
+                "A6:C6",
+                "I6:J8",
+                "K6:L8",
+                "D5:H5",
+                "I5:N5",
+                "M6:N8",
+                "D7:H7",
+                "F8:H8",
+                "D6:H6",
+                "A7:C7",
+                "A1:C1",
+                "D4:H4",
+                "I4:N4",
+                "D1:J1",
+                "A4:C4",
+                "F9:G9",
+                "F10:G10",
+                "F12:G12",
+                "F13:G13",
+                "F23:G23",
+                "F20:G20",
+                "F21:G21",
+                "F22:G22",
+                "F18:G18",
+                "F19:G19",
+                "F15:G15",
+                "F11:G11",
+                "F17:G17",
+                "F16:G16",
+                "F14:G14",
+                "F24:G24",
+                "F25:G25",
+                "F27:G27",
+                "F28:G28",
+                "F29:G29",
+                "L31:M31",
+                "L32:M32",
+                "I31:K31",
+                "I32:K32",
+                "F26:G26",
+                "A30:N30"
+              ],
+              "expectedDimension": "A1:O39",
+              "expectedLabels": {
+                "A1": "(Name of Shipping Line, Agent etc)",
+                "D1": "    CREW   LIST",
+                "N2": "Page",
+                "E3": "Arrival",
+                "G3": "   Departure",
+                "A4": "1.  Name of Ship\n                   ",
+                "D4": "2. Port of departure\n            ",
+                "I4": "3. Date of departure",
+                "A6": "4. Nationality of ship      ",
+                "D6": "5.  Port departure to",
+                "I6": "12. Nature and No.of identity \ndocument and valid date \n(Seafarer's Book)\n(DD/MM/YYYY)",
+                "K6": "13. Nature and No.of identity \ndocument and valid date\n(Passport)\n(DD/MM/YYYY)",
+                "M6": "14. Sign On\nDate / Place\n(DD/MM/YYYY)",
+                "A8": "6.No.",
+                "B8": "7. Family name,\n     give names.",
+                "C8": "8. Rank or \n   rating",
+                "D8": "9.  \nSex",
+                "E8": "10.  \nNationality",
+                "F8": "11.  Birth\n Date /   Place\n(DD/MM/YYYY)",
+                "A30": "13. Date and Signature by master, authorized agent or officer",
+                "I31": "MASTER:",
+                "I32": "Data："
+              }
+            },
+            {
+              "name": "Sheet1",
+              "fields": [],
+              "clear": [
+                "A1:M2"
+              ],
+              "note": "原附表两条历史人员记录全部清空，保留工作表与版式。",
+              "expectedMerges": [
+                "E1:F1",
+                "E2:F2"
+              ],
+              "expectedDimension": "A1:M2",
+              "expectedLabels": {}
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "船员个人物品",
+          "filename": "3.Crew Effects.xlsx",
+          "identify": [
+            {
+              "sheet": "Crew effects",
+              "cell": "B3",
+              "contains": "CREW EFFECT"
+            }
+          ],
+          "sheets": [
+            {
+              "name": "Crew effects",
+              "fields": [
+                {
+                  "cell": "B7",
+                  "key": "ship.name"
+                },
+                {
+                  "cell": "B9",
+                  "key": "ship.flag"
+                },
+                {
+                  "cell": "I8",
+                  "key": "effectsDeclaration"
+                },
+                {
+                  "cell": "I34",
+                  "key": "ship.master",
+                  "prefix": "Master: "
+                },
+                {
+                  "cell": "B34",
+                  "key": "$signatureDate",
+                  "prefix": "Date: "
+                }
+              ],
+              "table": {
+                "source": "effects",
+                "rows": [
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23,
+                  24,
+                  25,
+                  26,
+                  27,
+                  28,
+                  29,
+                  30,
+                  31
+                ],
+                "columns": {
+                  "seq": "B",
+                  "name": "C",
+                  "rank": "D",
+                  "cigs": "E",
+                  "beer": "F",
+                  "wine": "G",
+                  "spirit": "H",
+                  "articles": "I",
+                  "signature": "J"
+                },
+                "clear": [
+                  "B11:J31"
+                ],
+                "nilCell": null
+              },
+              "page": "J7",
+              "expectedMerges": [
+                "I8:I9",
+                "B3:J4",
+                "B5:E5",
+                "B6:H6",
+                "B9:H9",
+                "B32:J32",
+                "B7:H7",
+                "I6:I7",
+                "J7:J9",
+                "B8:H8"
+              ],
+              "expectedDimension": "A1:Q38",
+              "expectedLabels": {
+                "B3": "CREW EFFECT DECLARATION",
+                "B6": "1.Name of Ship",
+                "I6": "3.Effects which are dutiable or subject to prohibitions or restrictions                          ",
+                "J6": "4. Page No.                  ",
+                "B8": "2.Nationality of Ship",
+                "B10": "5.No.",
+                "C10": "6. Family name,  given names",
+                "D10": "7.Rank or rating",
+                "E10": "cigarettes / stk",
+                "F10": "Beer /L",
+                "G10": "Wine/ L",
+                "H10": "Spirit / L",
+                "I10": "Other articles",
+                "J10": "8.Signature",
+                "B32": "9. Date and signature by master, authorized agent or officer",
+                "I35": "Master"
+              }
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "历史挂靠港",
+          "filename": "4.Last Port of call list.xlsx",
+          "identify": [
+            {
+              "sheet": "PORTS OF CALL ",
+              "cell": "B4",
+              "contains": "Ports of Call"
+            }
+          ],
+          "sheets": [
+            {
+              "name": "PORTS OF CALL ",
+              "fields": [
+                {
+                  "cell": "B7",
+                  "key": "ship.name"
+                },
+                {
+                  "cell": "B9",
+                  "key": "ship.flag"
+                },
+                {
+                  "cell": "E7",
+                  "key": "$port"
+                },
+                {
+                  "cell": "H7",
+                  "key": "$date",
+                  "type": "date"
+                },
+                {
+                  "cell": "E9",
+                  "key": "$from"
+                },
+                {
+                  "cell": "F22",
+                  "key": "ship.master",
+                  "prefix": "CAPT: "
+                },
+                {
+                  "cell": "F23",
+                  "key": "ship.name",
+                  "prefix": "Master of "
+                },
+                {
+                  "cell": "B23",
+                  "key": "$signatureDate",
+                  "prefix": "Date: "
+                },
+                {
+                  "cell": "E6",
+                  "key": "$portLabel"
+                },
+                {
+                  "cell": "H6",
+                  "key": "$dateLabel"
+                },
+                {
+                  "cell": "E8",
+                  "key": "$fromLabel"
+                }
+              ],
+              "table": {
+                "source": "ports",
+                "rows": [
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20
+                ],
+                "columns": {
+                  "seq": "B",
+                  "port": "C",
+                  "country": "D",
+                  "security": "E",
+                  "remarks": "F",
+                  "arrivalDate": "G",
+                  "departureDate": "H"
+                },
+                "clear": [
+                  "B11:H20"
+                ],
+                "nilCell": "C11"
+              },
+              "page": "H5",
+              "expectedMerges": [
+                "F22:H22",
+                "F23:H23",
+                "B4:H4",
+                "D5:F5",
+                "E6:G6",
+                "B7:D7",
+                "E9:G9",
+                "E7:G7",
+                "E8:G8",
+                "B9:D9"
+              ],
+              "expectedDimension": "B1:K25",
+              "expectedLabels": {
+                "B4": "Ports of Call ",
+                "D5": "           (Voyage Memo)",
+                "B6": " 1. Name of ship.",
+                "B8": " 4. Nationality of ship.",
+                "B10": "6. No.",
+                "C10": "7. Ports",
+                "D10": "8. Country",
+                "E10": "9. Security\n Level",
+                "F10": "10.\nPort remarks",
+                "G10": "11.\nDate of Arrival\n(dd/mm/yyyy)",
+                "H10": "12.\nDate of Departure\n(dd/mm/yyyy)",
+                "B21": "12. Date and Signature by master, authorized agent for officer."
+              }
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "船舶物料",
+          "filename": "5.Stores List.xlsx",
+          "identify": [
+            {
+              "sheet": "Store list",
+              "cell": "C3",
+              "contains": "SHIP'S STORES"
+            }
+          ],
+          "sheets": [
+            {
+              "name": "Store list",
+              "fields": [
+                {
+                  "cell": "B6",
+                  "key": "ship.name"
+                },
+                {
+                  "cell": "B8",
+                  "key": "ship.flag"
+                },
+                {
+                  "cell": "F6",
+                  "key": "$port"
+                },
+                {
+                  "cell": "J6",
+                  "key": "$date",
+                  "type": "date"
+                },
+                {
+                  "cell": "F8",
+                  "key": "$from"
+                },
+                {
+                  "cell": "F4",
+                  "key": "$arrivalMark"
+                },
+                {
+                  "cell": "H4",
+                  "key": "$departureMark"
+                },
+                {
+                  "cell": "B10",
+                  "key": "$aboardCount",
+                  "type": "number"
+                },
+                {
+                  "cell": "C10",
+                  "key": "voyage.stay"
+                },
+                {
+                  "cell": "F10",
+                  "key": "$storage"
+                },
+                {
+                  "cell": "G46",
+                  "key": "ship.master",
+                  "prefix": "CAPT."
+                },
+                {
+                  "cell": "G48",
+                  "key": "$signatureDate",
+                  "prefix": "Date: "
+                },
+                {
+                  "cell": "F5",
+                  "key": "$portLabel"
+                },
+                {
+                  "cell": "J5",
+                  "key": "$dateLabel"
+                },
+                {
+                  "cell": "F7",
+                  "key": "$fromLabel"
+                }
+              ],
+              "table": {
+                "source": "stores",
+                "rows": [
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23,
+                  24,
+                  25,
+                  26,
+                  27,
+                  28,
+                  29,
+                  30,
+                  31,
+                  32,
+                  33,
+                  34,
+                  35,
+                  36,
+                  37,
+                  38,
+                  39,
+                  40,
+                  41,
+                  42,
+                  43
+                ],
+                "columns": {
+                  "name": "B",
+                  "quantity": "D",
+                  "unit": "E"
+                },
+                "clear": [
+                  "B12:K43"
+                ],
+                "nilCell": "B12",
+                "headerStyleCell": "B12"
+              },
+              "page": "K4",
+              "expectedMerges": [
+                "C9:E9",
+                "G46:K46",
+                "C3:I3",
+                "B6:E6",
+                "F6:I6",
+                "J6:K6",
+                "B8:E8",
+                "F8:K8",
+                "I49:K49",
+                "C10:E10",
+                "F10:K10",
+                "G47:K47",
+                "G48:K48"
+              ],
+              "expectedDimension": "B1:K49",
+              "expectedLabels": {
+                "C3": "SHIP'S STORES DECLARATION",
+                "K3": "Page no.",
+                "G4": "Arrival",
+                "I4": "Departure",
+                "B5": "1. Name of ship",
+                "B7": "4. Nationality of ship",
+                "B9": "6. Number of persons on board",
+                "C9": "7. Period of stay",
+                "F9": "8. Place of storage",
+                "B11": "9. Name of article",
+                "D11": "10. Quantity",
+                "F11": "11. For official use",
+                "G47": "MASTER"
+              }
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "健康申报与病例附表",
+          "filename": "6.Maritime Declaration of Health  .xlsx",
+          "identify": [
+            {
+              "sheet": "Health",
+              "cell": "A1",
+              "contains": "Maritime Declaration of Health"
+            }
+          ],
+          "sheets": [
+            {
+              "name": "Health",
+              "fields": [
+                {
+                  "cell": "C5",
+                  "key": "voyage.arrivalPort"
+                },
+                {
+                  "cell": "J5",
+                  "key": "voyage.arrivalDate",
+                  "type": "date"
+                },
+                {
+                  "cell": "C6",
+                  "key": "ship.name"
+                },
+                {
+                  "cell": "G6",
+                  "key": "voyage.lastPort"
+                },
+                {
+                  "cell": "J6",
+                  "key": "voyage.nextPort"
+                },
+                {
+                  "cell": "C7",
+                  "key": "ship.flag"
+                },
+                {
+                  "cell": "H7",
+                  "key": "ship.master"
+                },
+                {
+                  "cell": "D8",
+                  "key": "ship.netTonnage",
+                  "type": "number"
+                },
+                {
+                  "cell": "D10",
+                  "key": "health.certType"
+                },
+                {
+                  "cell": "J10",
+                  "key": "health.certDate",
+                  "type": "date"
+                },
+                {
+                  "cell": "D12",
+                  "key": "health.certPlace"
+                },
+                {
+                  "cell": "D14",
+                  "key": "$passengerCount"
+                },
+                {
+                  "cell": "I14",
+                  "key": "$crewCountLabel"
+                },
+                {
+                  "cell": "G49",
+                  "key": "ship.master",
+                  "prefix": "CAPT. "
+                },
+                {
+                  "cell": "G51",
+                  "key": "health.surgeon"
+                },
+                {
+                  "cell": "B53",
+                  "key": "$signatureDate",
+                  "type": "signatureFormula",
+                  "dateRef": "J5"
+                },
+                {
+                  "cell": "A36",
+                  "key": "health.measures",
+                  "prefix": "    and date: "
+                },
+                {
+                  "cell": "A37",
+                  "key": "health.stowawayPlace",
+                  "prefix": "8. Have any stowaways been found onboard? If yes, where did they join the ship? "
+                },
+                {
+                  "cell": "I24",
+                  "key": "health.q1"
+                },
+                {
+                  "cell": "I26",
+                  "key": "health.q2"
+                },
+                {
+                  "cell": "I28",
+                  "key": "health.q3"
+                },
+                {
+                  "cell": "I30",
+                  "key": "health.q4"
+                },
+                {
+                  "cell": "I32",
+                  "key": "health.q5"
+                },
+                {
+                  "cell": "I34",
+                  "key": "health.q6"
+                },
+                {
+                  "cell": "I36",
+                  "key": "health.q7"
+                },
+                {
+                  "cell": "I37",
+                  "key": "health.q8"
+                },
+                {
+                  "cell": "I38",
+                  "key": "health.q9"
+                }
+              ],
+              "expectedMerges": [
+                "A1:J1",
+                "A2:J2",
+                "A3:J3",
+                "C5:E5",
+                "C6:E6",
+                "G6:H6",
+                "I30:J30",
+                "I28:J28",
+                "C7:E7",
+                "H7:J7",
+                "D8:E8",
+                "D12:J12",
+                "D14:F14",
+                "I14:J14",
+                "D15:F15",
+                "A22:H22",
+                "I22:J22",
+                "I24:J24",
+                "I26:J26",
+                "I32:J32",
+                "I34:J34",
+                "A35:H35",
+                "I36:J36",
+                "A37:H37",
+                "I37:J37",
+                "B53:D53",
+                "A38:H38",
+                "I38:J38",
+                "G49:I49",
+                "G50:I50",
+                "G51:I51"
+              ],
+              "expectedDimension": "A1:O55",
+              "expectedLabels": {
+                "A1": "Maritime Declaration of Health",
+                "A2": "(INTERNATIONAL FORM)",
+                "A3": "     (To be rendered by the Master of ships arriving from ports outside the territory)",
+                "A5": "Arrival port",
+                "I5": "   Date:",
+                "A6": " Name of Ship",
+                "F6": "  From:",
+                "I6": "       To:",
+                "A7": " Nationality",
+                "F7": "    Master's Name:",
+                "A8": " Net Registered Tonnage",
+                "A10": " Deratting or  :  ",
+                "C10": "Certificate:",
+                "I10": "       Date:",
+                "A11": " Deratting ",
+                "A12": " Exemption   :",
+                "C12": "Issued at:",
+                "A14": " No. of",
+                "B14": "Passengers :",
+                "H14": "No. of crew:",
+                "A17": " List of ports of call from commencement of voyage with dates of departures:",
+                "E19": "\"SEE ATTACHED PORT OF CALL LIST\"",
+                "A22": "Health Questions",
+                "I22": "Answer Yes or No",
+                "A23": "1.  Has any person died onboard during the voyage otherwise than as a result ",
+                "A24": "     of accident? If yes state particulars in attached schedule.",
+                "A25": "2.  Is there onboard or has there been during the international voyage any case ",
+                "A26": "     of dicease which you suspect to be an infectious nature? If yes, state ",
+                "A27": "3.  Has any person died on board during the voyage * otherwise than as a result",
+                "A28": "     of accident?  Give particulars in schedule.",
+                "A29": "4.  Is there any person ill onboard now? If yes state particulars in attached ",
+                "A30": "     schedule.",
+                "A31": "5.  Was a medical practitioner consulted? If yes state particulars of medical ",
+                "A32": "     treatment or advice provided in attached schedule.",
+                "A33": "6.  Are you aware of any other condition on board which may lead to infection",
+                "A34": "     or the spread of disease. If yes, state in attached schedule.",
+                "A35": "7. Has any sanitary measure been applied on board? If yes, specify type, place ",
+                "A38": "9. Is there a sick animal or pet onboard?",
+                "A40": "Note:  In the absence of a surgeon, the master should regard the following symptoms as ground for suspecting the existence of disease ",
+                "A41": "      of an infectious nature: fever accompanied by prostration or persisting for several days, or attended with glandular swelling; or ",
+                "A42": "      any  acute skin rash or eruption with or without fever: severe diarrhoea with symptoms of collapse; jaundice accompanied by fever.",
+                "B44": "I hereby declare that the particulars and answers to the questions given in this Declaration of Health",
+                "A45": "     (including the schedule) are true and correct to the best of my knowledge and belief.",
+                "F49": "Signed:",
+                "G50": "Master",
+                "E51": "     Countersigned:",
+                "G52": "     Ship's Surgeon       P.T.O.",
+                "A53": "Date:",
+                "B55": "* If more than four weeks have elapsed since the voyage began, it will suffice to give particulars for the last four weeks."
+              }
+            },
+            {
+              "name": "healthback",
+              "fields": [],
+              "titlePage": "A9",
+              "table": {
+                "source": "cases",
+                "rows": [
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23,
+                  24,
+                  25,
+                  26,
+                  27,
+                  28
+                ],
+                "columns": {
+                  "name": "A",
+                  "rank": "B",
+                  "age": "C",
+                  "sex": "D",
+                  "nationality": "E",
+                  "embarkPort": "F",
+                  "embarkDate": "G",
+                  "illness": "H",
+                  "onsetDate": "I",
+                  "result": "J",
+                  "disposal": "K"
+                },
+                "clear": [
+                  "A14:K28"
+                ],
+                "nilCell": "A14"
+              },
+              "expectedMerges": [
+                "A12:A13",
+                "C12:C13",
+                "D12:D13",
+                "E12:E13",
+                "A4:K4",
+                "A5:K5",
+                "A6:K6",
+                "A9:K9",
+                "A10:K10"
+              ],
+              "expectedDimension": "A1:K30",
+              "expectedLabels": {
+                "K1": "(Form Med. 20.)",
+                "K2": "International Sanitary Convention, 1994",
+                "A4": "MARITIME DECLARATION OF HEALTH",
+                "A5": "(International Form)",
+                "A6": "(To be rendered by the master of ship's arriving from port outside the Territory)",
+                "A10": "Particulars of every case of illness or death occuring on board",
+                "A12": "NAME",
+                "B12": "Class or",
+                "C12": "Age",
+                "D12": "Sex",
+                "E12": "Nationality",
+                "F12": "Port of",
+                "G12": "Date of",
+                "H12": "Nature of",
+                "I12": "Date of",
+                "J12": "Results",
+                "K12": "Disposal",
+                "B13": "Rating",
+                "F13": "Embarkation",
+                "G13": "Embarkation",
+                "H13": "Illness",
+                "I13": "its Onset",
+                "J13": "of Illness",
+                "K13": "of Case . .",
+                "A29": "- State whether recovered, still ill, died.",
+                "A30": "- - State, whether still on board, landed at (Give Name of Port) buried at sea."
+              }
+            }
+          ],
+          "drawingRules": [
+            {
+              "path": "xl/drawings/drawing1.xml",
+              "source": "cases",
+              "nilAnchorIds": [
+                "2049"
+              ],
+              "note": "病例附表的斜体 NIL 字样，只有明确无病例时保留。"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "旅客名单",
+          "filename": "7.Passenger list.xlsx",
+          "identify": [
+            {
+              "sheet": "Crewlist (passport)",
+              "cell": "B3",
+              "contains": "PASSENGER LIST"
+            }
+          ],
+          "sheets": [
+            {
+              "name": "Crewlist (passport)",
+              "fields": [
+                {
+                  "cell": "B6",
+                  "key": "ship.company"
+                },
+                {
+                  "cell": "B8",
+                  "key": "ship.name"
+                },
+                {
+                  "cell": "B10",
+                  "key": "ship.flag"
+                },
+                {
+                  "cell": "C10",
+                  "key": "$blank"
+                },
+                {
+                  "cell": "G8",
+                  "key": "$port"
+                },
+                {
+                  "cell": "J8",
+                  "key": "$date",
+                  "type": "date"
+                },
+                {
+                  "cell": "G10",
+                  "key": "$from"
+                },
+                {
+                  "cell": "F6",
+                  "key": "$arrivalMark"
+                },
+                {
+                  "cell": "I6",
+                  "key": "$departureMark"
+                },
+                {
+                  "cell": "G34",
+                  "key": "ship.master",
+                  "prefix": "Capt."
+                },
+                {
+                  "cell": "G36",
+                  "key": "$signatureDate",
+                  "prefix": "Date: "
+                },
+                {
+                  "cell": "G7",
+                  "key": "$portLabel"
+                },
+                {
+                  "cell": "J7",
+                  "key": "$dateLabel"
+                },
+                {
+                  "cell": "G9",
+                  "key": "$fromLabel"
+                }
+              ],
+              "table": {
+                "source": "passengers",
+                "rows": [
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23,
+                  24,
+                  25,
+                  26,
+                  27,
+                  28,
+                  29,
+                  30,
+                  31
+                ],
+                "columns": {
+                  "seq": "B",
+                  "name": "C",
+                  "rank": "D",
+                  "nationality": "E",
+                  "birthDate": "G",
+                  "birthPlace": "H",
+                  "passport": "J",
+                  "passportExpiry": "K"
+                },
+                "clear": [
+                  "B12:K31"
+                ],
+                "nilCell": "C12"
+              },
+              "page": "K6",
+              "expectedMerges": [
+                "G8:I8",
+                "B2:K2",
+                "J8:K8",
+                "E15:F15",
+                "E24:F24",
+                "H24:I24",
+                "H18:I18",
+                "H21:I21",
+                "E19:F19",
+                "H20:I20",
+                "E20:F20",
+                "E21:F21",
+                "G9:I9",
+                "G11:I11",
+                "H15:I15",
+                "H16:I16",
+                "H17:I17",
+                "G10:I10",
+                "E28:F28",
+                "H25:I25",
+                "E16:F16",
+                "G34:J34",
+                "G36:J36",
+                "H19:I19",
+                "H26:I26",
+                "E33:F33",
+                "G33:I33",
+                "E27:F27",
+                "E22:F22",
+                "E23:F23",
+                "H22:I22",
+                "H23:I23",
+                "E17:F17",
+                "E18:F18",
+                "G35:J35",
+                "B8:F8",
+                "B10:F10",
+                "B3:K3",
+                "B6:E6",
+                "H30:I30",
+                "H29:I29",
+                "H31:I31",
+                "E29:F29",
+                "E31:F31",
+                "E30:F30",
+                "B32:K32",
+                "H27:I27",
+                "H28:I28",
+                "E25:F25",
+                "E26:F26"
+              ],
+              "expectedDimension": "B1:U39",
+              "expectedLabels": {
+                "B3": "PASSENGER LIST",
+                "B5": "(Name of Shipping Line, Agent, etc)",
+                "K5": "Page No.",
+                "G6": "  Arrival                        ",
+                "J6": "Departure",
+                "B7": "1. Name of ship",
+                "B9": "4. Nationality of ship",
+                "J9": "6.Nature and no of",
+                "K9": "7. Date of expiry",
+                "J10": "identity document",
+                "K10": "(Passport)",
+                "B11": "8. No.  ",
+                "C11": "9. Family name, given names",
+                "D11": "10.Rank/rating",
+                "E11": "11.Nationality",
+                "G11": "12.Date of birth / Place of birth",
+                "J11": "(Passport)",
+                "K11": "YMD",
+                "B32": "12. Date and signature of Master, authorized agent or officer",
+                "G35": "MASTER"
+              }
+            }
+          ],
+          "drawingRules": [
+            {
+              "path": "xl/drawings/drawing1.xml",
+              "source": "passengers",
+              "nilAnchorIds": [
+                "3",
+                "4",
+                "7"
+              ],
+              "note": "旅客表 NIL 字样与两条斜线，有旅客时移除；公司标识与公约说明保留。"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "药品名单",
+          "filename": "8. Narcotics list -Oct-2026.xlsx",
+          "identify": [
+            {
+              "sheet": "Narcotics List",
+              "cell": "B4",
+              "contains": "Narcotics List"
+            }
+          ],
+          "sheets": [
+            {
+              "name": "Narcotics List",
+              "fields": [
+                {
+                  "cell": "B3",
+                  "key": "ship.name",
+                  "prefix": "   MV. "
+                },
+                {
+                  "cell": "D20",
+                  "key": "ship.master",
+                  "prefix": "Master:"
+                },
+                {
+                  "cell": "D21",
+                  "key": "$signatureDate",
+                  "prefix": "Date: "
+                }
+              ],
+              "table": {
+                "source": "medicines",
+                "rows": [
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17
+                ],
+                "columns": {
+                  "seq": "B",
+                  "name": "C",
+                  "quantity": "D",
+                  "expiry": "E",
+                  "mark": "F"
+                },
+                "clear": [
+                  "B6:F17"
+                ],
+                "nilCell": "C6"
+              },
+              "titlePage": "B4",
+              "expectedMerges": [
+                "B2:F2",
+                "B3:F3",
+                "B4:F4",
+                "C18:F18",
+                "D20:F20"
+              ],
+              "expectedDimension": "B1:G21",
+              "expectedLabels": {
+                "B5": "No.",
+                "C5": "Name",
+                "D5": "Quantity",
+                "E5": "Expired date",
+                "F5": "Mark / NIS #",
+                "C18": "Remark: All Narcotics are safely kept by Master."
+              }
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "title": "NIL 各项申报",
+          "filename": "9.Nil list.xlsx",
+          "identify": [
+            {
+              "sheet": "NIL LIST",
+              "cell": "B16",
+              "contains": "N I L"
+            }
+          ],
+          "sheets": [
+            {
+              "name": "NIL LIST",
+              "fields": [
+                {
+                  "cell": "E7",
+                  "key": "ship.name"
+                },
+                {
+                  "cell": "J7",
+                  "key": "ship.callSign"
+                },
+                {
+                  "cell": "E9",
+                  "key": "ship.registry"
+                },
+                {
+                  "cell": "J9",
+                  "key": "ship.imo"
+                },
+                {
+                  "cell": "E11",
+                  "key": "ship.flag"
+                },
+                {
+                  "cell": "F35",
+                  "key": "ship.master",
+                  "prefix": "CAPT."
+                },
+                {
+                  "cell": "H37",
+                  "key": "$signatureDate",
+                  "prefix": "Date: "
+                }
+              ],
+              "expectedMerges": [
+                "H37:J37",
+                "B5:F5",
+                "J7:K7",
+                "J9:K9",
+                "B35:D35",
+                "F35:K35",
+                "F36:K36",
+                "H11:K12",
+                "B16:K18"
+              ],
+              "expectedDimension": "B2:M40",
+              "expectedLabels": {
+                "B7": "NAME OF SHIP:",
+                "H7": "CALL  SIGN:    ",
+                "B9": "PORT OF REGISTRY:  ",
+                "H9": "IMO  NUMBER:",
+                "B11": "NATIONALITY:              ",
+                "B16": "N I L    L I S T",
+                "E22": "STOWAWAY/S",
+                "E23": "FIREARMS AND AMMUNITION      ",
+                "E24": "EXPLOSIVES",
+                "E25": "TOXIC WASTE",
+                "E26": "RADIO ACTIVE SUBSTANCE/S",
+                "E27": "ANIMALS",
+                "E28": "FLOATING CARGO",
+                "E29": "PASSENGERS",
+                "E30": "DANGEROUS GOODS",
+                "E31": "PARCEL",
+                "G32": "SIGNED :",
+                "F36": "MASTER"
+              },
+              "table": {
+                "source": "nilItems",
+                "rows": [
+                  22,
+                  23,
+                  24,
+                  25,
+                  26,
+                  27,
+                  28,
+                  29,
+                  30,
+                  31
+                ],
+                "columns": {
+                  "name": "E",
+                  "value": "K"
+                },
+                "clear": [
+                  "E22:K31"
+                ]
+              },
+              "titlePage": "B16"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "title": "船员疫苗有效日期",
+          "filename": "10.Vaccination list.xlsx",
+          "identify": [
+            {
+              "sheet": "Vaccination",
+              "cell": "B3",
+              "contains": "VACCINATION LIST"
+            }
+          ],
+          "sheets": [
+            {
+              "name": "Vaccination",
+              "fields": [
+                {
+                  "cell": "B6",
+                  "key": "ship.company"
+                },
+                {
+                  "cell": "B8",
+                  "key": "ship.name",
+                  "prefix": "MV  "
+                },
+                {
+                  "cell": "B10",
+                  "key": "ship.imo"
+                },
+                {
+                  "cell": "E34",
+                  "key": "ship.master",
+                  "prefix": "CAPT."
+                },
+                {
+                  "cell": "E36",
+                  "key": "$signatureDate",
+                  "prefix": "Date: "
+                }
+              ],
+              "table": {
+                "source": "vaccines",
+                "rows": [
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23,
+                  24,
+                  25,
+                  26,
+                  27,
+                  28,
+                  29,
+                  30,
+                  31,
+                  32
+                ],
+                "columns": {
+                  "seq": "B",
+                  "name": "C",
+                  "rank": "D",
+                  "nationality": "E",
+                  "cholera": "F",
+                  "yellowFever": "G"
+                },
+                "clear": [
+                  "B12:G32"
+                ],
+                "nilCell": null
+              },
+              "page": "G6",
+              "expectedMerges": [
+                "N20:O20",
+                "L28:M28",
+                "I20:J20",
+                "L20:M20",
+                "N19:O19",
+                "N28:O28",
+                "L19:M19",
+                "B3:G3",
+                "E34:G34",
+                "E35:G35",
+                "E36:F36",
+                "I19:J19",
+                "B10:E10",
+                "F9:F10",
+                "B9:E9",
+                "B4:G4",
+                "F7:F8",
+                "G7:G8",
+                "G9:G10",
+                "B7:E7",
+                "B5:F5",
+                "B6:E6",
+                "B8:E8"
+              ],
+              "expectedDimension": "B1:Q40",
+              "expectedLabels": {
+                "B3": "VACCINATION LIST",
+                "B5": "(Name of Shipping Line, Agent, etc)",
+                "G5": "Page No.",
+                "B7": "1.Name of ship",
+                "F7": "Cholera",
+                "G7": "Yellow fever",
+                "B9": "2.IMO No.",
+                "F9": "Vaccination",
+                "G9": "Vaccination",
+                "B11": "5. No.  ",
+                "C11": "6.Family name, given names",
+                "D11": "7.Rank/rating",
+                "E11": "8.Nationality",
+                "F11": "Valid Date\n(dd/mm/yyyy)",
+                "G11": "Valid Date\n(dd/mm/yyyy)",
+                "E35": "MASTER"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

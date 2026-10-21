@@ -1,0 +1,7167 @@
+{
+  "version": 2,
+  "asOf": "2026-10-17",
+  "sourceTitle": "Höegh Autoliners 官方港口代理资料（含区域代理覆盖及历史港口）",
+  "sourceUrl": "https://autoliners2.hoegh.com/web/basic/hal_commoncontacts.nsf/AgentPDF/AgentPDF/$File/Agent.pdf?openElement=",
+  "scheduleUrl": "https://www.hoeghautoliners.com/sailing-schedule",
+  "note": "离线参考库；包含区域代理覆盖和历史港口，不代表每港当前有直航，也不代表本船本次挂靠。请按本次资料选择；未列港口可自定义。",
+  "ports": [
+    {
+      "id": "h-alger-algeria",
+      "name": "Alger",
+      "country": "Algeria",
+      "countryZh": "阿尔及利亚",
+      "aliases": "阿尔及尔  Alger (Algiers)",
+      "pages": [
+        1
+      ],
+      "nameZh": "阿尔及尔",
+      "countryCode": "DZ",
+      "locode": "DZALG",
+      "locodeNote": "",
+      "locodeName": "Alger (Algiers)",
+      "locodeStatus": "AI",
+      "locodeFunction": "123456--",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-djen-djen-algeria",
+      "name": "Djen-Djen",
+      "country": "Algeria",
+      "countryZh": "阿尔及利亚",
+      "aliases": "杰恩杰恩  Djen-Djen",
+      "pages": [
+        1
+      ],
+      "nameZh": "杰恩杰恩",
+      "countryCode": "DZ",
+      "locode": "DZDJE",
+      "locodeNote": "",
+      "locodeName": "Djen-Djen",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-mostaganem-algeria",
+      "name": "Mostaganem",
+      "country": "Algeria",
+      "countryZh": "阿尔及利亚",
+      "aliases": "莫斯塔加奈姆  Mostaganem",
+      "pages": [
+        1
+      ],
+      "nameZh": "莫斯塔加奈姆",
+      "countryCode": "DZ",
+      "locode": "DZMOS",
+      "locodeNote": "",
+      "locodeName": "Mostaganem",
+      "locodeStatus": "QQ",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-luanda-angola",
+      "name": "Luanda",
+      "country": "Angola",
+      "countryZh": "安哥拉",
+      "aliases": "罗安达  Luanda",
+      "pages": [
+        1
+      ],
+      "nameZh": "罗安达",
+      "countryCode": "AO",
+      "locode": "AOLAD",
+      "locodeNote": "",
+      "locodeName": "Luanda",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-st-john-s-ant-antigua-and-barbuda",
+      "name": "St John's (Ant)",
+      "country": "Antigua and Barbuda",
+      "countryZh": "安提瓜和巴布达",
+      "aliases": "圣约翰（安提瓜）  Saint John's",
+      "pages": [
+        51
+      ],
+      "nameZh": "圣约翰（安提瓜）",
+      "countryCode": "AG",
+      "locode": "AGSJO",
+      "locodeNote": "",
+      "locodeName": "Saint John's",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-oranjestad-aruba",
+      "name": "Oranjestad",
+      "country": "Aruba",
+      "countryZh": "阿鲁巴",
+      "aliases": "奥拉涅斯塔德  Oranjestad",
+      "pages": [
+        1
+      ],
+      "nameZh": "奥拉涅斯塔德",
+      "countryCode": "AW",
+      "locode": "AWORJ",
+      "locodeNote": "",
+      "locodeName": "Oranjestad",
+      "locodeStatus": "AI",
+      "locodeFunction": "1---5---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-adelaide-australia",
+      "name": "Adelaide",
+      "country": "Australia",
+      "countryZh": "澳大利亚",
+      "aliases": "阿德莱德 Adelaide",
+      "pages": [
+        3
+      ],
+      "nameZh": "阿德莱德",
+      "countryCode": "AU",
+      "locode": "AUADL",
+      "locodeNote": "",
+      "locodeName": "Adelaide",
+      "locodeStatus": "AC",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-bell-bay-australia",
+      "name": "Bell Bay",
+      "country": "Australia",
+      "countryZh": "澳大利亚",
+      "aliases": "贝尔湾 Bell Bay",
+      "pages": [
+        3
+      ],
+      "nameZh": "贝尔湾",
+      "countryCode": "AU",
+      "locode": "AUBEL",
+      "locodeNote": "",
+      "locodeName": "Bell Bay",
+      "locodeStatus": "AC",
+      "locodeFunction": "123-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-brisbane-australia",
+      "name": "Brisbane",
+      "country": "Australia",
+      "countryZh": "澳大利亚",
+      "aliases": "布里斯班 Brisbane",
+      "pages": [
+        2,
+        3
+      ],
+      "nameZh": "布里斯班",
+      "countryCode": "AU",
+      "locode": "AUBNE",
+      "locodeNote": "",
+      "locodeName": "Brisbane",
+      "locodeStatus": "AC",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-fremantle-australia",
+      "name": "Fremantle",
+      "country": "Australia",
+      "countryZh": "澳大利亚",
+      "aliases": "弗里曼特尔 Fremantle",
+      "pages": [
+        2,
+        3
+      ],
+      "nameZh": "弗里曼特尔",
+      "countryCode": "AU",
+      "locode": "AUFRE",
+      "locodeNote": "",
+      "locodeName": "Fremantle",
+      "locodeStatus": "AC",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-mackay-australia",
+      "name": "Mackay",
+      "country": "Australia",
+      "countryZh": "澳大利亚",
+      "aliases": "麦凯 Mackay",
+      "pages": [
+        2,
+        3
+      ],
+      "nameZh": "麦凯",
+      "countryCode": "AU",
+      "locode": "AUMKY",
+      "locodeNote": "",
+      "locodeName": "Mackay",
+      "locodeStatus": "AC",
+      "locodeFunction": "1-34----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-melbourne-australia",
+      "name": "Melbourne",
+      "country": "Australia",
+      "countryZh": "澳大利亚",
+      "aliases": "墨尔本 Melbourne",
+      "pages": [
+        3
+      ],
+      "nameZh": "墨尔本",
+      "countryCode": "AU",
+      "locode": "AUMEL",
+      "locodeNote": "",
+      "locodeName": "Melbourne",
+      "locodeStatus": "AC",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-newcastle-aus-australia",
+      "name": "Newcastle (Aus)",
+      "country": "Australia",
+      "countryZh": "澳大利亚",
+      "aliases": "纽卡斯尔（澳大利亚） 纽卡斯尔 澳大利亚 Newcastle",
+      "pages": [
+        2,
+        3
+      ],
+      "nameZh": "纽卡斯尔（澳大利亚）",
+      "countryCode": "AU",
+      "locode": "AUNTL",
+      "locodeNote": "",
+      "locodeName": "Newcastle",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-port-kembla-australia",
+      "name": "Port Kembla",
+      "country": "Australia",
+      "countryZh": "澳大利亚",
+      "aliases": "肯布拉港 Port Kembla",
+      "pages": [
+        2,
+        3
+      ],
+      "nameZh": "肯布拉港",
+      "countryCode": "AU",
+      "locode": "AUPKL",
+      "locodeNote": "",
+      "locodeName": "Port Kembla",
+      "locodeStatus": "AC",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-freeport-bahamas",
+      "name": "Freeport",
+      "country": "Bahamas",
+      "countryZh": "巴哈马",
+      "aliases": "弗里波特（巴哈马）  Freeport, Grand Bahama",
+      "pages": [
+        3
+      ],
+      "nameZh": "弗里波特（巴哈马）",
+      "countryCode": "BS",
+      "locode": "BSFPO",
+      "locodeNote": "",
+      "locodeName": "Freeport, Grand Bahama",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-nassau-bahamas",
+      "name": "Nassau",
+      "country": "Bahamas",
+      "countryZh": "巴哈马",
+      "aliases": "拿骚  Nassau",
+      "pages": [
+        3
+      ],
+      "nameZh": "拿骚",
+      "countryCode": "BS",
+      "locode": "BSNAS",
+      "locodeNote": "",
+      "locodeName": "Nassau",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-bahrain-bahrain",
+      "name": "Bahrain",
+      "country": "Bahrain",
+      "countryZh": "巴林",
+      "aliases": "巴林",
+      "pages": [
+        4
+      ],
+      "nameZh": "巴林",
+      "countryCode": "BH",
+      "locode": "",
+      "locodeNote": "原参考名称为国家／地区名称，未指明码头，请核对具体港口后自定义。",
+      "locodeCandidates": [
+        {
+          "code": "BHGBQ",
+          "name": "Al Muharraq",
+          "subdivision": "15",
+          "function": "1-------",
+          "status": "AA"
+        },
+        {
+          "code": "BHAHD",
+          "name": "Al Hidd",
+          "subdivision": "15",
+          "function": "1-3--67-",
+          "status": "AA"
+        }
+      ]
+    },
+    {
+      "id": "h-chittagong-bangladesh",
+      "name": "Chittagong",
+      "country": "Bangladesh",
+      "countryZh": "孟加拉国",
+      "aliases": "吉大港  Chattogram",
+      "pages": [
+        4
+      ],
+      "nameZh": "吉大港",
+      "countryCode": "BD",
+      "locode": "BDCGP",
+      "locodeNote": "",
+      "locodeName": "Chattogram",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-bridgetown-barbados",
+      "name": "Bridgetown",
+      "country": "Barbados",
+      "countryZh": "巴巴多斯",
+      "aliases": "布里奇敦  Bridgetown",
+      "pages": [
+        5
+      ],
+      "nameZh": "布里奇敦",
+      "countryCode": "BB",
+      "locode": "BBBGI",
+      "locodeNote": "",
+      "locodeName": "Bridgetown",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-antwerp-belgium",
+      "name": "Antwerp",
+      "country": "Belgium",
+      "countryZh": "比利时",
+      "aliases": "安特卫普 Antwerpen",
+      "pages": [
+        5
+      ],
+      "nameZh": "安特卫普",
+      "countryCode": "BE",
+      "locode": "BEANR",
+      "locodeNote": "",
+      "locodeName": "Antwerpen",
+      "locodeStatus": "AI",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-zeebrugge-belgium",
+      "name": "Zeebrugge",
+      "country": "Belgium",
+      "countryZh": "比利时",
+      "aliases": "泽布吕赫 Zeebrugge",
+      "pages": [
+        5
+      ],
+      "nameZh": "泽布吕赫",
+      "countryCode": "BE",
+      "locode": "BEZEE",
+      "locodeNote": "",
+      "locodeName": "Zeebrugge",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-3-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-cotonou-benin",
+      "name": "Cotonou",
+      "country": "Benin",
+      "countryZh": "贝宁",
+      "aliases": "科托努  Cotonou",
+      "pages": [
+        5
+      ],
+      "nameZh": "科托努",
+      "countryCode": "BJ",
+      "locode": "BJCOO",
+      "locodeNote": "",
+      "locodeName": "Cotonou",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-curitiba-brazil",
+      "name": "Curitiba",
+      "country": "Brazil",
+      "countryZh": "巴西",
+      "aliases": "库里蒂巴  Curitiba",
+      "pages": [
+        6
+      ],
+      "nameZh": "库里蒂巴",
+      "countryCode": "BR",
+      "locode": "BRCWB",
+      "locodeNote": "",
+      "locodeName": "Curitiba",
+      "locodeStatus": "AA",
+      "locodeFunction": "--3456--",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-paranagua-brazil",
+      "name": "Paranagua",
+      "country": "Brazil",
+      "countryZh": "巴西",
+      "aliases": "巴拉那瓜  Paranaguá",
+      "pages": [
+        6
+      ],
+      "nameZh": "巴拉那瓜",
+      "countryCode": "BR",
+      "locode": "BRPNG",
+      "locodeNote": "",
+      "locodeName": "Paranaguá",
+      "locodeStatus": "AA",
+      "locodeFunction": "1234-6--",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-rio-grande-brazil",
+      "name": "Rio Grande",
+      "country": "Brazil",
+      "countryZh": "巴西",
+      "aliases": "里奥格兰德  Rio Grande",
+      "pages": [
+        6
+      ],
+      "nameZh": "里奥格兰德",
+      "countryCode": "BR",
+      "locode": "BRRIG",
+      "locodeNote": "",
+      "locodeName": "Rio Grande",
+      "locodeStatus": "AA",
+      "locodeFunction": "1234-6--",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-rio-de-janeiro-brazil",
+      "name": "Rio de Janeiro",
+      "country": "Brazil",
+      "countryZh": "巴西",
+      "aliases": "里约热内卢  Rio de Janeiro",
+      "pages": [
+        6
+      ],
+      "nameZh": "里约热内卢",
+      "countryCode": "BR",
+      "locode": "BRRIO",
+      "locodeNote": "",
+      "locodeName": "Rio de Janeiro",
+      "locodeStatus": "AA",
+      "locodeFunction": "1234567-",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-santos-brazil",
+      "name": "Santos",
+      "country": "Brazil",
+      "countryZh": "巴西",
+      "aliases": "桑托斯  Santos",
+      "pages": [
+        6
+      ],
+      "nameZh": "桑托斯",
+      "countryCode": "BR",
+      "locode": "BRSSZ",
+      "locodeNote": "",
+      "locodeName": "Santos",
+      "locodeStatus": "AA",
+      "locodeFunction": "123--6--",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-vitoria-brazil",
+      "name": "Vitoria",
+      "country": "Brazil",
+      "countryZh": "巴西",
+      "aliases": "维多利亚（巴西）  Vitória",
+      "pages": [
+        6
+      ],
+      "nameZh": "维多利亚（巴西）",
+      "countryCode": "BR",
+      "locode": "BRVIX",
+      "locodeNote": "",
+      "locodeName": "Vitória",
+      "locodeStatus": "AA",
+      "locodeFunction": "1234-6--",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-douala-cameroon",
+      "name": "Douala",
+      "country": "Cameroon",
+      "countryZh": "喀麦隆",
+      "aliases": "杜阿拉  Douala",
+      "pages": [
+        6
+      ],
+      "nameZh": "杜阿拉",
+      "countryCode": "CM",
+      "locode": "CMDLA",
+      "locodeNote": "",
+      "locodeName": "Douala",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-halifax-canada",
+      "name": "Halifax",
+      "country": "Canada",
+      "countryZh": "加拿大",
+      "aliases": "哈利法克斯  Halifax",
+      "pages": [
+        7
+      ],
+      "nameZh": "哈利法克斯",
+      "countryCode": "CA",
+      "locode": "CAHAL",
+      "locodeNote": "",
+      "locodeName": "Halifax",
+      "locodeStatus": "AS",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-georgetown-gr-caym-cayman-islands",
+      "name": "Georgetown (Gr.Caym)",
+      "country": "Cayman Islands",
+      "countryZh": "开曼群岛",
+      "aliases": "乔治敦（大开曼）  Georgetown, Grand Cayman",
+      "pages": [
+        7
+      ],
+      "nameZh": "乔治敦（大开曼）",
+      "countryCode": "KY",
+      "locode": "KYGEC",
+      "locodeNote": "",
+      "locodeName": "Georgetown, Grand Cayman",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-34----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-iquique-chile",
+      "name": "Iquique",
+      "country": "Chile",
+      "countryZh": "智利",
+      "aliases": "伊基克  Iquique",
+      "pages": [
+        7
+      ],
+      "nameZh": "伊基克",
+      "countryCode": "CL",
+      "locode": "CLIQQ",
+      "locodeNote": "",
+      "locodeName": "Iquique",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-san-antonio-chile",
+      "name": "San Antonio",
+      "country": "Chile",
+      "countryZh": "智利",
+      "aliases": "圣安东尼奥（智利）  San Antonio",
+      "pages": [
+        7
+      ],
+      "nameZh": "圣安东尼奥（智利）",
+      "countryCode": "CL",
+      "locode": "CLSAI",
+      "locodeNote": "",
+      "locodeName": "San Antonio",
+      "locodeStatus": "AI",
+      "locodeFunction": "123-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-guangzhou-china",
+      "name": "Guangzhou",
+      "country": "China",
+      "countryZh": "中国",
+      "aliases": "广州 Guangzhou",
+      "pages": [
+        9
+      ],
+      "nameZh": "广州",
+      "countryCode": "CN",
+      "locode": "CNGGZ",
+      "locodeNote": "",
+      "locodeName": "Guangzhou",
+      "locodeStatus": "AS",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-lian-yun-gang-china",
+      "name": "Lian Yun Gang",
+      "country": "China",
+      "countryZh": "中国",
+      "aliases": "连云港 Lianyungang",
+      "pages": [
+        8
+      ],
+      "nameZh": "连云港",
+      "countryCode": "CN",
+      "locode": "CNLYG",
+      "locodeNote": "",
+      "locodeName": "Lianyungang",
+      "locodeStatus": "AS",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-ningbo-china",
+      "name": "Ningbo",
+      "country": "China",
+      "countryZh": "中国",
+      "aliases": "宁波 Ningbo",
+      "pages": [
+        9
+      ],
+      "nameZh": "宁波",
+      "countryCode": "CN",
+      "locode": "CNNBO",
+      "locodeNote": "",
+      "locodeName": "Ningbo",
+      "locodeStatus": "AS",
+      "locodeFunction": "12-4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-qingdao-china",
+      "name": "Qingdao",
+      "country": "China",
+      "countryZh": "中国",
+      "aliases": "青岛 Qingdao",
+      "pages": [
+        8
+      ],
+      "nameZh": "青岛",
+      "countryCode": "CN",
+      "locode": "CNQIN",
+      "locodeNote": "",
+      "locodeName": "Qingdao",
+      "locodeStatus": "AS",
+      "locodeFunction": "12-45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-shanghai-china",
+      "name": "Shanghai",
+      "country": "China",
+      "countryZh": "中国",
+      "aliases": "上海 Shanghai",
+      "pages": [
+        8
+      ],
+      "nameZh": "上海",
+      "countryCode": "CN",
+      "locode": "CNSGH",
+      "locodeNote": "",
+      "locodeName": "Shanghai",
+      "locodeStatus": "AS",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-taicang-china",
+      "name": "Taicang",
+      "country": "China",
+      "countryZh": "中国",
+      "aliases": "太仓 Taicang Pt",
+      "pages": [
+        9
+      ],
+      "nameZh": "太仓",
+      "countryCode": "CN",
+      "locode": "CNTAC",
+      "locodeNote": "",
+      "locodeName": "Taicang Pt",
+      "locodeStatus": "AS",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-tianjinxingang-china",
+      "name": "Tianjinxingang",
+      "country": "China",
+      "countryZh": "中国",
+      "aliases": "天津新港 Tianjin Xingang Pt",
+      "pages": [
+        10
+      ],
+      "nameZh": "天津新港",
+      "countryCode": "CN",
+      "locode": "CNTXG",
+      "locodeNote": "",
+      "locodeName": "Tianjin Xingang Pt",
+      "locodeStatus": "AS",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-xiaomo-china",
+      "name": "Xiaomo",
+      "country": "China",
+      "countryZh": "中国",
+      "aliases": "小漠",
+      "pages": [
+        10
+      ],
+      "nameZh": "小漠",
+      "countryCode": "CN",
+      "locode": "",
+      "locodeNote": "UNECE 2025-1 未找到小漠的唯一同名记录；不以厦门、深圳或其他港口代码代替。",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-buenaventura-colombia",
+      "name": "Buenaventura",
+      "country": "Colombia",
+      "countryZh": "哥伦比亚",
+      "aliases": "布埃纳文图拉  Buenaventura",
+      "pages": [
+        10
+      ],
+      "nameZh": "布埃纳文图拉",
+      "countryCode": "CO",
+      "locode": "COBUN",
+      "locodeNote": "",
+      "locodeName": "Buenaventura",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-cartagena-colombia-colombia",
+      "name": "Cartagena (Colombia)",
+      "country": "Colombia",
+      "countryZh": "哥伦比亚",
+      "aliases": "卡塔赫纳（哥伦比亚）  Cartagena",
+      "pages": [
+        10
+      ],
+      "nameZh": "卡塔赫纳（哥伦比亚）",
+      "countryCode": "CO",
+      "locode": "COCTG",
+      "locodeNote": "",
+      "locodeName": "Cartagena",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-santa-marta-colombia",
+      "name": "Santa Marta",
+      "country": "Colombia",
+      "countryZh": "哥伦比亚",
+      "aliases": "圣玛尔塔  Santa Marta",
+      "pages": [
+        11
+      ],
+      "nameZh": "圣玛尔塔",
+      "countryCode": "CO",
+      "locode": "COSMR",
+      "locodeNote": "",
+      "locodeName": "Santa Marta",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-pointe-noire-congo",
+      "name": "Pointe Noire",
+      "country": "Congo",
+      "countryZh": "刚果（布）",
+      "aliases": "黑角  Pointe Noire",
+      "pages": [
+        11
+      ],
+      "nameZh": "黑角",
+      "countryCode": "CG",
+      "locode": "CGPNR",
+      "locodeNote": "",
+      "locodeName": "Pointe Noire",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-caldera-costa-rica",
+      "name": "Caldera",
+      "country": "Costa Rica",
+      "countryZh": "哥斯达黎加",
+      "aliases": "卡尔德拉（哥斯达黎加）  Caldera",
+      "pages": [
+        12
+      ],
+      "nameZh": "卡尔德拉（哥斯达黎加）",
+      "countryCode": "CR",
+      "locode": "CRCAL",
+      "locodeNote": "",
+      "locodeName": "Caldera",
+      "locodeStatus": "RL",
+      "locodeFunction": "123-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-habana-cuba",
+      "name": "Habana",
+      "country": "Cuba",
+      "countryZh": "古巴",
+      "aliases": "哈瓦那  La Habana",
+      "pages": [
+        12
+      ],
+      "nameZh": "哈瓦那",
+      "countryCode": "CU",
+      "locode": "CUHAV",
+      "locodeNote": "",
+      "locodeName": "La Habana",
+      "locodeStatus": "AI",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-willemstad-curacao",
+      "name": "Willemstad",
+      "country": "Curacao",
+      "countryZh": "库拉索",
+      "aliases": "威廉斯塔德  Willemstad",
+      "pages": [
+        13
+      ],
+      "nameZh": "威廉斯塔德",
+      "countryCode": "CW",
+      "locode": "CWWIL",
+      "locodeNote": "",
+      "locodeName": "Willemstad",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-larnaca-cyprus",
+      "name": "Larnaca",
+      "country": "Cyprus",
+      "countryZh": "塞浦路斯",
+      "aliases": "拉纳卡  Larnaca",
+      "pages": [
+        13,
+        14
+      ],
+      "nameZh": "拉纳卡",
+      "countryCode": "CY",
+      "locode": "CYLCA",
+      "locodeNote": "",
+      "locodeName": "Larnaca",
+      "locodeStatus": "AA",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-limassol-cyprus",
+      "name": "Limassol",
+      "country": "Cyprus",
+      "countryZh": "塞浦路斯",
+      "aliases": "利马索尔  Limassol",
+      "pages": [
+        13
+      ],
+      "nameZh": "利马索尔",
+      "countryCode": "CY",
+      "locode": "CYLMS",
+      "locodeNote": "",
+      "locodeName": "Limassol",
+      "locodeStatus": "AA",
+      "locodeFunction": "1-3-5---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-abidjan-cote-d-ivoire",
+      "name": "Abidjan",
+      "country": "Côte D'Ivoire",
+      "countryZh": "科特迪瓦",
+      "aliases": "阿比让  Abidjan",
+      "pages": [
+        12
+      ],
+      "nameZh": "阿比让",
+      "countryCode": "CI",
+      "locode": "CIABJ",
+      "locodeNote": "",
+      "locodeName": "Abidjan",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-copenhagen-denmark",
+      "name": "Copenhagen",
+      "country": "Denmark",
+      "countryZh": "丹麦",
+      "aliases": "哥本哈根  København",
+      "pages": [
+        14
+      ],
+      "nameZh": "哥本哈根",
+      "countryCode": "DK",
+      "locode": "DKCPH",
+      "locodeNote": "",
+      "locodeName": "København",
+      "locodeStatus": "AF",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-esbjerg-denmark",
+      "name": "Esbjerg",
+      "country": "Denmark",
+      "countryZh": "丹麦",
+      "aliases": "埃斯比约  Esbjerg",
+      "pages": [
+        14
+      ],
+      "nameZh": "埃斯比约",
+      "countryCode": "DK",
+      "locode": "DKEBJ",
+      "locodeNote": "",
+      "locodeName": "Esbjerg",
+      "locodeStatus": "AF",
+      "locodeFunction": "1234----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-djibouti-djibouti",
+      "name": "Djibouti",
+      "country": "Djibouti",
+      "countryZh": "吉布提",
+      "aliases": "吉布提",
+      "pages": [
+        14
+      ],
+      "nameZh": "吉布提",
+      "countryCode": "DJ",
+      "locode": "",
+      "locodeNote": "官方清单同时列有 DJJIB 和 DJPOD，请按实际港区／代理资料确认。",
+      "locodeCandidates": [
+        {
+          "code": "DJJIB",
+          "name": "Djibouti",
+          "subdivision": "",
+          "function": "1--45---",
+          "status": "AI"
+        },
+        {
+          "code": "DJPOD",
+          "name": "Djibouti",
+          "subdivision": "DJ",
+          "function": "123-----",
+          "status": "RL"
+        }
+      ]
+    },
+    {
+      "id": "h-roseau-dominica",
+      "name": "Roseau",
+      "country": "Dominica",
+      "countryZh": "多米尼克",
+      "aliases": "罗索  Roseau",
+      "pages": [
+        15
+      ],
+      "nameZh": "罗索",
+      "countryCode": "DM",
+      "locode": "DMRSU",
+      "locodeNote": "",
+      "locodeName": "Roseau",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-rio-haina-dominican-republic",
+      "name": "Rio Haina",
+      "country": "Dominican Republic",
+      "countryZh": "多米尼加共和国",
+      "aliases": "里奥海纳  Rio Haina",
+      "pages": [
+        15
+      ],
+      "nameZh": "里奥海纳",
+      "countryCode": "DO",
+      "locode": "DOHAI",
+      "locodeNote": "",
+      "locodeName": "Rio Haina",
+      "locodeStatus": "QQ",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-santo-domingo-dominican-republic",
+      "name": "Santo Domingo",
+      "country": "Dominican Republic",
+      "countryZh": "多米尼加共和国",
+      "aliases": "圣多明各  Santo Domingo",
+      "pages": [
+        15
+      ],
+      "nameZh": "圣多明各",
+      "countryCode": "DO",
+      "locode": "DOSDQ",
+      "locodeNote": "",
+      "locodeName": "Santo Domingo",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-esmeraldas-ecuador",
+      "name": "Esmeraldas",
+      "country": "Ecuador",
+      "countryZh": "厄瓜多尔",
+      "aliases": "埃斯梅拉达斯  Esmeraldas",
+      "pages": [
+        15
+      ],
+      "nameZh": "埃斯梅拉达斯",
+      "countryCode": "EC",
+      "locode": "ECESM",
+      "locodeNote": "",
+      "locodeName": "Esmeraldas",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-guayaquil-ecuador",
+      "name": "Guayaquil",
+      "country": "Ecuador",
+      "countryZh": "厄瓜多尔",
+      "aliases": "瓜亚基尔  Guayaquil",
+      "pages": [
+        15
+      ],
+      "nameZh": "瓜亚基尔",
+      "countryCode": "EC",
+      "locode": "ECGYE",
+      "locodeNote": "",
+      "locodeName": "Guayaquil",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-alexandria-egypt",
+      "name": "Alexandria",
+      "country": "Egypt",
+      "countryZh": "埃及",
+      "aliases": "亚历山大  El Iskandariya (Alexandria)",
+      "pages": [
+        16
+      ],
+      "nameZh": "亚历山大",
+      "countryCode": "EG",
+      "locode": "EGALY",
+      "locodeNote": "",
+      "locodeName": "El Iskandariya (Alexandria)",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-suez-egypt",
+      "name": "Suez",
+      "country": "Egypt",
+      "countryZh": "埃及",
+      "aliases": "苏伊士  As Suways (Suez)",
+      "pages": [
+        16
+      ],
+      "nameZh": "苏伊士",
+      "countryCode": "EG",
+      "locode": "EGSUZ",
+      "locodeNote": "",
+      "locodeName": "As Suways (Suez)",
+      "locodeStatus": "RL",
+      "locodeFunction": "1-3-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-suez-canal-egypt",
+      "name": "Suez Canal",
+      "country": "Egypt",
+      "countryZh": "埃及",
+      "aliases": "苏伊士运河 Suez Canal",
+      "pages": [
+        16
+      ],
+      "nameZh": "苏伊士运河",
+      "countryCode": "EG",
+      "locode": "EGSCN",
+      "locodeNote": "",
+      "locodeName": "Suez Canal",
+      "locodeStatus": "AA",
+      "locodeFunction": "-----6--",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-acajutla-el-salvador",
+      "name": "Acajutla",
+      "country": "El Salvador",
+      "countryZh": "萨尔瓦多",
+      "aliases": "阿卡胡特拉  Acajutla",
+      "pages": [
+        17
+      ],
+      "nameZh": "阿卡胡特拉",
+      "countryCode": "SV",
+      "locode": "SVAQJ",
+      "locodeNote": "",
+      "locodeName": "Acajutla",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-3-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-hanko-finland",
+      "name": "Hanko",
+      "country": "Finland",
+      "countryZh": "芬兰",
+      "aliases": "汉科  Hanko (Hangö)",
+      "pages": [
+        17
+      ],
+      "nameZh": "汉科",
+      "countryCode": "FI",
+      "locode": "FIHKO",
+      "locodeNote": "",
+      "locodeName": "Hanko (Hangö)",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-helsinki-finland",
+      "name": "Helsinki",
+      "country": "Finland",
+      "countryZh": "芬兰",
+      "aliases": "赫尔辛基  Helsinki",
+      "pages": [
+        17
+      ],
+      "nameZh": "赫尔辛基",
+      "countryCode": "FI",
+      "locode": "FIHEL",
+      "locodeNote": "",
+      "locodeName": "Helsinki",
+      "locodeStatus": "AS",
+      "locodeFunction": "1-345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-kotka-finland",
+      "name": "Kotka",
+      "country": "Finland",
+      "countryZh": "芬兰",
+      "aliases": "科特卡  Kotka",
+      "pages": [
+        17
+      ],
+      "nameZh": "科特卡",
+      "countryCode": "FI",
+      "locode": "FIKTK",
+      "locodeNote": "",
+      "locodeName": "Kotka",
+      "locodeStatus": "AC",
+      "locodeFunction": "123----B",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-turku-finland",
+      "name": "Turku",
+      "country": "Finland",
+      "countryZh": "芬兰",
+      "aliases": "图尔库  Åbo (Turku)",
+      "pages": [
+        17
+      ],
+      "nameZh": "图尔库",
+      "countryCode": "FI",
+      "locode": "FITKU",
+      "locodeNote": "",
+      "locodeName": "Åbo (Turku)",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-34----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-le-havre-france",
+      "name": "Le Havre",
+      "country": "France",
+      "countryZh": "法国",
+      "aliases": "勒阿弗尔 Le Havre",
+      "pages": [
+        17,
+        60
+      ],
+      "nameZh": "勒阿弗尔",
+      "countryCode": "FR",
+      "locode": "FRLEH",
+      "locodeNote": "",
+      "locodeName": "Le Havre",
+      "locodeStatus": "AF",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-sete-france",
+      "name": "Sete",
+      "country": "France",
+      "countryZh": "法国",
+      "aliases": "塞特  Sète",
+      "pages": [
+        18
+      ],
+      "nameZh": "塞特",
+      "countryCode": "FR",
+      "locode": "FRSET",
+      "locodeNote": "",
+      "locodeName": "Sète",
+      "locodeStatus": "AF",
+      "locodeFunction": "123-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-degrad-des-cannes-french-guiana",
+      "name": "Degrad des Cannes",
+      "country": "French Guiana",
+      "countryZh": "法属圭亚那",
+      "aliases": "德格拉德卡讷  Dégrad des Cannes",
+      "pages": [
+        18
+      ],
+      "nameZh": "德格拉德卡讷",
+      "countryCode": "GF",
+      "locode": "GFDDC",
+      "locodeNote": "",
+      "locodeName": "Dégrad des Cannes",
+      "locodeStatus": "RL",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-libreville-gabon",
+      "name": "Libreville",
+      "country": "Gabon",
+      "countryZh": "加蓬",
+      "aliases": "利伯维尔  Libreville",
+      "pages": [
+        18
+      ],
+      "nameZh": "利伯维尔",
+      "countryCode": "GA",
+      "locode": "GALBV",
+      "locodeNote": "",
+      "locodeName": "Libreville",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-batumi-georgia",
+      "name": "Batumi",
+      "country": "Georgia",
+      "countryZh": "格鲁吉亚",
+      "aliases": "巴统  Batumi",
+      "pages": [
+        19
+      ],
+      "nameZh": "巴统",
+      "countryCode": "GE",
+      "locode": "GEBUS",
+      "locodeNote": "",
+      "locodeName": "Batumi",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-poti-georgia",
+      "name": "Poti",
+      "country": "Georgia",
+      "countryZh": "格鲁吉亚",
+      "aliases": "波季  Poti",
+      "pages": [
+        19
+      ],
+      "nameZh": "波季",
+      "countryCode": "GE",
+      "locode": "GEPTI",
+      "locodeNote": "",
+      "locodeName": "Poti",
+      "locodeStatus": "QQ",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-bremerhaven-germany",
+      "name": "Bremerhaven",
+      "country": "Germany",
+      "countryZh": "德国",
+      "aliases": "不来梅哈芬 Bremerhaven",
+      "pages": [
+        19
+      ],
+      "nameZh": "不来梅哈芬",
+      "countryCode": "DE",
+      "locode": "DEBRV",
+      "locodeNote": "",
+      "locodeName": "Bremerhaven",
+      "locodeStatus": "AF",
+      "locodeFunction": "1234----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-emden-germany",
+      "name": "Emden",
+      "country": "Germany",
+      "countryZh": "德国",
+      "aliases": "埃姆登  Emden",
+      "pages": [
+        20
+      ],
+      "nameZh": "埃姆登",
+      "countryCode": "DE",
+      "locode": "DEEME",
+      "locodeNote": "",
+      "locodeName": "Emden",
+      "locodeStatus": "AF",
+      "locodeFunction": "1234----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-hamburg-germany",
+      "name": "Hamburg",
+      "country": "Germany",
+      "countryZh": "德国",
+      "aliases": "汉堡 Hamburg",
+      "pages": [
+        20
+      ],
+      "nameZh": "汉堡",
+      "countryCode": "DE",
+      "locode": "DEHAM",
+      "locodeNote": "",
+      "locodeName": "Hamburg",
+      "locodeStatus": "AF",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-kiel-kieler-kanal-germany",
+      "name": "Kiel / Kieler Kanal",
+      "country": "Germany",
+      "countryZh": "德国",
+      "aliases": "基尔／基尔运河",
+      "pages": [
+        19
+      ],
+      "nameZh": "基尔／基尔运河",
+      "countryCode": "DE",
+      "locode": "",
+      "locodeNote": "原参考名称同时包含基尔港和基尔运河，请自定义明确地点后填写代码。",
+      "locodeCandidates": [
+        {
+          "code": "DEKEL",
+          "name": "Kiel",
+          "subdivision": "SH",
+          "function": "1234----",
+          "status": "AF"
+        },
+        {
+          "code": "DECKL",
+          "name": "Kiel Canal",
+          "subdivision": "SH",
+          "function": "1----6--",
+          "status": "RL"
+        }
+      ]
+    },
+    {
+      "id": "h-takoradi-ghana",
+      "name": "Takoradi",
+      "country": "Ghana",
+      "countryZh": "加纳",
+      "aliases": "塔科拉迪  Takoradi",
+      "pages": [
+        21
+      ],
+      "nameZh": "塔科拉迪",
+      "countryCode": "GH",
+      "locode": "GHTKD",
+      "locodeNote": "",
+      "locodeName": "Takoradi",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-tema-ghana",
+      "name": "Tema",
+      "country": "Ghana",
+      "countryZh": "加纳",
+      "aliases": "特马  Tema",
+      "pages": [
+        21
+      ],
+      "nameZh": "特马",
+      "countryCode": "GH",
+      "locode": "GHTEM",
+      "locodeNote": "",
+      "locodeName": "Tema",
+      "locodeStatus": "QQ",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-gibraltar-gibraltar",
+      "name": "Gibraltar",
+      "country": "Gibraltar",
+      "countryZh": "直布罗陀",
+      "aliases": "直布罗陀  Gibraltar",
+      "pages": [
+        21
+      ],
+      "nameZh": "直布罗陀",
+      "countryCode": "GI",
+      "locode": "GIGIB",
+      "locodeNote": "",
+      "locodeName": "Gibraltar",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-piraeus-greece",
+      "name": "Piraeus",
+      "country": "Greece",
+      "countryZh": "希腊",
+      "aliases": "比雷埃夫斯  Piraeus",
+      "pages": [
+        21
+      ],
+      "nameZh": "比雷埃夫斯",
+      "countryCode": "GR",
+      "locode": "GRPIR",
+      "locodeNote": "",
+      "locodeName": "Piraeus",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-st-george-s-grenada",
+      "name": "St. George's",
+      "country": "Grenada",
+      "countryZh": "格林纳达",
+      "aliases": "圣乔治（格林纳达）  Saint George's",
+      "pages": [
+        22
+      ],
+      "nameZh": "圣乔治（格林纳达）",
+      "countryCode": "GD",
+      "locode": "GDSTG",
+      "locodeNote": "",
+      "locodeName": "Saint George's",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-pointe-a-pitre-guadeloupe",
+      "name": "Pointe A Pitre",
+      "country": "Guadeloupe",
+      "countryZh": "瓜德罗普",
+      "aliases": "皮特尔角  Point-à-Pitre Apt",
+      "pages": [
+        22
+      ],
+      "nameZh": "皮特尔角",
+      "countryCode": "GP",
+      "locode": "GPPTP",
+      "locodeNote": "",
+      "locodeName": "Point-à-Pitre Apt",
+      "locodeStatus": "AF",
+      "locodeFunction": "1-345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-puerto-santo-tomas-de-castilla-guatemala",
+      "name": "Puerto Santo Tomas de Castilla",
+      "country": "Guatemala",
+      "countryZh": "危地马拉",
+      "aliases": "圣托马斯德卡斯蒂利亚港  Puerto Santo Tomás de Castilla",
+      "pages": [
+        22,
+        74
+      ],
+      "nameZh": "圣托马斯德卡斯蒂利亚港",
+      "countryCode": "GT",
+      "locode": "GTSTC",
+      "locodeNote": "",
+      "locodeName": "Puerto Santo Tomás de Castilla",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-conakry-guinea",
+      "name": "Conakry",
+      "country": "Guinea",
+      "countryZh": "几内亚",
+      "aliases": "科纳克里  Conakry",
+      "pages": [
+        23
+      ],
+      "nameZh": "科纳克里",
+      "countryCode": "GN",
+      "locode": "GNCKY",
+      "locodeNote": "",
+      "locodeName": "Conakry",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-georgetown-guy-guyana",
+      "name": "Georgetown (Guy)",
+      "country": "Guyana",
+      "countryZh": "圭亚那",
+      "aliases": "乔治敦（圭亚那）  Georgetown",
+      "pages": [
+        23
+      ],
+      "nameZh": "乔治敦（圭亚那）",
+      "countryCode": "GY",
+      "locode": "GYGEO",
+      "locodeNote": "",
+      "locodeName": "Georgetown",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-port-au-prince-haiti",
+      "name": "Port-au-Prince",
+      "country": "Haiti",
+      "countryZh": "海地",
+      "aliases": "太子港  Port-au-Prince",
+      "pages": [
+        51,
+        74
+      ],
+      "nameZh": "太子港",
+      "countryCode": "HT",
+      "locode": "HTPAP",
+      "locodeNote": "",
+      "locodeName": "Port-au-Prince",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-san-lorenzo-honduras",
+      "name": "San Lorenzo",
+      "country": "Honduras",
+      "countryZh": "洪都拉斯",
+      "aliases": "圣洛伦索（洪都拉斯）  San Lorenzo",
+      "pages": [
+        24
+      ],
+      "nameZh": "圣洛伦索（洪都拉斯）",
+      "countryCode": "HN",
+      "locode": "HNSLO",
+      "locodeNote": "",
+      "locodeName": "San Lorenzo",
+      "locodeStatus": "RL",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-hong-kong-hong-kong",
+      "name": "Hong Kong",
+      "country": "Hong Kong",
+      "countryZh": "中国香港",
+      "aliases": "香港 Hong Kong",
+      "pages": [
+        24
+      ],
+      "nameZh": "香港",
+      "countryCode": "HK",
+      "locode": "HKHKG",
+      "locodeNote": "",
+      "locodeName": "Hong Kong",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-chennai-india",
+      "name": "Chennai",
+      "country": "India",
+      "countryZh": "印度",
+      "aliases": "钦奈 Chennai (ex Madras)",
+      "pages": [
+        24,
+        25
+      ],
+      "nameZh": "钦奈",
+      "countryCode": "IN",
+      "locode": "INMAA",
+      "locodeNote": "",
+      "locodeName": "Chennai (ex Madras)",
+      "locodeStatus": "AA",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-ennore-india",
+      "name": "Ennore",
+      "country": "India",
+      "countryZh": "印度",
+      "aliases": "恩诺尔 Ennore",
+      "pages": [
+        24,
+        25
+      ],
+      "nameZh": "恩诺尔",
+      "countryCode": "IN",
+      "locode": "INENR",
+      "locodeNote": "",
+      "locodeName": "Ennore",
+      "locodeStatus": "AA",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-kattupalli-india",
+      "name": "Kattupalli",
+      "country": "India",
+      "countryZh": "印度",
+      "aliases": "卡图帕利  Kattupalli",
+      "pages": [
+        24,
+        25
+      ],
+      "nameZh": "卡图帕利",
+      "countryCode": "IN",
+      "locode": "INKAT",
+      "locodeNote": "",
+      "locodeName": "Kattupalli",
+      "locodeStatus": "RL",
+      "locodeFunction": "123-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-mumbai-india",
+      "name": "Mumbai",
+      "country": "India",
+      "countryZh": "印度",
+      "aliases": "孟买 Mumbai (ex Bombay)",
+      "pages": [
+        24
+      ],
+      "nameZh": "孟买",
+      "countryCode": "IN",
+      "locode": "INBOM",
+      "locodeNote": "",
+      "locodeName": "Mumbai (ex Bombay)",
+      "locodeStatus": "AA",
+      "locodeFunction": "123456--",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-mundra-india",
+      "name": "Mundra",
+      "country": "India",
+      "countryZh": "印度",
+      "aliases": "蒙德拉  Mundra",
+      "pages": [
+        24,
+        25
+      ],
+      "nameZh": "蒙德拉",
+      "countryCode": "IN",
+      "locode": "INMUN",
+      "locodeNote": "",
+      "locodeName": "Mundra",
+      "locodeStatus": "AA",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-pipavav-victor-port-merchant-shipping-services-pvt-ltd-india",
+      "name": "Pipavav (Victor) Port Merchant Shipping Services Pvt Ltd",
+      "country": "India",
+      "countryZh": "印度",
+      "aliases": "皮帕瓦夫（维克托港）  Pipavav (Victor) Port",
+      "pages": [
+        24,
+        25
+      ],
+      "nameZh": "皮帕瓦夫（维克托港）",
+      "countryCode": "IN",
+      "locode": "INPAV",
+      "locodeNote": "",
+      "locodeName": "Pipavav (Victor) Port",
+      "locodeStatus": "AA",
+      "locodeFunction": "123-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-belawan-sumatra-indonesia",
+      "name": "Belawan, Sumatra",
+      "country": "Indonesia",
+      "countryZh": "印度尼西亚",
+      "aliases": "勿拉湾（苏门答腊）  Belawan, Sumatra",
+      "pages": [
+        58
+      ],
+      "nameZh": "勿拉湾（苏门答腊）",
+      "countryCode": "ID",
+      "locode": "IDBLW",
+      "locodeNote": "",
+      "locodeName": "Belawan, Sumatra",
+      "locodeStatus": "QQ",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-jakarta-indonesia",
+      "name": "Jakarta",
+      "country": "Indonesia",
+      "countryZh": "印度尼西亚",
+      "aliases": "雅加达 Jakarta, Java",
+      "pages": [
+        24,
+        58
+      ],
+      "nameZh": "雅加达",
+      "countryCode": "ID",
+      "locode": "IDJKT",
+      "locodeNote": "",
+      "locodeName": "Jakarta, Java",
+      "locodeStatus": "AI",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-basra-iraq",
+      "name": "Basra",
+      "country": "Iraq",
+      "countryZh": "伊拉克",
+      "aliases": "巴士拉  Basra",
+      "pages": [
+        26
+      ],
+      "nameZh": "巴士拉",
+      "countryCode": "IQ",
+      "locode": "IQBSR",
+      "locodeNote": "",
+      "locodeName": "Basra",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-umm-qasr-iraq",
+      "name": "Umm Qasr",
+      "country": "Iraq",
+      "countryZh": "伊拉克",
+      "aliases": "乌姆盖斯尔  Umm Qasr Port",
+      "pages": [
+        26
+      ],
+      "nameZh": "乌姆盖斯尔",
+      "countryCode": "IQ",
+      "locode": "IQUQR",
+      "locodeNote": "",
+      "locodeName": "Umm Qasr Port",
+      "locodeStatus": "RL",
+      "locodeFunction": "123-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-dublin-ireland",
+      "name": "Dublin",
+      "country": "Ireland",
+      "countryZh": "爱尔兰",
+      "aliases": "都柏林  Dublin",
+      "pages": [
+        26
+      ],
+      "nameZh": "都柏林",
+      "countryCode": "IE",
+      "locode": "IEDUB",
+      "locodeNote": "",
+      "locodeName": "Dublin",
+      "locodeStatus": "AF",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-catania-italy",
+      "name": "Catania",
+      "country": "Italy",
+      "countryZh": "意大利",
+      "aliases": "卡塔尼亚  Catania",
+      "pages": [
+        27
+      ],
+      "nameZh": "卡塔尼亚",
+      "countryCode": "IT",
+      "locode": "ITCTA",
+      "locodeNote": "",
+      "locodeName": "Catania",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-civitavecchia-italy",
+      "name": "Civitavecchia",
+      "country": "Italy",
+      "countryZh": "意大利",
+      "aliases": "奇维塔韦基亚  Civitavecchia",
+      "pages": [
+        27
+      ],
+      "nameZh": "奇维塔韦基亚",
+      "countryCode": "IT",
+      "locode": "ITCVV",
+      "locodeNote": "",
+      "locodeName": "Civitavecchia",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-genova-italy",
+      "name": "Genova",
+      "country": "Italy",
+      "countryZh": "意大利",
+      "aliases": "热那亚  Genova",
+      "pages": [
+        27
+      ],
+      "nameZh": "热那亚",
+      "countryCode": "IT",
+      "locode": "ITGOA",
+      "locodeNote": "",
+      "locodeName": "Genova",
+      "locodeStatus": "AI",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-gioia-tauro-italy",
+      "name": "Gioia Tauro",
+      "country": "Italy",
+      "countryZh": "意大利",
+      "aliases": "焦亚陶罗  Gioia Tauro",
+      "pages": [
+        27
+      ],
+      "nameZh": "焦亚陶罗",
+      "countryCode": "IT",
+      "locode": "ITGIT",
+      "locodeNote": "",
+      "locodeName": "Gioia Tauro",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-livorno-italy",
+      "name": "Livorno",
+      "country": "Italy",
+      "countryZh": "意大利",
+      "aliases": "利沃诺 Livorno",
+      "pages": [
+        26,
+        27
+      ],
+      "nameZh": "利沃诺",
+      "countryCode": "IT",
+      "locode": "ITLIV",
+      "locodeNote": "",
+      "locodeName": "Livorno",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-salerno-italy",
+      "name": "Salerno",
+      "country": "Italy",
+      "countryZh": "意大利",
+      "aliases": "萨勒诺  Salerno",
+      "pages": [
+        27
+      ],
+      "nameZh": "萨勒诺",
+      "countryCode": "IT",
+      "locode": "ITSAL",
+      "locodeNote": "",
+      "locodeName": "Salerno",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-3-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-savona-italy",
+      "name": "Savona",
+      "country": "Italy",
+      "countryZh": "意大利",
+      "aliases": "萨沃纳  Savona",
+      "pages": [
+        27
+      ],
+      "nameZh": "萨沃纳",
+      "countryCode": "IT",
+      "locode": "ITSVN",
+      "locodeNote": "",
+      "locodeName": "Savona",
+      "locodeStatus": "AI",
+      "locodeFunction": "123-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-kingston-jam-jamaica",
+      "name": "Kingston (Jam)",
+      "country": "Jamaica",
+      "countryZh": "牙买加",
+      "aliases": "金斯敦（牙买加） 金斯敦 牙买加 Kingston",
+      "pages": [
+        28
+      ],
+      "nameZh": "金斯敦（牙买加）",
+      "countryCode": "JM",
+      "locode": "JMKIN",
+      "locodeNote": "",
+      "locodeName": "Kingston",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-gamagori-japan",
+      "name": "Gamagori",
+      "country": "Japan",
+      "countryZh": "日本",
+      "aliases": "蒲郡  Gamagori",
+      "pages": [
+        33
+      ],
+      "nameZh": "蒲郡",
+      "countryCode": "JP",
+      "locode": "JPGAM",
+      "locodeNote": "",
+      "locodeName": "Gamagori",
+      "locodeStatus": "AF",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-higashiharima-japan",
+      "name": "Higashiharima",
+      "country": "Japan",
+      "countryZh": "日本",
+      "aliases": "东播磨  Higashiharima",
+      "pages": [
+        30
+      ],
+      "nameZh": "东播磨",
+      "countryCode": "JP",
+      "locode": "JPHHR",
+      "locodeNote": "",
+      "locodeName": "Higashiharima",
+      "locodeStatus": "AF",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-hiroshima-japan",
+      "name": "Hiroshima",
+      "country": "Japan",
+      "countryZh": "日本",
+      "aliases": "广岛 Hiroshima",
+      "pages": [
+        31
+      ],
+      "nameZh": "广岛",
+      "countryCode": "JP",
+      "locode": "JPHIJ",
+      "locodeNote": "",
+      "locodeName": "Hiroshima",
+      "locodeStatus": "AF",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-hitachi-japan",
+      "name": "Hitachi",
+      "country": "Japan",
+      "countryZh": "日本",
+      "aliases": "日立  Hitachi",
+      "pages": [
+        29
+      ],
+      "nameZh": "日立",
+      "countryCode": "JP",
+      "locode": "JPHTC",
+      "locodeNote": "",
+      "locodeName": "Hitachi",
+      "locodeStatus": "AF",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-hitachinaka-japan",
+      "name": "Hitachinaka",
+      "country": "Japan",
+      "countryZh": "日本",
+      "aliases": "常陆那珂  Hitachinaka",
+      "pages": [
+        29
+      ],
+      "nameZh": "常陆那珂",
+      "countryCode": "JP",
+      "locode": "JPHIC",
+      "locodeNote": "",
+      "locodeName": "Hitachinaka",
+      "locodeStatus": "AF",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-kanazawa-japan",
+      "name": "Kanazawa",
+      "country": "Japan",
+      "countryZh": "日本",
+      "aliases": "金泽  Kanazawa",
+      "pages": [
+        34
+      ],
+      "nameZh": "金泽",
+      "countryCode": "JP",
+      "locode": "JPKNZ",
+      "locodeNote": "",
+      "locodeName": "Kanazawa",
+      "locodeStatus": "AF",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-kanda-japan",
+      "name": "Kanda",
+      "country": "Japan",
+      "countryZh": "日本",
+      "aliases": "苅田  Kanda, Fukuoka",
+      "pages": [
+        30
+      ],
+      "nameZh": "苅田",
+      "countryCode": "JP",
+      "locode": "JPKND",
+      "locodeNote": "",
+      "locodeName": "Kanda, Fukuoka",
+      "locodeStatus": "AF",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-kawasaki-japan",
+      "name": "Kawasaki",
+      "country": "Japan",
+      "countryZh": "日本",
+      "aliases": "川崎  Kawasaki",
+      "pages": [
+        31
+      ],
+      "nameZh": "川崎",
+      "countryCode": "JP",
+      "locode": "JPKWS",
+      "locodeNote": "",
+      "locodeName": "Kawasaki",
+      "locodeStatus": "AF",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-kobe-japan",
+      "name": "Kobe",
+      "country": "Japan",
+      "countryZh": "日本",
+      "aliases": "神户 Kobe",
+      "pages": [
+        28
+      ],
+      "nameZh": "神户",
+      "countryCode": "JP",
+      "locode": "JPUKB",
+      "locodeNote": "",
+      "locodeName": "Kobe",
+      "locodeStatus": "AF",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-mizushima-japan",
+      "name": "Mizushima",
+      "country": "Japan",
+      "countryZh": "日本",
+      "aliases": "水岛  Mizushima",
+      "pages": [
+        34
+      ],
+      "nameZh": "水岛",
+      "countryCode": "JP",
+      "locode": "JPMIZ",
+      "locodeNote": "",
+      "locodeName": "Mizushima",
+      "locodeStatus": "AF",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-moji-japan",
+      "name": "Moji",
+      "country": "Japan",
+      "countryZh": "日本",
+      "aliases": "门司  Moji/Kitakyushu",
+      "pages": [
+        31
+      ],
+      "nameZh": "门司",
+      "countryCode": "JP",
+      "locode": "JPMOJ",
+      "locodeNote": "",
+      "locodeName": "Moji/Kitakyushu",
+      "locodeStatus": "AF",
+      "locodeFunction": "123-5---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-nagoya-japan",
+      "name": "Nagoya",
+      "country": "Japan",
+      "countryZh": "日本",
+      "aliases": "名古屋 Nagoya, Aichi",
+      "pages": [
+        29
+      ],
+      "nameZh": "名古屋",
+      "countryCode": "JP",
+      "locode": "JPNGO",
+      "locodeNote": "",
+      "locodeName": "Nagoya, Aichi",
+      "locodeStatus": "AF",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-nakanoseki-japan",
+      "name": "Nakanoseki",
+      "country": "Japan",
+      "countryZh": "日本",
+      "aliases": "中关  Nakanoseki",
+      "pages": [
+        34
+      ],
+      "nameZh": "中关",
+      "countryCode": "JP",
+      "locode": "JPNAN",
+      "locodeNote": "",
+      "locodeName": "Nakanoseki",
+      "locodeStatus": "RL",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-omaezaki-japan",
+      "name": "Omaezaki",
+      "country": "Japan",
+      "countryZh": "日本",
+      "aliases": "御前崎  Omaezaki",
+      "pages": [
+        33
+      ],
+      "nameZh": "御前崎",
+      "countryCode": "JP",
+      "locode": "JPOMZ",
+      "locodeNote": "",
+      "locodeName": "Omaezaki",
+      "locodeStatus": "AF",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-osaka-japan",
+      "name": "Osaka",
+      "country": "Japan",
+      "countryZh": "日本",
+      "aliases": "大阪 Osaka",
+      "pages": [
+        28,
+        32
+      ],
+      "nameZh": "大阪",
+      "countryCode": "JP",
+      "locode": "JPOSA",
+      "locodeNote": "",
+      "locodeName": "Osaka",
+      "locodeStatus": "AF",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-sakai-japan",
+      "name": "Sakai",
+      "country": "Japan",
+      "countryZh": "日本",
+      "aliases": "堺  Sakai",
+      "pages": [
+        28
+      ],
+      "nameZh": "堺",
+      "countryCode": "JP",
+      "locode": "JPSAK",
+      "locodeNote": "",
+      "locodeName": "Sakai",
+      "locodeStatus": "AF",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-sakaisenboku-japan",
+      "name": "Sakaisenboku",
+      "country": "Japan",
+      "countryZh": "日本",
+      "aliases": "堺泉北  Sakaisenboku",
+      "pages": [
+        28
+      ],
+      "nameZh": "堺泉北",
+      "countryCode": "JP",
+      "locode": "JPSBK",
+      "locodeNote": "",
+      "locodeName": "Sakaisenboku",
+      "locodeStatus": "AF",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-shimonoseki-japan",
+      "name": "Shimonoseki",
+      "country": "Japan",
+      "countryZh": "日本",
+      "aliases": "下关  Shimonoseki",
+      "pages": [
+        32
+      ],
+      "nameZh": "下关",
+      "countryCode": "JP",
+      "locode": "JPSHS",
+      "locodeNote": "",
+      "locodeName": "Shimonoseki",
+      "locodeStatus": "AF",
+      "locodeFunction": "1---5---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-toyohashi-japan",
+      "name": "Toyohashi",
+      "country": "Japan",
+      "countryZh": "日本",
+      "aliases": "丰桥 Toyohashi",
+      "pages": [
+        30
+      ],
+      "nameZh": "丰桥",
+      "countryCode": "JP",
+      "locode": "JPTHS",
+      "locodeNote": "",
+      "locodeName": "Toyohashi",
+      "locodeStatus": "AF",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-yokkaichi-japan",
+      "name": "Yokkaichi",
+      "country": "Japan",
+      "countryZh": "日本",
+      "aliases": "四日市  Yokkaichi",
+      "pages": [
+        33
+      ],
+      "nameZh": "四日市",
+      "countryCode": "JP",
+      "locode": "JPYKK",
+      "locodeNote": "",
+      "locodeName": "Yokkaichi",
+      "locodeStatus": "AF",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-yokohama-japan",
+      "name": "Yokohama",
+      "country": "Japan",
+      "countryZh": "日本",
+      "aliases": "横滨 Yokohama",
+      "pages": [
+        32
+      ],
+      "nameZh": "横滨",
+      "countryCode": "JP",
+      "locode": "JPYOK",
+      "locodeNote": "",
+      "locodeName": "Yokohama",
+      "locodeStatus": "AF",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-yokosuka-japan",
+      "name": "Yokosuka",
+      "country": "Japan",
+      "countryZh": "日本",
+      "aliases": "横须贺  Yokosuka",
+      "pages": [
+        29
+      ],
+      "nameZh": "横须贺",
+      "countryCode": "JP",
+      "locode": "JPYOS",
+      "locodeNote": "",
+      "locodeName": "Yokosuka",
+      "locodeStatus": "AF",
+      "locodeFunction": "123-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-aqaba-jordan",
+      "name": "Aqaba",
+      "country": "Jordan",
+      "countryZh": "约旦",
+      "aliases": "亚喀巴",
+      "pages": [
+        34
+      ],
+      "nameZh": "亚喀巴",
+      "countryCode": "JO",
+      "locode": "",
+      "locodeNote": "官方清单同时列有 JOAQB 和 JOAQJ，请按实际申报／代理资料确认。",
+      "locodeCandidates": [
+        {
+          "code": "JOAQB",
+          "name": "'Aqaba",
+          "subdivision": "",
+          "function": "1-3-----",
+          "status": "AS"
+        },
+        {
+          "code": "JOAQJ",
+          "name": "Al 'Aqabah",
+          "subdivision": "AQ",
+          "function": "1-34----",
+          "status": "AS"
+        }
+      ]
+    },
+    {
+      "id": "h-mombasa-kenya",
+      "name": "Mombasa",
+      "country": "Kenya",
+      "countryZh": "肯尼亚",
+      "aliases": "蒙巴萨 Mombasa",
+      "pages": [
+        35
+      ],
+      "nameZh": "蒙巴萨",
+      "countryCode": "KE",
+      "locode": "KEMBA",
+      "locodeNote": "",
+      "locodeName": "Mombasa",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-gunsan-korea-republic-of",
+      "name": "Gunsan",
+      "country": "Korea Republic of",
+      "countryZh": "韩国",
+      "aliases": "群山  Gunsan",
+      "pages": [
+        35
+      ],
+      "nameZh": "群山",
+      "countryCode": "KR",
+      "locode": "KRKUV",
+      "locodeNote": "",
+      "locodeName": "Gunsan",
+      "locodeStatus": "AF",
+      "locodeFunction": "1234----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-incheon-korea-republic-of",
+      "name": "Incheon",
+      "country": "Korea Republic of",
+      "countryZh": "韩国",
+      "aliases": "仁川 Incheon",
+      "pages": [
+        35
+      ],
+      "nameZh": "仁川",
+      "countryCode": "KR",
+      "locode": "KRINC",
+      "locodeNote": "",
+      "locodeName": "Incheon",
+      "locodeStatus": "AF",
+      "locodeFunction": "123-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-kwangyang-korea-republic-of",
+      "name": "Kwangyang",
+      "country": "Korea Republic of",
+      "countryZh": "韩国",
+      "aliases": "光阳  Gwangyang",
+      "pages": [
+        36
+      ],
+      "nameZh": "光阳",
+      "countryCode": "KR",
+      "locode": "KRKAN",
+      "locodeNote": "",
+      "locodeName": "Gwangyang",
+      "locodeStatus": "AF",
+      "locodeFunction": "123-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-masan-korea-republic-of",
+      "name": "Masan",
+      "country": "Korea Republic of",
+      "countryZh": "韩国",
+      "aliases": "马山 Masan",
+      "pages": [
+        36
+      ],
+      "nameZh": "马山",
+      "countryCode": "KR",
+      "locode": "KRMAS",
+      "locodeNote": "",
+      "locodeName": "Masan",
+      "locodeStatus": "AF",
+      "locodeFunction": "123-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-mokpo-korea-republic-of",
+      "name": "Mokpo",
+      "country": "Korea Republic of",
+      "countryZh": "韩国",
+      "aliases": "木浦  Mokpo",
+      "pages": [
+        37
+      ],
+      "nameZh": "木浦",
+      "countryCode": "KR",
+      "locode": "KRMOK",
+      "locodeNote": "",
+      "locodeName": "Mokpo",
+      "locodeStatus": "AF",
+      "locodeFunction": "123-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-pusan-korea-republic-of",
+      "name": "Pusan",
+      "country": "Korea Republic of",
+      "countryZh": "韩国",
+      "aliases": "釜山 釜山 Busan Busan",
+      "pages": [
+        36
+      ],
+      "nameZh": "釜山",
+      "countryCode": "KR",
+      "locode": "KRPUS",
+      "locodeNote": "",
+      "locodeName": "Busan",
+      "locodeStatus": "AF",
+      "locodeFunction": "1234567-",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-pyongtaek-korea-republic-of",
+      "name": "Pyongtaek",
+      "country": "Korea Republic of",
+      "countryZh": "韩国",
+      "aliases": "平泽 平泽 Pyeongtaek Pyeongtaek",
+      "pages": [
+        35
+      ],
+      "nameZh": "平泽",
+      "countryCode": "KR",
+      "locode": "KRPTK",
+      "locodeNote": "",
+      "locodeName": "Pyeongtaek",
+      "locodeStatus": "AF",
+      "locodeFunction": "123--6--",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-ulsan-korea-republic-of",
+      "name": "Ulsan",
+      "country": "Korea Republic of",
+      "countryZh": "韩国",
+      "aliases": "蔚山 Ulsan",
+      "pages": [
+        36
+      ],
+      "nameZh": "蔚山",
+      "countryCode": "KR",
+      "locode": "KRUSN",
+      "locodeNote": "",
+      "locodeName": "Ulsan",
+      "locodeStatus": "AF",
+      "locodeFunction": "1234----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-kuwait-kuwait",
+      "name": "Kuwait",
+      "country": "Kuwait",
+      "countryZh": "科威特",
+      "aliases": "科威特  Kuwait",
+      "pages": [
+        37
+      ],
+      "nameZh": "科威特",
+      "countryCode": "KW",
+      "locode": "KWKWI",
+      "locodeNote": "",
+      "locodeName": "Kuwait",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-kuwait-shuaiba-kuwait",
+      "name": "Kuwait (Shuaiba)",
+      "country": "Kuwait",
+      "countryZh": "科威特",
+      "aliases": "舒艾拜（科威特）  Shuaiba",
+      "pages": [
+        37
+      ],
+      "nameZh": "舒艾拜（科威特）",
+      "countryCode": "KW",
+      "locode": "KWSAA",
+      "locodeNote": "",
+      "locodeName": "Shuaiba",
+      "locodeStatus": "RL",
+      "locodeFunction": "1-3--6--",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-liepaja-latvia",
+      "name": "Liepaja",
+      "country": "Latvia",
+      "countryZh": "拉脱维亚",
+      "aliases": "利耶帕亚  Liepaja",
+      "pages": [
+        38
+      ],
+      "nameZh": "利耶帕亚",
+      "countryCode": "LV",
+      "locode": "LVLPX",
+      "locodeNote": "",
+      "locodeName": "Liepaja",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-34----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-riga-latvia",
+      "name": "Riga",
+      "country": "Latvia",
+      "countryZh": "拉脱维亚",
+      "aliases": "里加  Riga",
+      "pages": [
+        38
+      ],
+      "nameZh": "里加",
+      "countryCode": "LV",
+      "locode": "LVRIX",
+      "locodeNote": "",
+      "locodeName": "Riga",
+      "locodeStatus": "AI",
+      "locodeFunction": "12-45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-ventspils-latvia",
+      "name": "Ventspils",
+      "country": "Latvia",
+      "countryZh": "拉脱维亚",
+      "aliases": "文茨皮尔斯  Ventspils",
+      "pages": [
+        38
+      ],
+      "nameZh": "文茨皮尔斯",
+      "countryCode": "LV",
+      "locode": "LVVNT",
+      "locodeNote": "",
+      "locodeName": "Ventspils",
+      "locodeStatus": "QQ",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-beirut-lebanon",
+      "name": "Beirut",
+      "country": "Lebanon",
+      "countryZh": "黎巴嫩",
+      "aliases": "贝鲁特  Beirut",
+      "pages": [
+        38
+      ],
+      "nameZh": "贝鲁特",
+      "countryCode": "LB",
+      "locode": "LBBEY",
+      "locodeNote": "",
+      "locodeName": "Beirut",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-monrovia-liberia",
+      "name": "Monrovia",
+      "country": "Liberia",
+      "countryZh": "利比里亚",
+      "aliases": "蒙罗维亚  Monrovia",
+      "pages": [
+        38,
+        39
+      ],
+      "nameZh": "蒙罗维亚",
+      "countryCode": "LR",
+      "locode": "LRMLW",
+      "locodeNote": "",
+      "locodeName": "Monrovia",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-benghazi-libya",
+      "name": "Benghazi",
+      "country": "Libya",
+      "countryZh": "利比亚",
+      "aliases": "班加西  Bingazi (Benghazi)",
+      "pages": [
+        39,
+        40
+      ],
+      "nameZh": "班加西",
+      "countryCode": "LY",
+      "locode": "LYBEN",
+      "locodeNote": "",
+      "locodeName": "Bingazi (Benghazi)",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-khoms-libya",
+      "name": "Khoms",
+      "country": "Libya",
+      "countryZh": "利比亚",
+      "aliases": "胡姆斯",
+      "pages": [
+        39
+      ],
+      "nameZh": "胡姆斯",
+      "countryCode": "LY",
+      "locode": "",
+      "locodeNote": "官方清单含 Khoms、Al Khums 和 El Choms 等相近条目，需确认具体地点。",
+      "locodeCandidates": [
+        {
+          "code": "LYKHM",
+          "name": "Khoms",
+          "subdivision": "",
+          "function": "-----6--",
+          "status": "AS"
+        },
+        {
+          "code": "LYKHO",
+          "name": "Al Khums",
+          "subdivision": "",
+          "function": "1-3-----",
+          "status": "RL"
+        },
+        {
+          "code": "LYELK",
+          "name": "El Choms",
+          "subdivision": "",
+          "function": "1-3-----",
+          "status": "RL"
+        }
+      ]
+    },
+    {
+      "id": "h-misurata-libya",
+      "name": "Misurata",
+      "country": "Libya",
+      "countryZh": "利比亚",
+      "aliases": "米苏拉塔  Misurata",
+      "pages": [
+        39
+      ],
+      "nameZh": "米苏拉塔",
+      "countryCode": "LY",
+      "locode": "LYMRA",
+      "locodeNote": "",
+      "locodeName": "Misurata",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-tripoli-lib-libya",
+      "name": "Tripoli (Lib)",
+      "country": "Libya",
+      "countryZh": "利比亚",
+      "aliases": "的黎波里（利比亚）  Tripoli",
+      "pages": [
+        39
+      ],
+      "nameZh": "的黎波里（利比亚）",
+      "countryCode": "LY",
+      "locode": "LYTIP",
+      "locodeNote": "",
+      "locodeName": "Tripoli",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-klaipeda-lithuania",
+      "name": "Klaipeda",
+      "country": "Lithuania",
+      "countryZh": "立陶宛",
+      "aliases": "克莱佩达  Klaipeda",
+      "pages": [
+        40
+      ],
+      "nameZh": "克莱佩达",
+      "countryCode": "LT",
+      "locode": "LTKLJ",
+      "locodeNote": "",
+      "locodeName": "Klaipeda",
+      "locodeStatus": "AI",
+      "locodeFunction": "12-4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-tamatave-madagascar",
+      "name": "Tamatave",
+      "country": "Madagascar",
+      "countryZh": "马达加斯加",
+      "aliases": "塔马塔夫（图阿马西纳）  Tamatave (Toamasina)",
+      "pages": [
+        41
+      ],
+      "nameZh": "塔马塔夫（图阿马西纳）",
+      "countryCode": "MG",
+      "locode": "MGTMM",
+      "locodeNote": "",
+      "locodeName": "Tamatave (Toamasina)",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-bintulu-malaysia",
+      "name": "Bintulu",
+      "country": "Malaysia",
+      "countryZh": "马来西亚",
+      "aliases": "民都鲁 Bintulu, Sarawak",
+      "pages": [
+        24,
+        41,
+        58
+      ],
+      "nameZh": "民都鲁",
+      "countryCode": "MY",
+      "locode": "MYBTU",
+      "locodeNote": "",
+      "locodeName": "Bintulu, Sarawak",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-port-klang-malaysia",
+      "name": "Port Klang",
+      "country": "Malaysia",
+      "countryZh": "马来西亚",
+      "aliases": "巴生港 Port Klang (Pelabuhan Klang)",
+      "pages": [
+        24,
+        41,
+        58
+      ],
+      "nameZh": "巴生港",
+      "countryCode": "MY",
+      "locode": "MYPKG",
+      "locodeNote": "",
+      "locodeName": "Port Klang (Pelabuhan Klang)",
+      "locodeStatus": "RL",
+      "locodeFunction": "123-5---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-marsaxlokk-malta",
+      "name": "Marsaxlokk",
+      "country": "Malta",
+      "countryZh": "马耳他",
+      "aliases": "马尔萨什洛克  Marsaxlokk",
+      "pages": [
+        41
+      ],
+      "nameZh": "马尔萨什洛克",
+      "countryCode": "MT",
+      "locode": "MTMAR",
+      "locodeNote": "",
+      "locodeName": "Marsaxlokk",
+      "locodeStatus": "AA",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-valletta-malta",
+      "name": "Valletta",
+      "country": "Malta",
+      "countryZh": "马耳他",
+      "aliases": "瓦莱塔  Valletta",
+      "pages": [
+        41
+      ],
+      "nameZh": "瓦莱塔",
+      "countryCode": "MT",
+      "locode": "MTMLA",
+      "locodeNote": "",
+      "locodeName": "Valletta",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--456--",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-fort-de-france-martinique",
+      "name": "Fort De France",
+      "country": "Martinique",
+      "countryZh": "马提尼克",
+      "aliases": "法兰西堡  Fort-de-France",
+      "pages": [
+        42
+      ],
+      "nameZh": "法兰西堡",
+      "countryCode": "MQ",
+      "locode": "MQFDF",
+      "locodeNote": "",
+      "locodeName": "Fort-de-France",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-nouakchott-mauritania",
+      "name": "Nouakchott",
+      "country": "Mauritania",
+      "countryZh": "毛里塔尼亚",
+      "aliases": "努瓦克肖特  Nouakchott",
+      "pages": [
+        42
+      ],
+      "nameZh": "努瓦克肖特",
+      "countryCode": "MR",
+      "locode": "MRNKC",
+      "locodeNote": "",
+      "locodeName": "Nouakchott",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-port-louis-mauritius",
+      "name": "Port Louis",
+      "country": "Mauritius",
+      "countryZh": "毛里求斯",
+      "aliases": "路易港 Port Louis",
+      "pages": [
+        42,
+        54
+      ],
+      "nameZh": "路易港",
+      "countryCode": "MU",
+      "locode": "MUPLU",
+      "locodeNote": "",
+      "locodeName": "Port Louis",
+      "locodeStatus": "QQ",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-longoni-dzaoudzi-mayotte",
+      "name": "Longoni (Dzaoudzi)",
+      "country": "Mayotte",
+      "countryZh": "马约特",
+      "aliases": "隆戈尼（藻德济）  Longoni",
+      "pages": [
+        54
+      ],
+      "nameZh": "隆戈尼（藻德济）",
+      "countryCode": "YT",
+      "locode": "YTLON",
+      "locodeNote": "",
+      "locodeName": "Longoni",
+      "locodeStatus": "AA",
+      "locodeFunction": "1-3-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-altamira-mexico",
+      "name": "Altamira",
+      "country": "Mexico",
+      "countryZh": "墨西哥",
+      "aliases": "阿尔塔米拉  Altamira",
+      "pages": [
+        43
+      ],
+      "nameZh": "阿尔塔米拉",
+      "countryCode": "MX",
+      "locode": "MXATM",
+      "locodeNote": "",
+      "locodeName": "Altamira",
+      "locodeStatus": "RL",
+      "locodeFunction": "1-3-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-lazaro-cardenas-mexico",
+      "name": "Lazaro Cardenas",
+      "country": "Mexico",
+      "countryZh": "墨西哥",
+      "aliases": "拉萨罗卡德纳斯  Lázaro Cárdenas",
+      "pages": [
+        44
+      ],
+      "nameZh": "拉萨罗卡德纳斯",
+      "countryCode": "MX",
+      "locode": "MXLZC",
+      "locodeNote": "",
+      "locodeName": "Lázaro Cárdenas",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-mazatlan-mexico",
+      "name": "Mazatlan",
+      "country": "Mexico",
+      "countryZh": "墨西哥",
+      "aliases": "马萨特兰  Mazatlan",
+      "pages": [
+        43
+      ],
+      "nameZh": "马萨特兰",
+      "countryCode": "MX",
+      "locode": "MXMZT",
+      "locodeNote": "",
+      "locodeName": "Mazatlan",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-veracruz-mexico",
+      "name": "Veracruz",
+      "country": "Mexico",
+      "countryZh": "墨西哥",
+      "aliases": "韦拉克鲁斯 Veracruz",
+      "pages": [
+        43
+      ],
+      "nameZh": "韦拉克鲁斯",
+      "countryCode": "MX",
+      "locode": "MXVER",
+      "locodeNote": "",
+      "locodeName": "Veracruz",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-casablanca-morocco",
+      "name": "Casablanca",
+      "country": "Morocco",
+      "countryZh": "摩洛哥",
+      "aliases": "卡萨布兰卡  Casablanca",
+      "pages": [
+        44
+      ],
+      "nameZh": "卡萨布兰卡",
+      "countryCode": "MA",
+      "locode": "MACAS",
+      "locodeNote": "",
+      "locodeName": "Casablanca",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-tangier-morocco",
+      "name": "Tangier",
+      "country": "Morocco",
+      "countryZh": "摩洛哥",
+      "aliases": "丹吉尔 Tangier",
+      "pages": [
+        44
+      ],
+      "nameZh": "丹吉尔",
+      "countryCode": "MA",
+      "locode": "MATNG",
+      "locodeNote": "",
+      "locodeName": "Tangier",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-beira-mozambique",
+      "name": "Beira",
+      "country": "Mozambique",
+      "countryZh": "莫桑比克",
+      "aliases": "贝拉  Beira",
+      "pages": [
+        46
+      ],
+      "nameZh": "贝拉",
+      "countryCode": "MZ",
+      "locode": "MZBEW",
+      "locodeNote": "",
+      "locodeName": "Beira",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-maputo-mozambique",
+      "name": "Maputo",
+      "country": "Mozambique",
+      "countryZh": "莫桑比克",
+      "aliases": "马普托  Maputo",
+      "pages": [
+        45
+      ],
+      "nameZh": "马普托",
+      "countryCode": "MZ",
+      "locode": "MZMPM",
+      "locodeNote": "",
+      "locodeName": "Maputo",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-walvis-bay-namibia",
+      "name": "Walvis Bay",
+      "country": "Namibia",
+      "countryZh": "纳米比亚",
+      "aliases": "鲸湾港  Walvis Bay",
+      "pages": [
+        46
+      ],
+      "nameZh": "鲸湾港",
+      "countryCode": "NA",
+      "locode": "NAWVB",
+      "locodeNote": "",
+      "locodeName": "Walvis Bay",
+      "locodeStatus": "QQ",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-amsterdam-netherlands",
+      "name": "Amsterdam",
+      "country": "Netherlands",
+      "countryZh": "荷兰",
+      "aliases": "阿姆斯特丹 Amsterdam",
+      "pages": [
+        46
+      ],
+      "nameZh": "阿姆斯特丹",
+      "countryCode": "NL",
+      "locode": "NLAMS",
+      "locodeNote": "",
+      "locodeName": "Amsterdam",
+      "locodeStatus": "AF",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-rotterdam-netherlands",
+      "name": "Rotterdam",
+      "country": "Netherlands",
+      "countryZh": "荷兰",
+      "aliases": "鹿特丹 Rotterdam",
+      "pages": [
+        46
+      ],
+      "nameZh": "鹿特丹",
+      "countryCode": "NL",
+      "locode": "NLRTM",
+      "locodeNote": "",
+      "locodeName": "Rotterdam",
+      "locodeStatus": "AF",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-vlissingen-netherlands",
+      "name": "Vlissingen",
+      "country": "Netherlands",
+      "countryZh": "荷兰",
+      "aliases": "弗利辛恩  Vlissingen",
+      "pages": [
+        46
+      ],
+      "nameZh": "弗利辛恩",
+      "countryCode": "NL",
+      "locode": "NLVLI",
+      "locodeNote": "",
+      "locodeName": "Vlissingen",
+      "locodeStatus": "AF",
+      "locodeFunction": "123-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-bonaire-netherlands-antilles",
+      "name": "Bonaire",
+      "country": "Bonaire, Sint Eustatius and Saba",
+      "countryZh": "博奈尔、圣尤斯特歇斯和萨巴",
+      "aliases": "博奈尔  Bonaire",
+      "pages": [
+        47
+      ],
+      "nameZh": "博奈尔",
+      "countryCode": "BQ",
+      "locode": "BQBON",
+      "locodeNote": "",
+      "locodeName": "Bonaire",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-noumea-new-caledonia",
+      "name": "Noumea",
+      "country": "New Caledonia",
+      "countryZh": "新喀里多尼亚",
+      "aliases": "努美阿 Nouméa",
+      "pages": [
+        3,
+        47
+      ],
+      "nameZh": "努美阿",
+      "countryCode": "NC",
+      "locode": "NCNOU",
+      "locodeNote": "",
+      "locodeName": "Nouméa",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-auckland-new-zealand",
+      "name": "Auckland",
+      "country": "New Zealand",
+      "countryZh": "新西兰",
+      "aliases": "奥克兰 Auckland",
+      "pages": [
+        3,
+        47
+      ],
+      "nameZh": "奥克兰",
+      "countryCode": "NZ",
+      "locode": "NZAKL",
+      "locodeNote": "",
+      "locodeName": "Auckland",
+      "locodeStatus": "AC",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-lyttelton-new-zealand",
+      "name": "Lyttelton",
+      "country": "New Zealand",
+      "countryZh": "新西兰",
+      "aliases": "利特尔顿 Lyttelton",
+      "pages": [
+        3,
+        47
+      ],
+      "nameZh": "利特尔顿",
+      "countryCode": "NZ",
+      "locode": "NZLYT",
+      "locodeNote": "",
+      "locodeName": "Lyttelton",
+      "locodeStatus": "AC",
+      "locodeFunction": "1-3-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-nelson-new-zealand",
+      "name": "Nelson",
+      "country": "New Zealand",
+      "countryZh": "新西兰",
+      "aliases": "纳尔逊  Nelson",
+      "pages": [
+        47
+      ],
+      "nameZh": "纳尔逊",
+      "countryCode": "NZ",
+      "locode": "NZNSN",
+      "locodeNote": "",
+      "locodeName": "Nelson",
+      "locodeStatus": "AC",
+      "locodeFunction": "1-34----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-wellington-new-zealand",
+      "name": "Wellington",
+      "country": "New Zealand",
+      "countryZh": "新西兰",
+      "aliases": "惠灵顿 Wellington",
+      "pages": [
+        3,
+        47
+      ],
+      "nameZh": "惠灵顿",
+      "countryCode": "NZ",
+      "locode": "NZWLG",
+      "locodeNote": "",
+      "locodeName": "Wellington",
+      "locodeStatus": "AC",
+      "locodeFunction": "1234----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-corinto-nicaragua",
+      "name": "Corinto",
+      "country": "Nicaragua",
+      "countryZh": "尼加拉瓜",
+      "aliases": "科林托  Corinto",
+      "pages": [
+        48
+      ],
+      "nameZh": "科林托",
+      "countryCode": "NI",
+      "locode": "NICIO",
+      "locodeNote": "",
+      "locodeName": "Corinto",
+      "locodeStatus": "AI",
+      "locodeFunction": "1---5---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-lagos-nigeria",
+      "name": "Lagos",
+      "country": "Nigeria",
+      "countryZh": "尼日利亚",
+      "aliases": "拉各斯  Lagos",
+      "pages": [
+        48
+      ],
+      "nameZh": "拉各斯",
+      "countryCode": "NG",
+      "locode": "NGLOS",
+      "locodeNote": "",
+      "locodeName": "Lagos",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-drammen-norway",
+      "name": "Drammen",
+      "country": "Norway",
+      "countryZh": "挪威",
+      "aliases": "德拉门  Drammen",
+      "pages": [
+        49
+      ],
+      "nameZh": "德拉门",
+      "countryCode": "NO",
+      "locode": "NODRM",
+      "locodeNote": "",
+      "locodeName": "Drammen",
+      "locodeStatus": "AA",
+      "locodeFunction": "123-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-oslo-norway",
+      "name": "Oslo",
+      "country": "Norway",
+      "countryZh": "挪威",
+      "aliases": "奥斯陆 Oslo",
+      "pages": [
+        14,
+        49
+      ],
+      "nameZh": "奥斯陆",
+      "countryCode": "NO",
+      "locode": "NOOSL",
+      "locodeNote": "",
+      "locodeName": "Oslo",
+      "locodeStatus": "AA",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-salalah-oman",
+      "name": "Salalah",
+      "country": "Oman",
+      "countryZh": "阿曼",
+      "aliases": "塞拉莱  Salalah",
+      "pages": [
+        50
+      ],
+      "nameZh": "塞拉莱",
+      "countryCode": "OM",
+      "locode": "OMSLL",
+      "locodeNote": "",
+      "locodeName": "Salalah",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-sohar-oman",
+      "name": "Sohar",
+      "country": "Oman",
+      "countryZh": "阿曼",
+      "aliases": "苏哈尔 Sohar",
+      "pages": [
+        49
+      ],
+      "nameZh": "苏哈尔",
+      "countryCode": "OM",
+      "locode": "OMSOH",
+      "locodeNote": "",
+      "locodeName": "Sohar",
+      "locodeStatus": "QQ",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-karachi-pakistan",
+      "name": "Karachi",
+      "country": "Pakistan",
+      "countryZh": "巴基斯坦",
+      "aliases": "卡拉奇  Karachi",
+      "pages": [
+        50
+      ],
+      "nameZh": "卡拉奇",
+      "countryCode": "PK",
+      "locode": "PKKHI",
+      "locodeNote": "",
+      "locodeName": "Karachi",
+      "locodeStatus": "AI",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-port-qasim-pakistan",
+      "name": "Port Qasim",
+      "country": "Pakistan",
+      "countryZh": "巴基斯坦",
+      "aliases": "卡西姆港  Muhammad Bin Qasim/Karachi",
+      "pages": [
+        50
+      ],
+      "nameZh": "卡西姆港",
+      "countryCode": "PK",
+      "locode": "PKBQM",
+      "locodeNote": "",
+      "locodeName": "Muhammad Bin Qasim/Karachi",
+      "locodeStatus": "RL",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-balboa-panama",
+      "name": "Balboa",
+      "country": "Panama",
+      "countryZh": "巴拿马",
+      "aliases": "巴尔博亚  Balboa",
+      "pages": [
+        50
+      ],
+      "nameZh": "巴尔博亚",
+      "countryCode": "PA",
+      "locode": "PABLB",
+      "locodeNote": "",
+      "locodeName": "Balboa",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-cristobal-panama",
+      "name": "Cristobal",
+      "country": "Panama",
+      "countryZh": "巴拿马",
+      "aliases": "克里斯托瓦尔  Cristóbal",
+      "pages": [
+        50
+      ],
+      "nameZh": "克里斯托瓦尔",
+      "countryCode": "PA",
+      "locode": "PACTB",
+      "locodeNote": "",
+      "locodeName": "Cristóbal",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-manzanillo-pan-panama",
+      "name": "Manzanillo (Pan)",
+      "country": "Panama",
+      "countryZh": "巴拿马",
+      "aliases": "曼萨尼约（巴拿马）  Manzanillo",
+      "pages": [
+        50
+      ],
+      "nameZh": "曼萨尼约（巴拿马）",
+      "countryCode": "PA",
+      "locode": "PAMIT",
+      "locodeNote": "",
+      "locodeName": "Manzanillo",
+      "locodeStatus": "AI",
+      "locodeFunction": "123-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-panama-canal-panama",
+      "name": "Panama Canal",
+      "country": "Panama",
+      "countryZh": "巴拿马",
+      "aliases": "巴拿马运河 Panama Canal",
+      "pages": [
+        50
+      ],
+      "nameZh": "巴拿马运河",
+      "countryCode": "PA",
+      "locode": "PAPCN",
+      "locodeNote": "",
+      "locodeName": "Panama Canal",
+      "locodeStatus": "RL",
+      "locodeFunction": "--3-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-callao-peru",
+      "name": "Callao",
+      "country": "Peru",
+      "countryZh": "秘鲁",
+      "aliases": "卡亚俄  Callao",
+      "pages": [
+        52
+      ],
+      "nameZh": "卡亚俄",
+      "countryCode": "PE",
+      "locode": "PECLL",
+      "locodeNote": "",
+      "locodeName": "Callao",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-3-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-batangas-philippines",
+      "name": "Batangas",
+      "country": "Philippines",
+      "countryZh": "菲律宾",
+      "aliases": "八打雁 Batangas/Luzon",
+      "pages": [
+        24,
+        52,
+        58
+      ],
+      "nameZh": "八打雁",
+      "countryCode": "PH",
+      "locode": "PHBTG",
+      "locodeNote": "",
+      "locodeName": "Batangas/Luzon",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-3--6--",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-manila-philippines",
+      "name": "Manila",
+      "country": "Philippines",
+      "countryZh": "菲律宾",
+      "aliases": "马尼拉 Manila",
+      "pages": [
+        24,
+        52,
+        58
+      ],
+      "nameZh": "马尼拉",
+      "countryCode": "PH",
+      "locode": "PHMNL",
+      "locodeNote": "",
+      "locodeName": "Manila",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-gdansk-poland",
+      "name": "Gdansk",
+      "country": "Poland",
+      "countryZh": "波兰",
+      "aliases": "格但斯克  Gdansk",
+      "pages": [
+        52
+      ],
+      "nameZh": "格但斯克",
+      "countryCode": "PL",
+      "locode": "PLGDN",
+      "locodeNote": "",
+      "locodeName": "Gdansk",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-gdynia-poland",
+      "name": "Gdynia",
+      "country": "Poland",
+      "countryZh": "波兰",
+      "aliases": "格丁尼亚  Gdynia",
+      "pages": [
+        52
+      ],
+      "nameZh": "格丁尼亚",
+      "countryCode": "PL",
+      "locode": "PLGDY",
+      "locodeNote": "",
+      "locodeName": "Gdynia",
+      "locodeStatus": "RL",
+      "locodeFunction": "123-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-lisbon-portugal",
+      "name": "Lisbon",
+      "country": "Portugal",
+      "countryZh": "葡萄牙",
+      "aliases": "里斯本  Lisboa",
+      "pages": [
+        53
+      ],
+      "nameZh": "里斯本",
+      "countryCode": "PT",
+      "locode": "PTLIS",
+      "locodeNote": "",
+      "locodeName": "Lisboa",
+      "locodeStatus": "AI",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-setubal-portugal",
+      "name": "Setubal",
+      "country": "Portugal",
+      "countryZh": "葡萄牙",
+      "aliases": "塞图巴尔  Setúbal",
+      "pages": [
+        53
+      ],
+      "nameZh": "塞图巴尔",
+      "countryCode": "PT",
+      "locode": "PTSET",
+      "locodeNote": "",
+      "locodeName": "Setúbal",
+      "locodeStatus": "AI",
+      "locodeFunction": "123-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-san-juan-pue-puerto-rico",
+      "name": "San Juan (Pue)",
+      "country": "Puerto Rico",
+      "countryZh": "波多黎各",
+      "aliases": "圣胡安（波多黎各）  San Juan",
+      "pages": [
+        54
+      ],
+      "nameZh": "圣胡安（波多黎各）",
+      "countryCode": "PR",
+      "locode": "PRSJU",
+      "locodeNote": "",
+      "locodeName": "San Juan",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-hamad-port-qatar",
+      "name": "Hamad Port",
+      "country": "Qatar",
+      "countryZh": "卡塔尔",
+      "aliases": "哈马德港  BGN/PCGN1956 - HAMAD",
+      "pages": [
+        54
+      ],
+      "nameZh": "哈马德港",
+      "countryCode": "QA",
+      "locode": "QAHMD",
+      "locodeNote": "",
+      "locodeName": "BGN/PCGN1956 - HAMAD",
+      "locodeStatus": "RL",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-mesaieed-qatar",
+      "name": "Mesaieed",
+      "country": "Qatar",
+      "countryZh": "卡塔尔",
+      "aliases": "梅赛伊德  Umm Sa'id (Mesaieed)",
+      "pages": [
+        54
+      ],
+      "nameZh": "梅赛伊德",
+      "countryCode": "QA",
+      "locode": "QAUMS",
+      "locodeNote": "",
+      "locodeName": "Umm Sa'id (Mesaieed)",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-3-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-nakhodka-russian-federation",
+      "name": "Nakhodka",
+      "country": "Russian Federation",
+      "countryZh": "俄罗斯",
+      "aliases": "纳霍德卡  Nakhodka",
+      "pages": [
+        55
+      ],
+      "nameZh": "纳霍德卡",
+      "countryCode": "RU",
+      "locode": "RUNJK",
+      "locodeNote": "",
+      "locodeName": "Nakhodka",
+      "locodeStatus": "QQ",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-novorossiysk-russian-federation",
+      "name": "Novorossiysk",
+      "country": "Russian Federation",
+      "countryZh": "俄罗斯",
+      "aliases": "新罗西斯克  Novorossiysk",
+      "pages": [
+        55
+      ],
+      "nameZh": "新罗西斯克",
+      "countryCode": "RU",
+      "locode": "RUNVS",
+      "locodeNote": "",
+      "locodeName": "Novorossiysk",
+      "locodeStatus": "RL",
+      "locodeFunction": "123--6--",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-st-petersburg-russian-federation",
+      "name": "St Petersburg",
+      "country": "Russian Federation",
+      "countryZh": "俄罗斯",
+      "aliases": "圣彼得堡  Saint Petersburg (ex Leningrad)",
+      "pages": [
+        55
+      ],
+      "nameZh": "圣彼得堡",
+      "countryCode": "RU",
+      "locode": "RULED",
+      "locodeNote": "",
+      "locodeName": "Saint Petersburg (ex Leningrad)",
+      "locodeStatus": "AI",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-ust-luga-russian-federation",
+      "name": "Ust-Luga",
+      "country": "Russian Federation",
+      "countryZh": "俄罗斯",
+      "aliases": "乌斯季卢加  Ust'-Luga",
+      "pages": [
+        55
+      ],
+      "nameZh": "乌斯季卢加",
+      "countryCode": "RU",
+      "locode": "RUULU",
+      "locodeNote": "",
+      "locodeName": "Ust'-Luga",
+      "locodeStatus": "RL",
+      "locodeFunction": "123-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-vladivostok-russian-federation",
+      "name": "Vladivostok",
+      "country": "Russian Federation",
+      "countryZh": "俄罗斯",
+      "aliases": "符拉迪沃斯托克（海参崴）",
+      "pages": [
+        55
+      ],
+      "nameZh": "符拉迪沃斯托克（海参崴）",
+      "countryCode": "RU",
+      "locode": "",
+      "locodeNote": "官方清单同时列有 RUFIP 和 RUVVO，请按实际码头／代理资料确认。",
+      "locodeCandidates": [
+        {
+          "code": "RUFIP",
+          "name": "Vladivostok",
+          "subdivision": "PRI",
+          "function": "12------",
+          "status": "RL"
+        },
+        {
+          "code": "RUVVO",
+          "name": "Vladivostok",
+          "subdivision": "",
+          "function": "12-4----",
+          "status": "AI"
+        }
+      ]
+    },
+    {
+      "id": "h-port-reunion-reunion",
+      "name": "Port Reunion",
+      "country": "Réunion",
+      "countryZh": "留尼汪",
+      "aliases": "留尼汪港 Le Port",
+      "pages": [
+        54
+      ],
+      "nameZh": "留尼汪港",
+      "countryCode": "RE",
+      "locode": "RELPT",
+      "locodeNote": "",
+      "locodeName": "Le Port",
+      "locodeStatus": "AF",
+      "locodeFunction": "1-3-5---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-basseterre-saint-kitts-and-nevis",
+      "name": "Basseterre",
+      "country": "Saint Kitts and Nevis",
+      "countryZh": "圣基茨和尼维斯",
+      "aliases": "巴斯特尔  Basseterre, Saint Kitts",
+      "pages": [
+        55
+      ],
+      "nameZh": "巴斯特尔",
+      "countryCode": "KN",
+      "locode": "KNBAS",
+      "locodeNote": "",
+      "locodeName": "Basseterre, Saint Kitts",
+      "locodeStatus": "AI",
+      "locodeFunction": "1---5---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-castries-st-lucia-saint-lucia",
+      "name": "Castries (St. Lucia)",
+      "country": "Saint Lucia",
+      "countryZh": "圣卢西亚",
+      "aliases": "卡斯特里（圣卢西亚）  Castries",
+      "pages": [
+        55
+      ],
+      "nameZh": "卡斯特里（圣卢西亚）",
+      "countryCode": "LC",
+      "locode": "LCCAS",
+      "locodeNote": "",
+      "locodeName": "Castries",
+      "locodeStatus": "RL",
+      "locodeFunction": "1-3-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-philipsburg-saint-martin",
+      "name": "Philipsburg",
+      "country": "Sint Maarten",
+      "countryZh": "荷属圣马丁",
+      "aliases": "菲利普斯堡  Philipsburg",
+      "pages": [
+        56
+      ],
+      "nameZh": "菲利普斯堡",
+      "countryCode": "SX",
+      "locode": "SXPHI",
+      "locodeNote": "",
+      "locodeName": "Philipsburg",
+      "locodeStatus": "RL",
+      "locodeFunction": "1-3-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-kingstown-saint-vincent-and-the-grenadines",
+      "name": "Kingstown",
+      "country": "Saint Vincent and the Grenadines",
+      "countryZh": "圣文森特和格林纳丁斯",
+      "aliases": "金斯敦（圣文森特）  Kingstown",
+      "pages": [
+        56
+      ],
+      "nameZh": "金斯敦（圣文森特）",
+      "countryCode": "VC",
+      "locode": "VCKTN",
+      "locodeNote": "",
+      "locodeName": "Kingstown",
+      "locodeStatus": "RL",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-dammam-saudi-arabia",
+      "name": "Dammam",
+      "country": "Saudi Arabia",
+      "countryZh": "沙特阿拉伯",
+      "aliases": "达曼 Ad Dammam",
+      "pages": [
+        57
+      ],
+      "nameZh": "达曼",
+      "countryCode": "SA",
+      "locode": "SADMM",
+      "locodeNote": "",
+      "locodeName": "Ad Dammam",
+      "locodeStatus": "RL",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-jeddah-saudi-arabia",
+      "name": "Jeddah",
+      "country": "Saudi Arabia",
+      "countryZh": "沙特阿拉伯",
+      "aliases": "吉达 Jeddah",
+      "pages": [
+        56
+      ],
+      "nameZh": "吉达",
+      "countryCode": "SA",
+      "locode": "SAJED",
+      "locodeNote": "",
+      "locodeName": "Jeddah",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-yanbu-saudi-arabia",
+      "name": "Yanbu",
+      "country": "Saudi Arabia",
+      "countryZh": "沙特阿拉伯",
+      "aliases": "延布",
+      "pages": [
+        56
+      ],
+      "nameZh": "延布",
+      "countryCode": "SA",
+      "locode": "",
+      "locodeNote": "需区分延布商业港（SAYNB）和工业城／港区（SAYBI），请核对具体地点。",
+      "locodeCandidates": [
+        {
+          "code": "SAYNB",
+          "name": "Yanbu commercial city",
+          "subdivision": "03",
+          "function": "1-34----",
+          "status": "AI"
+        },
+        {
+          "code": "SAYBI",
+          "name": "Yanbu Industrial City",
+          "subdivision": "03",
+          "function": "1-3-----",
+          "status": "RL"
+        }
+      ]
+    },
+    {
+      "id": "h-dakar-senegal",
+      "name": "Dakar",
+      "country": "Senegal",
+      "countryZh": "塞内加尔",
+      "aliases": "达喀尔  Dakar",
+      "pages": [
+        57
+      ],
+      "nameZh": "达喀尔",
+      "countryCode": "SN",
+      "locode": "SNDKR",
+      "locodeNote": "",
+      "locodeName": "Dakar",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-freetown-sierra-leone",
+      "name": "Freetown",
+      "country": "Sierra Leone",
+      "countryZh": "塞拉利昂",
+      "aliases": "弗里敦  Freetown",
+      "pages": [
+        58
+      ],
+      "nameZh": "弗里敦",
+      "countryCode": "SL",
+      "locode": "SLFNA",
+      "locodeNote": "",
+      "locodeName": "Freetown",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-singapore-singapore",
+      "name": "Singapore",
+      "country": "Singapore",
+      "countryZh": "新加坡",
+      "aliases": "新加坡 Singapore",
+      "pages": [
+        24,
+        58
+      ],
+      "nameZh": "新加坡",
+      "countryCode": "SG",
+      "locode": "SGSIN",
+      "locodeNote": "",
+      "locodeName": "Singapore",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-koper-slovenia",
+      "name": "Koper",
+      "country": "Slovenia",
+      "countryZh": "斯洛文尼亚",
+      "aliases": "科佩尔  Koper",
+      "pages": [
+        59
+      ],
+      "nameZh": "科佩尔",
+      "countryCode": "SI",
+      "locode": "SIKOP",
+      "locodeNote": "",
+      "locodeName": "Koper",
+      "locodeStatus": "RL",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-cape-of-good-hope-south-africa",
+      "name": "Cape of Good Hope",
+      "country": "South Africa",
+      "countryZh": "南非",
+      "aliases": "好望角",
+      "pages": [
+        59
+      ],
+      "nameZh": "好望角",
+      "countryCode": "ZA",
+      "locode": "",
+      "locodeNote": "地理通过点，不以开普敦港代码替代好望角。",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-durban-south-africa",
+      "name": "Durban",
+      "country": "South Africa",
+      "countryZh": "南非",
+      "aliases": "德班 Durban",
+      "pages": [
+        59
+      ],
+      "nameZh": "德班",
+      "countryCode": "ZA",
+      "locode": "ZADUR",
+      "locodeNote": "",
+      "locodeName": "Durban",
+      "locodeStatus": "AI",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-east-london-south-africa",
+      "name": "East London",
+      "country": "South Africa",
+      "countryZh": "南非",
+      "aliases": "东伦敦 East London",
+      "pages": [
+        59
+      ],
+      "nameZh": "东伦敦",
+      "countryCode": "ZA",
+      "locode": "ZAELS",
+      "locodeNote": "",
+      "locodeName": "East London",
+      "locodeStatus": "AF",
+      "locodeFunction": "1234----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-port-elizabeth-south-africa",
+      "name": "Port Elizabeth",
+      "country": "South Africa",
+      "countryZh": "南非",
+      "aliases": "伊丽莎白港（格贝哈） 伊丽莎白港 Gqeberha Gqeberha",
+      "pages": [
+        59
+      ],
+      "nameZh": "伊丽莎白港（格贝哈）",
+      "countryCode": "ZA",
+      "locode": "ZAPLZ",
+      "locodeNote": "",
+      "locodeName": "Gqeberha",
+      "locodeStatus": "AS",
+      "locodeFunction": "1-345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-algeciras-spain",
+      "name": "Algeciras",
+      "country": "Spain",
+      "countryZh": "西班牙",
+      "aliases": "阿尔赫西拉斯  Algeciras",
+      "pages": [
+        61,
+        62
+      ],
+      "nameZh": "阿尔赫西拉斯",
+      "countryCode": "ES",
+      "locode": "ESALG",
+      "locodeNote": "",
+      "locodeName": "Algeciras",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-barcelona-spain",
+      "name": "Barcelona",
+      "country": "Spain",
+      "countryZh": "西班牙",
+      "aliases": "巴塞罗那 Barcelona",
+      "pages": [
+        60
+      ],
+      "nameZh": "巴塞罗那",
+      "countryCode": "ES",
+      "locode": "ESBCN",
+      "locodeNote": "",
+      "locodeName": "Barcelona",
+      "locodeStatus": "AI",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-bilbao-spain",
+      "name": "Bilbao",
+      "country": "Spain",
+      "countryZh": "西班牙",
+      "aliases": "毕尔巴鄂  Bilbao",
+      "pages": [
+        62
+      ],
+      "nameZh": "毕尔巴鄂",
+      "countryCode": "ES",
+      "locode": "ESBIO",
+      "locodeNote": "",
+      "locodeName": "Bilbao",
+      "locodeStatus": "AI",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-cadiz-spain",
+      "name": "Cadiz",
+      "country": "Spain",
+      "countryZh": "西班牙",
+      "aliases": "加的斯  Cadiz",
+      "pages": [
+        61,
+        62
+      ],
+      "nameZh": "加的斯",
+      "countryCode": "ES",
+      "locode": "ESCAD",
+      "locodeNote": "",
+      "locodeName": "Cadiz",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-gijon-spain",
+      "name": "Gijon",
+      "country": "Spain",
+      "countryZh": "西班牙",
+      "aliases": "希洪  Gijón",
+      "pages": [
+        62
+      ],
+      "nameZh": "希洪",
+      "countryCode": "ES",
+      "locode": "ESGIJ",
+      "locodeNote": "",
+      "locodeName": "Gijón",
+      "locodeStatus": "AI",
+      "locodeFunction": "1234----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-las-palmas-spain",
+      "name": "Las Palmas",
+      "country": "Spain",
+      "countryZh": "西班牙",
+      "aliases": "拉斯帕尔马斯  Las Palmas",
+      "pages": [
+        63
+      ],
+      "nameZh": "拉斯帕尔马斯",
+      "countryCode": "ES",
+      "locode": "ESLPG",
+      "locodeNote": "",
+      "locodeName": "Las Palmas",
+      "locodeStatus": "RL",
+      "locodeFunction": "-----6--",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-sagunto-spain",
+      "name": "Sagunto",
+      "country": "Spain",
+      "countryZh": "西班牙",
+      "aliases": "萨贡托  Sagunto",
+      "pages": [
+        61,
+        62
+      ],
+      "nameZh": "萨贡托",
+      "countryCode": "ES",
+      "locode": "ESSAG",
+      "locodeNote": "",
+      "locodeName": "Sagunto",
+      "locodeStatus": "AI",
+      "locodeFunction": "123-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-santander-spain",
+      "name": "Santander",
+      "country": "Spain",
+      "countryZh": "西班牙",
+      "aliases": "桑坦德  Santander",
+      "pages": [
+        60,
+        62
+      ],
+      "nameZh": "桑坦德",
+      "countryCode": "ES",
+      "locode": "ESSDR",
+      "locodeNote": "",
+      "locodeName": "Santander",
+      "locodeStatus": "AI",
+      "locodeFunction": "1234----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-tarragona-spain",
+      "name": "Tarragona",
+      "country": "Spain",
+      "countryZh": "西班牙",
+      "aliases": "塔拉戈纳  Tarragona",
+      "pages": [
+        60,
+        61
+      ],
+      "nameZh": "塔拉戈纳",
+      "countryCode": "ES",
+      "locode": "ESTAR",
+      "locodeNote": "",
+      "locodeName": "Tarragona",
+      "locodeStatus": "AI",
+      "locodeFunction": "1234----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-valencia-spain",
+      "name": "Valencia",
+      "country": "Spain",
+      "countryZh": "西班牙",
+      "aliases": "瓦伦西亚  Valencia",
+      "pages": [
+        61,
+        62
+      ],
+      "nameZh": "瓦伦西亚",
+      "countryCode": "ES",
+      "locode": "ESVLC",
+      "locodeNote": "",
+      "locodeName": "Valencia",
+      "locodeStatus": "AI",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-vigo-spain",
+      "name": "Vigo",
+      "country": "Spain",
+      "countryZh": "西班牙",
+      "aliases": "维哥  Vigo",
+      "pages": [
+        62,
+        63
+      ],
+      "nameZh": "维哥",
+      "countryCode": "ES",
+      "locode": "ESVGO",
+      "locodeNote": "",
+      "locodeName": "Vigo",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-colombo-sri-lanka",
+      "name": "Colombo",
+      "country": "Sri Lanka",
+      "countryZh": "斯里兰卡",
+      "aliases": "科伦坡  Colombo",
+      "pages": [
+        63
+      ],
+      "nameZh": "科伦坡",
+      "countryCode": "LK",
+      "locode": "LKCMB",
+      "locodeNote": "",
+      "locodeName": "Colombo",
+      "locodeStatus": "AI",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-hambantota-sri-lanka",
+      "name": "Hambantota",
+      "country": "Sri Lanka",
+      "countryZh": "斯里兰卡",
+      "aliases": "汉班托塔  Hambantota",
+      "pages": [
+        63
+      ],
+      "nameZh": "汉班托塔",
+      "countryCode": "LK",
+      "locode": "LKHBA",
+      "locodeNote": "",
+      "locodeName": "Hambantota",
+      "locodeStatus": "RL",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-port-sudan-sudan",
+      "name": "Port Sudan",
+      "country": "Sudan",
+      "countryZh": "苏丹",
+      "aliases": "苏丹港  Port Sudan",
+      "pages": [
+        64
+      ],
+      "nameZh": "苏丹港",
+      "countryCode": "SD",
+      "locode": "SDPZU",
+      "locodeNote": "",
+      "locodeName": "Port Sudan",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-paramaribo-suriname",
+      "name": "Paramaribo",
+      "country": "Suriname",
+      "countryZh": "苏里南",
+      "aliases": "帕拉马里博  Paramaribo",
+      "pages": [
+        64
+      ],
+      "nameZh": "帕拉马里博",
+      "countryCode": "SR",
+      "locode": "SRPBM",
+      "locodeNote": "",
+      "locodeName": "Paramaribo",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-gothenburg-sweden",
+      "name": "Gothenburg",
+      "country": "Sweden",
+      "countryZh": "瑞典",
+      "aliases": "哥德堡  Göteborg",
+      "pages": [
+        64
+      ],
+      "nameZh": "哥德堡",
+      "countryCode": "SE",
+      "locode": "SEGOT",
+      "locodeNote": "",
+      "locodeName": "Göteborg",
+      "locodeStatus": "AA",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-malmo-sweden",
+      "name": "Malmö",
+      "country": "Sweden",
+      "countryZh": "瑞典",
+      "aliases": "马尔默  Malmö",
+      "pages": [
+        64
+      ],
+      "nameZh": "马尔默",
+      "countryCode": "SE",
+      "locode": "SEMMA",
+      "locodeNote": "",
+      "locodeName": "Malmö",
+      "locodeStatus": "AA",
+      "locodeFunction": "1234----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-wallhamn-sweden",
+      "name": "Wallhamn",
+      "country": "Sweden",
+      "countryZh": "瑞典",
+      "aliases": "瓦尔哈姆  Wallhamn",
+      "pages": [
+        64
+      ],
+      "nameZh": "瓦尔哈姆",
+      "countryCode": "SE",
+      "locode": "SEWAL",
+      "locodeNote": "",
+      "locodeName": "Wallhamn",
+      "locodeStatus": "AA",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-lattakia-syria",
+      "name": "Lattakia",
+      "country": "Syria",
+      "countryZh": "叙利亚",
+      "aliases": "拉塔基亚  Latakia",
+      "pages": [
+        38
+      ],
+      "nameZh": "拉塔基亚",
+      "countryCode": "SY",
+      "locode": "SYLTK",
+      "locodeNote": "",
+      "locodeName": "Latakia",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-tartous-syria",
+      "name": "Tartous",
+      "country": "Syria",
+      "countryZh": "叙利亚",
+      "aliases": "塔尔图斯  Tartus",
+      "pages": [
+        38
+      ],
+      "nameZh": "塔尔图斯",
+      "countryCode": "SY",
+      "locode": "SYTTS",
+      "locodeNote": "",
+      "locodeName": "Tartus",
+      "locodeStatus": "RL",
+      "locodeFunction": "1-3-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-taichung-taiwan-province-of-china",
+      "name": "Taichung",
+      "country": "Taiwan Province of China",
+      "countryZh": "中国台湾",
+      "aliases": "台中  Taichung",
+      "pages": [
+        65
+      ],
+      "nameZh": "台中",
+      "countryCode": "TW",
+      "locode": "TWTXG",
+      "locodeNote": "",
+      "locodeName": "Taichung",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-taipei-taiwan-province-of-china",
+      "name": "Taipei",
+      "country": "Taiwan Province of China",
+      "countryZh": "中国台湾",
+      "aliases": "台北  Taipei",
+      "pages": [
+        65
+      ],
+      "nameZh": "台北",
+      "countryCode": "TW",
+      "locode": "TWTPE",
+      "locodeNote": "",
+      "locodeName": "Taipei",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-dar-es-salaam-tanzania",
+      "name": "Dar Es Salaam",
+      "country": "Tanzania",
+      "countryZh": "坦桑尼亚",
+      "aliases": "达累斯萨拉姆 Dar es Salaam",
+      "pages": [
+        66
+      ],
+      "nameZh": "达累斯萨拉姆",
+      "countryCode": "TZ",
+      "locode": "TZDAR",
+      "locodeNote": "",
+      "locodeName": "Dar es Salaam",
+      "locodeStatus": "AI",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-laem-chabang-thailand",
+      "name": "Laem Chabang",
+      "country": "Thailand",
+      "countryZh": "泰国",
+      "aliases": "林查班 Laem Chabang",
+      "pages": [
+        24,
+        58,
+        66
+      ],
+      "nameZh": "林查班",
+      "countryCode": "TH",
+      "locode": "THLCH",
+      "locodeNote": "",
+      "locodeName": "Laem Chabang",
+      "locodeStatus": "RL",
+      "locodeFunction": "1-3-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-lome-togo",
+      "name": "Lome",
+      "country": "Togo",
+      "countryZh": "多哥",
+      "aliases": "洛美  Lome",
+      "pages": [
+        66
+      ],
+      "nameZh": "洛美",
+      "countryCode": "TG",
+      "locode": "TGLFW",
+      "locodeNote": "",
+      "locodeName": "Lome",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-port-of-spain-trinidad-and-tobago",
+      "name": "Port Of Spain",
+      "country": "Trinidad and Tobago",
+      "countryZh": "特立尼达和多巴哥",
+      "aliases": "西班牙港  Port-of-Spain",
+      "pages": [
+        66
+      ],
+      "nameZh": "西班牙港",
+      "countryCode": "TT",
+      "locode": "TTPOS",
+      "locodeNote": "",
+      "locodeName": "Port-of-Spain",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-la-goulette-tunisia",
+      "name": "La Goulette",
+      "country": "Tunisia",
+      "countryZh": "突尼斯",
+      "aliases": "拉古莱特  La Goulette Nord (Halqueloued)",
+      "pages": [
+        67
+      ],
+      "nameZh": "拉古莱特",
+      "countryCode": "TN",
+      "locode": "TNLGN",
+      "locodeNote": "",
+      "locodeName": "La Goulette Nord (Halqueloued)",
+      "locodeStatus": "QQ",
+      "locodeFunction": "123-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-sfax-tunisia",
+      "name": "Sfax",
+      "country": "Tunisia",
+      "countryZh": "突尼斯",
+      "aliases": "斯法克斯  Sfax",
+      "pages": [
+        67
+      ],
+      "nameZh": "斯法克斯",
+      "countryCode": "TN",
+      "locode": "TNSFA",
+      "locodeNote": "",
+      "locodeName": "Sfax",
+      "locodeStatus": "AI",
+      "locodeFunction": "1234----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-zarzis-tunisia",
+      "name": "Zarzis",
+      "country": "Tunisia",
+      "countryZh": "突尼斯",
+      "aliases": "扎尔吉斯  Zarzis",
+      "pages": [
+        67
+      ],
+      "nameZh": "扎尔吉斯",
+      "countryCode": "TN",
+      "locode": "TNZRZ",
+      "locodeNote": "",
+      "locodeName": "Zarzis",
+      "locodeStatus": "RL",
+      "locodeFunction": "1-3-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-borusan-gemlik-turkey",
+      "name": "Borusan - Gemlik",
+      "country": "Turkey",
+      "countryZh": "土耳其",
+      "aliases": "博鲁桑／盖姆利克  Gemlik",
+      "pages": [
+        67
+      ],
+      "nameZh": "博鲁桑／盖姆利克",
+      "countryCode": "TR",
+      "locode": "TRGEM",
+      "locodeNote": "",
+      "locodeName": "Gemlik",
+      "locodeStatus": "RL",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-derince-turkey",
+      "name": "Derince",
+      "country": "Turkey",
+      "countryZh": "土耳其",
+      "aliases": "代林杰  Derince",
+      "pages": [
+        67
+      ],
+      "nameZh": "代林杰",
+      "countryCode": "TR",
+      "locode": "TRDRC",
+      "locodeNote": "",
+      "locodeName": "Derince",
+      "locodeStatus": "QQ",
+      "locodeFunction": "1-3-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-iskenderun-turkey",
+      "name": "Iskenderun",
+      "country": "Turkey",
+      "countryZh": "土耳其",
+      "aliases": "伊斯肯德伦  Iskenderun",
+      "pages": [
+        67,
+        68
+      ],
+      "nameZh": "伊斯肯德伦",
+      "countryCode": "TR",
+      "locode": "TRISK",
+      "locodeNote": "",
+      "locodeName": "Iskenderun",
+      "locodeStatus": "RL",
+      "locodeFunction": "123-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-istanbul-turkey",
+      "name": "Istanbul",
+      "country": "Turkey",
+      "countryZh": "土耳其",
+      "aliases": "伊斯坦布尔  Istanbul",
+      "pages": [
+        67
+      ],
+      "nameZh": "伊斯坦布尔",
+      "countryCode": "TR",
+      "locode": "TRIST",
+      "locodeNote": "",
+      "locodeName": "Istanbul",
+      "locodeStatus": "AI",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-izmir-turkey",
+      "name": "Izmir",
+      "country": "Turkey",
+      "countryZh": "土耳其",
+      "aliases": "伊兹密尔  Izmir",
+      "pages": [
+        67,
+        68
+      ],
+      "nameZh": "伊兹密尔",
+      "countryCode": "TR",
+      "locode": "TRIZM",
+      "locodeNote": "",
+      "locodeName": "Izmir",
+      "locodeStatus": "AI",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-mersin-turkey",
+      "name": "Mersin",
+      "country": "Turkey",
+      "countryZh": "土耳其",
+      "aliases": "梅尔辛  Mersin",
+      "pages": [
+        67,
+        68
+      ],
+      "nameZh": "梅尔辛",
+      "countryCode": "TR",
+      "locode": "TRMER",
+      "locodeNote": "",
+      "locodeName": "Mersin",
+      "locodeStatus": "RL",
+      "locodeFunction": "123-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-yarimca-turkey",
+      "name": "Yarimca",
+      "country": "Turkey",
+      "countryZh": "土耳其",
+      "aliases": "亚勒姆贾  Yarimca",
+      "pages": [
+        67
+      ],
+      "nameZh": "亚勒姆贾",
+      "countryCode": "TR",
+      "locode": "TRYAR",
+      "locodeNote": "",
+      "locodeName": "Yarimca",
+      "locodeStatus": "QQ",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-yenikoy-turkey",
+      "name": "Yenikoy",
+      "country": "Turkey",
+      "countryZh": "土耳其",
+      "aliases": "耶尼科伊",
+      "pages": [
+        67
+      ],
+      "nameZh": "耶尼科伊",
+      "countryCode": "TR",
+      "locode": "",
+      "locodeNote": "需区分 TRJYN、TRYEK 和 Yeniköy-Autoport（TRAUT），请核对具体地点。",
+      "locodeCandidates": [
+        {
+          "code": "TRJYN",
+          "name": "Yenikoy",
+          "subdivision": "34",
+          "function": "-----6--",
+          "status": "RL"
+        },
+        {
+          "code": "TRYEK",
+          "name": "Yenikoy",
+          "subdivision": "41",
+          "function": "--3--6--",
+          "status": "RL"
+        },
+        {
+          "code": "TRAUT",
+          "name": "Yeniköy-Autoport",
+          "subdivision": "41",
+          "function": "1-------",
+          "status": "RL"
+        }
+      ]
+    },
+    {
+      "id": "h-chernomorsk-ukraine",
+      "name": "Chernomorsk",
+      "country": "Ukraine",
+      "countryZh": "乌克兰",
+      "aliases": "切尔诺莫尔斯克  Chornomorsk",
+      "pages": [
+        69
+      ],
+      "nameZh": "切尔诺莫尔斯克",
+      "countryCode": "UA",
+      "locode": "UAILK",
+      "locodeNote": "",
+      "locodeName": "Chornomorsk",
+      "locodeStatus": "AA",
+      "locodeFunction": "123--6--",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-odessa-ukraine",
+      "name": "Odessa",
+      "country": "Ukraine",
+      "countryZh": "乌克兰",
+      "aliases": "敖德萨  Odesa",
+      "pages": [
+        69
+      ],
+      "nameZh": "敖德萨",
+      "countryCode": "UA",
+      "locode": "UAODS",
+      "locodeNote": "",
+      "locodeName": "Odesa",
+      "locodeStatus": "AA",
+      "locodeFunction": "1234-6--",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-abu-dhabi-united-arab-emirates",
+      "name": "Abu Dhabi",
+      "country": "United Arab Emirates",
+      "countryZh": "阿拉伯联合酋长国",
+      "aliases": "阿布扎比 Abu Dhabi",
+      "pages": [
+        69
+      ],
+      "nameZh": "阿布扎比",
+      "countryCode": "AE",
+      "locode": "AEAUH",
+      "locodeNote": "",
+      "locodeName": "Abu Dhabi",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-dubai-united-arab-emirates",
+      "name": "Dubai",
+      "country": "United Arab Emirates",
+      "countryZh": "阿拉伯联合酋长国",
+      "aliases": "迪拜 Dubai",
+      "pages": [
+        70
+      ],
+      "nameZh": "迪拜",
+      "countryCode": "AE",
+      "locode": "AEDXB",
+      "locodeNote": "",
+      "locodeName": "Dubai",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-jebel-ali-united-arab-emirates",
+      "name": "Jebel Ali",
+      "country": "United Arab Emirates",
+      "countryZh": "阿拉伯联合酋长国",
+      "aliases": "杰贝阿里 Jebel Ali",
+      "pages": [
+        70
+      ],
+      "nameZh": "杰贝阿里",
+      "countryCode": "AE",
+      "locode": "AEJEA",
+      "locodeNote": "",
+      "locodeName": "Jebel Ali",
+      "locodeStatus": "QQ",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-sharjah-united-arab-emirates",
+      "name": "Sharjah",
+      "country": "United Arab Emirates",
+      "countryZh": "阿拉伯联合酋长国",
+      "aliases": "沙迦 Sharjah",
+      "pages": [
+        70
+      ],
+      "nameZh": "沙迦",
+      "countryCode": "AE",
+      "locode": "AESHJ",
+      "locodeNote": "",
+      "locodeName": "Sharjah",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-34----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-umm-al-quwain-united-arab-emirates",
+      "name": "Umm al Quwain",
+      "country": "United Arab Emirates",
+      "countryZh": "阿拉伯联合酋长国",
+      "aliases": "乌姆盖万  Umm al Quwain",
+      "pages": [
+        70
+      ],
+      "nameZh": "乌姆盖万",
+      "countryCode": "AE",
+      "locode": "AEQIW",
+      "locodeNote": "",
+      "locodeName": "Umm al Quwain",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-bristol-united-kingdom",
+      "name": "Bristol",
+      "country": "United Kingdom",
+      "countryZh": "英国",
+      "aliases": "布里斯托尔  Bristol",
+      "pages": [
+        71
+      ],
+      "nameZh": "布里斯托尔",
+      "countryCode": "GB",
+      "locode": "GBBRS",
+      "locodeNote": "",
+      "locodeName": "Bristol",
+      "locodeStatus": "AF",
+      "locodeFunction": "1234----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-immingham-united-kingdom",
+      "name": "Immingham",
+      "country": "United Kingdom",
+      "countryZh": "英国",
+      "aliases": "伊明赫姆  Immingham",
+      "pages": [
+        72
+      ],
+      "nameZh": "伊明赫姆",
+      "countryCode": "GB",
+      "locode": "GBIMM",
+      "locodeNote": "",
+      "locodeName": "Immingham",
+      "locodeStatus": "AF",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-newcastle-united-kingdom",
+      "name": "Newcastle",
+      "country": "United Kingdom",
+      "countryZh": "英国",
+      "aliases": "纽卡斯尔（英国）  Newcastle",
+      "pages": [
+        71
+      ],
+      "nameZh": "纽卡斯尔（英国）",
+      "countryCode": "GB",
+      "locode": "GBNCS",
+      "locodeNote": "",
+      "locodeName": "Newcastle",
+      "locodeStatus": "AA",
+      "locodeFunction": "1-3-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-sheerness-united-kingdom",
+      "name": "Sheerness",
+      "country": "United Kingdom",
+      "countryZh": "英国",
+      "aliases": "希尔内斯  Sheerness",
+      "pages": [
+        72
+      ],
+      "nameZh": "希尔内斯",
+      "countryCode": "GB",
+      "locode": "GBSHS",
+      "locodeNote": "",
+      "locodeName": "Sheerness",
+      "locodeStatus": "AF",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-southampton-united-kingdom",
+      "name": "Southampton",
+      "country": "United Kingdom",
+      "countryZh": "英国",
+      "aliases": "南安普顿 Southampton",
+      "pages": [
+        71
+      ],
+      "nameZh": "南安普顿",
+      "countryCode": "GB",
+      "locode": "GBSOU",
+      "locodeNote": "",
+      "locodeName": "Southampton",
+      "locodeStatus": "AF",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-tilbury-united-kingdom",
+      "name": "Tilbury",
+      "country": "United Kingdom",
+      "countryZh": "英国",
+      "aliases": "蒂尔伯里  Tilbury",
+      "pages": [
+        72
+      ],
+      "nameZh": "蒂尔伯里",
+      "countryCode": "GB",
+      "locode": "GBTIL",
+      "locodeNote": "",
+      "locodeName": "Tilbury",
+      "locodeStatus": "AF",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-white-hill-point-united-kingdom",
+      "name": "White Hill Point",
+      "country": "United Kingdom",
+      "countryZh": "英国",
+      "aliases": "怀特希尔角  White Hill Point",
+      "pages": [
+        72
+      ],
+      "nameZh": "怀特希尔角",
+      "countryCode": "GB",
+      "locode": "GBWPN",
+      "locodeNote": "",
+      "locodeName": "White Hill Point",
+      "locodeStatus": "RL",
+      "locodeFunction": "--3-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-baltimore-united-states-of-america",
+      "name": "Baltimore",
+      "country": "United States of America",
+      "countryZh": "美国",
+      "aliases": "巴尔的摩 Baltimore",
+      "pages": [
+        74,
+        75
+      ],
+      "nameZh": "巴尔的摩",
+      "countryCode": "US",
+      "locode": "USBAL",
+      "locodeNote": "",
+      "locodeName": "Baltimore",
+      "locodeStatus": "RL",
+      "locodeFunction": "123-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-beaumont-united-states-of-america",
+      "name": "Beaumont",
+      "country": "United States of America",
+      "countryZh": "美国",
+      "aliases": "博蒙特  Beaumont",
+      "pages": [
+        73,
+        74
+      ],
+      "nameZh": "博蒙特",
+      "countryCode": "US",
+      "locode": "USBPT",
+      "locodeNote": "",
+      "locodeName": "Beaumont",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-brunswick-united-states-of-america",
+      "name": "Brunswick",
+      "country": "United States of America",
+      "countryZh": "美国",
+      "aliases": "布伦瑞克 Brunswick",
+      "pages": [
+        74,
+        76
+      ],
+      "nameZh": "布伦瑞克",
+      "countryCode": "US",
+      "locode": "USSSI",
+      "locodeNote": "",
+      "locodeName": "Brunswick",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-charleston-sc-united-states-of-america",
+      "name": "Charleston, SC",
+      "country": "United States of America",
+      "countryZh": "美国",
+      "aliases": "查尔斯顿（南卡罗来纳） 查尔斯顿 Charleston",
+      "pages": [
+        73,
+        74
+      ],
+      "nameZh": "查尔斯顿（南卡罗来纳）",
+      "countryCode": "US",
+      "locode": "USCHS",
+      "locodeNote": "",
+      "locodeName": "Charleston",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-corpus-christi-united-states-of-america",
+      "name": "Corpus Christi",
+      "country": "United States of America",
+      "countryZh": "美国",
+      "aliases": "科珀斯克里斯蒂  Corpus Christi",
+      "pages": [
+        73,
+        74,
+        76
+      ],
+      "nameZh": "科珀斯克里斯蒂",
+      "countryCode": "US",
+      "locode": "USCRP",
+      "locodeNote": "",
+      "locodeName": "Corpus Christi",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-davisville-united-states-of-america",
+      "name": "Davisville",
+      "country": "United States of America",
+      "countryZh": "美国",
+      "aliases": "戴维斯维尔  Davisville",
+      "pages": [
+        74,
+        77
+      ],
+      "nameZh": "戴维斯维尔",
+      "countryCode": "US",
+      "locode": "USDVV",
+      "locodeNote": "",
+      "locodeName": "Davisville",
+      "locodeStatus": "RN",
+      "locodeFunction": "1-3-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-freeport-tx-united-states-of-america",
+      "name": "Freeport, Tx",
+      "country": "United States of America",
+      "countryZh": "美国",
+      "aliases": "弗里波特（得克萨斯） 弗里波特 德克萨斯 Freeport",
+      "pages": [
+        73,
+        74
+      ],
+      "nameZh": "弗里波特（得克萨斯）",
+      "countryCode": "US",
+      "locode": "USFPO",
+      "locodeNote": "",
+      "locodeName": "Freeport",
+      "locodeStatus": "RN",
+      "locodeFunction": "1-3-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-galveston-united-states-of-america",
+      "name": "Galveston",
+      "country": "United States of America",
+      "countryZh": "美国",
+      "aliases": "加尔维斯顿  Galveston",
+      "pages": [
+        73,
+        74
+      ],
+      "nameZh": "加尔维斯顿",
+      "countryCode": "US",
+      "locode": "USGLS",
+      "locodeNote": "",
+      "locodeName": "Galveston",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-gulfport-ms-united-states-of-america",
+      "name": "Gulfport, Ms",
+      "country": "United States of America",
+      "countryZh": "美国",
+      "aliases": "格尔夫波特（密西西比）  Gulfport",
+      "pages": [
+        74
+      ],
+      "nameZh": "格尔夫波特（密西西比）",
+      "countryCode": "US",
+      "locode": "USGPT",
+      "locodeNote": "",
+      "locodeName": "Gulfport",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-houston-united-states-of-america",
+      "name": "Houston",
+      "country": "United States of America",
+      "countryZh": "美国",
+      "aliases": "休斯敦  Houston",
+      "pages": [
+        73,
+        74
+      ],
+      "nameZh": "休斯敦",
+      "countryCode": "US",
+      "locode": "USHOU",
+      "locodeNote": "",
+      "locodeName": "Houston",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-jacksonville-united-states-of-america",
+      "name": "Jacksonville",
+      "country": "United States of America",
+      "countryZh": "美国",
+      "aliases": "杰克逊维尔 Jacksonville",
+      "pages": [
+        74
+      ],
+      "nameZh": "杰克逊维尔",
+      "countryCode": "US",
+      "locode": "USJAX",
+      "locodeNote": "",
+      "locodeName": "Jacksonville",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-long-beach-united-states-of-america",
+      "name": "Long Beach",
+      "country": "United States of America",
+      "countryZh": "美国",
+      "aliases": "长滩  Long Beach",
+      "pages": [
+        74,
+        77
+      ],
+      "nameZh": "长滩",
+      "countryCode": "US",
+      "locode": "USLGB",
+      "locodeNote": "",
+      "locodeName": "Long Beach",
+      "locodeStatus": "AI",
+      "locodeFunction": "1234----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-miami-united-states-of-america",
+      "name": "Miami",
+      "country": "United States of America",
+      "countryZh": "美国",
+      "aliases": "迈阿密  Miami",
+      "pages": [
+        74,
+        75
+      ],
+      "nameZh": "迈阿密",
+      "countryCode": "US",
+      "locode": "USMIA",
+      "locodeNote": "",
+      "locodeName": "Miami",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-mobile-united-states-of-america",
+      "name": "Mobile",
+      "country": "United States of America",
+      "countryZh": "美国",
+      "aliases": "莫比尔 Mobile",
+      "pages": [
+        74
+      ],
+      "nameZh": "莫比尔",
+      "countryCode": "US",
+      "locode": "USMOB",
+      "locodeNote": "",
+      "locodeName": "Mobile",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-new-york-united-states-of-america",
+      "name": "New York",
+      "country": "United States of America",
+      "countryZh": "美国",
+      "aliases": "纽约  New York",
+      "pages": [
+        74,
+        75
+      ],
+      "nameZh": "纽约",
+      "countryCode": "US",
+      "locode": "USNYC",
+      "locodeNote": "",
+      "locodeName": "New York",
+      "locodeStatus": "AI",
+      "locodeFunction": "12345---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-newport-news-united-states-of-america",
+      "name": "Newport News",
+      "country": "United States of America",
+      "countryZh": "美国",
+      "aliases": "纽波特纽斯  Newport News",
+      "pages": [
+        73,
+        74
+      ],
+      "nameZh": "纽波特纽斯",
+      "countryCode": "US",
+      "locode": "USNNS",
+      "locodeNote": "",
+      "locodeName": "Newport News",
+      "locodeStatus": "RL",
+      "locodeFunction": "123-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-norfolk-united-states-of-america",
+      "name": "Norfolk",
+      "country": "United States of America",
+      "countryZh": "美国",
+      "aliases": "诺福克  Norfolk",
+      "pages": [
+        73,
+        74
+      ],
+      "nameZh": "诺福克",
+      "countryCode": "US",
+      "locode": "USORF",
+      "locodeNote": "",
+      "locodeName": "Norfolk",
+      "locodeStatus": "AI",
+      "locodeFunction": "1234----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-philadelphia-united-states-of-america",
+      "name": "Philadelphia",
+      "country": "United States of America",
+      "countryZh": "美国",
+      "aliases": "费城  Philadelphia",
+      "pages": [
+        74
+      ],
+      "nameZh": "费城",
+      "countryCode": "US",
+      "locode": "USPHL",
+      "locodeNote": "",
+      "locodeName": "Philadelphia",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-port-arthur-united-states-of-america",
+      "name": "Port Arthur",
+      "country": "United States of America",
+      "countryZh": "美国",
+      "aliases": "阿瑟港  Port Arthur",
+      "pages": [
+        73,
+        74
+      ],
+      "nameZh": "阿瑟港",
+      "countryCode": "US",
+      "locode": "USPOA",
+      "locodeNote": "",
+      "locodeName": "Port Arthur",
+      "locodeStatus": "RL",
+      "locodeFunction": "1-3-----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-port-canaveral-united-states-of-america",
+      "name": "Port Canaveral",
+      "country": "United States of America",
+      "countryZh": "美国",
+      "aliases": "卡纳维拉尔港  Port Canaveral",
+      "pages": [
+        74,
+        76
+      ],
+      "nameZh": "卡纳维拉尔港",
+      "countryCode": "US",
+      "locode": "USPCV",
+      "locodeNote": "",
+      "locodeName": "Port Canaveral",
+      "locodeStatus": "RL",
+      "locodeFunction": "1-------",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-port-everglades-united-states-of-america",
+      "name": "Port Everglades",
+      "country": "United States of America",
+      "countryZh": "美国",
+      "aliases": "埃弗格莱兹港  Port Everglades",
+      "pages": [
+        74,
+        75
+      ],
+      "nameZh": "埃弗格莱兹港",
+      "countryCode": "US",
+      "locode": "USPEF",
+      "locodeNote": "",
+      "locodeName": "Port Everglades",
+      "locodeStatus": "RN",
+      "locodeFunction": "1-34----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-port-hueneme-united-states-of-america",
+      "name": "Port Hueneme",
+      "country": "United States of America",
+      "countryZh": "美国",
+      "aliases": "怀尼米港  Port Hueneme",
+      "pages": [
+        74
+      ],
+      "nameZh": "怀尼米港",
+      "countryCode": "US",
+      "locode": "USNTD",
+      "locodeNote": "",
+      "locodeName": "Port Hueneme",
+      "locodeStatus": "AI",
+      "locodeFunction": "1234-6--",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-portsmouth-united-states-of-america",
+      "name": "Portsmouth",
+      "country": "United States of America",
+      "countryZh": "美国",
+      "aliases": "朴次茅斯（美国）",
+      "pages": [
+        73,
+        74
+      ],
+      "nameZh": "朴次茅斯（美国）",
+      "countryCode": "US",
+      "locode": "",
+      "locodeNote": "美国存在多个同名港口（含 USPSM、USPTM），原参考名称未注明州，请确认后选择。",
+      "locodeCandidates": [
+        {
+          "code": "USPSM",
+          "name": "Portsmouth",
+          "subdivision": "NH",
+          "function": "1--4----",
+          "status": "AI"
+        },
+        {
+          "code": "USPTM",
+          "name": "Portsmouth",
+          "subdivision": "VA",
+          "function": "1-3-----",
+          "status": "AS"
+        }
+      ]
+    },
+    {
+      "id": "h-savannah-united-states-of-america",
+      "name": "Savannah",
+      "country": "United States of America",
+      "countryZh": "美国",
+      "aliases": "萨凡纳  Savannah",
+      "pages": [
+        74,
+        76
+      ],
+      "nameZh": "萨凡纳",
+      "countryCode": "US",
+      "locode": "USSAV",
+      "locodeNote": "",
+      "locodeName": "Savannah",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-tampa-united-states-of-america",
+      "name": "Tampa",
+      "country": "United States of America",
+      "countryZh": "美国",
+      "aliases": "坦帕  Tampa",
+      "pages": [
+        76
+      ],
+      "nameZh": "坦帕",
+      "countryCode": "US",
+      "locode": "USTPA",
+      "locodeNote": "",
+      "locodeName": "Tampa",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-wilmington-de-united-states-of-america",
+      "name": "Wilmington, De",
+      "country": "United States of America",
+      "countryZh": "美国",
+      "aliases": "威尔明顿（特拉华）  Wilmington",
+      "pages": [
+        74
+      ],
+      "nameZh": "威尔明顿（特拉华）",
+      "countryCode": "US",
+      "locode": "USILG",
+      "locodeNote": "",
+      "locodeName": "Wilmington",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-montevideo-uruguay",
+      "name": "Montevideo",
+      "country": "Uruguay",
+      "countryZh": "乌拉圭",
+      "aliases": "蒙得维的亚  Montevideo",
+      "pages": [
+        77
+      ],
+      "nameZh": "蒙得维的亚",
+      "countryCode": "UY",
+      "locode": "UYMVD",
+      "locodeNote": "",
+      "locodeName": "Montevideo",
+      "locodeStatus": "AF",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-la-guaira-venezuela",
+      "name": "La Guaira",
+      "country": "Venezuela",
+      "countryZh": "委内瑞拉",
+      "aliases": "拉瓜伊拉  La Guaira",
+      "pages": [
+        78
+      ],
+      "nameZh": "拉瓜伊拉",
+      "countryCode": "VE",
+      "locode": "VELAG",
+      "locodeNote": "",
+      "locodeName": "La Guaira",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-puerto-cabello-venezuela",
+      "name": "Puerto Cabello",
+      "country": "Venezuela",
+      "countryZh": "委内瑞拉",
+      "aliases": "卡贝略港  Puerto Cabello",
+      "pages": [
+        78
+      ],
+      "nameZh": "卡贝略港",
+      "countryCode": "VE",
+      "locode": "VEPBL",
+      "locodeNote": "",
+      "locodeName": "Puerto Cabello",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--4----",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-ho-chi-minh-city-viet-nam",
+      "name": "Ho Chi Minh City",
+      "country": "Viet Nam",
+      "countryZh": "越南",
+      "aliases": "胡志明市 Ho Chi Minh City",
+      "pages": [
+        24,
+        58,
+        78
+      ],
+      "nameZh": "胡志明市",
+      "countryCode": "VN",
+      "locode": "VNSGN",
+      "locodeNote": "",
+      "locodeName": "Ho Chi Minh City",
+      "locodeStatus": "AI",
+      "locodeFunction": "1-3456--",
+      "locodeCandidates": []
+    },
+    {
+      "id": "h-road-town-virgin-islands-british",
+      "name": "Road Town",
+      "country": "Virgin Islands British",
+      "countryZh": "英属维尔京群岛",
+      "aliases": "罗德城  Road Town, Tortola",
+      "pages": [
+        78
+      ],
+      "nameZh": "罗德城",
+      "countryCode": "VG",
+      "locode": "VGRAD",
+      "locodeNote": "",
+      "locodeName": "Road Town, Tortola",
+      "locodeStatus": "AI",
+      "locodeFunction": "1--45---",
+      "locodeCandidates": []
+    }
+  ],
+  "locodeRelease": "2025-1",
+  "locodeCheckedOn": "2026-10-18",
+  "locodeSourceUrl": "https://unlocode.unece.org/publications/",
+  "locodeDownloadUrl": "https://opensource.unicc.org/un/unece/uncefact/vocab-locode/-/jobs/artifacts/2025-1/download?job=package-release",
+  "translationNote": "中文名称为常用译名或音译检索名；英文名称和 UN/LOCODE 用于核对具体地点。",
+  "countries": [
+    {
+      "code": "AD",
+      "name": "Andorra",
+      "nameZh": "安道尔",
+      "sourceName": "ANDORRA"
+    },
+    {
+      "code": "AE",
+      "name": "United Arab Emirates",
+      "nameZh": "阿拉伯联合酋长国",
+      "sourceName": "UNITED ARAB EMIRATES (THE)"
+    },
+    {
+      "code": "AF",
+      "name": "Afghanistan",
+      "nameZh": "阿富汗",
+      "sourceName": "AFGHANISTAN"
+    },
+    {
+      "code": "AG",
+      "name": "Antigua & Barbuda",
+      "nameZh": "安提瓜和巴布达",
+      "sourceName": "ANTIGUA AND BARBUDA"
+    },
+    {
+      "code": "AI",
+      "name": "Anguilla",
+      "nameZh": "安圭拉",
+      "sourceName": "ANGUILLA"
+    },
+    {
+      "code": "AL",
+      "name": "Albania",
+      "nameZh": "阿尔巴尼亚",
+      "sourceName": "ALBANIA"
+    },
+    {
+      "code": "AM",
+      "name": "Armenia",
+      "nameZh": "亚美尼亚",
+      "sourceName": "ARMENIA"
+    },
+    {
+      "code": "AO",
+      "name": "Angola",
+      "nameZh": "安哥拉",
+      "sourceName": "ANGOLA"
+    },
+    {
+      "code": "AQ",
+      "name": "Antarctica",
+      "nameZh": "南极洲",
+      "sourceName": "ANTARCTICA"
+    },
+    {
+      "code": "AR",
+      "name": "Argentina",
+      "nameZh": "阿根廷",
+      "sourceName": "ARGENTINA"
+    },
+    {
+      "code": "AS",
+      "name": "American Samoa",
+      "nameZh": "美属萨摩亚",
+      "sourceName": "AMERICAN SAMOA"
+    },
+    {
+      "code": "AT",
+      "name": "Austria",
+      "nameZh": "奥地利",
+      "sourceName": "AUSTRIA"
+    },
+    {
+      "code": "AU",
+      "name": "Australia",
+      "nameZh": "澳大利亚",
+      "sourceName": "AUSTRALIA"
+    },
+    {
+      "code": "AW",
+      "name": "Aruba",
+      "nameZh": "阿鲁巴",
+      "sourceName": "ARUBA"
+    },
+    {
+      "code": "AX",
+      "name": "Åland Islands",
+      "nameZh": "奥兰群岛",
+      "sourceName": "ÅLAND ISLANDS"
+    },
+    {
+      "code": "AZ",
+      "name": "Azerbaijan",
+      "nameZh": "阿塞拜疆",
+      "sourceName": "AZERBAIJAN"
+    },
+    {
+      "code": "BA",
+      "name": "Bosnia & Herzegovina",
+      "nameZh": "波斯尼亚和黑塞哥维那",
+      "sourceName": "BOSNIA AND HERZEGOVINA"
+    },
+    {
+      "code": "BB",
+      "name": "Barbados",
+      "nameZh": "巴巴多斯",
+      "sourceName": "BARBADOS"
+    },
+    {
+      "code": "BD",
+      "name": "Bangladesh",
+      "nameZh": "孟加拉国",
+      "sourceName": "BANGLADESH"
+    },
+    {
+      "code": "BE",
+      "name": "Belgium",
+      "nameZh": "比利时",
+      "sourceName": "BELGIUM"
+    },
+    {
+      "code": "BF",
+      "name": "Burkina Faso",
+      "nameZh": "布基纳法索",
+      "sourceName": "BURKINA FASO"
+    },
+    {
+      "code": "BG",
+      "name": "Bulgaria",
+      "nameZh": "保加利亚",
+      "sourceName": "BULGARIA"
+    },
+    {
+      "code": "BH",
+      "name": "Bahrain",
+      "nameZh": "巴林",
+      "sourceName": "BAHRAIN"
+    },
+    {
+      "code": "BI",
+      "name": "Burundi",
+      "nameZh": "布隆迪",
+      "sourceName": "BURUNDI"
+    },
+    {
+      "code": "BJ",
+      "name": "Benin",
+      "nameZh": "贝宁",
+      "sourceName": "BENIN"
+    },
+    {
+      "code": "BL",
+      "name": "St. Barthélemy",
+      "nameZh": "圣巴泰勒米",
+      "sourceName": "SAINT BARTHÉLEMY"
+    },
+    {
+      "code": "BM",
+      "name": "Bermuda",
+      "nameZh": "百慕大",
+      "sourceName": "BERMUDA"
+    },
+    {
+      "code": "BN",
+      "name": "Brunei",
+      "nameZh": "文莱",
+      "sourceName": "BRUNEI DARUSSALAM"
+    },
+    {
+      "code": "BO",
+      "name": "Bolivia",
+      "nameZh": "玻利维亚",
+      "sourceName": "BOLIVIA, PLURINATIONAL STATE OF"
+    },
+    {
+      "code": "BQ",
+      "name": "Caribbean Netherlands",
+      "nameZh": "博奈尔、圣尤斯特歇斯和萨巴",
+      "sourceName": "BONAIRE, SINT EUSTATIUS AND SABA"
+    },
+    {
+      "code": "BR",
+      "name": "Brazil",
+      "nameZh": "巴西",
+      "sourceName": "BRAZIL"
+    },
+    {
+      "code": "BS",
+      "name": "Bahamas",
+      "nameZh": "巴哈马",
+      "sourceName": "BAHAMAS"
+    },
+    {
+      "code": "BT",
+      "name": "Bhutan",
+      "nameZh": "不丹",
+      "sourceName": "BHUTAN"
+    },
+    {
+      "code": "BW",
+      "name": "Botswana",
+      "nameZh": "博茨瓦纳",
+      "sourceName": "BOTSWANA"
+    },
+    {
+      "code": "BY",
+      "name": "Belarus",
+      "nameZh": "白俄罗斯",
+      "sourceName": "BELARUS"
+    },
+    {
+      "code": "BZ",
+      "name": "Belize",
+      "nameZh": "伯利兹",
+      "sourceName": "BELIZE"
+    },
+    {
+      "code": "CA",
+      "name": "Canada",
+      "nameZh": "加拿大",
+      "sourceName": "CANADA"
+    },
+    {
+      "code": "CC",
+      "name": "Cocos (Keeling) Islands",
+      "nameZh": "科科斯（基林）群岛",
+      "sourceName": "COCOS (KEELING) ISLANDS"
+    },
+    {
+      "code": "CD",
+      "name": "Congo - Kinshasa",
+      "nameZh": "刚果（金）",
+      "sourceName": "CONGO, THE DEMOCRATIC REPUBLIC OF THE"
+    },
+    {
+      "code": "CF",
+      "name": "Central African Republic",
+      "nameZh": "中非共和国",
+      "sourceName": "CENTRAL AFRICAN REPUBLIC"
+    },
+    {
+      "code": "CG",
+      "name": "Congo - Brazzaville",
+      "nameZh": "刚果（布）",
+      "sourceName": "CONGO"
+    },
+    {
+      "code": "CH",
+      "name": "Switzerland",
+      "nameZh": "瑞士",
+      "sourceName": "SWITZERLAND"
+    },
+    {
+      "code": "CI",
+      "name": "Côte d’Ivoire",
+      "nameZh": "科特迪瓦",
+      "sourceName": "CÔTE D'IVOIRE"
+    },
+    {
+      "code": "CK",
+      "name": "Cook Islands",
+      "nameZh": "库克群岛",
+      "sourceName": "COOK ISLANDS"
+    },
+    {
+      "code": "CL",
+      "name": "Chile",
+      "nameZh": "智利",
+      "sourceName": "CHILE"
+    },
+    {
+      "code": "CM",
+      "name": "Cameroon",
+      "nameZh": "喀麦隆",
+      "sourceName": "CAMEROON"
+    },
+    {
+      "code": "CN",
+      "name": "China",
+      "nameZh": "中国",
+      "sourceName": "CHINA"
+    },
+    {
+      "code": "CO",
+      "name": "Colombia",
+      "nameZh": "哥伦比亚",
+      "sourceName": "COLOMBIA"
+    },
+    {
+      "code": "CR",
+      "name": "Costa Rica",
+      "nameZh": "哥斯达黎加",
+      "sourceName": "COSTA RICA"
+    },
+    {
+      "code": "CU",
+      "name": "Cuba",
+      "nameZh": "古巴",
+      "sourceName": "CUBA"
+    },
+    {
+      "code": "CV",
+      "name": "Cape Verde",
+      "nameZh": "佛得角",
+      "sourceName": "CAPE VERDE"
+    },
+    {
+      "code": "CW",
+      "name": "Curaçao",
+      "nameZh": "库拉索",
+      "sourceName": "CURAÇAO"
+    },
+    {
+      "code": "CX",
+      "name": "Christmas Island",
+      "nameZh": "圣诞岛",
+      "sourceName": "CHRISTMAS ISLAND"
+    },
+    {
+      "code": "CY",
+      "name": "Cyprus",
+      "nameZh": "塞浦路斯",
+      "sourceName": "CYPRUS"
+    },
+    {
+      "code": "CZ",
+      "name": "Czechia",
+      "nameZh": "捷克",
+      "sourceName": "CZECHIA"
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "nameZh": "德国",
+      "sourceName": "GERMANY"
+    },
+    {
+      "code": "DJ",
+      "name": "Djibouti",
+      "nameZh": "吉布提",
+      "sourceName": "DJIBOUTI"
+    },
+    {
+      "code": "DK",
+      "name": "Denmark",
+      "nameZh": "丹麦",
+      "sourceName": "DENMARK"
+    },
+    {
+      "code": "DM",
+      "name": "Dominica",
+      "nameZh": "多米尼克",
+      "sourceName": "DOMINICA"
+    },
+    {
+      "code": "DO",
+      "name": "Dominican Republic",
+      "nameZh": "多米尼加共和国",
+      "sourceName": "DOMINICAN REPUBLIC"
+    },
+    {
+      "code": "DZ",
+      "name": "Algeria",
+      "nameZh": "阿尔及利亚",
+      "sourceName": "ALGERIA"
+    },
+    {
+      "code": "EC",
+      "name": "Ecuador",
+      "nameZh": "厄瓜多尔",
+      "sourceName": "ECUADOR"
+    },
+    {
+      "code": "EE",
+      "name": "Estonia",
+      "nameZh": "爱沙尼亚",
+      "sourceName": "ESTONIA"
+    },
+    {
+      "code": "EG",
+      "name": "Egypt",
+      "nameZh": "埃及",
+      "sourceName": "EGYPT"
+    },
+    {
+      "code": "EH",
+      "name": "Western Sahara",
+      "nameZh": "西撒哈拉",
+      "sourceName": "WESTERN SAHARA"
+    },
+    {
+      "code": "ER",
+      "name": "Eritrea",
+      "nameZh": "厄立特里亚",
+      "sourceName": "ERITREA"
+    },
+    {
+      "code": "ES",
+      "name": "Spain",
+      "nameZh": "西班牙",
+      "sourceName": "SPAIN"
+    },
+    {
+      "code": "ET",
+      "name": "Ethiopia",
+      "nameZh": "埃塞俄比亚",
+      "sourceName": "ETHIOPIA"
+    },
+    {
+      "code": "FI",
+      "name": "Finland",
+      "nameZh": "芬兰",
+      "sourceName": "FINLAND"
+    },
+    {
+      "code": "FJ",
+      "name": "Fiji",
+      "nameZh": "斐济",
+      "sourceName": "FIJI"
+    },
+    {
+      "code": "FK",
+      "name": "Falkland Islands",
+      "nameZh": "福克兰群岛",
+      "sourceName": "FALKLAND ISLANDS (MALVINAS)"
+    },
+    {
+      "code": "FM",
+      "name": "Micronesia",
+      "nameZh": "密克罗尼西亚",
+      "sourceName": "MICRONESIA, FEDERATED STATES OF"
+    },
+    {
+      "code": "FO",
+      "name": "Faroe Islands",
+      "nameZh": "法罗群岛",
+      "sourceName": "FAROE ISLANDS"
+    },
+    {
+      "code": "FR",
+      "name": "France",
+      "nameZh": "法国",
+      "sourceName": "FRANCE"
+    },
+    {
+      "code": "GA",
+      "name": "Gabon",
+      "nameZh": "加蓬",
+      "sourceName": "GABON"
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "nameZh": "英国",
+      "sourceName": "UNITED KINGDOM"
+    },
+    {
+      "code": "GD",
+      "name": "Grenada",
+      "nameZh": "格林纳达",
+      "sourceName": "GRENADA"
+    },
+    {
+      "code": "GE",
+      "name": "Georgia",
+      "nameZh": "格鲁吉亚",
+      "sourceName": "GEORGIA"
+    },
+    {
+      "code": "GF",
+      "name": "French Guiana",
+      "nameZh": "法属圭亚那",
+      "sourceName": "FRENCH GUIANA"
+    },
+    {
+      "code": "GG",
+      "name": "Guernsey",
+      "nameZh": "根西岛",
+      "sourceName": "GUERNSEY"
+    },
+    {
+      "code": "GH",
+      "name": "Ghana",
+      "nameZh": "加纳",
+      "sourceName": "GHANA"
+    },
+    {
+      "code": "GI",
+      "name": "Gibraltar",
+      "nameZh": "直布罗陀",
+      "sourceName": "GIBRALTAR"
+    },
+    {
+      "code": "GL",
+      "name": "Greenland",
+      "nameZh": "格陵兰",
+      "sourceName": "GREENLAND"
+    },
+    {
+      "code": "GM",
+      "name": "Gambia",
+      "nameZh": "冈比亚",
+      "sourceName": "GAMBIA"
+    },
+    {
+      "code": "GN",
+      "name": "Guinea",
+      "nameZh": "几内亚",
+      "sourceName": "GUINEA"
+    },
+    {
+      "code": "GP",
+      "name": "Guadeloupe",
+      "nameZh": "瓜德罗普",
+      "sourceName": "GUADELOUPE"
+    },
+    {
+      "code": "GQ",
+      "name": "Equatorial Guinea",
+      "nameZh": "赤道几内亚",
+      "sourceName": "EQUATORIAL GUINEA"
+    },
+    {
+      "code": "GR",
+      "name": "Greece",
+      "nameZh": "希腊",
+      "sourceName": "GREECE"
+    },
+    {
+      "code": "GS",
+      "name": "South Georgia & South Sandwich Islands",
+      "nameZh": "南乔治亚和南桑威奇群岛",
+      "sourceName": "SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS"
+    },
+    {
+      "code": "GT",
+      "name": "Guatemala",
+      "nameZh": "危地马拉",
+      "sourceName": "GUATEMALA"
+    },
+    {
+      "code": "GU",
+      "name": "Guam",
+      "nameZh": "关岛",
+      "sourceName": "GUAM"
+    },
+    {
+      "code": "GW",
+      "name": "Guinea-Bissau",
+      "nameZh": "几内亚比绍",
+      "sourceName": "GUINEA-BISSAU"
+    },
+    {
+      "code": "GY",
+      "name": "Guyana",
+      "nameZh": "圭亚那",
+      "sourceName": "GUYANA"
+    },
+    {
+      "code": "HK",
+      "name": "Hong Kong SAR China",
+      "nameZh": "中国香港",
+      "sourceName": "HONG KONG"
+    },
+    {
+      "code": "HM",
+      "name": "Heard & McDonald Islands",
+      "nameZh": "赫德岛和麦克唐纳群岛",
+      "sourceName": "HEARD ISLAND AND MCDONALD ISLANDS"
+    },
+    {
+      "code": "HN",
+      "name": "Honduras",
+      "nameZh": "洪都拉斯",
+      "sourceName": "HONDURAS"
+    },
+    {
+      "code": "HR",
+      "name": "Croatia",
+      "nameZh": "克罗地亚",
+      "sourceName": "CROATIA"
+    },
+    {
+      "code": "HT",
+      "name": "Haiti",
+      "nameZh": "海地",
+      "sourceName": "HAITI"
+    },
+    {
+      "code": "HU",
+      "name": "Hungary",
+      "nameZh": "匈牙利",
+      "sourceName": "HUNGARY"
+    },
+    {
+      "code": "ID",
+      "name": "Indonesia",
+      "nameZh": "印度尼西亚",
+      "sourceName": "INDONESIA"
+    },
+    {
+      "code": "IE",
+      "name": "Ireland",
+      "nameZh": "爱尔兰",
+      "sourceName": "IRELAND"
+    },
+    {
+      "code": "IL",
+      "name": "Israel",
+      "nameZh": "以色列",
+      "sourceName": "ISRAEL"
+    },
+    {
+      "code": "IM",
+      "name": "Isle of Man",
+      "nameZh": "马恩岛",
+      "sourceName": "ISLE OF MAN"
+    },
+    {
+      "code": "IN",
+      "name": "India",
+      "nameZh": "印度",
+      "sourceName": "INDIA"
+    },
+    {
+      "code": "IO",
+      "name": "British Indian Ocean Territory",
+      "nameZh": "英属印度洋领地",
+      "sourceName": "BRITISH INDIAN OCEAN TERRITORY"
+    },
+    {
+      "code": "IQ",
+      "name": "Iraq",
+      "nameZh": "伊拉克",
+      "sourceName": "IRAQ"
+    },
+    {
+      "code": "IR",
+      "name": "Iran",
+      "nameZh": "伊朗",
+      "sourceName": "IRAN, ISLAMIC REPUBLIC OF"
+    },
+    {
+      "code": "IS",
+      "name": "Iceland",
+      "nameZh": "冰岛",
+      "sourceName": "ICELAND"
+    },
+    {
+      "code": "IT",
+      "name": "Italy",
+      "nameZh": "意大利",
+      "sourceName": "ITALY"
+    },
+    {
+      "code": "JE",
+      "name": "Jersey",
+      "nameZh": "泽西岛",
+      "sourceName": "JERSEY"
+    },
+    {
+      "code": "JM",
+      "name": "Jamaica",
+      "nameZh": "牙买加",
+      "sourceName": "JAMAICA"
+    },
+    {
+      "code": "JO",
+      "name": "Jordan",
+      "nameZh": "约旦",
+      "sourceName": "JORDAN"
+    },
+    {
+      "code": "JP",
+      "name": "Japan",
+      "nameZh": "日本",
+      "sourceName": "JAPAN"
+    },
+    {
+      "code": "KE",
+      "name": "Kenya",
+      "nameZh": "肯尼亚",
+      "sourceName": "KENYA"
+    },
+    {
+      "code": "KG",
+      "name": "Kyrgyzstan",
+      "nameZh": "吉尔吉斯斯坦",
+      "sourceName": "KYRGYZSTAN"
+    },
+    {
+      "code": "KH",
+      "name": "Cambodia",
+      "nameZh": "柬埔寨",
+      "sourceName": "CAMBODIA"
+    },
+    {
+      "code": "KI",
+      "name": "Kiribati",
+      "nameZh": "基里巴斯",
+      "sourceName": "KIRIBATI"
+    },
+    {
+      "code": "KM",
+      "name": "Comoros",
+      "nameZh": "科摩罗",
+      "sourceName": "COMOROS"
+    },
+    {
+      "code": "KN",
+      "name": "St. Kitts & Nevis",
+      "nameZh": "圣基茨和尼维斯",
+      "sourceName": "SAINT KITTS AND NEVIS"
+    },
+    {
+      "code": "KP",
+      "name": "North Korea",
+      "nameZh": "朝鲜",
+      "sourceName": "KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF"
+    },
+    {
+      "code": "KR",
+      "name": "South Korea",
+      "nameZh": "韩国",
+      "sourceName": "KOREA, REPUBLIC OF"
+    },
+    {
+      "code": "KW",
+      "name": "Kuwait",
+      "nameZh": "科威特",
+      "sourceName": "KUWAIT"
+    },
+    {
+      "code": "KY",
+      "name": "Cayman Islands",
+      "nameZh": "开曼群岛",
+      "sourceName": "CAYMAN ISLANDS"
+    },
+    {
+      "code": "KZ",
+      "name": "Kazakhstan",
+      "nameZh": "哈萨克斯坦",
+      "sourceName": "KAZAKHSTAN"
+    },
+    {
+      "code": "LA",
+      "name": "Laos",
+      "nameZh": "老挝",
+      "sourceName": "LAO PEOPLE'S DEMOCRATIC REPUBLIC"
+    },
+    {
+      "code": "LB",
+      "name": "Lebanon",
+      "nameZh": "黎巴嫩",
+      "sourceName": "LEBANON"
+    },
+    {
+      "code": "LC",
+      "name": "St. Lucia",
+      "nameZh": "圣卢西亚",
+      "sourceName": "SAINT LUCIA"
+    },
+    {
+      "code": "LI",
+      "name": "Liechtenstein",
+      "nameZh": "列支敦士登",
+      "sourceName": "LIECHTENSTEIN"
+    },
+    {
+      "code": "LK",
+      "name": "Sri Lanka",
+      "nameZh": "斯里兰卡",
+      "sourceName": "SRI LANKA"
+    },
+    {
+      "code": "LR",
+      "name": "Liberia",
+      "nameZh": "利比里亚",
+      "sourceName": "LIBERIA"
+    },
+    {
+      "code": "LS",
+      "name": "Lesotho",
+      "nameZh": "莱索托",
+      "sourceName": "LESOTHO"
+    },
+    {
+      "code": "LT",
+      "name": "Lithuania",
+      "nameZh": "立陶宛",
+      "sourceName": "LITHUANIA"
+    },
+    {
+      "code": "LU",
+      "name": "Luxembourg",
+      "nameZh": "卢森堡",
+      "sourceName": "LUXEMBOURG"
+    },
+    {
+      "code": "LV",
+      "name": "Latvia",
+      "nameZh": "拉脱维亚",
+      "sourceName": "LATVIA"
+    },
+    {
+      "code": "LY",
+      "name": "Libya",
+      "nameZh": "利比亚",
+      "sourceName": "LIBYA"
+    },
+    {
+      "code": "MA",
+      "name": "Morocco",
+      "nameZh": "摩洛哥",
+      "sourceName": "MOROCCO"
+    },
+    {
+      "code": "MC",
+      "name": "Monaco",
+      "nameZh": "摩纳哥",
+      "sourceName": "MONACO"
+    },
+    {
+      "code": "MD",
+      "name": "Moldova",
+      "nameZh": "摩尔多瓦",
+      "sourceName": "MOLDOVA, REPUBLIC OF"
+    },
+    {
+      "code": "ME",
+      "name": "Montenegro",
+      "nameZh": "黑山",
+      "sourceName": "MONTENEGRO"
+    },
+    {
+      "code": "MF",
+      "name": "St. Martin",
+      "nameZh": "法属圣马丁",
+      "sourceName": "SAINT MARTIN (FRENCH PART)"
+    },
+    {
+      "code": "MG",
+      "name": "Madagascar",
+      "nameZh": "马达加斯加",
+      "sourceName": "MADAGASCAR"
+    },
+    {
+      "code": "MH",
+      "name": "Marshall Islands",
+      "nameZh": "马绍尔群岛",
+      "sourceName": "MARSHALL ISLANDS (THE)"
+    },
+    {
+      "code": "MK",
+      "name": "North Macedonia",
+      "nameZh": "北马其顿",
+      "sourceName": "NORTH MACEDONIA"
+    },
+    {
+      "code": "ML",
+      "name": "Mali",
+      "nameZh": "马里",
+      "sourceName": "MALI"
+    },
+    {
+      "code": "MM",
+      "name": "Myanmar (Burma)",
+      "nameZh": "缅甸",
+      "sourceName": "MYANMAR"
+    },
+    {
+      "code": "MN",
+      "name": "Mongolia",
+      "nameZh": "蒙古",
+      "sourceName": "MONGOLIA"
+    },
+    {
+      "code": "MO",
+      "name": "Macao SAR China",
+      "nameZh": "中国澳门",
+      "sourceName": "MACAO"
+    },
+    {
+      "code": "MP",
+      "name": "Northern Mariana Islands",
+      "nameZh": "北马里亚纳群岛",
+      "sourceName": "NORTHERN MARIANA ISLANDS (THE)"
+    },
+    {
+      "code": "MQ",
+      "name": "Martinique",
+      "nameZh": "马提尼克",
+      "sourceName": "MARTINIQUE"
+    },
+    {
+      "code": "MR",
+      "name": "Mauritania",
+      "nameZh": "毛里塔尼亚",
+      "sourceName": "MAURITANIA"
+    },
+    {
+      "code": "MS",
+      "name": "Montserrat",
+      "nameZh": "蒙特塞拉特",
+      "sourceName": "MONTSERRAT"
+    },
+    {
+      "code": "MT",
+      "name": "Malta",
+      "nameZh": "马耳他",
+      "sourceName": "MALTA"
+    },
+    {
+      "code": "MU",
+      "name": "Mauritius",
+      "nameZh": "毛里求斯",
+      "sourceName": "MAURITIUS"
+    },
+    {
+      "code": "MV",
+      "name": "Maldives",
+      "nameZh": "马尔代夫",
+      "sourceName": "MALDIVES"
+    },
+    {
+      "code": "MW",
+      "name": "Malawi",
+      "nameZh": "马拉维",
+      "sourceName": "MALAWI"
+    },
+    {
+      "code": "MX",
+      "name": "Mexico",
+      "nameZh": "墨西哥",
+      "sourceName": "MEXICO"
+    },
+    {
+      "code": "MY",
+      "name": "Malaysia",
+      "nameZh": "马来西亚",
+      "sourceName": "MALAYSIA"
+    },
+    {
+      "code": "MZ",
+      "name": "Mozambique",
+      "nameZh": "莫桑比克",
+      "sourceName": "MOZAMBIQUE"
+    },
+    {
+      "code": "NA",
+      "name": "Namibia",
+      "nameZh": "纳米比亚",
+      "sourceName": "NAMIBIA"
+    },
+    {
+      "code": "NC",
+      "name": "New Caledonia",
+      "nameZh": "新喀里多尼亚",
+      "sourceName": "NEW CALEDONIA"
+    },
+    {
+      "code": "NE",
+      "name": "Niger",
+      "nameZh": "尼日尔",
+      "sourceName": "NIGER"
+    },
+    {
+      "code": "NF",
+      "name": "Norfolk Island",
+      "nameZh": "诺福克岛",
+      "sourceName": "NORFOLK ISLAND"
+    },
+    {
+      "code": "NG",
+      "name": "Nigeria",
+      "nameZh": "尼日利亚",
+      "sourceName": "NIGERIA"
+    },
+    {
+      "code": "NI",
+      "name": "Nicaragua",
+      "nameZh": "尼加拉瓜",
+      "sourceName": "NICARAGUA"
+    },
+    {
+      "code": "NL",
+      "name": "Netherlands",
+      "nameZh": "荷兰",
+      "sourceName": "NETHERLANDS"
+    },
+    {
+      "code": "NO",
+      "name": "Norway",
+      "nameZh": "挪威",
+      "sourceName": "NORWAY"
+    },
+    {
+      "code": "NP",
+      "name": "Nepal",
+      "nameZh": "尼泊尔",
+      "sourceName": "NEPAL"
+    },
+    {
+      "code": "NR",
+      "name": "Nauru",
+      "nameZh": "瑙鲁",
+      "sourceName": "NAURU"
+    },
+    {
+      "code": "NU",
+      "name": "Niue",
+      "nameZh": "纽埃",
+      "sourceName": "NIUE"
+    },
+    {
+      "code": "NZ",
+      "name": "New Zealand",
+      "nameZh": "新西兰",
+      "sourceName": "NEW ZEALAND"
+    },
+    {
+      "code": "OM",
+      "name": "Oman",
+      "nameZh": "阿曼",
+      "sourceName": "OMAN"
+    },
+    {
+      "code": "PA",
+      "name": "Panama",
+      "nameZh": "巴拿马",
+      "sourceName": "PANAMA"
+    },
+    {
+      "code": "PE",
+      "name": "Peru",
+      "nameZh": "秘鲁",
+      "sourceName": "PERU"
+    },
+    {
+      "code": "PF",
+      "name": "French Polynesia",
+      "nameZh": "法属波利尼西亚",
+      "sourceName": "FRENCH POLYNESIA"
+    },
+    {
+      "code": "PG",
+      "name": "Papua New Guinea",
+      "nameZh": "巴布亚新几内亚",
+      "sourceName": "PAPUA NEW GUINEA"
+    },
+    {
+      "code": "PH",
+      "name": "Philippines",
+      "nameZh": "菲律宾",
+      "sourceName": "PHILIPPINES (THE)"
+    },
+    {
+      "code": "PK",
+      "name": "Pakistan",
+      "nameZh": "巴基斯坦",
+      "sourceName": "PAKISTAN"
+    },
+    {
+      "code": "PL",
+      "name": "Poland",
+      "nameZh": "波兰",
+      "sourceName": "POLAND"
+    },
+    {
+      "code": "PM",
+      "name": "St. Pierre & Miquelon",
+      "nameZh": "圣皮埃尔和密克隆群岛",
+      "sourceName": "SAINT PIERRE AND MIQUELON"
+    },
+    {
+      "code": "PN",
+      "name": "Pitcairn Islands",
+      "nameZh": "皮特凯恩群岛",
+      "sourceName": "PITCAIRN"
+    },
+    {
+      "code": "PR",
+      "name": "Puerto Rico",
+      "nameZh": "波多黎各",
+      "sourceName": "PUERTO RICO"
+    },
+    {
+      "code": "PS",
+      "name": "Palestinian Territories",
+      "nameZh": "巴勒斯坦领土",
+      "sourceName": "PALESTINE, STATE OF"
+    },
+    {
+      "code": "PT",
+      "name": "Portugal",
+      "nameZh": "葡萄牙",
+      "sourceName": "PORTUGAL"
+    },
+    {
+      "code": "PW",
+      "name": "Palau",
+      "nameZh": "帕劳",
+      "sourceName": "PALAU"
+    },
+    {
+      "code": "PY",
+      "name": "Paraguay",
+      "nameZh": "巴拉圭",
+      "sourceName": "PARAGUAY"
+    },
+    {
+      "code": "QA",
+      "name": "Qatar",
+      "nameZh": "卡塔尔",
+      "sourceName": "QATAR"
+    },
+    {
+      "code": "RE",
+      "name": "Réunion",
+      "nameZh": "留尼汪",
+      "sourceName": "RÉUNION"
+    },
+    {
+      "code": "RO",
+      "name": "Romania",
+      "nameZh": "罗马尼亚",
+      "sourceName": "ROMANIA"
+    },
+    {
+      "code": "RS",
+      "name": "Serbia",
+      "nameZh": "塞尔维亚",
+      "sourceName": "SERBIA"
+    },
+    {
+      "code": "RU",
+      "name": "Russia",
+      "nameZh": "俄罗斯",
+      "sourceName": "RUSSIAN FEDERATION (THE)"
+    },
+    {
+      "code": "RW",
+      "name": "Rwanda",
+      "nameZh": "卢旺达",
+      "sourceName": "RWANDA"
+    },
+    {
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "nameZh": "沙特阿拉伯",
+      "sourceName": "SAUDI ARABIA"
+    },
+    {
+      "code": "SB",
+      "name": "Solomon Islands",
+      "nameZh": "所罗门群岛",
+      "sourceName": "SOLOMON ISLANDS"
+    },
+    {
+      "code": "SC",
+      "name": "Seychelles",
+      "nameZh": "塞舌尔",
+      "sourceName": "SEYCHELLES"
+    },
+    {
+      "code": "SD",
+      "name": "Sudan",
+      "nameZh": "苏丹",
+      "sourceName": "SUDAN (THE)"
+    },
+    {
+      "code": "SE",
+      "name": "Sweden",
+      "nameZh": "瑞典",
+      "sourceName": "SWEDEN"
+    },
+    {
+      "code": "SG",
+      "name": "Singapore",
+      "nameZh": "新加坡",
+      "sourceName": "SINGAPORE"
+    },
+    {
+      "code": "SH",
+      "name": "St. Helena",
+      "nameZh": "圣赫勒拿",
+      "sourceName": "SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA"
+    },
+    {
+      "code": "SI",
+      "name": "Slovenia",
+      "nameZh": "斯洛文尼亚",
+      "sourceName": "SLOVENIA"
+    },
+    {
+      "code": "SJ",
+      "name": "Svalbard & Jan Mayen",
+      "nameZh": "斯瓦尔巴和扬马延",
+      "sourceName": "SVALBARD AND JAN MAYEN"
+    },
+    {
+      "code": "SK",
+      "name": "Slovakia",
+      "nameZh": "斯洛伐克",
+      "sourceName": "SLOVAKIA"
+    },
+    {
+      "code": "SL",
+      "name": "Sierra Leone",
+      "nameZh": "塞拉利昂",
+      "sourceName": "SIERRA LEONE"
+    },
+    {
+      "code": "SM",
+      "name": "San Marino",
+      "nameZh": "圣马力诺",
+      "sourceName": "SAN MARINO"
+    },
+    {
+      "code": "SN",
+      "name": "Senegal",
+      "nameZh": "塞内加尔",
+      "sourceName": "SENEGAL"
+    },
+    {
+      "code": "SO",
+      "name": "Somalia",
+      "nameZh": "索马里",
+      "sourceName": "SOMALIA"
+    },
+    {
+      "code": "SR",
+      "name": "Suriname",
+      "nameZh": "苏里南",
+      "sourceName": "SURINAME"
+    },
+    {
+      "code": "SS",
+      "name": "South Sudan",
+      "nameZh": "南苏丹",
+      "sourceName": "SOUTH SUDAN"
+    },
+    {
+      "code": "ST",
+      "name": "São Tomé & Príncipe",
+      "nameZh": "圣多美和普林西比",
+      "sourceName": "SAO TOME AND PRINCIPE"
+    },
+    {
+      "code": "SV",
+      "name": "El Salvador",
+      "nameZh": "萨尔瓦多",
+      "sourceName": "EL SALVADOR"
+    },
+    {
+      "code": "SX",
+      "name": "Sint Maarten",
+      "nameZh": "荷属圣马丁",
+      "sourceName": "SINT MAARTEN (DUTCH PART)"
+    },
+    {
+      "code": "SY",
+      "name": "Syria",
+      "nameZh": "叙利亚",
+      "sourceName": "SYRIAN ARAB REPUBLIC (THE)"
+    },
+    {
+      "code": "SZ",
+      "name": "Eswatini",
+      "nameZh": "斯威士兰",
+      "sourceName": "ESWATINI"
+    },
+    {
+      "code": "TC",
+      "name": "Turks & Caicos Islands",
+      "nameZh": "特克斯和凯科斯群岛",
+      "sourceName": "TURKS AND CAICOS ISLANDS (THE)"
+    },
+    {
+      "code": "TD",
+      "name": "Chad",
+      "nameZh": "乍得",
+      "sourceName": "CHAD"
+    },
+    {
+      "code": "TF",
+      "name": "French Southern Territories",
+      "nameZh": "法属南部领地",
+      "sourceName": "FRENCH SOUTHERN TERRITORIES"
+    },
+    {
+      "code": "TG",
+      "name": "Togo",
+      "nameZh": "多哥",
+      "sourceName": "TOGO"
+    },
+    {
+      "code": "TH",
+      "name": "Thailand",
+      "nameZh": "泰国",
+      "sourceName": "THAILAND"
+    },
+    {
+      "code": "TJ",
+      "name": "Tajikistan",
+      "nameZh": "塔吉克斯坦",
+      "sourceName": "TAJIKISTAN"
+    },
+    {
+      "code": "TK",
+      "name": "Tokelau",
+      "nameZh": "托克劳",
+      "sourceName": "TOKELAU"
+    },
+    {
+      "code": "TL",
+      "name": "Timor-Leste",
+      "nameZh": "东帝汶",
+      "sourceName": "TIMOR-LESTE"
+    },
+    {
+      "code": "TM",
+      "name": "Turkmenistan",
+      "nameZh": "土库曼斯坦",
+      "sourceName": "TURKMENISTAN"
+    },
+    {
+      "code": "TN",
+      "name": "Tunisia",
+      "nameZh": "突尼斯",
+      "sourceName": "TUNISIA"
+    },
+    {
+      "code": "TO",
+      "name": "Tonga",
+      "nameZh": "汤加",
+      "sourceName": "TONGA"
+    },
+    {
+      "code": "TR",
+      "name": "Türkiye",
+      "nameZh": "土耳其",
+      "sourceName": "TÜRKIYE"
+    },
+    {
+      "code": "TT",
+      "name": "Trinidad & Tobago",
+      "nameZh": "特立尼达和多巴哥",
+      "sourceName": "TRINIDAD AND TOBAGO"
+    },
+    {
+      "code": "TV",
+      "name": "Tuvalu",
+      "nameZh": "图瓦卢",
+      "sourceName": "TUVALU"
+    },
+    {
+      "code": "TW",
+      "name": "Taiwan",
+      "nameZh": "中国台湾",
+      "sourceName": "TAIWAN (PROVINCE OF CHINA)"
+    },
+    {
+      "code": "TZ",
+      "name": "Tanzania",
+      "nameZh": "坦桑尼亚",
+      "sourceName": "TANZANIA, UNITED REPUBLIC OF"
+    },
+    {
+      "code": "UA",
+      "name": "Ukraine",
+      "nameZh": "乌克兰",
+      "sourceName": "UKRAINE"
+    },
+    {
+      "code": "UG",
+      "name": "Uganda",
+      "nameZh": "乌干达",
+      "sourceName": "UGANDA"
+    },
+    {
+      "code": "UM",
+      "name": "U.S. Outlying Islands",
+      "nameZh": "美国本土外小岛屿",
+      "sourceName": "UNITED STATES MINOR OUTLYING ISLANDS"
+    },
+    {
+      "code": "US",
+      "name": "United States",
+      "nameZh": "美国",
+      "sourceName": "UNITED STATES OF AMERICA (THE)"
+    },
+    {
+      "code": "UY",
+      "name": "Uruguay",
+      "nameZh": "乌拉圭",
+      "sourceName": "URUGUAY"
+    },
+    {
+      "code": "UZ",
+      "name": "Uzbekistan",
+      "nameZh": "乌兹别克斯坦",
+      "sourceName": "UZBEKISTAN"
+    },
+    {
+      "code": "VA",
+      "name": "Vatican City",
+      "nameZh": "梵蒂冈",
+      "sourceName": "HOLY SEE (VATICAN CITY STATE)"
+    },
+    {
+      "code": "VC",
+      "name": "St. Vincent & Grenadines",
+      "nameZh": "圣文森特和格林纳丁斯",
+      "sourceName": "SAINT VINCENT AND THE GRENADINES"
+    },
+    {
+      "code": "VE",
+      "name": "Venezuela",
+      "nameZh": "委内瑞拉",
+      "sourceName": "VENEZUELA (BOLIVARIAN REPUBLIC OF)"
+    },
+    {
+      "code": "VG",
+      "name": "British Virgin Islands",
+      "nameZh": "英属维尔京群岛",
+      "sourceName": "VIRGIN ISLANDS (BRITISH)"
+    },
+    {
+      "code": "VI",
+      "name": "U.S. Virgin Islands",
+      "nameZh": "美属维尔京群岛",
+      "sourceName": "VIRGIN ISLANDS (U.S.)"
+    },
+    {
+      "code": "VN",
+      "name": "Vietnam",
+      "nameZh": "越南",
+      "sourceName": "VIET NAM"
+    },
+    {
+      "code": "VU",
+      "name": "Vanuatu",
+      "nameZh": "瓦努阿图",
+      "sourceName": "VANUATU"
+    },
+    {
+      "code": "WF",
+      "name": "Wallis & Futuna",
+      "nameZh": "瓦利斯和富图纳",
+      "sourceName": "WALLIS AND FUTUNA"
+    },
+    {
+      "code": "WS",
+      "name": "Samoa",
+      "nameZh": "萨摩亚",
+      "sourceName": "SAMOA"
+    },
+    {
+      "code": "XZ",
+      "name": "XZ",
+      "nameZh": "XZ",
+      "sourceName": "INSTALLATIONS IN INTERNATIONAL WATERS"
+    },
+    {
+      "code": "YE",
+      "name": "Yemen",
+      "nameZh": "也门",
+      "sourceName": "YEMEN"
+    },
+    {
+      "code": "YT",
+      "name": "Mayotte",
+      "nameZh": "马约特",
+      "sourceName": "MAYOTTE"
+    },
+    {
+      "code": "ZA",
+      "name": "South Africa",
+      "nameZh": "南非",
+      "sourceName": "SOUTH AFRICA"
+    },
+    {
+      "code": "ZM",
+      "name": "Zambia",
+      "nameZh": "赞比亚",
+      "sourceName": "ZAMBIA"
+    },
+    {
+      "code": "ZW",
+      "name": "Zimbabwe",
+      "nameZh": "津巴布韦",
+      "sourceName": "ZIMBABWE"
+    }
+  ]
+}

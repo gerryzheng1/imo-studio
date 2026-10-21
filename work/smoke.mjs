@@ -1,0 +1,18 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {pathToFileURL} from 'node:url';
+import {chromium} from 'playwright';
+const root=path.resolve('work');
+const browser=await chromium.launch({channel:'chrome',headless:true});
+const context=await browser.newContext({acceptDownloads:true,viewport:{width:1440,height:1000}});
+await context.setOffline(true);
+const page=await context.newPage();
+const errors=[];page.on('pageerror',e=>errors.push(e.message));
+await page.goto(pathToFileURL(path.resolve('outputs/IMO_Generator.html')).href);
+console.log('loaded',await page.title());
+await page.locator('#templateFiles').setInputFiles((await fs.readdir(path.join(root,'templates'))).filter(x=>x.endsWith('.xlsx')).map(x=>path.join(root,'templates',x)));
+await page.waitForFunction(()=>window.IMOApp?.templates.size===10);
+console.log('templates',await page.evaluate(()=>IMOApp.config.templates.map(c=>({id:c.id,errors:mappingErrors(c,chosenTemplate(c.id).book)}))));
+await page.screenshot({path:path.join(root,'ui-templates.png'),fullPage:true});
+await browser.close();
+console.log('page errors',errors);

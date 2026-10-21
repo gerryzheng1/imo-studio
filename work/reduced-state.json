@@ -1,0 +1,148 @@
+{
+  "version": 1,
+  "ship": {
+    "name": "PACIFIC TEST",
+    "imo": "9710749",
+    "callSign": "NEW01",
+    "flag": "NORWAY",
+    "registry": "BERGEN",
+    "company": "TEST SHIPPING AS",
+    "netTonnage": "24000",
+    "master": "MASTER,NEW",
+    "confirmed": true
+  },
+  "voyage": {
+    "mode": "arrival",
+    "arrivalPort": "BRISBANE",
+    "departurePort": "CAIRNS",
+    "arrivalDate": "2026-11-03",
+    "departureDate": "2026-11-05",
+    "lastPort": "SYDNEY",
+    "nextPort": "OSAKA",
+    "stay": "2 DAYS",
+    "signArrival": "2026-11-04",
+    "signDeparture": "2026-11-06",
+    "month": "2026-11",
+    "storage": ""
+  },
+  "people": [
+    {
+      "id": "person-0",
+      "name": "MASTER,NEW",
+      "rank": "Master",
+      "sex": "M",
+      "nationality": "CHINESE",
+      "birthDate": "1980-01-02",
+      "birthPlace": "NEW PLACE",
+      "seamanBook": "00090000",
+      "seamanExpiry": "2032-01-01",
+      "passport": "00000000",
+      "passportExpiry": "2031-01-01",
+      "signOnDate": "2026-09-01",
+      "signOnPlace": "NEW EMBARK PORT",
+      "vaccines": {
+        "cholera": "2030-01-02",
+        "yellowFever": "2031-02-03"
+      }
+    }
+  ],
+  "arrival": [
+    {
+      "personId": "person-0",
+      "overrides": {}
+    }
+  ],
+  "departure": [
+    {
+      "personId": "person-0",
+      "overrides": {}
+    }
+  ],
+  "effects": {
+    "person-0": {
+      "cigs": "0",
+      "beer": "NIL",
+      "wine": "1.5",
+      "spirit": "0",
+      "articles": "CURRENT ITEMS person-0",
+      "signature": ""
+    },
+    "person-1": {
+      "cigs": "200",
+      "beer": "NIL",
+      "wine": "1.5",
+      "spirit": "0",
+      "articles": "CURRENT ITEMS person-1",
+      "signature": ""
+    },
+    "person-2": {
+      "cigs": "200",
+      "beer": "NIL",
+      "wine": "1.5",
+      "spirit": "0",
+      "articles": "CURRENT ITEMS person-2",
+      "signature": ""
+    }
+  },
+  "effectsDeclaration": "NIL",
+  "ports": [
+    {
+      "id": "port-99",
+      "port": "NEW PORT 99",
+      "country": "AUSTRALIA",
+      "security": "1",
+      "remarks": "CURRENT REMARK 99",
+      "arrivalDate": "2026-10-01",
+      "departureDate": "2026-10-02"
+    }
+  ],
+  "stores": [],
+  "passengers": [],
+  "medicines": [],
+  "cases": [],
+  "declarations": {
+    "ports": "records",
+    "stores": "none",
+    "passengers": "none",
+    "medicines": "none",
+    "cases": "none"
+  },
+  "health": {
+    "certType": "Ship Sanitation Control Exemption",
+    "certDate": "2026-10-01",
+    "certPlace": "SYDNEY",
+    "certExpiry": "2027-04-01",
+    "surgeon": "NIL",
+    "measures": "",
+    "stowawayPlace": "",
+    "q1": "No",
+    "q2": "No",
+    "q3": "No",
+    "q4": "No",
+    "q5": "No",
+    "q6": "No",
+    "q7": "No",
+    "q8": "No",
+    "q9": "No"
+  },
+  "nil": {
+    "stowaways": "NIL",
+    "firearms": "NIL",
+    "explosives": "NIL",
+    "toxicWaste": "NIL",
+    "radioactive": "NIL",
+    "animals": "NIL",
+    "floatingCargo": "NIL",
+    "passengers": "NIL",
+    "dangerousGoods": "NIL",
+    "parcels": "NIL"
+  },
+  "preferences": {
+    "includeTemplates": true,
+    "reuseSignatures": false,
+    "signatureAnchors": [],
+    "warningsAcknowledged": false,
+    "customPorts": []
+  },
+  "plannedPorts": []
+}

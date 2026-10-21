@@ -14,7 +14,7 @@ Read README.md, docs/CLOUD.md, PRODUCT.md and 制作思路与开发交接.md sec
 ## Checks
 
 - Node.js >=24, Python >=3.11. Install with npm ci and python -m pip install -r requirements-dev.txt.
-- Linux/cloud: install Chromium with npx playwright install --with-deps chromium, then npm run test:cloud. This builds, runs all 16 current regression scripts using Chromium, then independently checks 30 generated XLSX files with Python/openpyxl.
+- Linux/cloud: run bash scripts/cloud-setup.sh, then npm run test:cloud. The setup uses a writable project npm cache and installs Chromium without sudo by default. On a machine that permits system-package installation, set IMO_INSTALL_SYSTEM_DEPS=1 if libraries are missing. The checks build, run all 16 current regression scripts using Chromium, then independently check 30 generated XLSX files with Python/openpyxl.
 - Windows: python work/build.py, npm test (Chrome and Edge), npm run test:native, python work/verify_multiport_xml.py. The native launcher and Excel/WPS printing must be verified on Windows. Cloud passing does not certify these.
 - For narrow changes, run the relevant checks; run the full cloud suite for browser-runner/build changes or before handoff. Report failures and unrun checks explicitly.
 - Fresh-clone verification and upload audit: python scripts/repository_audit.py. It reads the Git upload candidate list without modifying user files. Historical report files do not count as new validation.

@@ -23,7 +23,7 @@
 
 > 配置这个IMO Studio仓库用于Codex云端开发。先读AGENTS.md和docs/REPOSITORY.md。使用Node.js 24、Python 3.12和Playwright的Chromium。运行bash scripts/cloud-setup.sh，再运行npm run test:cloud。安装阶段需要npm/PyPI/Playwright浏览器下载权限。不要运行Windows EXE，不要执行历史一次性迁移脚本。若有Linux或字体差异导致失败，保留检查并报告原因；不要降低断言来制造通过。完成后给出安装和测试结果。
 
-正常安装命令已保存在 `scripts/cloud-setup.sh`：安装锁定的Node依赖、openpyxl、Chromium及Linux系统依赖，并构建和审计。环境无需OpenAI API key；应用本身不调用模型。浏览器下载若被网络策略阻止，需为实际报错的Playwright官方CDN开启安装下载。
+正常安装命令已保存在 `scripts/cloud-setup.sh`：使用项目内可写npm缓存，安装锁定的Node依赖、openpyxl、Chromium，并构建和审计。默认使用基础镜像的Linux系统库；只有具备系统包安装权限且确实缺库时，才设置 `IMO_INSTALL_SYSTEM_DEPS=1` 运行脚本。环境无需OpenAI API key；应用本身不调用模型。浏览器下载若被网络策略阻止，需为实际报错的Playwright官方CDN开启安装下载。
 
 检查环境报告、修复未完成项后选择 **Publish**。看到 **Environment published** 后再开始正式云端任务。保存配置与发布环境是两个步骤。新任务使用发布的准备状态，已有任务保留自己的工作状态。
 

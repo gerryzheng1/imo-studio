@@ -1,21 +1,9 @@
-* text=auto
-*.js text eol=lf
-*.mjs text eol=lf
-*.json text eol=lf
-*.css text eol=lf
-*.html text eol=lf
-*.md text eol=lf
-*.py text eol=lf
-*.yml text eol=lf
-*.yaml text eol=lf
-*.sh text eol=lf
-*.ps1 text eol=crlf
-*.vbs text eol=crlf
-*.cs text eol=crlf
+# Keep the existing source bytes on every platform. Initial GitHub uploads contain
+# both LF and CRLF files; forced normalization would dirty a fresh cloud checkout.
+# Newly authored shell scripts are LF already. Normalize deliberately in a separate
+# change if ever needed, while preserving templates and upstream source bytes.
+* -text
 *.zip binary
 *.xlsx binary
 *.exe binary
 *.png binary
-
-# Upstream files are distributed byte-for-byte; do not normalize line endings.
-work/reference-yzrt/** -text

@@ -1,0 +1,18 @@
+import {chromium} from 'playwright';
+import {pathToFileURL} from 'node:url';
+const browser=await chromium.launch({channel:'msedge',headless:true});
+const page=await browser.newPage();
+const errors=[];
+page.on('pageerror',error=>errors.push(String(error)));
+await page.goto(pathToFileURL('C:/Users/bridge/Documents/ChatGPT/IMO文件生成器/outputs/界面效果预览.html').href);
+const frame=page.frameLocator('iframe');
+await frame.locator('.im-window').waitFor();
+const icons=await frame.locator('svg').count();
+if(icons<20)throw new Error('Icons missing');
+await frame.locator('[data-im-action="tab"][data-tab="stores"]').click();
+await frame.getByRole('button',{name:'伙食估算',exact:true}).waitFor();
+await frame.getByRole('button',{name:'总设置',exact:true}).click();
+await frame.getByLabel('界面外观',{exact:true}).selectOption('深色');
+if(errors.length)throw new Error(errors.join('\n'));
+console.log(JSON.stringify({offlinePreview:'PASS',icons,errors}));
+await browser.close();

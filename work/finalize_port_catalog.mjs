@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+const file=new URL('./port-catalog-enriched.json',import.meta.url),catalog=JSON.parse(fs.readFileSync(file,'utf8'));
+const zh=new Intl.DisplayNames(['zh-CN'],{type:'region'}),en=new Intl.DisplayNames(['en'],{type:'region'});
+const overrides={TW:'中国台湾',HK:'中国香港',MO:'中国澳门',BQ:'博奈尔、圣尤斯特歇斯和萨巴',SX:'荷属圣马丁'};
+catalog.countries=catalog.countries.map(c=>({code:c.code,name:en.of(c.code),nameZh:overrides[c.code]||zh.of(c.code),sourceName:c.name}));
+for(const p of catalog.ports)p.countryZh=overrides[p.countryCode]||zh.of(p.countryCode);
+if(catalog.ports.some(p=>!p.nameZh||!p.countryZh))throw Error('Incomplete Chinese labels');
+if(catalog.ports.some(p=>p.locode&&!/^[A-Z]{2}[A-Z2-9]{3}$/.test(p.locode)))throw Error('Invalid UN/LOCODE');
+fs.writeFileSync(new URL('./port-catalog.json',import.meta.url),JSON.stringify(catalog,null,2));
+console.log(JSON.stringify({ports:catalog.ports.length,translated:catalog.ports.filter(p=>p.nameZh&&p.countryZh).length,countries:catalog.countries.length,verifiedCodes:catalog.ports.filter(p=>p.locode).length,ambiguousVariants:catalog.ports.reduce((n,p)=>n+p.locodeCandidates.length,0)}));

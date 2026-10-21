@@ -1,0 +1,28 @@
+from pathlib import Path
+P=Path(__file__).resolve().parent
+p=P/'app_shell.js';s=p.read_text(encoding='utf-8')
+s=s.replace("${r.pass&&review.selection.has(t.id)?'checked':''} ${!r.pass||review.onlyChanged&&r.unchanged?'disabled':''}", "${review.selection.has(t.id)?'checked':''} ${review.onlyChanged&&r.unchanged?'disabled':''}")
+s=s.replace("ids=ids||(api().selectedIds().length?api().selectedIds():api().tasks().map(t=>t.id));", "const explicit=!!ids;ids=ids||api().tasks().map(t=>t.id);")
+s=s.replace("selection:new Set(report.passing),onlyChanged:false", "selection:new Set(explicit?ids:api().selectedIds()),onlyChanged:false")
+s=s.replace("for(const t of review.report.reports)if(t.pass)review.selection.add(t.id);updateReview()", "updateReview()")
+p.write_text(s,encoding='utf-8')
+p=P/'app_help.js';s=p.read_text(encoding='utf-8')
+s=s.replace('打开“基础资料”，填写或导入船舶、船员档案和疫苗资料，核对船长及船舶信息。','在左侧“常用资料”填写船舶档案、船员档案，核对船长及船舶信息。疫苗在左侧的对应文件中维护。')
+s=s.replace('返回“航次工作台”，点击加号添加靠港港口。','点击上方“添加港口”。')
+s=s.replace('在每港“人员、物料、申报”中补齐资料，到“预览”选择文件。','在左侧直接打开对应文件补齐资料，到“预览与输出”选择文件。')
+s=s.replace('左侧靠港计划用于切换港口，勾选框决定本次输出哪些港口。点击港口名称后，右侧始终编辑该港资料；同港再次挂靠会按站次分别保存。','上方横向靠港计划切换港口，左侧直接选择本港文件。再次切换港口时会保留当前文件与各港滚动位置；同港再次挂靠按站次分别保存。要输出哪些港口，在“检查并生成”的核对窗口中勾选。')
+s=s.replace('展开“靠港资料与申报阶段”','在左侧打开“靠港资料”')
+s=s.replace('“航线与历史港口”内分别查看本次清单、历史和未来计划。','左侧“本次港口清单”默认展示将要写入的记录，也可切换到历史和未来计划。')
+s=s.replace('“人员”包含进港名单、离港名单、上下船变动、个人物品。','左侧直接打开进港名单、离港名单、人员变动、个人物品。')
+s=s.replace('“人员”','“船员个人物品”')
+s=s.replace('在“申报”中按本港实际情况回答健康问题、填写病例及卫生证书，并逐项填写 NIL。','分别打开“健康申报及病例”“NIL 各项申报”“旅客名单”“药品名单”，按本港实际情况填写。')
+s=s.replace('新港不自动确认前港的健康、病例、旅客或 NIL 答案。','四类申报可在“申报默认方案”中保存：先填好本港，点“设为默认”，也可一次保存四类。开启“新港口自动带入”后，只对之后新建的港口生效。已有港口需要主动“应用到本港”才替换内容。健康默认包含常用答案与卫生证书，病例逐港填写且不会因应用默认被清空；默认方案随工程保存和本机常用配置备份。新港不会自动确认答案。')
+s=s.replace('每港“预览”中勾选本次需要的文件','每港“预览与输出”中勾选本次需要的文件')
+s=s.replace('在基础资料的船舶档案中','在左侧“船舶档案”中')
+s=s.replace('基础资料顶部可同步','船舶档案和船员档案顶部可同步')
+needle='<p>表格支持直接粘贴 Excel 的多行多列；'
+s=s.replace(needle, '<p>个人物品页顶部“保存物品快照”：填写港口、日期和备注，保存本次申报阶段每个人的香烟、酒类、其他物品、签署文字及应税申报。展开“个人物品快照”可按港口或阶段筛选，列表按日期倒序；可导出、导入或删除。恢复前先预览匹配人数；按人员标识、护照，或姓名与出生日期明确匹配，不按行号。未匹配的本港人员保留当前物品，名单不会被旧快照替换。快照保存到工程资料后，还需点底部“保存工程”写入磁盘。</p>'+needle)
+p.write_text(s,encoding='utf-8')
+# Update misleading legacy next-port summary when the explicitly configured default is applied.
+p=P/'workflow.js';s=p.read_text(encoding='utf-8').replace('健康问题 1–9、健康措施、病例、旅客和所有 NIL 答案清空；个人物品重新填写，签署日期清空。','启用的申报默认方案会带入新港；其余健康问题、旅客及 NIL 答案重新填写。病例和个人物品重新填写，签署日期清空。').replace('下一港已准备，请重新填写健康、NIL 等本次申报答案；可撤销','下一港已准备，请核对默认方案与本港实际情况；可撤销')
+p.write_text(s,encoding='utf-8')

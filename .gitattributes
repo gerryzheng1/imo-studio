@@ -1,0 +1,21 @@
+* text=auto
+*.js text eol=lf
+*.mjs text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.sh text eol=lf
+*.ps1 text eol=crlf
+*.vbs text eol=crlf
+*.cs text eol=crlf
+*.zip binary
+*.xlsx binary
+*.exe binary
+*.png binary
+
+# Upstream files are distributed byte-for-byte; do not normalize line endings.
+work/reference-yzrt/** -text

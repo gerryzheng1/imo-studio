@@ -1,0 +1,33 @@
+{
+  "name": "imo-studio-offline",
+  "version": "3.2.2",
+  "private": true,
+  "description": "Local, offline voyage preparation and template-preserving IMO XLSX generator",
+  "scripts": {
+    "build": "python work/build.py",
+    "test": "node work/run_checks.mjs",
+    "test:ui": "node work/verify_liquid_reset_regression.mjs && node work/verify_liquid_reset_workflow.mjs && node work/verify_yzrt_navigation.mjs && node work/verify_yzrt_appearance.mjs && node work/verify_modal_keyboard.mjs && node work/verify_home_scroll.mjs && node work/verify_flow32.mjs",
+    "test:multiport": "node work/verify_multiport.mjs",
+    "test:inventory": "node work/verify_route_inventory.mjs",
+    "test:stock": "node work/verify_liquid_reset_stock.mjs",
+    "test:native": "node work/verify_liquid_reset_native.mjs",
+    "package": "python work/package_v322.py",
+    "test:flow": "node work/verify_flow32.mjs",
+    "test:notice": "node work/verify_notice_fix.mjs",
+    "test:templates": "node work/verify_replacement_templates.mjs",
+    "test:route": "node work/verify_route_navigation.mjs",
+    "test:completed": "node work/verify_completed_ports.mjs",
+    "test:stay": "node work/verify_stay_prefill.mjs",
+    "test:cloud": "node scripts/cloud-check.mjs",
+    "guide:cloud": "node scripts/cloud-check.mjs --guide",
+    "audit:repo": "python scripts/repository_audit.py"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "devDependencies": {
+    "jszip": "3.10.1",
+    "pdfjs-dist": "5.6.205",
+    "playwright": "1.62.1"
+  }
+}

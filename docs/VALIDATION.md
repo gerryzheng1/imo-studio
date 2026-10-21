@@ -38,4 +38,10 @@ Windows启动器、原生保存／重启、Chrome／Edge及Excel/WPS实际打印
 
 环境已完成发布，界面显示“环境已发布”，账户环境设置列出私有imo-studio且无未发布标记。后台返回draft_id/revision均为null，配置版本已激活且待处理运行时要求为空。
 
-首次新任务恢复未完成：全新Codex Cloud任务页的环境选择器仍显示“暂无已发布的环境”，刷新和按imo-studio搜索均复现。当前工具不提供快照ready状态、持久环境ID或选择器收录状态，不能断言仅需等待。此为实际可用入口的剩余阻塞，不能将环境设置会话中的Linux测试通过写成新任务恢复通过。复现与截图整理在本机outputs/github/CLOUD_PLATFORM_ISSUE.md，未向任何第三方发送报告。
+2026-10-21后续复核时，新任务选择器在两张全新网页均能选择imo-studio；原“暂无已发布的环境”故障已无法复现。没有重新创建环境、扩大共享或新增仓库授权；平台未说明恢复原因，不把本次刷新或切换模式当成已证明的根因修复。
+
+实际创建了独立云端接续任务：https://chatgpt.com/local/01a15e93-d6d3-7573-9ccc-32bcfedb308e。该任务从发布快照恢复，分支 `work`，HEAD为 `6ef801cd0e3f810e8c81a3644a109484106382a6`。重新确认Node24.19.0、Python3.12.14、openpyxl3.1.5和锁定npm依赖，pip check通过，无需重装。设置PLAYWRIGHT_BROWSERS_PATH后，Chromium151.0.7922.34真实无头启动并读取页面；浏览器执行使用正常权限流程。
+
+本次独立执行 `npm run audit:repo` 和 `npm run test:cloud` 均退出0：295个候选文件、10份原模板审计通过，16脚本／163组全部通过；独立Python/openpyxl/XML检查通过30本XLSX／33张原可见工作表。最终git status --short无输出，未修改业务代码／文档，也未提交或推送。此结果来自新任务本轮执行，不是沿用设置聊天的旧报告。
+
+接续注意：本次新任务没有提供可读取的Start skill，安装shell的缓存变量没有自动继承。AGENTS.md和docs/CLOUD.md现已保存显式激活venv／缓存的已验证命令。发布快照的初始HEAD可能早于GitHub main的后续文档更新，改动前需核对并安全同步；不强制重置已有任务。Windows原生验收及PDF.js公告范围仍如上。故障历史与恢复截图保存在本机outputs/github，未向支持、公开Issue或其他人发送报告。

@@ -17,4 +17,6 @@
 
 本机路径、浏览器资料、下载、原生测试工程、旧版解压副本和PDF输入不随Git上传。已生成的测试报告也不入Git，应在新环境重跑，不把历史成功计为新环境成功。Linux环境无法代替Windows EXE和Office/WPS实际打印验收。
 
-本次实际验证结果在 `docs/VALIDATION.md`。GitHub私有仓库：https://github.com/gerryzheng1/imo-studio。Codex云端环境 `imo-studio` 已发布，仅本人可用；[环境设置与验收记录](https://chatgpt.com/local/01a15e3b-d089-77cd-9cbe-6eedde41609c?hostId=local)。云端Linux在提交 `6ef801cd0e3f810e8c81a3644a109484106382a6` 完成16脚本／163组和30本XLSX／33张可见工作表检查，工作区干净。新任务启动只做轻量就绪检查，缺依赖才安装；代码改动后按AGENTS.md验证。首次新任务恢复尚未完成：已发布环境在设置中可见，但新任务选择器仍报“暂无已发布的环境”。配置版本为 `edc970a7-ab7a-4932-9363-92b230cf667c~cecfgver_6ad8a5eb7000819cab2d6fd5669e7e25`，草稿和运行时待处理要求均为空。快照就绪状态和持久环境ID未由当前工具提供。需平台核查可选列表收录；不要扩大权限或新建重复环境。
+本次实际验证结果在 `docs/VALIDATION.md`。GitHub私有仓库：https://github.com/gerryzheng1/imo-studio。Codex云端环境 `imo-studio` 已发布，仅本人可用；[环境设置与验收记录](https://chatgpt.com/local/01a15e3b-d089-77cd-9cbe-6eedde41609c?hostId=local)。云端Linux在提交 `6ef801cd0e3f810e8c81a3644a109484106382a6` 完成16脚本／163组和30本XLSX／33张可见工作表检查，工作区干净。新任务启动只做轻量就绪检查，缺依赖才安装；代码改动后按AGENTS.md验证。首次独立新任务恢复已于2026-10-21通过：[云端接续聊天](https://chatgpt.com/local/01a15e93-d6d3-7573-9ccc-32bcfedb308e)。新任务在发布快照的 `work` 分支、提交 `6ef801cd0e3f810e8c81a3644a109484106382a6` 实际重跑审计及完整回归，16脚本／163组、30本XLSX／33张原工作表全部通过，最终Git干净。新任务选择器在两张新页面均能正常选择imo-studio。此前平台入口故障已无法复现，恢复原因未知，没有新增环境或扩大权限。
+
+本次新任务未取得环境设置中的Start skill原文，缓存路径也未自动继承；后续代理应使用docs/CLOUD.md和AGENTS.md内的显式venv／缓存环境命令。浏览器测试若受沙箱限制，使用正常审批流程。发布快照与GitHub main的文档提交可能不同，开始改动前核对origin/main，干净工作区仅做正常fast-forward同步，保留任务已有改动，不强制reset。

@@ -1,6 +1,6 @@
 # 从本机迁移到 GitHub 私有仓库和 Codex 云端
 
-你只需要现有GitHub账号。本次已创建的目标为 `gerryzheng1/imo-studio`：https://github.com/gerryzheng1/imo-studio，可见性为 **Private**。本次295份源码已上传并逐文件匹配，Codex环境 `imo-studio` 已发布，可见范围“仅限我自己”。云端16脚本／163组和30本XLSX／33张工作表检查已通过。首次新任务恢复验证目前被平台入口异常阻塞：设置中已发布，但新任务 Work in → Cloud → Select environment 仍显示“暂无已发布的环境”，刷新和按名搜索均如此。没有扩大共享或创建重复环境；需平台核对已发布快照是否进入本账号的可选列表。下文保留正常入口和首次建立流程供问题解决后参考。源码在云端开发，应用仍离线运行。
+你只需要现有GitHub账号。本次已创建的目标为 `gerryzheng1/imo-studio`：https://github.com/gerryzheng1/imo-studio，可见性为 **Private**。295份源码已上传并逐文件匹配，Codex环境 `imo-studio` 已发布，可见范围“仅限我自己”。2026-10-21复核时，新任务选择器已恢复显示该环境，并成功启动独立云端接续任务；完整验收见 `docs/VALIDATION.md`。此前“已发布但列表为空”的故障已无法复现，具体恢复原因未由平台说明。没有重新创建环境或扩大授权。源码在云端开发，应用仍离线运行。
 
 ## 1. 首次上传（推荐 GitHub Desktop）
 
@@ -33,7 +33,21 @@
 
 > 接续IMO Studio 3.2.2项目。先读AGENTS.md、docs/HANDOFF.md、PRODUCT.md和制作思路与开发交接.md第20节，界面以DESIGN.md最新约束为准。源码在work，改后构建，不手改outputs。保留离线运行、10份原模板和打印结构、多港隔离、旧工程兼容、人工申报确认和固定作者署名。本轮先验证仓库可在新环境执行npm run test:cloud，报告实际结果及Windows原生检查边界。具体需求：……
 
-原聊天和你本机的整个文件夹不会因建立云端任务而自动变成云端上下文。交接信息以已提交的仓库文档为准；新需求需写进云端任务。此文件不意味着云端环境已经创建或发布。
+原聊天和你本机的整个文件夹不会因建立云端任务而自动变成云端上下文。交接信息以已提交的仓库文档为准；新需求需写进云端任务。已验证的接续聊天：https://chatgpt.com/local/01a15e93-d6d3-7573-9ccc-32bcfedb308e。
+
+当前已准备环境的命令需显式激活虚拟环境并指定浏览器缓存；安装阶段的shell变量不会自动继承到每次命令。本次独立任务未取得设置中的Start skill原文，因此仓库也保存可直接执行的入口：
+
+```bash
+cd /workspace/imo-studio
+source .venv/bin/activate
+export PLAYWRIGHT_BROWSERS_PATH=/workspace/.cache/ms-playwright
+export npm_config_cache=/workspace/.cache/npm
+export PIP_CACHE_DIR=/workspace/.cache/pip
+npm run audit:repo
+npm run test:cloud
+```
+
+先核对依赖和Chromium是否可用；完整回归在适当改动或交接时执行，无需每条任务重复安装。若命令沙箱阻止Chromium启动，通过产品正常审批运行测试，不关闭或绕过安全策略。
 
 ## 4. 带回本机
 

@@ -1,0 +1,1257 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-21T00:12:05.097Z",
+  "title": "Design System: IMO Studio · Liquid Desk 3.1",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Working Blue",
+        "tonalRamp": [
+          "oklch(15% 0.1765 256.79)",
+          "oklch(25% 0.1765 256.79)",
+          "oklch(35% 0.1765 256.79)",
+          "oklch(45% 0.1765 256.79)",
+          "oklch(55% 0.1765 256.79)",
+          "oklch(65% 0.1765 256.79)",
+          "oklch(80% 0.1765 256.79)",
+          "oklch(95% 0.1765 256.79)"
+        ]
+      },
+      "accent-teal": {
+        "role": "secondary",
+        "displayName": "Deep Teal",
+        "tonalRamp": [
+          "oklch(15% 0.0866 183.05)",
+          "oklch(25% 0.0866 183.05)",
+          "oklch(35% 0.0866 183.05)",
+          "oklch(45% 0.0866 183.05)",
+          "oklch(55% 0.0866 183.05)",
+          "oklch(65% 0.0866 183.05)",
+          "oklch(80% 0.0866 183.05)",
+          "oklch(95% 0.0866 183.05)"
+        ]
+      },
+      "accent-violet": {
+        "role": "tertiary",
+        "displayName": "Quiet Violet",
+        "tonalRamp": [
+          "oklch(15% 0.1853 297.34)",
+          "oklch(25% 0.1853 297.34)",
+          "oklch(35% 0.1853 297.34)",
+          "oklch(45% 0.1853 297.34)",
+          "oklch(55% 0.1853 297.34)",
+          "oklch(65% 0.1853 297.34)",
+          "oklch(80% 0.1853 297.34)",
+          "oklch(95% 0.1853 297.34)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Voyage Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0489 250.90)",
+          "oklch(25% 0.0489 250.90)",
+          "oklch(35% 0.0489 250.90)",
+          "oklch(45% 0.0489 250.90)",
+          "oklch(55% 0.0489 250.90)",
+          "oklch(65% 0.0489 250.90)",
+          "oklch(80% 0.0489 250.90)",
+          "oklch(95% 0.0489 250.90)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Context Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0478 244.65)",
+          "oklch(25% 0.0478 244.65)",
+          "oklch(35% 0.0478 244.65)",
+          "oklch(45% 0.0478 244.65)",
+          "oklch(55% 0.0478 244.65)",
+          "oklch(65% 0.0478 244.65)",
+          "oklch(80% 0.0478 244.65)",
+          "oklch(95% 0.0478 244.65)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Translucent Hairline",
+        "tonalRamp": [
+          "oklch(15% 0.0492 244.65)",
+          "oklch(25% 0.0492 244.65)",
+          "oklch(35% 0.0492 244.65)",
+          "oklch(45% 0.0492 244.65)",
+          "oklch(55% 0.0492 244.65)",
+          "oklch(65% 0.0492 244.65)",
+          "oklch(80% 0.0492 244.65)",
+          "oklch(95% 0.0492 244.65)"
+        ]
+      },
+      "canvas": {
+        "role": "neutral",
+        "displayName": "Water Ground",
+        "tonalRamp": [
+          "oklch(15% 0.0357 229.37)",
+          "oklch(25% 0.0357 229.37)",
+          "oklch(35% 0.0357 229.37)",
+          "oklch(45% 0.0357 229.37)",
+          "oklch(55% 0.0357 229.37)",
+          "oklch(65% 0.0357 229.37)",
+          "oklch(80% 0.0357 229.37)",
+          "oklch(95% 0.0357 229.37)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Glass Paper",
+        "tonalRamp": [
+          "oklch(15% 0.0085 247.91)",
+          "oklch(25% 0.0085 247.91)",
+          "oklch(35% 0.0085 247.91)",
+          "oklch(45% 0.0085 247.91)",
+          "oklch(55% 0.0085 247.91)",
+          "oklch(65% 0.0085 247.91)",
+          "oklch(80% 0.0085 247.91)",
+          "oklch(95% 0.0085 247.91)"
+        ]
+      },
+      "chrome": {
+        "role": "neutral",
+        "displayName": "Transmitting Chrome",
+        "tonalRamp": [
+          "oklch(15% 0.0000 0.00)",
+          "oklch(25% 0.0000 0.00)",
+          "oklch(35% 0.0000 0.00)",
+          "oklch(45% 0.0000 0.00)",
+          "oklch(55% 0.0000 0.00)",
+          "oklch(65% 0.0000 0.00)",
+          "oklch(80% 0.0000 0.00)",
+          "oklch(95% 0.0000 0.00)"
+        ]
+      },
+      "hover": {
+        "role": "neutral",
+        "displayName": "Pale Hover",
+        "tonalRamp": [
+          "oklch(15% 0.0200 233.85)",
+          "oklch(25% 0.0200 233.85)",
+          "oklch(35% 0.0200 233.85)",
+          "oklch(45% 0.0200 233.85)",
+          "oklch(55% 0.0200 233.85)",
+          "oklch(65% 0.0200 233.85)",
+          "oklch(80% 0.0200 233.85)",
+          "oklch(95% 0.0200 233.85)"
+        ]
+      },
+      "selected": {
+        "role": "neutral",
+        "displayName": "Quiet Selection",
+        "tonalRamp": [
+          "oklch(15% 0.0228 252.17)",
+          "oklch(25% 0.0228 252.17)",
+          "oklch(35% 0.0228 252.17)",
+          "oklch(45% 0.0228 252.17)",
+          "oklch(55% 0.0228 252.17)",
+          "oklch(65% 0.0228 252.17)",
+          "oklch(80% 0.0228 252.17)",
+          "oklch(95% 0.0228 252.17)"
+        ]
+      },
+      "field": {
+        "role": "neutral",
+        "displayName": "Field Ground",
+        "tonalRamp": [
+          "oklch(15% 0.0000 0.00)",
+          "oklch(25% 0.0000 0.00)",
+          "oklch(35% 0.0000 0.00)",
+          "oklch(45% 0.0000 0.00)",
+          "oklch(55% 0.0000 0.00)",
+          "oklch(65% 0.0000 0.00)",
+          "oklch(80% 0.0000 0.00)",
+          "oklch(95% 0.0000 0.00)"
+        ]
+      },
+      "table": {
+        "role": "neutral",
+        "displayName": "Backed Table",
+        "tonalRamp": [
+          "oklch(15% 0.0058 239.82)",
+          "oklch(25% 0.0058 239.82)",
+          "oklch(35% 0.0058 239.82)",
+          "oklch(45% 0.0058 239.82)",
+          "oklch(55% 0.0058 239.82)",
+          "oklch(65% 0.0058 239.82)",
+          "oklch(80% 0.0058 239.82)",
+          "oklch(95% 0.0058 239.82)"
+        ]
+      },
+      "thead": {
+        "role": "neutral",
+        "displayName": "Table Heading",
+        "tonalRamp": [
+          "oklch(15% 0.0125 236.62)",
+          "oklch(25% 0.0125 236.62)",
+          "oklch(35% 0.0125 236.62)",
+          "oklch(45% 0.0125 236.62)",
+          "oklch(55% 0.0125 236.62)",
+          "oklch(65% 0.0125 236.62)",
+          "oklch(80% 0.0125 236.62)",
+          "oklch(95% 0.0125 236.62)"
+        ]
+      },
+      "focus": {
+        "role": "neutral",
+        "displayName": "Accent Focus",
+        "canonical": "color-mix(in srgb,var(--blue),white 20%)",
+        "tonalRamp": [
+          "oklch(15% 0.1455 252.93)",
+          "oklch(25% 0.1455 252.93)",
+          "oklch(35% 0.1455 252.93)",
+          "oklch(45% 0.1455 252.93)",
+          "oklch(55% 0.1455 252.93)",
+          "oklch(65% 0.1455 252.93)",
+          "oklch(80% 0.1455 252.93)",
+          "oklch(95% 0.1455 252.93)"
+        ]
+      },
+      "accent-ink": {
+        "role": "neutral",
+        "displayName": "Working Accent Ink",
+        "canonical": "color-mix(in srgb,var(--blue),#142c42 14%)",
+        "tonalRamp": [
+          "oklch(15% 0.1609 256.27)",
+          "oklch(25% 0.1609 256.27)",
+          "oklch(35% 0.1609 256.27)",
+          "oklch(45% 0.1609 256.27)",
+          "oklch(55% 0.1609 256.27)",
+          "oklch(65% 0.1609 256.27)",
+          "oklch(80% 0.1609 256.27)",
+          "oklch(95% 0.1609 256.27)"
+        ]
+      },
+      "accent-surface": {
+        "role": "neutral",
+        "displayName": "Working Accent Ground",
+        "canonical": "color-mix(in srgb,var(--blue),white 87%)",
+        "tonalRamp": [
+          "oklch(15% 0.0223 249.99)",
+          "oklch(25% 0.0223 249.99)",
+          "oklch(35% 0.0223 249.99)",
+          "oklch(45% 0.0223 249.99)",
+          "oklch(55% 0.0223 249.99)",
+          "oklch(65% 0.0223 249.99)",
+          "oklch(80% 0.0223 249.99)",
+          "oklch(95% 0.0223 249.99)"
+        ]
+      },
+      "dock-active": {
+        "role": "neutral",
+        "displayName": "Active Lens",
+        "tonalRamp": [
+          "oklch(15% 0.0000 0.00)",
+          "oklch(25% 0.0000 0.00)",
+          "oklch(35% 0.0000 0.00)",
+          "oklch(45% 0.0000 0.00)",
+          "oklch(55% 0.0000 0.00)",
+          "oklch(65% 0.0000 0.00)",
+          "oklch(80% 0.0000 0.00)",
+          "oklch(95% 0.0000 0.00)"
+        ]
+      },
+      "secondary-ground": {
+        "role": "neutral",
+        "displayName": "Secondary Control Ground",
+        "tonalRamp": [
+          "oklch(15% 0.0000 0.00)",
+          "oklch(25% 0.0000 0.00)",
+          "oklch(35% 0.0000 0.00)",
+          "oklch(45% 0.0000 0.00)",
+          "oklch(55% 0.0000 0.00)",
+          "oklch(65% 0.0000 0.00)",
+          "oklch(80% 0.0000 0.00)",
+          "oklch(95% 0.0000 0.00)"
+        ]
+      },
+      "glass-fill": {
+        "role": "neutral",
+        "displayName": "Transmitting Glass",
+        "tonalRamp": [
+          "oklch(15% 0.0000 0.00)",
+          "oklch(25% 0.0000 0.00)",
+          "oklch(35% 0.0000 0.00)",
+          "oklch(45% 0.0000 0.00)",
+          "oklch(55% 0.0000 0.00)",
+          "oklch(65% 0.0000 0.00)",
+          "oklch(80% 0.0000 0.00)",
+          "oklch(95% 0.0000 0.00)"
+        ]
+      },
+      "glass-inner": {
+        "role": "neutral",
+        "displayName": "Inner Soft Edge",
+        "tonalRamp": [
+          "oklch(15% 0.0000 0.00)",
+          "oklch(25% 0.0000 0.00)",
+          "oklch(35% 0.0000 0.00)",
+          "oklch(45% 0.0000 0.00)",
+          "oklch(55% 0.0000 0.00)",
+          "oklch(65% 0.0000 0.00)",
+          "oklch(80% 0.0000 0.00)",
+          "oklch(95% 0.0000 0.00)"
+        ]
+      },
+      "glass-soft-fill": {
+        "role": "neutral",
+        "displayName": "Soft Glass",
+        "tonalRamp": [
+          "oklch(15% 0.0000 0.00)",
+          "oklch(25% 0.0000 0.00)",
+          "oklch(35% 0.0000 0.00)",
+          "oklch(45% 0.0000 0.00)",
+          "oklch(55% 0.0000 0.00)",
+          "oklch(65% 0.0000 0.00)",
+          "oklch(80% 0.0000 0.00)",
+          "oklch(95% 0.0000 0.00)"
+        ]
+      },
+      "glass-soft-inner": {
+        "role": "neutral",
+        "displayName": "Soft Inner Edge",
+        "tonalRamp": [
+          "oklch(15% 0.0000 0.00)",
+          "oklch(25% 0.0000 0.00)",
+          "oklch(35% 0.0000 0.00)",
+          "oklch(45% 0.0000 0.00)",
+          "oklch(55% 0.0000 0.00)",
+          "oklch(65% 0.0000 0.00)",
+          "oklch(80% 0.0000 0.00)",
+          "oklch(95% 0.0000 0.00)"
+        ]
+      },
+      "library-ground": {
+        "role": "neutral",
+        "displayName": "Library Backing",
+        "canonical": "color-mix(in srgb,var(--paper),transparent 17%)",
+        "tonalRamp": [
+          "oklch(15% 0.0085 247.91)",
+          "oklch(25% 0.0085 247.91)",
+          "oklch(35% 0.0085 247.91)",
+          "oklch(45% 0.0085 247.91)",
+          "oklch(55% 0.0085 247.91)",
+          "oklch(65% 0.0085 247.91)",
+          "oklch(80% 0.0085 247.91)",
+          "oklch(95% 0.0085 247.91)"
+        ]
+      },
+      "surface-clear": {
+        "role": "neutral",
+        "displayName": "Clear Surface",
+        "tonalRamp": [
+          "oklch(15% 0.0093 242.84)",
+          "oklch(25% 0.0093 242.84)",
+          "oklch(35% 0.0093 242.84)",
+          "oklch(45% 0.0093 242.84)",
+          "oklch(55% 0.0093 242.84)",
+          "oklch(65% 0.0093 242.84)",
+          "oklch(80% 0.0093 242.84)",
+          "oklch(95% 0.0093 242.84)"
+        ]
+      },
+      "author": {
+        "role": "neutral",
+        "displayName": "Quiet Credit",
+        "tonalRamp": [
+          "oklch(15% 0.0496 244.86)",
+          "oklch(25% 0.0496 244.86)",
+          "oklch(35% 0.0496 244.86)",
+          "oklch(45% 0.0496 244.86)",
+          "oklch(55% 0.0496 244.86)",
+          "oklch(65% 0.0496 244.86)",
+          "oklch(80% 0.0496 244.86)",
+          "oklch(95% 0.0496 244.86)"
+        ]
+      },
+      "danger": {
+        "role": "neutral",
+        "displayName": "Danger Ink",
+        "tonalRamp": [
+          "oklch(15% 0.1504 13.31)",
+          "oklch(25% 0.1504 13.31)",
+          "oklch(35% 0.1504 13.31)",
+          "oklch(45% 0.1504 13.31)",
+          "oklch(55% 0.1504 13.31)",
+          "oklch(65% 0.1504 13.31)",
+          "oklch(80% 0.1504 13.31)",
+          "oklch(95% 0.1504 13.31)"
+        ]
+      },
+      "success-ground": {
+        "role": "neutral",
+        "displayName": "Success Ground",
+        "tonalRamp": [
+          "oklch(15% 0.0280 171.18)",
+          "oklch(25% 0.0280 171.18)",
+          "oklch(35% 0.0280 171.18)",
+          "oklch(45% 0.0280 171.18)",
+          "oklch(55% 0.0280 171.18)",
+          "oklch(65% 0.0280 171.18)",
+          "oklch(80% 0.0280 171.18)",
+          "oklch(95% 0.0280 171.18)"
+        ]
+      },
+      "success-ink": {
+        "role": "neutral",
+        "displayName": "Success Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0749 169.30)",
+          "oklch(25% 0.0749 169.30)",
+          "oklch(35% 0.0749 169.30)",
+          "oklch(45% 0.0749 169.30)",
+          "oklch(55% 0.0749 169.30)",
+          "oklch(65% 0.0749 169.30)",
+          "oklch(80% 0.0749 169.30)",
+          "oklch(95% 0.0749 169.30)"
+        ]
+      },
+      "warning-ground": {
+        "role": "neutral",
+        "displayName": "Warning Ground",
+        "tonalRamp": [
+          "oklch(15% 0.0384 83.83)",
+          "oklch(25% 0.0384 83.83)",
+          "oklch(35% 0.0384 83.83)",
+          "oklch(45% 0.0384 83.83)",
+          "oklch(55% 0.0384 83.83)",
+          "oklch(65% 0.0384 83.83)",
+          "oklch(80% 0.0384 83.83)",
+          "oklch(95% 0.0384 83.83)"
+        ]
+      },
+      "warning-ink": {
+        "role": "neutral",
+        "displayName": "Warning Ink",
+        "tonalRamp": [
+          "oklch(15% 0.1024 66.57)",
+          "oklch(25% 0.1024 66.57)",
+          "oklch(35% 0.1024 66.57)",
+          "oklch(45% 0.1024 66.57)",
+          "oklch(55% 0.1024 66.57)",
+          "oklch(65% 0.1024 66.57)",
+          "oklch(80% 0.1024 66.57)",
+          "oklch(95% 0.1024 66.57)"
+        ]
+      },
+      "error-ground": {
+        "role": "neutral",
+        "displayName": "Error Ground",
+        "tonalRamp": [
+          "oklch(15% 0.0325 5.95)",
+          "oklch(25% 0.0325 5.95)",
+          "oklch(35% 0.0325 5.95)",
+          "oklch(45% 0.0325 5.95)",
+          "oklch(55% 0.0325 5.95)",
+          "oklch(65% 0.0325 5.95)",
+          "oklch(80% 0.0325 5.95)",
+          "oklch(95% 0.0325 5.95)"
+        ]
+      },
+      "error-ink": {
+        "role": "neutral",
+        "displayName": "Error Ink",
+        "tonalRamp": [
+          "oklch(15% 0.1482 13.54)",
+          "oklch(25% 0.1482 13.54)",
+          "oklch(35% 0.1482 13.54)",
+          "oklch(45% 0.1482 13.54)",
+          "oklch(55% 0.1482 13.54)",
+          "oklch(65% 0.1482 13.54)",
+          "oklch(80% 0.1482 13.54)",
+          "oklch(95% 0.1482 13.54)"
+        ]
+      },
+      "dark-ink": {
+        "role": "neutral",
+        "displayName": "Dark Voyage Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0182 250.59)",
+          "oklch(25% 0.0182 250.59)",
+          "oklch(35% 0.0182 250.59)",
+          "oklch(45% 0.0182 250.59)",
+          "oklch(55% 0.0182 250.59)",
+          "oklch(65% 0.0182 250.59)",
+          "oklch(80% 0.0182 250.59)",
+          "oklch(95% 0.0182 250.59)"
+        ]
+      },
+      "dark-muted": {
+        "role": "neutral",
+        "displayName": "Dark Context Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0345 246.86)",
+          "oklch(25% 0.0345 246.86)",
+          "oklch(35% 0.0345 246.86)",
+          "oklch(45% 0.0345 246.86)",
+          "oklch(55% 0.0345 246.86)",
+          "oklch(65% 0.0345 246.86)",
+          "oklch(80% 0.0345 246.86)",
+          "oklch(95% 0.0345 246.86)"
+        ]
+      },
+      "dark-line": {
+        "role": "neutral",
+        "displayName": "Dark Translucent Hairline",
+        "tonalRamp": [
+          "oklch(15% 0.0329 235.22)",
+          "oklch(25% 0.0329 235.22)",
+          "oklch(35% 0.0329 235.22)",
+          "oklch(45% 0.0329 235.22)",
+          "oklch(55% 0.0329 235.22)",
+          "oklch(65% 0.0329 235.22)",
+          "oklch(80% 0.0329 235.22)",
+          "oklch(95% 0.0329 235.22)"
+        ]
+      },
+      "dark-canvas": {
+        "role": "neutral",
+        "displayName": "Dark Water Ground",
+        "tonalRamp": [
+          "oklch(15% 0.0465 252.04)",
+          "oklch(25% 0.0465 252.04)",
+          "oklch(35% 0.0465 252.04)",
+          "oklch(45% 0.0465 252.04)",
+          "oklch(55% 0.0465 252.04)",
+          "oklch(65% 0.0465 252.04)",
+          "oklch(80% 0.0465 252.04)",
+          "oklch(95% 0.0465 252.04)"
+        ]
+      },
+      "dark-paper": {
+        "role": "neutral",
+        "displayName": "Dark Glass Paper",
+        "tonalRamp": [
+          "oklch(15% 0.0403 250.75)",
+          "oklch(25% 0.0403 250.75)",
+          "oklch(35% 0.0403 250.75)",
+          "oklch(45% 0.0403 250.75)",
+          "oklch(55% 0.0403 250.75)",
+          "oklch(65% 0.0403 250.75)",
+          "oklch(80% 0.0403 250.75)",
+          "oklch(95% 0.0403 250.75)"
+        ]
+      },
+      "dark-chrome": {
+        "role": "neutral",
+        "displayName": "Dark Transmitting Chrome",
+        "tonalRamp": [
+          "oklch(15% 0.0729 250.37)",
+          "oklch(25% 0.0729 250.37)",
+          "oklch(35% 0.0729 250.37)",
+          "oklch(45% 0.0729 250.37)",
+          "oklch(55% 0.0729 250.37)",
+          "oklch(65% 0.0729 250.37)",
+          "oklch(80% 0.0729 250.37)",
+          "oklch(95% 0.0729 250.37)"
+        ]
+      },
+      "dark-hover": {
+        "role": "neutral",
+        "displayName": "Dark Pale Hover",
+        "tonalRamp": [
+          "oklch(15% 0.0518 249.13)",
+          "oklch(25% 0.0518 249.13)",
+          "oklch(35% 0.0518 249.13)",
+          "oklch(45% 0.0518 249.13)",
+          "oklch(55% 0.0518 249.13)",
+          "oklch(65% 0.0518 249.13)",
+          "oklch(80% 0.0518 249.13)",
+          "oklch(95% 0.0518 249.13)"
+        ]
+      },
+      "dark-selected": {
+        "role": "neutral",
+        "displayName": "Dark Quiet Selection",
+        "tonalRamp": [
+          "oklch(15% 0.0737 252.49)",
+          "oklch(25% 0.0737 252.49)",
+          "oklch(35% 0.0737 252.49)",
+          "oklch(45% 0.0737 252.49)",
+          "oklch(55% 0.0737 252.49)",
+          "oklch(65% 0.0737 252.49)",
+          "oklch(80% 0.0737 252.49)",
+          "oklch(95% 0.0737 252.49)"
+        ]
+      },
+      "dark-field": {
+        "role": "neutral",
+        "displayName": "Dark Field Ground",
+        "tonalRamp": [
+          "oklch(15% 0.0534 250.54)",
+          "oklch(25% 0.0534 250.54)",
+          "oklch(35% 0.0534 250.54)",
+          "oklch(45% 0.0534 250.54)",
+          "oklch(55% 0.0534 250.54)",
+          "oklch(65% 0.0534 250.54)",
+          "oklch(80% 0.0534 250.54)",
+          "oklch(95% 0.0534 250.54)"
+        ]
+      },
+      "dark-table": {
+        "role": "neutral",
+        "displayName": "Dark Backed Table",
+        "tonalRamp": [
+          "oklch(15% 0.0453 248.37)",
+          "oklch(25% 0.0453 248.37)",
+          "oklch(35% 0.0453 248.37)",
+          "oklch(45% 0.0453 248.37)",
+          "oklch(55% 0.0453 248.37)",
+          "oklch(65% 0.0453 248.37)",
+          "oklch(80% 0.0453 248.37)",
+          "oklch(95% 0.0453 248.37)"
+        ]
+      },
+      "dark-thead": {
+        "role": "neutral",
+        "displayName": "Dark Table Heading",
+        "tonalRamp": [
+          "oklch(15% 0.0507 247.42)",
+          "oklch(25% 0.0507 247.42)",
+          "oklch(35% 0.0507 247.42)",
+          "oklch(45% 0.0507 247.42)",
+          "oklch(55% 0.0507 247.42)",
+          "oklch(65% 0.0507 247.42)",
+          "oklch(80% 0.0507 247.42)",
+          "oklch(95% 0.0507 247.42)"
+        ]
+      },
+      "dark-focus": {
+        "role": "neutral",
+        "displayName": "Dark Accent Focus",
+        "canonical": "color-mix(in srgb,var(--blue),white 63%)",
+        "tonalRamp": [
+          "oklch(15% 0.0657 250.46)",
+          "oklch(25% 0.0657 250.46)",
+          "oklch(35% 0.0657 250.46)",
+          "oklch(45% 0.0657 250.46)",
+          "oklch(55% 0.0657 250.46)",
+          "oklch(65% 0.0657 250.46)",
+          "oklch(80% 0.0657 250.46)",
+          "oklch(95% 0.0657 250.46)"
+        ]
+      },
+      "dark-accent-ink": {
+        "role": "neutral",
+        "displayName": "Dark Accent Ink",
+        "canonical": "color-mix(in srgb,var(--blue),white 60%)",
+        "tonalRamp": [
+          "oklch(15% 0.0713 250.54)",
+          "oklch(25% 0.0713 250.54)",
+          "oklch(35% 0.0713 250.54)",
+          "oklch(45% 0.0713 250.54)",
+          "oklch(55% 0.0713 250.54)",
+          "oklch(65% 0.0713 250.54)",
+          "oklch(80% 0.0713 250.54)",
+          "oklch(95% 0.0713 250.54)"
+        ]
+      },
+      "dark-accent-surface": {
+        "role": "neutral",
+        "displayName": "Dark Accent Ground",
+        "canonical": "color-mix(in srgb,var(--blue),#203548 79%)",
+        "tonalRamp": [
+          "oklch(15% 0.0761 250.76)",
+          "oklch(25% 0.0761 250.76)",
+          "oklch(35% 0.0761 250.76)",
+          "oklch(45% 0.0761 250.76)",
+          "oklch(55% 0.0761 250.76)",
+          "oklch(65% 0.0761 250.76)",
+          "oklch(80% 0.0761 250.76)",
+          "oklch(95% 0.0761 250.76)"
+        ]
+      },
+      "dark-dock-active": {
+        "role": "neutral",
+        "displayName": "Dark Active Lens",
+        "tonalRamp": [
+          "oklch(15% 0.0576 253.27)",
+          "oklch(25% 0.0576 253.27)",
+          "oklch(35% 0.0576 253.27)",
+          "oklch(45% 0.0576 253.27)",
+          "oklch(55% 0.0576 253.27)",
+          "oklch(65% 0.0576 253.27)",
+          "oklch(80% 0.0576 253.27)",
+          "oklch(95% 0.0576 253.27)"
+        ]
+      },
+      "dark-secondary-ground": {
+        "role": "neutral",
+        "displayName": "Dark Secondary Ground",
+        "tonalRamp": [
+          "oklch(15% 0.0595 255.47)",
+          "oklch(25% 0.0595 255.47)",
+          "oklch(35% 0.0595 255.47)",
+          "oklch(45% 0.0595 255.47)",
+          "oklch(55% 0.0595 255.47)",
+          "oklch(65% 0.0595 255.47)",
+          "oklch(80% 0.0595 255.47)",
+          "oklch(95% 0.0595 255.47)"
+        ]
+      },
+      "dark-glass-fill": {
+        "role": "neutral",
+        "displayName": "Dark Transmitting Glass",
+        "tonalRamp": [
+          "oklch(15% 0.0806 260.66)",
+          "oklch(25% 0.0806 260.66)",
+          "oklch(35% 0.0806 260.66)",
+          "oklch(45% 0.0806 260.66)",
+          "oklch(55% 0.0806 260.66)",
+          "oklch(65% 0.0806 260.66)",
+          "oklch(80% 0.0806 260.66)",
+          "oklch(95% 0.0806 260.66)"
+        ]
+      },
+      "dark-glass-inner": {
+        "role": "neutral",
+        "displayName": "Dark Inner Edge",
+        "tonalRamp": [
+          "oklch(15% 0.0447 246.24)",
+          "oklch(25% 0.0447 246.24)",
+          "oklch(35% 0.0447 246.24)",
+          "oklch(45% 0.0447 246.24)",
+          "oklch(55% 0.0447 246.24)",
+          "oklch(65% 0.0447 246.24)",
+          "oklch(80% 0.0447 246.24)",
+          "oklch(95% 0.0447 246.24)"
+        ]
+      },
+      "dark-glass-soft-fill": {
+        "role": "neutral",
+        "displayName": "Dark Soft Glass",
+        "tonalRamp": [
+          "oklch(15% 0.0538 244.74)",
+          "oklch(25% 0.0538 244.74)",
+          "oklch(35% 0.0538 244.74)",
+          "oklch(45% 0.0538 244.74)",
+          "oklch(55% 0.0538 244.74)",
+          "oklch(65% 0.0538 244.74)",
+          "oklch(80% 0.0538 244.74)",
+          "oklch(95% 0.0538 244.74)"
+        ]
+      },
+      "dark-library-ground": {
+        "role": "neutral",
+        "displayName": "Dark Library Backing",
+        "tonalRamp": [
+          "oklch(15% 0.0519 246.72)",
+          "oklch(25% 0.0519 246.72)",
+          "oklch(35% 0.0519 246.72)",
+          "oklch(45% 0.0519 246.72)",
+          "oklch(55% 0.0519 246.72)",
+          "oklch(65% 0.0519 246.72)",
+          "oklch(80% 0.0519 246.72)",
+          "oklch(95% 0.0519 246.72)"
+        ]
+      },
+      "dark-surface-clear": {
+        "role": "neutral",
+        "displayName": "Dark Clear Surface",
+        "tonalRamp": [
+          "oklch(15% 0.0476 250.53)",
+          "oklch(25% 0.0476 250.53)",
+          "oklch(35% 0.0476 250.53)",
+          "oklch(45% 0.0476 250.53)",
+          "oklch(55% 0.0476 250.53)",
+          "oklch(65% 0.0476 250.53)",
+          "oklch(80% 0.0476 250.53)",
+          "oklch(95% 0.0476 250.53)"
+        ]
+      },
+      "dark-author": {
+        "role": "neutral",
+        "displayName": "Dark Quiet Credit",
+        "tonalRamp": [
+          "oklch(15% 0.0406 245.98)",
+          "oklch(25% 0.0406 245.98)",
+          "oklch(35% 0.0406 245.98)",
+          "oklch(45% 0.0406 245.98)",
+          "oklch(55% 0.0406 245.98)",
+          "oklch(65% 0.0406 245.98)",
+          "oklch(80% 0.0406 245.98)",
+          "oklch(95% 0.0406 245.98)"
+        ]
+      },
+      "dark-danger": {
+        "role": "neutral",
+        "displayName": "Dark Danger Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0858 9.09)",
+          "oklch(25% 0.0858 9.09)",
+          "oklch(35% 0.0858 9.09)",
+          "oklch(45% 0.0858 9.09)",
+          "oklch(55% 0.0858 9.09)",
+          "oklch(65% 0.0858 9.09)",
+          "oklch(80% 0.0858 9.09)",
+          "oklch(95% 0.0858 9.09)"
+        ]
+      },
+      "dark-success-ground": {
+        "role": "neutral",
+        "displayName": "Dark Success Ground",
+        "tonalRamp": [
+          "oklch(15% 0.0495 173.53)",
+          "oklch(25% 0.0495 173.53)",
+          "oklch(35% 0.0495 173.53)",
+          "oklch(45% 0.0495 173.53)",
+          "oklch(55% 0.0495 173.53)",
+          "oklch(65% 0.0495 173.53)",
+          "oklch(80% 0.0495 173.53)",
+          "oklch(95% 0.0495 173.53)"
+        ]
+      },
+      "dark-success-ink": {
+        "role": "neutral",
+        "displayName": "Dark Success Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0523 167.10)",
+          "oklch(25% 0.0523 167.10)",
+          "oklch(35% 0.0523 167.10)",
+          "oklch(45% 0.0523 167.10)",
+          "oklch(55% 0.0523 167.10)",
+          "oklch(65% 0.0523 167.10)",
+          "oklch(80% 0.0523 167.10)",
+          "oklch(95% 0.0523 167.10)"
+        ]
+      },
+      "dark-warning-ground": {
+        "role": "neutral",
+        "displayName": "Dark Warning Ground",
+        "tonalRamp": [
+          "oklch(15% 0.0442 71.30)",
+          "oklch(25% 0.0442 71.30)",
+          "oklch(35% 0.0442 71.30)",
+          "oklch(45% 0.0442 71.30)",
+          "oklch(55% 0.0442 71.30)",
+          "oklch(65% 0.0442 71.30)",
+          "oklch(80% 0.0442 71.30)",
+          "oklch(95% 0.0442 71.30)"
+        ]
+      },
+      "dark-warning-ink": {
+        "role": "neutral",
+        "displayName": "Dark Warning Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0692 81.00)",
+          "oklch(25% 0.0692 81.00)",
+          "oklch(35% 0.0692 81.00)",
+          "oklch(45% 0.0692 81.00)",
+          "oklch(55% 0.0692 81.00)",
+          "oklch(65% 0.0692 81.00)",
+          "oklch(80% 0.0692 81.00)",
+          "oklch(95% 0.0692 81.00)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Welcome task heading; native type at an expressive operational scale."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Exact document and page identity."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Operational subsection hierarchy."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Ordinary operational prose and controls."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Visible labels for native fields."
+      },
+      "navigation": {
+        "displayName": "Navigation",
+        "purpose": "File library tile labels."
+      },
+      "dock": {
+        "displayName": "Dock",
+        "purpose": "Compact detached-dock destinations."
+      },
+      "metadata": {
+        "displayName": "Metadata",
+        "purpose": "Supporting save and context information."
+      },
+      "author": {
+        "displayName": "Author",
+        "purpose": "Fixed quiet credit; full opacity, responsive size, never exported."
+      },
+      "table-data": {
+        "displayName": "Table Data",
+        "purpose": "Independent table pixel size; UI scaling must not alter workbook output."
+      },
+      "code": {
+        "displayName": "Code",
+        "purpose": "Short literal identifiers and configuration."
+      }
+    },
+    "shadows": [
+      {
+        "name": "yzrt-edge-light",
+        "value": "inset 2px -2px 1px -1px #ffffffe6,inset -2px 2px 1px -1px #ffffffe6,inset 6px -6px 1px -6px #ffffff8c,inset -6px 6px 1px -6px #ffffff8c,inset 0 0 2px #18364c99",
+        "purpose": "Actual opposing inset edges and dark inner boundary on route, dock, library, welcome, and active selections. Preserved base recipe; the full-liquid major-layer override is recorded separately as prism."
+      },
+      {
+        "name": "yzrt-depth-light",
+        "value": "0 9px 22px #183e5a29",
+        "purpose": "Shared soft lower depth of default light CSS glass layers. Preserved base recipe; the full-liquid major-layer override is recorded separately as prism."
+      },
+      {
+        "name": "yzrt-edge-dark",
+        "value": "inset 2px -2px 1px -1px #e5f6ff9c,inset -2px 2px 1px -1px #e5f6ff8c,inset 6px -6px 1px -6px #d9efff57,inset -6px 6px 1px -6px #d9efff57,inset 0 0 2px #000b22d9",
+        "purpose": "Pale opposing inset rims with a dark inner boundary in dark mode. Preserved base recipe; the full-liquid major-layer override is recorded separately as prism."
+      },
+      {
+        "name": "yzrt-depth-dark",
+        "value": "0 9px 24px #000b293b",
+        "purpose": "Shared dark-mode lower depth. Preserved base recipe; the full-liquid major-layer override is recorded separately as prism."
+      },
+      {
+        "name": "soft-glass-depth",
+        "value": "0 10px 25px #183e5a22",
+        "purpose": "The shared softer depth in both themes when glassStyle is soft."
+      },
+      {
+        "name": "selected-lens-light",
+        "value": "0 3px 8px #22445c1f",
+        "purpose": "Compact active port/dock/library depth; combine with the yzrt edge. Full-liquid port/dock selections use the separate prism-selected recipe; library tiles retain this base treatment."
+      },
+      {
+        "name": "selected-lens-dark",
+        "value": "0 4px 9px #00162d33",
+        "purpose": "Dark compact active-lens depth; combine with the dark yzrt edge. Full-liquid port/dock selections use the separate prism-selected recipe; library tiles retain this base treatment."
+      },
+      {
+        "name": "inner-sheen-depth",
+        "value": "0 7px 8px -5px #0b294f47",
+        "purpose": "Soft shadow under the inset 7px inner-edge pseudo-element."
+      },
+      {
+        "name": "clear-surface",
+        "value": "0 8px 24px #153b5a1c,inset 0 1px 0 #ffffff70",
+        "purpose": "Opaque major surfaces in clear mode and effective reduced transparency."
+      },
+      {
+        "name": "lens-edge-light",
+        "value": "inset 0 1.5px 1px #ffffffef,inset 1.5px 0 2px #ffffffa8,inset -1.2px 0 1.5px #608ec76b,inset 0 -1.8px 2px #385d7d66",
+        "purpose": "Retained base sheet rim on editor, dialogs, and smaller base-family surfaces. Full-liquid editor/dialog use the separate prism edge and source-specific lift."
+      },
+      {
+        "name": "lens-edge-dark",
+        "value": "inset 0 1.5px 1px #d9f5ff8c,inset 1.5px 0 2px #b4e6ff52,inset -1.2px 0 1.5px #79a2fb52,inset 0 -1.8px 2px #000b2394",
+        "purpose": "Retained illuminated base sheet rim in dark mode. Full-liquid editor/dialog use the separate prism edge and source-specific lift."
+      },
+      {
+        "name": "control",
+        "value": "inset 0 1px 1px #ffffffc9,inset 0 -1px 1px #466b882e,0 2px 5px #2449580a",
+        "purpose": "Ordinary convex secondary control."
+      },
+      {
+        "name": "control-hover",
+        "value": "inset 0 1px 1px #fff,inset 0 -1px 1px #466b883d,0 4px 10px #2449581c",
+        "purpose": "Visible secondary-control hover."
+      },
+      {
+        "name": "primary-action",
+        "value": "inset 0 1px 1px #ffffff57,inset 0 -2px 3px #0031684d,0 6px 15px #0056ad26",
+        "purpose": "Solid accent action with tactile upper/lower depth."
+      },
+      {
+        "name": "editor-ambient",
+        "value": "0 22px 60px #18395120",
+        "purpose": "Broad working-sheet lift; combine with the base sheet rim. Full-liquid editor/dialog use the separate prism edge and source-specific lift."
+      },
+      {
+        "name": "dialog-ambient",
+        "value": "0 30px 100px #08294966",
+        "purpose": "Protected decision layer over the blurred scrim; combine with the base sheet rim. Full-liquid editor/dialog use the separate prism edge and source-specific lift."
+      },
+      {
+        "name": "prism-edge-light",
+        "value": "inset 0 2px 2px #ffffffed,inset 2px 0 3px #ffffffa6,inset 0 -2px 3px #2f639557,inset -2px 0 3px #8dc9ee4f,inset 0 0 0 1px #ffffff7a",
+        "purpose": "3.2.1 light opposing inset edge for major liquid/full layers; shared by navigation, library, welcome, editor, and dialogs."
+      },
+      {
+        "name": "prism-depth-light",
+        "value": "0 14px 32px #143f6329,0 3px 8px #17425b1f",
+        "purpose": "3.2.1 light lower depth shared by route, dock, library, and welcome only in liquid/full mode."
+      },
+      {
+        "name": "prism-selected-light",
+        "value": "inset 0 2px 2px #fff,inset 1px 0 2px #ffffff9c,inset -1px -2px 2px #7da6c15c,0 5px 12px #24496524",
+        "purpose": "3.2.1 light compact selected port/dock depth in liquid/full mode; does not replace selected library-tile material."
+      },
+      {
+        "name": "prism-action-secondary-light",
+        "value": "inset 0 1.5px 1px #ffffffed,inset 0 -1.5px 2px #5b8bad3b,0 3px 8px #22455d12",
+        "purpose": "3.2.1 light secondary control depth scoped to footer, document, and dialog action rows in liquid/full mode."
+      },
+      {
+        "name": "prism-edge-dark",
+        "value": "inset 0 2px 2px #dff7ffb8,inset 2px 0 3px #bde7ff70,inset 0 -2px 3px #020b1c94,inset -2px 0 3px #8fc6ff45,inset 0 0 0 1px #dcf4ff3b",
+        "purpose": "3.2.1 dark opposing inset edge for major liquid/full layers; shared by navigation, library, welcome, editor, and dialogs."
+      },
+      {
+        "name": "prism-depth-dark",
+        "value": "0 16px 36px #030f3459,0 3px 8px #000a202b",
+        "purpose": "3.2.1 dark lower depth shared by route, dock, library, and welcome only in liquid/full mode."
+      },
+      {
+        "name": "prism-selected-dark",
+        "value": "inset 0 2px 2px #e0f7ffba,inset 1px 0 2px #ceecff70,inset -1px -2px 2px #000b3357,0 5px 12px #000c2e33",
+        "purpose": "3.2.1 dark compact selected port/dock depth in liquid/full mode; does not replace selected library-tile material."
+      },
+      {
+        "name": "prism-action-secondary-dark",
+        "value": "inset 0 1.5px 1px #d6efff80,inset 0 -1.5px 2px #000c324a,0 3px 8px #00142e1c",
+        "purpose": "3.2.1 dark secondary control depth scoped to footer, document, and dialog action rows in liquid/full mode."
+      },
+      {
+        "name": "prism-action-primary",
+        "value": "inset 0 2px 1px #ffffff8f,inset 0 -2px 3px #001d5b47,0 6px 16px color-mix(in srgb,var(--blue),transparent 70%)",
+        "purpose": "3.2.1 accent-derived primary control depth scoped to footer, document, and dialog action rows in liquid/full mode."
+      },
+      {
+        "name": "prism-editor-ambient",
+        "value": "0 17px 38px #244d6a1f",
+        "purpose": "3.2.1 broad editing-sheet lift in liquid/full mode; combine with the prism edge."
+      },
+      {
+        "name": "prism-dialog-ambient",
+        "value": "0 30px 90px #102d4b57",
+        "purpose": "3.2.1 temporary decision-layer lift in liquid/full mode; combine with the prism edge."
+      }
+    ],
+    "motion": [
+      {
+        "name": "control-background",
+        "value": "180ms ease",
+        "purpose": "Background changes on operational controls and switches."
+      },
+      {
+        "name": "control-shadow",
+        "value": "200ms ease",
+        "purpose": "Small convex control depth changes."
+      },
+      {
+        "name": "press-ease",
+        "value": "200ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "Ordinary control compression; default scale .97."
+      },
+      {
+        "name": "glass-press",
+        "value": "scale(.975)",
+        "purpose": "Pressed port, dock, and active library lens."
+      },
+      {
+        "name": "library-reveal",
+        "value": "240ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "From opacity .85, translateY 10px, blur 3px to fully visible clear material."
+      },
+      {
+        "name": "switch-knob",
+        "value": "180ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "Move the 15px knob 13px within the fixed 34×21 switch."
+      },
+      {
+        "name": "ambient-field",
+        "value": "28s ease-in-out infinite alternate",
+        "purpose": "CSS compositor-only transform: scale(1.025) translate3d(-.35%,0,0) to scale(1.025) translate3d(.35%,.45%,0). No frame-by-frame Canvas painting."
+      },
+      {
+        "name": "static-field-schedule",
+        "value": "requestAnimationFrame on change only",
+        "purpose": "Coalesce size/theme/background paints and skip identical cached keys. Canvas allocation <=2,000,000 pixels; DPR capped at 1.25."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "data-effects-motion=reduced",
+        "purpose": "System reduced motion, user reduced motion, effective reduced transparency, or plain background removes animation, transitions, and smooth scrolling; live flags refresh dynamically."
+      },
+      {
+        "name": "reduced-transparency",
+        "value": "data-effects-transparency=reduced",
+        "purpose": "System reduced transparency or clear mode replaces major grounds with the opaque clear surface and removes their backdrop filters and yzrt highlights."
+      },
+      {
+        "name": "hidden-state",
+        "value": "visibilitychange",
+        "purpose": "Pause the CSS backdrop animation while hidden; refresh effective preferences without an idle paint loop."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-desktop",
+        "value": "1250px"
+      },
+      {
+        "name": "stacked-support",
+        "value": "1000px"
+      },
+      {
+        "name": "mobile",
+        "value": "760px"
+      },
+      {
+        "name": "short-height",
+        "value": "640px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The main action in footer, document, or dialog action rows; the live full-liquid state adds the source prism gradient and convex depth.",
+      "html": "<button class=\"ds-primary\">检查并生成 <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></button>",
+      "css": ".ds-primary{font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",\"PingFang SC\",\"Microsoft YaHei\",sans-serif;font-size:1rem;line-height:1.55;display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:36px;padding:8px 15px;border:0;border-radius:18px;cursor:pointer;transition:background .18s ease,box-shadow .2s ease,transform .2s cubic-bezier(.16,1,.3,1)}.ds-primary:focus-visible{outline:3px solid var(--focus,color-mix(in srgb,var(--blue,#005fc5),white 20%));outline-offset:3px}.ds-primary:active{transform:scale(.97)}.ds-primary:disabled{opacity:.43;cursor:default;transform:none}:host-context([data-theme=\"dark\"]) .ds-primary:focus-visible{outline-color:var(--focus,color-mix(in srgb,var(--blue,#005fc5),white 63%))}:host-context([data-effects-motion=\"reduced\"]) .ds-primary{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-effects-motion=\"reduced\"]) .ds-primary *{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-motion=\"reduced\"]) .ds-primary{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-motion=\"reduced\"]) .ds-primary *{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-glass-style=\"clear\"]) .ds-primary{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-glass-style=\"clear\"]) .ds-primary *{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-background-style=\"plain\"]) .ds-primary{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-background-style=\"plain\"]) .ds-primary *{transition:none!important;animation:none!important;scroll-behavior:auto!important}@media(prefers-reduced-motion:reduce){.ds-primary,.ds-primary *{transition:none!important;animation:none!important;scroll-behavior:auto!important}}.ds-primary{background:var(--blue,#005fc5);color:#fff;box-shadow:inset 0 1px 1px #ffffff57,inset 0 -2px 3px #0031684d,0 6px 15px #0056ad26}.ds-primary:hover{background:color-mix(in srgb,var(--blue,#005fc5),#102b54 12%);color:#fff}:host-context([data-theme=\"dark\"]) .ds-primary:hover{background:var(--blue,#005fc5)}:host-context([data-corner-style=\"soft\"]) .ds-primary{border-radius:12px}/* 3.2.1: source-derived liquid/full variant; base and preference fallbacks above remain active. */:host-context([data-glass-style=\"liquid\"][data-effects-transparency=\"full\"]) .ds-primary{--prism-edge:inset 0 2px 2px #ffffffed,inset 2px 0 3px #ffffffa6,inset 0 -2px 3px #2f639557,inset -2px 0 3px #8dc9ee4f,inset 0 0 0 1px #ffffff7a;--prism-depth:0 14px 32px #143f6329,0 3px 8px #17425b1f;--prism-fill:linear-gradient(135deg,#ffffff61 0%,#ffffff10 35%,#d1f1ff17 67%,#ffffff4d 100%);--table:#f8fcffde;--thead:#eaf4f9ed}:host-context([data-theme=\"dark\"][data-glass-style=\"liquid\"][data-effects-transparency=\"full\"]) .ds-primary{--prism-edge:inset 0 2px 2px #dff7ffb8,inset 2px 0 3px #bde7ff70,inset 0 -2px 3px #020b1c94,inset -2px 0 3px #8fc6ff45,inset 0 0 0 1px #dcf4ff3b;--prism-depth:0 16px 36px #030f3459,0 3px 8px #000a202b;--prism-fill:linear-gradient(135deg,#c5e6ff32 0%,#25486a21 38%,#0c35452b 65%,#b6d5ff24 100%);--table:#1c3145ed;--thead:#29465de8}:host-context([data-glass-style=\"liquid\"][data-effects-transparency=\"full\"]) .ds-primary{background:linear-gradient(165deg,color-mix(in srgb,var(--blue,#005fc5),white 17%),var(--blue,#005fc5) 57%,color-mix(in srgb,var(--blue,#005fc5),#123754 19%));box-shadow:inset 0 2px 1px #ffffff8f,inset 0 -2px 3px #001d5b47,0 6px 16px color-mix(in srgb,var(--blue,#005fc5),transparent 70%)}"
+    },
+    {
+      "name": "Secondary action",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "A supporting action in footer, document, or dialog action rows; the live full-liquid state adds the source translucent prism control treatment.",
+      "html": "<button class=\"ds-secondary\">保存工程</button>",
+      "css": ".ds-secondary{font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",\"PingFang SC\",\"Microsoft YaHei\",sans-serif;font-size:1rem;line-height:1.55;display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:36px;padding:8px 15px;border:0;border-radius:18px;cursor:pointer;transition:background .18s ease,box-shadow .2s ease,transform .2s cubic-bezier(.16,1,.3,1)}.ds-secondary:focus-visible{outline:3px solid var(--focus,color-mix(in srgb,var(--blue,#005fc5),white 20%));outline-offset:3px}.ds-secondary:active{transform:scale(.97)}.ds-secondary:disabled{opacity:.43;cursor:default;transform:none}:host-context([data-theme=\"dark\"]) .ds-secondary:focus-visible{outline-color:var(--focus,color-mix(in srgb,var(--blue,#005fc5),white 63%))}:host-context([data-effects-motion=\"reduced\"]) .ds-secondary{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-effects-motion=\"reduced\"]) .ds-secondary *{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-motion=\"reduced\"]) .ds-secondary{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-motion=\"reduced\"]) .ds-secondary *{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-glass-style=\"clear\"]) .ds-secondary{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-glass-style=\"clear\"]) .ds-secondary *{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-background-style=\"plain\"]) .ds-secondary{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-background-style=\"plain\"]) .ds-secondary *{transition:none!important;animation:none!important;scroll-behavior:auto!important}@media(prefers-reduced-motion:reduce){.ds-secondary,.ds-secondary *{transition:none!important;animation:none!important;scroll-behavior:auto!important}}.ds-secondary{background:#ffffff6b;color:var(--ink,#172c42);box-shadow:inset 0 1px 1px #ffffffc9,inset 0 -1px 1px #466b882e,0 2px 5px #2449580a}.ds-secondary:hover{background:#ffffffbc;color:var(--ink,#172c42);box-shadow:inset 0 1px 1px #fff,inset 0 -1px 1px #466b883d,0 4px 10px #2449581c}:host-context([data-theme=\"dark\"]) .ds-secondary{background:#bedaff18;color:var(--ink,#e9f3fe)}:host-context([data-theme=\"dark\"]) .ds-secondary:hover{background:#c4e4ff30;color:var(--ink,#e9f3fe)}:host-context([data-corner-style=\"soft\"]) .ds-secondary{border-radius:12px}/* 3.2.1: source-derived liquid/full variant; base and preference fallbacks above remain active. */:host-context([data-glass-style=\"liquid\"][data-effects-transparency=\"full\"]) .ds-secondary{--prism-edge:inset 0 2px 2px #ffffffed,inset 2px 0 3px #ffffffa6,inset 0 -2px 3px #2f639557,inset -2px 0 3px #8dc9ee4f,inset 0 0 0 1px #ffffff7a;--prism-depth:0 14px 32px #143f6329,0 3px 8px #17425b1f;--prism-fill:linear-gradient(135deg,#ffffff61 0%,#ffffff10 35%,#d1f1ff17 67%,#ffffff4d 100%);--table:#f8fcffde;--thead:#eaf4f9ed}:host-context([data-theme=\"dark\"][data-glass-style=\"liquid\"][data-effects-transparency=\"full\"]) .ds-secondary{--prism-edge:inset 0 2px 2px #dff7ffb8,inset 2px 0 3px #bde7ff70,inset 0 -2px 3px #020b1c94,inset -2px 0 3px #8fc6ff45,inset 0 0 0 1px #dcf4ff3b;--prism-depth:0 16px 36px #030f3459,0 3px 8px #000a202b;--prism-fill:linear-gradient(135deg,#c5e6ff32 0%,#25486a21 38%,#0c35452b 65%,#b6d5ff24 100%);--table:#1c3145ed;--thead:#29465de8}:host-context([data-glass-style=\"liquid\"][data-effects-transparency=\"full\"]) .ds-secondary{background:linear-gradient(145deg,#ffffffad,#ffffff38);box-shadow:inset 0 1.5px 1px #ffffffed,inset 0 -1.5px 2px #5b8bad3b,0 3px 8px #22455d12;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}:host-context([data-theme=\"dark\"][data-glass-style=\"liquid\"][data-effects-transparency=\"full\"]) .ds-secondary{background:linear-gradient(145deg,#d5edff26,#a2cfff12);box-shadow:inset 0 1.5px 1px #d6efff80,inset 0 -1.5px 2px #000c324a,0 3px 8px #00142e1c}"
+    },
+    {
+      "name": "Text action",
+      "kind": "button",
+      "refersTo": "button-text",
+      "description": "A quiet helper action with a small illuminated hover ground.",
+      "html": "<button class=\"ds-text\">使用说明 <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></button>",
+      "css": ".ds-text{font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",\"PingFang SC\",\"Microsoft YaHei\",sans-serif;font-size:1rem;line-height:1.55;display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:36px;padding:8px 15px;border:0;border-radius:18px;cursor:pointer;transition:background .18s ease,box-shadow .2s ease,transform .2s cubic-bezier(.16,1,.3,1)}.ds-text:focus-visible{outline:3px solid var(--focus,color-mix(in srgb,var(--blue,#005fc5),white 20%));outline-offset:3px}.ds-text:active{transform:scale(.97)}.ds-text:disabled{opacity:.43;cursor:default;transform:none}:host-context([data-theme=\"dark\"]) .ds-text:focus-visible{outline-color:var(--focus,color-mix(in srgb,var(--blue,#005fc5),white 63%))}:host-context([data-effects-motion=\"reduced\"]) .ds-text{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-effects-motion=\"reduced\"]) .ds-text *{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-motion=\"reduced\"]) .ds-text{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-motion=\"reduced\"]) .ds-text *{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-glass-style=\"clear\"]) .ds-text{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-glass-style=\"clear\"]) .ds-text *{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-background-style=\"plain\"]) .ds-text{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-background-style=\"plain\"]) .ds-text *{transition:none!important;animation:none!important;scroll-behavior:auto!important}@media(prefers-reduced-motion:reduce){.ds-text,.ds-text *{transition:none!important;animation:none!important;scroll-behavior:auto!important}}.ds-text{padding-inline:3px;color:var(--blue,#005fc5);background:transparent;box-shadow:none}.ds-text:hover{background:#ffffff4a}:host-context([data-theme=\"dark\"]) .ds-text{background:transparent;color:#9ed0ff}:host-context([data-theme=\"dark\"]) .ds-text:hover{background:transparent}"
+    },
+    {
+      "name": "Labeled native field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Visible label, translucent field ground, readable placeholder, and native focus; live theme/accent variables inherit into the preview.",
+      "html": "<label class=\"ds-field\"><span>备注</span><input placeholder=\"填写本次资料\"></label>",
+      "css": ".ds-field{display:block;font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",\"PingFang SC\",\"Microsoft YaHei\",sans-serif;font-size:.9rem;line-height:1.55;color:var(--ink,#172c42)}.ds-field>span{display:block;margin-bottom:6px}.ds-field input{box-sizing:border-box;width:100%;font:inherit;color:inherit;min-height:38px;border:1px solid #6386a134;border-radius:12px;padding:9px 11px;background:var(--field,#ffffffa6);box-shadow:inset 0 1px 2px #304b6212,0 1px 0 #ffffff8c;caret-color:var(--blue,#005fc5)}.ds-field input::placeholder{color:var(--muted,#405a70);opacity:1}.ds-field input:hover{border-color:#6386a134}.ds-field input:focus-visible{outline:3px solid #2576d650;outline-offset:1px;border-color:#4792e6}:host-context([data-theme=\"dark\"]) .ds-field{color:var(--ink,#e9f3fe)}:host-context([data-theme=\"dark\"]) .ds-field input{background:var(--field,#233b54d9);border-color:#accfe633}:host-context([data-theme=\"dark\"]) .ds-field input::placeholder{color:var(--muted,#b6cadd)}:host-context([data-corner-style=\"soft\"]) .ds-field input{border-radius:8px}:host-context([data-effects-motion=\"reduced\"]) .ds-field{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-effects-motion=\"reduced\"]) .ds-field *{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-motion=\"reduced\"]) .ds-field{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-motion=\"reduced\"]) .ds-field *{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-glass-style=\"clear\"]) .ds-field{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-glass-style=\"clear\"]) .ds-field *{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-background-style=\"plain\"]) .ds-field{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-background-style=\"plain\"]) .ds-field *{transition:none!important;animation:none!important;scroll-behavior:auto!important}@media(prefers-reduced-motion:reduce){.ds-field,.ds-field *{transition:none!important;animation:none!important;scroll-behavior:auto!important}}"
+    },
+    {
+      "name": "Selected dock destination",
+      "kind": "nav",
+      "refersTo": "dock-navigation",
+      "description": "The detached dock and selected destination preserve the base/soft recipes; liquid glass with full effective transparency uses the source double edge and compact selected-lens gradient.",
+      "html": "<nav class=\"ds-dock\" aria-label=\"工作台导航\"><button class=\"ds-dock-item\" aria-current=\"page\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 3h9l5 5v13H5zM14 3v6h5M8 13h8M8 17h6\"/></svg><span>文件</span></button><button class=\"ds-dock-item\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 7l9-4 9 4v12l-9 3-9-3zM3 7l9 4 9-4M12 11v11\"/></svg><span>资料</span></button></nav>",
+      "css": ".ds-dock{display:inline-flex;gap:3px;padding:7px;border-radius:30px}.ds-dock-item{font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",\"PingFang SC\",\"Microsoft YaHei\",sans-serif;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;min-width:61px;min-height:55px;padding:7px 11px 6px;border:0;border-radius:23px;background:transparent;color:var(--muted,#405a70);cursor:pointer;transition:background .18s ease,transform .2s cubic-bezier(.16,1,.3,1)}.ds-dock-item span{font-size:.68rem;line-height:1.2}.ds-dock-item svg{width:21px;height:21px}.ds-dock-item:hover{background:#ffffff42}.ds-dock-item:focus-visible{outline:3px solid var(--focus,color-mix(in srgb,var(--blue,#005fc5),white 20%));outline-offset:3px}.ds-dock-item:active{transform:scale(.975)}:host-context([data-theme=\"dark\"]) .ds-dock-item{color:var(--muted,#b6cadd)}:host-context([data-theme=\"dark\"]) .ds-dock-item:hover{background:#c4e4ff30}:host-context([data-theme=\"dark\"]) .ds-dock-item:focus-visible{outline-color:var(--focus,color-mix(in srgb,var(--blue,#005fc5),white 63%))}.ds-dock-item[aria-current]{background:#ffffff5e;box-shadow:var(--yzrt-edge,inset 2px -2px 1px -1px #ffffffe6,inset -2px 2px 1px -1px #ffffffe6,inset 6px -6px 1px -6px #ffffff8c,inset -6px 6px 1px -6px #ffffff8c,inset 0 0 2px #18364c99),0 3px 8px #22445c1f;color:var(--accent-ink,color-mix(in srgb,var(--blue,#005fc5),#142c42 14%))}:host-context([data-theme=\"dark\"]) .ds-dock-item[aria-current]{background:#bfdcff26;box-shadow:var(--yzrt-edge,inset 2px -2px 1px -1px #e5f6ff9c,inset -2px 2px 1px -1px #e5f6ff8c,inset 6px -6px 1px -6px #d9efff57,inset -6px 6px 1px -6px #d9efff57,inset 0 0 2px #000b22d9),0 4px 9px #00162d33;color:var(--accent-ink,color-mix(in srgb,var(--blue,#005fc5),white 60%))}.ds-dock{position:relative;isolation:isolate;background:var(--yzrt-fill,#ffffff18);box-shadow:var(--yzrt-edge,inset 2px -2px 1px -1px #ffffffe6,inset -2px 2px 1px -1px #ffffffe6,inset 6px -6px 1px -6px #ffffff8c,inset -6px 6px 1px -6px #ffffff8c,inset 0 0 2px #18364c99),var(--yzrt-depth,0 9px 22px #183e5a29);backdrop-filter:blur(4px) saturate(1.35);-webkit-backdrop-filter:blur(4px) saturate(1.35)}.ds-dock::before{content:\"\";position:absolute;inset:0;border-radius:inherit;pointer-events:none;z-index:0;background:linear-gradient(45deg,#ffffffcc,transparent 25%,transparent 75%,#ffffffcc);filter:blur(3px);opacity:var(--yzrt-glint,.45);box-shadow:none}.ds-dock::after{content:\"\";position:absolute;inset:7px;border:1px solid var(--yzrt-inner,#ffffff40);border-radius:inherit;pointer-events:none;z-index:-1;background:radial-gradient(ellipse at var(--glass-x,25%) var(--glass-y,0%),#ffffff4a,transparent 64%);filter:blur(1px);box-shadow:0 7px 8px -5px #0b294f47;opacity:1;mix-blend-mode:normal}.ds-dock>*{position:relative;z-index:1}:host-context([data-theme=\"dark\"]) .ds-dock{background:var(--yzrt-fill,#accbff13);box-shadow:var(--yzrt-edge,inset 2px -2px 1px -1px #e5f6ff9c,inset -2px 2px 1px -1px #e5f6ff8c,inset 6px -6px 1px -6px #d9efff57,inset -6px 6px 1px -6px #d9efff57,inset 0 0 2px #000b22d9),var(--yzrt-depth,0 9px 24px #000b293b)}:host-context([data-theme=\"dark\"]) .ds-dock::before{opacity:var(--yzrt-glint,.3)}:host-context([data-theme=\"dark\"]) .ds-dock::after{border-color:var(--yzrt-inner,#cbe6ff30)}:host-context([data-glass-style=\"soft\"]) .ds-dock{background:var(--yzrt-fill,#ffffff79);box-shadow:var(--yzrt-edge,inset 2px -2px 1px -1px #ffffffe6,inset -2px 2px 1px -1px #ffffffe6,inset 6px -6px 1px -6px #ffffff8c,inset -6px 6px 1px -6px #ffffff8c,inset 0 0 2px #18364c99),var(--yzrt-depth,0 10px 25px #183e5a22);backdrop-filter:blur(16px) saturate(1.35);-webkit-backdrop-filter:blur(16px) saturate(1.35)}:host-context([data-glass-style=\"soft\"]) .ds-dock::before{opacity:var(--yzrt-glint,.25)}:host-context([data-glass-style=\"soft\"]) .ds-dock::after{border-color:var(--yzrt-inner,#ffffff38)}:host-context([data-theme=\"dark\"]):host-context([data-glass-style=\"soft\"]) .ds-dock{background:var(--yzrt-fill,#2c49619c);box-shadow:var(--yzrt-edge,inset 2px -2px 1px -1px #e5f6ff9c,inset -2px 2px 1px -1px #e5f6ff8c,inset 6px -6px 1px -6px #d9efff57,inset -6px 6px 1px -6px #d9efff57,inset 0 0 2px #000b22d9),var(--yzrt-depth,0 10px 25px #183e5a22)}:host-context([data-theme=\"dark\"]):host-context([data-glass-style=\"soft\"]) .ds-dock::before{opacity:var(--yzrt-glint,.2)}:host-context([data-glass-style=\"clear\"]) .ds-dock{background:var(--surface-clear,#f1f7fc)!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;box-shadow:0 8px 24px #153b5a1c,inset 0 1px 0 #ffffff70}:host-context([data-theme=\"dark\"]):host-context([data-glass-style=\"clear\"]) .ds-dock{background:var(--surface-clear,#22374d)!important}:host-context([data-glass-style=\"clear\"]) .ds-dock::before,:host-context([data-glass-style=\"clear\"]) .ds-dock::after{display:none}:host-context([data-effects-transparency=\"reduced\"]) .ds-dock{background:var(--surface-clear,#f1f7fc)!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;box-shadow:0 8px 24px #153b5a1c,inset 0 1px 0 #ffffff70}:host-context([data-theme=\"dark\"]):host-context([data-effects-transparency=\"reduced\"]) .ds-dock{background:var(--surface-clear,#22374d)!important}:host-context([data-effects-transparency=\"reduced\"]) .ds-dock::before,:host-context([data-effects-transparency=\"reduced\"]) .ds-dock::after{display:none}@media(prefers-reduced-transparency:reduce){.ds-dock{background:var(--surface-clear,#f1f7fc)!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;box-shadow:0 8px 24px #153b5a1c,inset 0 1px 0 #ffffff70}:host-context([data-theme=\"dark\"]) .ds-dock{background:var(--surface-clear,#22374d)!important}.ds-dock::before,.ds-dock::after{display:none}}@media(max-width:760px){.ds-dock{border-radius:27px}.ds-dock-item{flex-direction:row;min-height:43px;padding:5px 8px;border-radius:21px}.ds-dock-item span{font-size:.73rem}.ds-dock-item svg{width:19px;height:19px}}:host-context([data-corner-style=\"soft\"]) .ds-dock{border-radius:20px}:host-context([data-corner-style=\"soft\"]) .ds-dock-item{border-radius:12px}:host-context([data-effects-motion=\"reduced\"]) .ds-dock{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-effects-motion=\"reduced\"]) .ds-dock *{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-motion=\"reduced\"]) .ds-dock{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-motion=\"reduced\"]) .ds-dock *{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-glass-style=\"clear\"]) .ds-dock{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-glass-style=\"clear\"]) .ds-dock *{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-background-style=\"plain\"]) .ds-dock{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-background-style=\"plain\"]) .ds-dock *{transition:none!important;animation:none!important;scroll-behavior:auto!important}@media(prefers-reduced-motion:reduce){.ds-dock,.ds-dock *{transition:none!important;animation:none!important;scroll-behavior:auto!important}}/* 3.2.1: source-derived liquid/full variant; base and preference fallbacks above remain active. */:host-context([data-glass-style=\"liquid\"][data-effects-transparency=\"full\"]) .ds-dock{--prism-edge:inset 0 2px 2px #ffffffed,inset 2px 0 3px #ffffffa6,inset 0 -2px 3px #2f639557,inset -2px 0 3px #8dc9ee4f,inset 0 0 0 1px #ffffff7a;--prism-depth:0 14px 32px #143f6329,0 3px 8px #17425b1f;--prism-fill:linear-gradient(135deg,#ffffff61 0%,#ffffff10 35%,#d1f1ff17 67%,#ffffff4d 100%);--table:#f8fcffde;--thead:#eaf4f9ed}:host-context([data-theme=\"dark\"][data-glass-style=\"liquid\"][data-effects-transparency=\"full\"]) .ds-dock{--prism-edge:inset 0 2px 2px #dff7ffb8,inset 2px 0 3px #bde7ff70,inset 0 -2px 3px #020b1c94,inset -2px 0 3px #8fc6ff45,inset 0 0 0 1px #dcf4ff3b;--prism-depth:0 16px 36px #030f3459,0 3px 8px #000a202b;--prism-fill:linear-gradient(135deg,#c5e6ff32 0%,#25486a21 38%,#0c35452b 65%,#b6d5ff24 100%);--table:#1c3145ed;--thead:#29465de8}:host-context([data-glass-style=\"liquid\"][data-effects-transparency=\"full\"]) .ds-dock{background:var(--prism-fill);box-shadow:var(--prism-edge),var(--prism-depth);backdrop-filter:blur(12px) saturate(1.8) contrast(1.035);-webkit-backdrop-filter:blur(12px) saturate(1.8) contrast(1.035);isolation:isolate}:host-context([data-glass-style=\"liquid\"][data-effects-transparency=\"full\"]) .ds-dock::before{inset:0;padding:2px;border:0;background:linear-gradient(133deg,#fff 0%,#ffffffad 15%,#b5e9ff20 38%,#85b7d94d 61%,#fff 94%);filter:none;opacity:.96;mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);mask-composite:exclude;-webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);-webkit-mask-composite:xor;z-index:0}:host-context([data-glass-style=\"liquid\"][data-effects-transparency=\"full\"]) .ds-dock::after{inset:5px;border:1px solid #ffffff47;background:radial-gradient(ellipse at var(--glass-x,22%) var(--glass-y,0%),#ffffff70,transparent 65%);box-shadow:inset 0 2px 6px #ffffff38,inset 0 -4px 7px #2e78a223;filter:none;z-index:0;opacity:.8}:host-context([data-theme=\"dark\"][data-glass-style=\"liquid\"][data-effects-transparency=\"full\"]) .ds-dock::after{border-color:#d2f0ff24;background:radial-gradient(ellipse at var(--glass-x,22%) var(--glass-y,0%),#c9e9ff36,transparent 65%);box-shadow:inset 0 2px 6px #c0ecff1f,inset 0 -4px 7px #000e3242}:host-context([data-glass-style=\"liquid\"][data-effects-transparency=\"full\"]) .ds-dock-item[aria-current]{background:linear-gradient(145deg,#ffffff9c,#ffffff2b 58%,#d2efff57);box-shadow:inset 0 2px 2px #fff,inset 1px 0 2px #ffffff9c,inset -1px -2px 2px #7da6c15c,0 5px 12px #24496524;backdrop-filter:blur(8px) saturate(1.5);-webkit-backdrop-filter:blur(8px) saturate(1.5)}:host-context([data-theme=\"dark\"][data-glass-style=\"liquid\"][data-effects-transparency=\"full\"]) .ds-dock-item[aria-current]{background:linear-gradient(145deg,#d5eeff4a,#a6d5ff1c 60%,#5f99cf26);box-shadow:inset 0 2px 2px #e0f7ffba,inset 1px 0 2px #ceecff70,inset -1px -2px 2px #000b3357,0 5px 12px #000c2e33}"
+    },
+    {
+      "name": "Signature file library",
+      "kind": "custom",
+      "refersTo": "file-library",
+      "description": "The CSS material of the native nonmodal library, with synthetic document examples. The live full-liquid state uses the steadier prism gradient and double edge; production supplies search, popover dismissal, focus return, and pointer sheen.",
+      "html": "<section class=\"ds-library\" role=\"dialog\" aria-modal=\"false\" aria-label=\"文件资料库示例\"><header class=\"ds-library-head\"><div><h2>文件资料库</h2><p>选择文件，继续当前港口的准备。</p></div><button class=\"ds-library-close\" aria-label=\"关闭文件资料库\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m6 6 12 12M18 6 6 18\"/></svg></button></header><label class=\"ds-library-search\"><svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" aria-hidden=\"true\"><circle cx=\"10\" cy=\"10\" r=\"6\"/><path d=\"m15 15 5 5\"/></svg><input type=\"search\" placeholder=\"查找文件或资料\" aria-label=\"查找文件或资料\"></label><nav class=\"ds-library-grid\" aria-label=\"申报文件\"><button class=\"ds-library-tile\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M9 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M2 21v-3a7 7 0 0 1 14 0v3M17 5a4 4 0 0 1 0 7M19 16a6 6 0 0 1 3 5\"/></svg><span>进港船员名单</span></button><button class=\"ds-library-tile\" aria-current=\"page\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 7l9-4 9 4v12l-9 3-9-3zM3 7l9 4 9-4M12 11v11\"/></svg><span>船员个人物品</span></button><button class=\"ds-library-tile\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12V7h14v5M9 7V3h6v4M3 13l9-3 9 3-3 7H6z\"/></svg><span>本次港口清单</span></button></nav></section>",
+      "css": ".ds-library{box-sizing:border-box;width:min(880px,calc(100vw - 48px));max-width:100%;font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",\"PingFang SC\",\"Microsoft YaHei\",sans-serif;color:var(--ink,#172c42);padding:25px 27px 16px;border-radius:30px}.ds-library-head{display:flex;justify-content:space-between;align-items:flex-start;gap:15px;margin-bottom:18px}.ds-library h2{font-size:1.5rem;font-weight:600;letter-spacing:-.025em;margin:0 0 4px}.ds-library p{font-size:.82rem;color:var(--muted,#405a70);margin:4px 0}.ds-library-close{display:grid;place-items:center;border:0;background:transparent;color:inherit;width:35px;height:35px;padding:7px;border-radius:50%;cursor:pointer}.ds-library-close:hover{background:#ffffff4a}.ds-library-search{display:flex;align-items:center;gap:9px;background:#ffffff64;box-shadow:inset 0 1px 2px #163b581a,0 1px 0 #ffffffdb;border-radius:15px;padding:3px 13px;margin-bottom:20px;color:var(--muted,#405a70)}.ds-library-search input{font-family:inherit;font-size:.88rem;min-width:0;width:100%;min-height:35px;padding:7px 0;border:0;background:transparent;box-shadow:none;color:var(--ink,#172c42);caret-color:var(--blue,#005fc5)}.ds-library-search input::placeholder{color:var(--muted,#405a70);opacity:1}.ds-library-search:focus-within{outline:3px solid #3585e36b}.ds-library-search input:focus{outline:0}.ds-library-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}.ds-library-tile{font-family:inherit;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:9px;min-width:0;min-height:79px;padding:12px 8px;border:0;border-radius:15px;background:#ffffff33;box-shadow:inset 0 1px 1px #ffffffe3,inset 0 -1px 2px #2c5d7f24;color:inherit;font-size:.8rem;line-height:1.35;text-align:center;cursor:pointer;transition:background .18s ease,transform .2s cubic-bezier(.16,1,.3,1)}.ds-library-tile svg{width:23px;height:23px;color:#2b526e}.ds-library-tile:hover{background:#ffffff80;box-shadow:inset 0 1px 1px #fff,0 3px 8px #21405b14}.ds-library-tile:focus-visible,.ds-library-close:focus-visible{outline:3px solid var(--focus,color-mix(in srgb,var(--blue,#005fc5),white 20%));outline-offset:3px}.ds-library-tile:active,.ds-library-close:active{transform:scale(.975)}:host-context([data-theme=\"dark\"]) .ds-library{color:var(--ink,#e9f3fe)}:host-context([data-theme=\"dark\"]) .ds-library p{color:var(--muted,#b6cadd)}:host-context([data-theme=\"dark\"]) .ds-library-search input{color:var(--ink,#e9f3fe)}:host-context([data-theme=\"dark\"]) .ds-library-search input::placeholder{color:var(--muted,#b6cadd)}:host-context([data-theme=\"dark\"]) .ds-library-tile{background:#bbd7ee12;box-shadow:inset 0 1px 1px #e0f3ff52,inset 0 -1px 1px #00193480}:host-context([data-theme=\"dark\"]) .ds-library-tile svg{color:#b6dbff}:host-context([data-theme=\"dark\"]) .ds-library-tile:focus-visible{outline-color:var(--focus,color-mix(in srgb,var(--blue,#005fc5),white 63%))}.ds-library-tile[aria-current]{background:#ffffff5e;box-shadow:var(--yzrt-edge,inset 2px -2px 1px -1px #ffffffe6,inset -2px 2px 1px -1px #ffffffe6,inset 6px -6px 1px -6px #ffffff8c,inset -6px 6px 1px -6px #ffffff8c,inset 0 0 2px #18364c99),0 3px 8px #22445c1f;color:var(--accent-ink,color-mix(in srgb,var(--blue,#005fc5),#142c42 14%))}:host-context([data-theme=\"dark\"]) .ds-library-tile[aria-current]{background:#bfdcff26;box-shadow:var(--yzrt-edge,inset 2px -2px 1px -1px #e5f6ff9c,inset -2px 2px 1px -1px #e5f6ff8c,inset 6px -6px 1px -6px #d9efff57,inset -6px 6px 1px -6px #d9efff57,inset 0 0 2px #000b22d9),0 4px 9px #00162d33;color:var(--accent-ink,color-mix(in srgb,var(--blue,#005fc5),white 60%))}.ds-library-tile[aria-current] svg{color:inherit}.ds-library{position:relative;isolation:isolate;background:color-mix(in srgb,var(--paper,#f5faffd9),transparent 17%);box-shadow:var(--yzrt-edge,inset 2px -2px 1px -1px #ffffffe6,inset -2px 2px 1px -1px #ffffffe6,inset 6px -6px 1px -6px #ffffff8c,inset -6px 6px 1px -6px #ffffff8c,inset 0 0 2px #18364c99),var(--yzrt-depth,0 9px 22px #183e5a29);backdrop-filter:blur(12px) saturate(1.35);-webkit-backdrop-filter:blur(12px) saturate(1.35)}.ds-library::before{content:\"\";position:absolute;inset:0;border-radius:inherit;pointer-events:none;z-index:0;background:linear-gradient(45deg,#ffffffcc,transparent 25%,transparent 75%,#ffffffcc);filter:blur(3px);opacity:var(--yzrt-glint,.45);box-shadow:none}.ds-library::after{content:\"\";position:absolute;inset:7px;border:1px solid var(--yzrt-inner,#ffffff40);border-radius:inherit;pointer-events:none;z-index:-1;background:radial-gradient(ellipse at var(--glass-x,25%) var(--glass-y,0%),#ffffff4a,transparent 64%);filter:blur(1px);box-shadow:0 7px 8px -5px #0b294f47;opacity:1;mix-blend-mode:normal}.ds-library>*{position:relative;z-index:1}:host-context([data-theme=\"dark\"]) .ds-library{background:#203a51ce;box-shadow:var(--yzrt-edge,inset 2px -2px 1px -1px #e5f6ff9c,inset -2px 2px 1px -1px #e5f6ff8c,inset 6px -6px 1px -6px #d9efff57,inset -6px 6px 1px -6px #d9efff57,inset 0 0 2px #000b22d9),var(--yzrt-depth,0 9px 24px #000b293b)}:host-context([data-theme=\"dark\"]) .ds-library::before{opacity:var(--yzrt-glint,.3)}:host-context([data-theme=\"dark\"]) .ds-library::after{border-color:var(--yzrt-inner,#cbe6ff30)}:host-context([data-glass-style=\"soft\"]) .ds-library{box-shadow:var(--yzrt-edge,inset 2px -2px 1px -1px #ffffffe6,inset -2px 2px 1px -1px #ffffffe6,inset 6px -6px 1px -6px #ffffff8c,inset -6px 6px 1px -6px #ffffff8c,inset 0 0 2px #18364c99),var(--yzrt-depth,0 10px 25px #183e5a22);backdrop-filter:blur(16px) saturate(1.35);-webkit-backdrop-filter:blur(16px) saturate(1.35)}:host-context([data-glass-style=\"soft\"]) .ds-library::before{opacity:var(--yzrt-glint,.25)}:host-context([data-glass-style=\"soft\"]) .ds-library::after{border-color:var(--yzrt-inner,#ffffff38)}:host-context([data-theme=\"dark\"]):host-context([data-glass-style=\"soft\"]) .ds-library{background:#203a51ce;box-shadow:var(--yzrt-edge,inset 2px -2px 1px -1px #e5f6ff9c,inset -2px 2px 1px -1px #e5f6ff8c,inset 6px -6px 1px -6px #d9efff57,inset -6px 6px 1px -6px #d9efff57,inset 0 0 2px #000b22d9),var(--yzrt-depth,0 10px 25px #183e5a22)}:host-context([data-theme=\"dark\"]):host-context([data-glass-style=\"soft\"]) .ds-library::before{opacity:var(--yzrt-glint,.2)}:host-context([data-glass-style=\"clear\"]) .ds-library{background:var(--surface-clear,#f1f7fc)!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;box-shadow:0 8px 24px #153b5a1c,inset 0 1px 0 #ffffff70}:host-context([data-theme=\"dark\"]):host-context([data-glass-style=\"clear\"]) .ds-library{background:var(--surface-clear,#22374d)!important}:host-context([data-glass-style=\"clear\"]) .ds-library::before,:host-context([data-glass-style=\"clear\"]) .ds-library::after{display:none}:host-context([data-effects-transparency=\"reduced\"]) .ds-library{background:var(--surface-clear,#f1f7fc)!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;box-shadow:0 8px 24px #153b5a1c,inset 0 1px 0 #ffffff70}:host-context([data-theme=\"dark\"]):host-context([data-effects-transparency=\"reduced\"]) .ds-library{background:var(--surface-clear,#22374d)!important}:host-context([data-effects-transparency=\"reduced\"]) .ds-library::before,:host-context([data-effects-transparency=\"reduced\"]) .ds-library::after{display:none}@media(prefers-reduced-transparency:reduce){.ds-library{background:var(--surface-clear,#f1f7fc)!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;box-shadow:0 8px 24px #153b5a1c,inset 0 1px 0 #ffffff70}:host-context([data-theme=\"dark\"]) .ds-library{background:var(--surface-clear,#22374d)!important}.ds-library::before,.ds-library::after{display:none}}@media(max-width:1000px){.ds-library-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}@media(max-width:760px){.ds-library{padding:21px 18px 13px;border-radius:26px}.ds-library-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}.ds-library-tile{font-size:.72rem;min-height:73px;padding:10px 7px;border-radius:13px}}:host-context([data-corner-style=\"soft\"]) .ds-library{border-radius:17px}:host-context([data-corner-style=\"soft\"]) .ds-library-search input{border-radius:8px}:host-context([data-effects-motion=\"reduced\"]) .ds-library{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-effects-motion=\"reduced\"]) .ds-library *{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-motion=\"reduced\"]) .ds-library{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-motion=\"reduced\"]) .ds-library *{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-glass-style=\"clear\"]) .ds-library{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-glass-style=\"clear\"]) .ds-library *{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-background-style=\"plain\"]) .ds-library{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-background-style=\"plain\"]) .ds-library *{transition:none!important;animation:none!important;scroll-behavior:auto!important}@media(prefers-reduced-motion:reduce){.ds-library,.ds-library *{transition:none!important;animation:none!important;scroll-behavior:auto!important}}:host-context([data-theme=\"dark\"]) .ds-library-close{background:#bedaff18}:host-context([data-theme=\"dark\"]) .ds-library-close:hover{background:#c4e4ff30}/* 3.2.1: source-derived liquid/full variant; base and preference fallbacks above remain active. */:host-context([data-glass-style=\"liquid\"][data-effects-transparency=\"full\"]) .ds-library{--prism-edge:inset 0 2px 2px #ffffffed,inset 2px 0 3px #ffffffa6,inset 0 -2px 3px #2f639557,inset -2px 0 3px #8dc9ee4f,inset 0 0 0 1px #ffffff7a;--prism-depth:0 14px 32px #143f6329,0 3px 8px #17425b1f;--prism-fill:linear-gradient(135deg,#ffffff61 0%,#ffffff10 35%,#d1f1ff17 67%,#ffffff4d 100%);--table:#f8fcffde;--thead:#eaf4f9ed}:host-context([data-theme=\"dark\"][data-glass-style=\"liquid\"][data-effects-transparency=\"full\"]) .ds-library{--prism-edge:inset 0 2px 2px #dff7ffb8,inset 2px 0 3px #bde7ff70,inset 0 -2px 3px #020b1c94,inset -2px 0 3px #8fc6ff45,inset 0 0 0 1px #dcf4ff3b;--prism-depth:0 16px 36px #030f3459,0 3px 8px #000a202b;--prism-fill:linear-gradient(135deg,#c5e6ff32 0%,#25486a21 38%,#0c35452b 65%,#b6d5ff24 100%);--table:#1c3145ed;--thead:#29465de8}:host-context([data-glass-style=\"liquid\"][data-effects-transparency=\"full\"]) .ds-library{background:var(--prism-fill);box-shadow:var(--prism-edge),var(--prism-depth);backdrop-filter:blur(12px) saturate(1.8) contrast(1.035);-webkit-backdrop-filter:blur(12px) saturate(1.8) contrast(1.035);isolation:isolate}:host-context([data-glass-style=\"liquid\"][data-effects-transparency=\"full\"]) .ds-library::before{inset:0;padding:2px;border:0;background:linear-gradient(133deg,#fff 0%,#ffffffad 15%,#b5e9ff20 38%,#85b7d94d 61%,#fff 94%);filter:none;opacity:.96;mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);mask-composite:exclude;-webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);-webkit-mask-composite:xor;z-index:0}:host-context([data-glass-style=\"liquid\"][data-effects-transparency=\"full\"]) .ds-library::after{inset:5px;border:1px solid #ffffff47;background:radial-gradient(ellipse at var(--glass-x,22%) var(--glass-y,0%),#ffffff70,transparent 65%);box-shadow:inset 0 2px 6px #ffffff38,inset 0 -4px 7px #2e78a223;filter:none;z-index:0;opacity:.8}:host-context([data-theme=\"dark\"][data-glass-style=\"liquid\"][data-effects-transparency=\"full\"]) .ds-library::after{border-color:#d2f0ff24;background:radial-gradient(ellipse at var(--glass-x,22%) var(--glass-y,0%),#c9e9ff36,transparent 65%);box-shadow:inset 0 2px 6px #c0ecff1f,inset 0 -4px 7px #000e3242}:host-context([data-glass-style=\"liquid\"][data-effects-transparency=\"full\"]) .ds-library{background:linear-gradient(135deg,#edf8ffbf,#f8fcff9e);backdrop-filter:blur(28px) saturate(1.65);-webkit-backdrop-filter:blur(28px) saturate(1.65)}:host-context([data-theme=\"dark\"][data-glass-style=\"liquid\"][data-effects-transparency=\"full\"]) .ds-library{background:linear-gradient(135deg,#2b4a65e0,#1b3248d9)}"
+    },
+    {
+      "name": "Inventory location filter",
+      "kind": "chip",
+      "refersTo": "store-filter",
+      "description": "Horizontal, content-sized location and count selection using derived accent ink and surface. The demonstration count is synthetic.",
+      "html": "<button class=\"ds-filter\" aria-pressed=\"true\"><span>伙食库</span><b>2</b></button>",
+      "css": ".ds-filter{font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",\"PingFang SC\",\"Microsoft YaHei\",sans-serif;display:inline-flex;align-items:center;gap:8px;min-height:36px;padding:9px 14px;border:0;border-radius:18px;background:#ffffff50;color:var(--muted,#405a70);box-shadow:inset 0 1px 1px #ffffffc9;cursor:pointer;transition:background .18s ease,transform .2s cubic-bezier(.16,1,.3,1)}.ds-filter span{font-size:.87rem;font-weight:500;margin:0}.ds-filter b{font-size:.8rem;font-weight:500;line-height:1;display:inline}.ds-filter:hover{background:#ffffffbc}.ds-filter:focus-visible{outline:3px solid var(--focus,color-mix(in srgb,var(--blue,#005fc5),white 20%));outline-offset:3px}.ds-filter:active{transform:scale(.97)}:host-context([data-theme=\"dark\"]) .ds-filter{background:#c3dfff16;color:var(--muted,#b6cadd);box-shadow:inset 0 1px 1px #d7ecff59}.ds-filter[aria-pressed=\"true\"]{background:var(--accent-surface,color-mix(in srgb,var(--blue,#005fc5),white 87%));color:var(--accent-ink,color-mix(in srgb,var(--blue,#005fc5),#142c42 14%));box-shadow:inset 0 1px 1px #fff,inset 0 -1px 1px #355e7c35,0 3px 8px #21405b14}:host-context([data-theme=\"dark\"]) .ds-filter[aria-pressed=\"true\"]{background:var(--accent-surface,color-mix(in srgb,var(--blue,#005fc5),#203548 79%));color:var(--accent-ink,color-mix(in srgb,var(--blue,#005fc5),white 60%))}:host-context([data-theme=\"dark\"]) .ds-filter:focus-visible{outline-color:var(--focus,color-mix(in srgb,var(--blue,#005fc5),white 63%))}@media(max-width:760px){.ds-filter{padding:7px 10px}.ds-filter span{font-size:.74rem}}:host-context([data-corner-style=\"soft\"]) .ds-filter{border-radius:12px}:host-context([data-effects-motion=\"reduced\"]) .ds-filter{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-effects-motion=\"reduced\"]) .ds-filter *{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-motion=\"reduced\"]) .ds-filter{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-motion=\"reduced\"]) .ds-filter *{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-glass-style=\"clear\"]) .ds-filter{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-glass-style=\"clear\"]) .ds-filter *{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-background-style=\"plain\"]) .ds-filter{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-background-style=\"plain\"]) .ds-filter *{transition:none!important;animation:none!important;scroll-behavior:auto!important}@media(prefers-reduced-motion:reduce){.ds-filter,.ds-filter *{transition:none!important;animation:none!important;scroll-behavior:auto!important}}:host-context([data-theme=\"dark\"]) .ds-filter[aria-pressed=\"true\"]{box-shadow:inset 0 1px 1px #d7ecff59}"
+    },
+    {
+      "name": "Broad glass editing sheet",
+      "kind": "card",
+      "refersTo": "editing-sheet",
+      "description": "The broad editing sheet with separately backed table data. The live full-liquid state uses the source prism gradient, edge, and dedicated table grounds; clear mode and reduced transparency retain the opaque clear surface. Synthetic data.",
+      "html": "<section class=\"ds-editor\"><h2>船员个人物品</h2><p>布里斯班 · 2 人 · 演示资料</p><div class=\"ds-tablewrap\"><table class=\"ds-table\"><thead><tr><th>姓名（关联）</th><th>香烟 / 支</th><th>其他物品</th></tr></thead><tbody><tr><td><span class=\"ds-linked\">TEST, CREW 03</span></td><td><input aria-label=\"TEST, CREW 03 香烟\" value=\"NIL\"></td><td><input aria-label=\"TEST, CREW 03 其他物品\" value=\"1 Phone\"></td></tr><tr><td><span class=\"ds-linked\">TEST, CREW 04</span></td><td><input aria-label=\"TEST, CREW 04 香烟\" value=\"200\"></td><td><input aria-label=\"TEST, CREW 04 其他物品\" value=\"1 Laptop\"></td></tr></tbody></table></div></section>",
+      "css": ".ds-editor{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif;color:var(--ink,#172c42);padding:29px 32px 40px;border-radius:29px;background:var(--paper,#f5faffd9);box-shadow:var(--lens-edge,inset 0 1.5px 1px #ffffffef,inset 1.5px 0 2px #ffffffa8,inset -1.2px 0 1.5px #608ec76b,inset 0 -1.8px 2px #385d7d66),0 22px 60px #18395120;backdrop-filter:blur(22px) saturate(1.25)}.ds-editor h2{font-size:2rem;line-height:1.25;font-weight:640;letter-spacing:-.035em;margin:0 0 9px}.ds-editor>p{font-size:.83rem;color:var(--muted,#405a70);margin:0 0 24px}.ds-tablewrap{overflow:auto;border-radius:13px;margin:19px 0;max-height:58vh;box-shadow:0 0 0 1px #63829d26;background:var(--table,#f8fcfff0)}.ds-table{width:100%;border-collapse:collapse;background:transparent;font-size:var(--table-font,12px);line-height:1.55;color:inherit}.ds-table td,.ds-table th{padding:11px 10px;border-right:1px solid var(--line,#627e962b);border-bottom:1px solid var(--line,#627e962b);text-align:left;vertical-align:top}.ds-table th{position:sticky;top:0;background:var(--thead,#eaf3f9f5);color:var(--muted,#405a70);font-weight:550}.ds-table input{box-sizing:border-box;font:inherit;width:100%;min-width:85px;min-height:33px;padding:6px 7px;border:1px solid transparent;border-radius:7px;box-shadow:none;background:transparent;color:inherit;caret-color:var(--blue,#005fc5)}.ds-table input:focus-visible{outline:3px solid #2576d650;outline-offset:1px;border-color:#4792e6}.ds-linked{display:inline-block;padding:6px 7px;border-radius:7px;background:#bacfe329;color:var(--muted,#405a70)}:host-context([data-theme=\"dark\"]) .ds-linked{background:#b2d4f316}@media(max-width:760px){.ds-editor{padding:23px 18px 32px;border-radius:25px}.ds-editor h2{font-size:1.62rem;line-height:1.3}.ds-tablewrap{max-height:54vh;border-radius:10px}.ds-table td,.ds-table th{padding:9px 8px}}:host-context([data-theme=\"dark\"]) .ds-editor{color:var(--ink,#e9f3fe);background:var(--paper,#1a2b3de8);box-shadow:var(--lens-edge,inset 0 1.5px 1px #d9f5ff8c,inset 1.5px 0 2px #b4e6ff52,inset -1.2px 0 1.5px #79a2fb52,inset 0 -1.8px 2px #000b2394),0 22px 60px #18395120}:host-context([data-theme=\"dark\"]) .ds-editor>p{color:var(--muted,#b6cadd)}:host-context([data-theme=\"dark\"]) .ds-tablewrap{background:var(--table,#1c3145f5)}:host-context([data-theme=\"dark\"]) .ds-table th{background:var(--thead,#263f56f7);color:var(--muted,#b6cadd)}:host-context([data-theme=\"dark\"]) .ds-table td{border-color:var(--line,#c7dfee2b)}:host-context([data-theme=\"dark\"]) .ds-table th{border-color:var(--line,#c7dfee2b)}.ds-table input:hover{border-color:transparent}:host-context([data-density=\"compact\"]) .ds-table td{padding:3px 6px}:host-context([data-density=\"compact\"]) .ds-table th{padding:3px 6px}:host-context([data-density=\"relaxed\"]) .ds-table td{padding:12px}:host-context([data-density=\"relaxed\"]) .ds-table th{padding:12px}:host-context([data-glass-style=\"clear\"]) .ds-editor{background:var(--surface-clear,#f1f7fc)!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;box-shadow:0 8px 24px #153b5a1c,inset 0 1px 0 #ffffff70}:host-context([data-theme=\"dark\"]):host-context([data-glass-style=\"clear\"]) .ds-editor{background:var(--surface-clear,#22374d)!important}:host-context([data-effects-transparency=\"reduced\"]) .ds-editor{background:var(--surface-clear,#f1f7fc)!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;box-shadow:0 8px 24px #153b5a1c,inset 0 1px 0 #ffffff70}:host-context([data-theme=\"dark\"]):host-context([data-effects-transparency=\"reduced\"]) .ds-editor{background:var(--surface-clear,#22374d)!important}@media(prefers-reduced-transparency:reduce){.ds-editor{background:var(--surface-clear,#f1f7fc)!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;box-shadow:0 8px 24px #153b5a1c,inset 0 1px 0 #ffffff70}:host-context([data-theme=\"dark\"]) .ds-editor{background:var(--surface-clear,#22374d)!important}}:host-context([data-corner-style=\"soft\"]) .ds-editor{border-radius:17px}:host-context([data-corner-style=\"soft\"]) .ds-table input{border-radius:8px}:host-context([data-effects-motion=\"reduced\"]) .ds-editor{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-effects-motion=\"reduced\"]) .ds-editor *{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-motion=\"reduced\"]) .ds-editor{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-motion=\"reduced\"]) .ds-editor *{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-glass-style=\"clear\"]) .ds-editor{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-glass-style=\"clear\"]) .ds-editor *{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-background-style=\"plain\"]) .ds-editor{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-background-style=\"plain\"]) .ds-editor *{transition:none!important;animation:none!important;scroll-behavior:auto!important}@media(prefers-reduced-motion:reduce){.ds-editor,.ds-editor *{transition:none!important;animation:none!important;scroll-behavior:auto!important}}:host-context([data-theme=\"dark\"]) .ds-linked{color:var(--muted,#b6cadd)}/* 3.2.1: source-derived liquid/full variant; base and preference fallbacks above remain active. */:host-context([data-glass-style=\"liquid\"][data-effects-transparency=\"full\"]) .ds-editor{--prism-edge:inset 0 2px 2px #ffffffed,inset 2px 0 3px #ffffffa6,inset 0 -2px 3px #2f639557,inset -2px 0 3px #8dc9ee4f,inset 0 0 0 1px #ffffff7a;--prism-depth:0 14px 32px #143f6329,0 3px 8px #17425b1f;--prism-fill:linear-gradient(135deg,#ffffff61 0%,#ffffff10 35%,#d1f1ff17 67%,#ffffff4d 100%);--table:#f8fcffde;--thead:#eaf4f9ed}:host-context([data-theme=\"dark\"][data-glass-style=\"liquid\"][data-effects-transparency=\"full\"]) .ds-editor{--prism-edge:inset 0 2px 2px #dff7ffb8,inset 2px 0 3px #bde7ff70,inset 0 -2px 3px #020b1c94,inset -2px 0 3px #8fc6ff45,inset 0 0 0 1px #dcf4ff3b;--prism-depth:0 16px 36px #030f3459,0 3px 8px #000a202b;--prism-fill:linear-gradient(135deg,#c5e6ff32 0%,#25486a21 38%,#0c35452b 65%,#b6d5ff24 100%);--table:#1c3145ed;--thead:#29465de8}:host-context([data-glass-style=\"liquid\"][data-effects-transparency=\"full\"]) .ds-editor{background:linear-gradient(145deg,#f8fcffc7,#edf7ff96 55%,#eef3ff9e);border:1px solid #ffffffb5;box-shadow:var(--prism-edge),0 17px 38px #244d6a1f;backdrop-filter:blur(22px) saturate(1.45);-webkit-backdrop-filter:blur(22px) saturate(1.45)}:host-context([data-theme=\"dark\"][data-glass-style=\"liquid\"][data-effects-transparency=\"full\"]) .ds-editor{background:linear-gradient(145deg,#203c53c9,#162b41bd 58%,#213653bf);border-color:#d0eeff40}"
+    },
+    {
+      "name": "Selected port stop",
+      "kind": "custom",
+      "refersTo": "port-selected",
+      "description": "A selected route lens with port number, identity, date, and status; liquid glass with full effective transparency adds the source compact prism gradient and depth. Sample voyage values are synthetic.",
+      "html": "<button class=\"ds-port\" aria-current=\"true\"><span class=\"ds-port-number\">1</span><span class=\"ds-port-copy\"><strong>布里斯班 <code>AU BNE</code></strong><small>Brisbane · 2026-11-03</small></span><span class=\"ds-port-state\" aria-label=\"待核对\"></span></button>",
+      "css": ".ds-port{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif;display:inline-flex;align-items:center;gap:10px;min-width:155px;min-height:54px;padding:8px 12px;border:0;border-radius:20px;background:#ffffff5e;box-shadow:var(--yzrt-edge,inset 2px -2px 1px -1px #ffffffe6,inset -2px 2px 1px -1px #ffffffe6,inset 6px -6px 1px -6px #ffffff8c,inset -6px 6px 1px -6px #ffffff8c,inset 0 0 2px #18364c99),0 3px 8px #22445c1f;color:var(--ink,#172c42);text-align:left;cursor:pointer;transition:background .18s ease,transform .2s cubic-bezier(.16,1,.3,1)}.ds-port-number{display:grid;place-items:center;flex-shrink:0;width:24px;height:24px;border-radius:50%;background:var(--blue,#005fc5);color:#fff;font-size:.72rem}.ds-port-copy{display:flex;flex-direction:column;gap:3px}.ds-port-copy strong{display:flex;align-items:center;gap:7px;white-space:nowrap;font-size:.86rem;font-weight:600}.ds-port-copy small{font-size:.65rem;color:var(--muted,#405a70)}.ds-port-copy code{font: .57rem/1.4 ui-monospace,Consolas,monospace;padding:1px 4px;border-radius:5px;background:#d2e6f47a;color:var(--muted,#405a70)}.ds-port-state{width:4px;height:4px;flex-shrink:0;border-radius:50%;background:#9e6700}.ds-port:hover{background:#ffffff5e}.ds-port:focus-visible{outline:3px solid var(--focus,color-mix(in srgb,var(--blue,#005fc5),white 20%));outline-offset:3px}.ds-port:active{transform:scale(.975)}:host-context([data-theme=\"dark\"]) .ds-port{background:#bfdcff26;color:#b4ddff;box-shadow:var(--yzrt-edge,inset 2px -2px 1px -1px #e5f6ff9c,inset -2px 2px 1px -1px #e5f6ff8c,inset 6px -6px 1px -6px #d9efff57,inset -6px 6px 1px -6px #d9efff57,inset 0 0 2px #000b22d9),0 4px 9px #00162d33}@media(max-width:760px){.ds-port{min-width:152px;min-height:51px;padding:8px 10px;border-radius:18px;gap:8px}.ds-port-copy strong{font-size:.8rem}.ds-port-copy small{font-size:.62rem}.ds-port-number{width:21px;height:21px;font-size:.65rem}}@media(prefers-reduced-motion:reduce){.ds-port{transition:none}}:host-context([data-theme=\"dark\"]) .ds-port-copy small{color:var(--muted,#b6cadd)}:host-context([data-theme=\"dark\"]) .ds-port-copy code{color:var(--muted,#b6cadd)}:host-context([data-theme=\"dark\"]) .ds-port:focus-visible{outline-color:var(--focus,color-mix(in srgb,var(--blue,#005fc5),white 63%))}:host-context([data-corner-style=\"soft\"]) .ds-port{border-radius:12px}:host-context([data-effects-motion=\"reduced\"]) .ds-port{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-effects-motion=\"reduced\"]) .ds-port *{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-motion=\"reduced\"]) .ds-port{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-motion=\"reduced\"]) .ds-port *{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-glass-style=\"clear\"]) .ds-port{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-glass-style=\"clear\"]) .ds-port *{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-background-style=\"plain\"]) .ds-port{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-background-style=\"plain\"]) .ds-port *{transition:none!important;animation:none!important;scroll-behavior:auto!important}@media(prefers-reduced-motion:reduce){.ds-port,.ds-port *{transition:none!important;animation:none!important;scroll-behavior:auto!important}}/* 3.2.1: source-derived liquid/full variant; base and preference fallbacks above remain active. */:host-context([data-glass-style=\"liquid\"][data-effects-transparency=\"full\"]) .ds-port{--prism-edge:inset 0 2px 2px #ffffffed,inset 2px 0 3px #ffffffa6,inset 0 -2px 3px #2f639557,inset -2px 0 3px #8dc9ee4f,inset 0 0 0 1px #ffffff7a;--prism-depth:0 14px 32px #143f6329,0 3px 8px #17425b1f;--prism-fill:linear-gradient(135deg,#ffffff61 0%,#ffffff10 35%,#d1f1ff17 67%,#ffffff4d 100%);--table:#f8fcffde;--thead:#eaf4f9ed}:host-context([data-theme=\"dark\"][data-glass-style=\"liquid\"][data-effects-transparency=\"full\"]) .ds-port{--prism-edge:inset 0 2px 2px #dff7ffb8,inset 2px 0 3px #bde7ff70,inset 0 -2px 3px #020b1c94,inset -2px 0 3px #8fc6ff45,inset 0 0 0 1px #dcf4ff3b;--prism-depth:0 16px 36px #030f3459,0 3px 8px #000a202b;--prism-fill:linear-gradient(135deg,#c5e6ff32 0%,#25486a21 38%,#0c35452b 65%,#b6d5ff24 100%);--table:#1c3145ed;--thead:#29465de8}:host-context([data-glass-style=\"liquid\"][data-effects-transparency=\"full\"]) .ds-port{background:linear-gradient(145deg,#ffffff9c,#ffffff2b 58%,#d2efff57);box-shadow:inset 0 2px 2px #fff,inset 1px 0 2px #ffffff9c,inset -1px -2px 2px #7da6c15c,0 5px 12px #24496524;backdrop-filter:blur(8px) saturate(1.5);-webkit-backdrop-filter:blur(8px) saturate(1.5)}:host-context([data-theme=\"dark\"][data-glass-style=\"liquid\"][data-effects-transparency=\"full\"]) .ds-port{background:linear-gradient(145deg,#d5eeff4a,#a6d5ff1c 60%,#5f99cf26);box-shadow:inset 0 2px 2px #e0f7ffba,inset 1px 0 2px #ceecff70,inset -1px -2px 2px #000b3357,0 5px 12px #000c2e33}"
+    },
+    {
+      "name": "Simple appearance choices",
+      "kind": "custom",
+      "refersTo": "appearance-settings",
+      "description": "Actual source-generated native selects: four common choices and an initially closed disclosure containing exactly four extras. This preview demonstrates controls and disclosure; production handles applying, persistence, and the nine-field reset.",
+      "html": "<section class=\"ds-appearance-card ds-appearance-appearance-settings\"><h2>外观</h2><div class=\"ds-appearance-grid ds-appearance-two\"><label><span>界面主题</span><select data-ui-pref=\"theme\"><option value=\"light\" selected>浅色</option><option value=\"dark\" >深色</option><option value=\"auto\" >跟随系统</option></select></label><label><span>强调色</span><select data-ui-pref=\"accent\"><option value=\"blue\" selected>蓝色</option><option value=\"teal\" >青绿</option><option value=\"violet\" >紫色</option></select></label><label><span>界面字号</span><select data-ui-pref=\"fontSize\"><option value=\"12\" >小</option><option value=\"14\" selected>标准</option><option value=\"16\" >大</option><option value=\"18\" >特大</option></select></label><label><span>表格密度</span><select data-ui-pref=\"density\"><option value=\"compact\" >紧凑</option><option value=\"normal\" selected>标准</option><option value=\"relaxed\" >宽松</option></select></label></div><details id=\"ds-appearance-glass-options\" class=\"ds-appearance-settings-disclosure\"><summary>玻璃与背景 <span>通透程度、配色、圆角和动效</span></summary><div class=\"ds-appearance-grid ds-appearance-two\"><label><span>玻璃效果</span><select data-ui-pref=\"glassStyle\"><option value=\"liquid\" selected>通透液态</option><option value=\"soft\" >柔和玻璃</option><option value=\"clear\" >清晰易读</option></select></label><label><span>背景配色</span><select data-ui-pref=\"backgroundStyle\"><option value=\"ocean\" selected>海蓝</option><option value=\"aurora\" >极光</option><option value=\"plain\" >纯色</option></select></label><label><span>圆角样式</span><select data-ui-pref=\"cornerStyle\"><option value=\"rounded\" selected>圆润</option><option value=\"soft\" >适中</option></select></label><label><span>页面动效</span><select data-ui-pref=\"motion\"><option value=\"auto\" selected>跟随系统</option><option value=\"reduced\" >减少动态</option></select></label></div><p class=\"ds-appearance-hint\">长时间填表时可选“清晰易读”。减少动态会让背景和页面切换更安静；电脑的减少动态设置始终优先。</p></details><div class=\"ds-appearance-row\"><button class=\"ds-appearance-small ds-appearance-text-button\">恢复默认外观</button></div><p class=\"ds-appearance-hint\">修改立即生效并保存在当前浏览器。只改变程序页面，生成文件仍使用模板原有样式。</p></section>",
+      "css": ".ds-appearance-appearance-settings{font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",\"PingFang SC\",\"Microsoft YaHei\",sans-serif;font-size:1rem;line-height:1.55;color:var(--ink,#172c42);background:#ffffff50;padding:23px;border-radius:16px}.ds-appearance-appearance-settings h2{font-size:1.22rem;line-height:1.4;font-weight:620;margin:0 0 18px}.ds-appearance-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.ds-appearance-grid label{display:block;font-size:.9rem;color:inherit}.ds-appearance-grid label>span{display:block;margin-bottom:6px}.ds-appearance-grid select{box-sizing:border-box;width:100%;min-height:38px;border:1px solid #6386a134;border-radius:12px;padding:9px 11px;font:inherit;color:inherit;background:var(--field,#ffffffa6);box-shadow:inset 0 1px 2px #304b6212,0 1px 0 #ffffff8c}.ds-appearance-grid select:hover{border-color:#6386a134}.ds-appearance-grid select:focus-visible{outline:3px solid #2576d650;outline-offset:1px;border-color:#4792e6}.ds-appearance-settings-disclosure{padding-top:15px;border-top:1px solid var(--line,#627e962b);margin:22px 0 14px}.ds-appearance-settings-disclosure>summary{font-size:.9rem;font-weight:600;line-height:1.6;cursor:pointer}.ds-appearance-settings-disclosure>summary span{font-size:.77rem;font-weight:400;color:var(--muted,#405a70);margin-left:12px}.ds-appearance-settings-disclosure[open]>summary{margin-bottom:17px}.ds-appearance-hint{font-size:.85rem;line-height:1.7;color:var(--muted,#405a70);margin:10px 0 8px;max-width:75ch}.ds-appearance-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:17px}.ds-appearance-text-button{font-family:inherit;font-size:.85rem;min-height:29px;padding:6px 3px;border:0;border-radius:15px;background:transparent;color:var(--blue,#005fc5);cursor:pointer;transition:background .18s ease,transform .2s cubic-bezier(.16,1,.3,1)}.ds-appearance-text-button:hover{background:#ffffff4a}.ds-appearance-text-button:active{transform:scale(.97)}.ds-appearance-text-button:focus-visible,.ds-appearance-settings-disclosure>summary:focus-visible{outline:3px solid var(--focus,color-mix(in srgb,var(--blue,#005fc5),white 20%));outline-offset:3px}:host-context([data-theme=\"dark\"]) .ds-appearance-appearance-settings{background:#a9c9e311;color:var(--ink,#e9f3fe)}:host-context([data-theme=\"dark\"]) .ds-appearance-grid select{background:var(--field,#233b54d9);border-color:#accfe633}:host-context([data-theme=\"dark\"]) .ds-appearance-settings-disclosure{border-color:var(--line,#c7dfee2b)}:host-context([data-theme=\"dark\"]) .ds-appearance-settings-disclosure>summary span{color:var(--muted,#b6cadd)}:host-context([data-theme=\"dark\"]) .ds-appearance-hint{color:var(--muted,#b6cadd)}:host-context([data-theme=\"dark\"]) .ds-appearance-text-button{color:#9ed0ff}:host-context([data-theme=\"dark\"]) .ds-appearance-text-button:hover{background:transparent}:host-context([data-theme=\"dark\"]) .ds-appearance-text-button:focus-visible{outline-color:var(--focus,color-mix(in srgb,var(--blue,#005fc5),white 63%))}:host-context([data-theme=\"dark\"]) .ds-appearance-settings-disclosure>summary:focus-visible{outline-color:var(--focus,color-mix(in srgb,var(--blue,#005fc5),white 63%))}@media(max-width:760px){.ds-appearance-appearance-settings{padding:18px}.ds-appearance-grid{grid-template-columns:1fr;gap:15px}.ds-appearance-settings-disclosure>summary span{display:block;margin:5px 0 0 13px}}:host-context([data-corner-style=\"soft\"]) .ds-appearance-grid select{border-radius:8px}:host-context([data-effects-motion=\"reduced\"]) .ds-appearance-appearance-settings{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-effects-motion=\"reduced\"]) .ds-appearance-appearance-settings *{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-motion=\"reduced\"]) .ds-appearance-appearance-settings{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-motion=\"reduced\"]) .ds-appearance-appearance-settings *{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-glass-style=\"clear\"]) .ds-appearance-appearance-settings{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-glass-style=\"clear\"]) .ds-appearance-appearance-settings *{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-background-style=\"plain\"]) .ds-appearance-appearance-settings{transition:none!important;animation:none!important;scroll-behavior:auto!important}:host-context([data-background-style=\"plain\"]) .ds-appearance-appearance-settings *{transition:none!important;animation:none!important;scroll-behavior:auto!important}@media(prefers-reduced-motion:reduce){.ds-appearance-appearance-settings,.ds-appearance-appearance-settings *{transition:none!important;animation:none!important;scroll-behavior:auto!important}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Liquid Desk",
+    "overview": "Liquid Desk is an open voyage workstation built from convex glass. A compact masthead and detached route capsule sit above a broad editing lens; a floating instrument dock keeps navigation, saving, and generation within reach. The file library appears only when requested. Aqua, periwinkle, and peach water ribbons transmit through opposing inset rims, diagonal highlights, and a soft inner edge. The approved strong-liquid variant adds a double edge and a more transmitting gradient across the navigation, editing, and decision layers.\n\nVersion 3.1 refines the committed 3.0 topology in work/liquid-reset-direction.md using the actual yzrt material and simple appearance choices specified in work/yzrt-integration-direction.md. Version 3.2.1 strengthens that material under the explicit follow-up in work/notice-fix-direction.md, without replacing the workstation. The open desk and extreme Liquid Glass identity remain the visual authority. The earlier fixed file outline and minimalism/glass blend are historical anti-reference. The operational hierarchy, Chinese interface, local workflow, ten document templates, and exact workbook output remain product truth.\n\nThe visual world is code-led. One local cached Canvas supplies the authored ground; scoped CSS supplies the glass material. The yzrt source, modification attribution, and GPL-2.0 text are preserved in work/reference-yzrt/ and THIRD_PARTY_NOTICES.md. There is no approved image comp. The context/concept-seed launcher and one-time detector invocation were blocked by Windows group policy; no seed key, generated concept card, or detector verdict is claimed. The earlier 17 captures in .impeccable/review/yzrt/ and current 3.2.1 captures in .impeccable/review/prism-321/ and .impeccable/review/flow32/ are interface evidence using synthetic demonstration content, not production records or background assets. They do not establish physical optical refraction, actual Office printing, or untested devices.",
+    "keyCharacteristics": [
+      "An open editing canvas with no permanent sidebar.",
+      "Detached route and instrument lenses, plus an on-demand file library.",
+      "Source-derived CSS rims on navigation, library, and welcome, with the approved strong-liquid treatment on the editor, dialogs, selected lenses, and action controls.",
+      "Authored aqua/periwinkle/peach geometry, optional soft glass, and an opaque clear mode.",
+      "Native operational typography, independent data type, and mobile, dark, short-height, and system-preference treatments."
+    ],
+    "rules": [
+      {
+        "name": "The Composited Ink Rule",
+        "body": "Judge small text against the actual illuminated material in both themes. Keep ink and metadata at full opacity; use their dedicated color roles to establish hierarchy.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Type Controls Rule",
+        "body": "Shell type scales from the user-selected root size; table data keeps its independent pixel setting. Interface styling must never alter the workbook's typography or print layout.",
+        "section": "typography"
+      },
+      {
+        "name": "The Open Desk Rule",
+        "body": "Reserve the canvas for the current port and document. The file library is an on-demand popover; route context and the detached dock carry navigation without a permanent sidebar.",
+        "section": "layout"
+      },
+      {
+        "name": "The Backed Data Rule",
+        "body": "Let glass transmit through the surrounding sheet and controls while table cells retain their dedicated, nearly opaque backing. Optical contrast must not cross dense text.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Local Optics Rule",
+        "body": "The material combines local authored geometry, source-derived CSS edges, diagonal highlights, depth, and bounded specular feedback. Apply the stronger double-edge and gradient variant only to liquid glass with full effective transparency; preserve the soft/clear recipes, source attribution, and effective system-preference behavior.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Family Resemblance Rule",
+        "body": "Use the current scale of rounded fields, compact table wrappers, convex selection lenses, and broad sheets. Do not force every layer into one radius or surround every subsection with another glass card.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "**Do** keep the masthead, floating route capsule, broad editor, and detached instrument dock legible as separate layers.",
+      "**Do** open the file library on demand, preserve its search and keyboard dismissal, and return focus to its invoker.",
+      "**Do** preserve the cached local Canvas ribbons, source-derived opposing CSS rims, diagonal highlights, and bounded specular response; limit the stronger double-edge variant to full-transparency liquid glass.",
+      "**Do** retain practical table backing, internal scrolling, independent type settings, and the light/dark and preference fallbacks.",
+      "**Do** keep explicit empty/NIL/zero states, port-specific defaults, identity-reviewed restore, and per-view scroll memory intact.",
+      "**Do** preserve the fixed, quiet author credit at full opacity and exclude it from Excel output.",
+      "**Do** keep four common appearance choices visible and four glass/background choices folded; respect live system effects preferences and reset only the nine appearance fields."
+    ],
+    "donts": [
+      "**Don't** restore a permanent sidebar, simulated OS window, dashboard of cards, or the discarded 2.1 frame.",
+      "**Don't** substitute a wallpaper image, an external resource, or blur alone for the implemented source-derived material, or copy the upstream demo's global contrast and text-selection rules.",
+      "**Don't** wash the water ribbons through dense table text or stack decorative glass cards inside the editing sheet.",
+      "**Don't** hide save/generate on mobile, leak table overflow onto the page, or trap focus in the nonmodal file library.",
+      "**Don't** merge interface and table type controls, silently change port answers, or alter the original workbook print structure.",
+      "**Don't** reintroduce retired stylesheets or claim a concept seed, approved comp, or detector result that does not exist.",
+      "**Don't** reintroduce SVG displacement maps, an idle Canvas paint loop, or user settings that override the system's reduced motion or reduced transparency preference."
+    ]
+  }
+}

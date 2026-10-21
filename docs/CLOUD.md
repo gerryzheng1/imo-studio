@@ -1,6 +1,6 @@
 # 从本机迁移到 GitHub 私有仓库和 Codex 云端
 
-你只需要现有GitHub账号。本次已创建的目标为 `gerryzheng1/imo-studio`：https://github.com/gerryzheng1/imo-studio，可见性为 **Private**。源码上传与Codex环境发布状态需另行核对。源码在云端开发，应用仍离线运行。
+你只需要现有GitHub账号。本次已创建的目标为 `gerryzheng1/imo-studio`：https://github.com/gerryzheng1/imo-studio，可见性为 **Private**。本次295份源码已上传并逐文件匹配，Codex环境 `imo-studio` 已发布，可见范围“仅限我自己”。云端16脚本／163组和30本XLSX／33张工作表检查已通过。日常直接在新任务选择 Work in → Cloud → imo-studio；下文保留首次建立流程供以后参考。源码在云端开发，应用仍离线运行。
 
 ## 1. 首次上传（推荐 GitHub Desktop）
 

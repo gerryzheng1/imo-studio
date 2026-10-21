@@ -20,8 +20,16 @@
 
 此次迁移保留原有PDF.js版本及离线资源嵌入方式，没有跨大版本升级。后续升级需单独核对 `build.py` 的模块、worker、cmaps及standard_fonts打包方式，并补充合成PDF导入回归；不能用 `npm audit fix --force` 代替兼容验证。此项不妨碍私有仓库上传，但不能宣称依赖安全审计零问题。
 
-## 尚未在目标环境验收
+## Codex Linux 云端验收（已完成）
 
-- 本轮完整Chromium检查是在Windows本机运行的云端兼容入口，不能写成Codex Linux环境已经通过。目标环境创建后仍需执行 `bash scripts/cloud-setup.sh` 和 `npm run test:cloud`，确认Linux字体、系统依赖及下载网络权限。
-- Windows启动器、原生保存／重启及Excel/WPS实际打印本轮没有重新执行；现有历史成功记录不计为本轮验证。
-- GitHub私有仓库上传、远程分支和Codex环境发布需在登录／连接后核对实际状态。建立本地上传包不等于已完成云端迁移。
+云端于2026-10-21在提交 `6ef801cd0e3f810e8c81a3644a109484106382a6` 完成验收。Node.js 24.19.0、Python 3.12.14、Chromium 151.0.7922.34。`bash scripts/cloud-setup.sh` 和 `npm run test:cloud` 均退出0：16个脚本、163组全部通过，独立Python/openpyxl/XML检查通过30本XLSX／33张可见原工作表。仓库295份文件与HEAD一致，Git工作区及索引干净，10份原模板哈希不变。
+
+实际环境修正：npm使用可写缓存，脚本默认不要求sudo；`.gitattributes` 保留既有源码字节，避免GitHub初次上传的CRLF在Linux被强制转换而出现伪修改。原有113项纯换行差异经确认及备份后安全处理，原缓存和venv保留。
+
+下载诊断：Chrome和headless shell的官方链路为cdn.playwright.dev → storage.googleapis.com，返回307 → 200。FFmpeg首选地址跳转到playwright.download.prss.microsoft.com时曾被403拒绝，安装器随后从内置官方备用地址cdn.playwright.dev/builds/ffmpeg/1011/ffmpeg-linux.zip成功下载。没有关闭TLS或完整性校验，也没有使用非官方镜像。环境保存了上述三个域名；微软首选地址在新增域名后未单独复验，官方备用路径已实际成功。
+
+云端启动配置使用轻量就绪检查；依赖或浏览器缺失时才安装，健康的新任务不自动重跑163组。改动后按AGENTS.md选择适当检查。完整基线不是未来变更或新实例恢复的自动通过证明。
+
+## 仍需单独验收的范围
+
+Windows启动器、原生保存／重启、Chrome／Edge及Excel/WPS实际打印本轮没有重新执行；Linux/XML检查不代替这些验收。PDF.js已知公告仍保留，未跨版本升级。环境发布和新实例恢复以云端界面的实际状态为准。
